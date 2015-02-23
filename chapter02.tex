@@ -1,10 +1,23 @@
-% !TEX encoding = UTF-8 Unicode
-%!TEX root = thesis.tex
-% !TEX spellcheck = en-US
-%%=========================================
 \chapter{Experiments}
-This chapter provides information about experiments that have been performed. Every experiment contained of two active participants and two passive participants. The passive participants were listeners. One of the active participants was the speaker and the other one was the typer. In every experiment the typer gave to the speaker a programming task where he need to implement a program. The speaker had to dictate to program and the typer had to type exactly what the speaker dictated. The speaker had to dictate lines of code in such way so the typer could understand what does he means to but not too detailed, for example, in such way so the typer could understand what does the typer mean to but The typer had to write the programs in Java. 
- 
+\section{Introduction}
+This chapter provides information about experiments that have been performed. Every experiment contained of two active participants and two passive participants (the passive participants were listeners). One of the active participants was the speaker and the other was the typer. In every experiment the typer gave to the speaker a programming task where he need to implement a program. 
+
+The speaker had to dictate a program and the typer had to type exactly what the speaker dictated. The speaker had to dictate lines of code in such way so the typer could understand what does he mean but not too detailed. For example, if the speaker had to dictate the code in Figure~\ref{fig1}. He would dictate \textit{"For each element in elements call to to string"}. 
+
+The typer need to follow dictations of the speaker and type the code to the text editor (all four participants could see the screen). The typer typed the code in Java. Every one of the participants could participate and provide suggestion for pronouncing the commands. The typer could delete, edit and navigate in the code with no limitations. No time constrains and no limitations on the amount of lines. All experiments have been recorded.
+\begin{figure}
+\begin{lstlisting}
+foreach(Element element in elements){
+	element.toString();
+} 
+\end{lstlisting}
+\caption{A simple foreach loop where every item in elements activates it's toString method}
+\label{fig1}
+\end{figure}
+\section{Purpose}
+
+
+\iffalse
 \begin{remark}
 If you want a shorter chapter or section title to appear in the Table of Contents and in the headings of the chapter, you just include the short title in square brackets before the title of the chapter/section. Example: \begin{verbatim}\section[Short Title]{Long Title}\end{verbatim}.
 \end{remark}
@@ -16,7 +29,7 @@ Mathematical symbols and equations can written in the text as $\lambda$, $F(t)$,
 F(t)=\int_0^t \exp(-\lambda x)\,dx
 \label{eq1}
 \end{equation}
-
+\fi
 
 The displayed equations are automatically given equation numbers -- here (\ref{eq1}) since this is the first equation in Chapter 2. Note that you can refer to the equation by referring to the ``label'' you specified as part of the equation environment.
 
@@ -63,7 +76,7 @@ If you use pdf\LaTeX\ (as recommended), all the figures must be in pdf, png, or 
 \centering
 \includegraphics[scale=0.6,angle=15]{fig/NTNU}
 \caption{This is the logo of NTNU (rotated 15 degrees).}
-\label{fig1}
+\label{fig3}
 \end{figure}
 
 Each figure should include a unique \emph{label} as shown in the command for Figure~\ref{fig1}. You can then refer to the figure by the \emph{ref} command.

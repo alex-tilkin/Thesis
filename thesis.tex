@@ -9,6 +9,9 @@
 \documentclass[12pt]{report}
 \usepackage{ramsstyle}
 \usepackage{hyperref}
+\usepackage{listings}
+\usepackage{color}
+
 %%===================================
 %Write the various parts of your thesis as separate files and include them into the main file by the command \include{name of included file}. When you compile the LaTeX file, you may choose which subfiles to include by the command
 
@@ -16,6 +19,7 @@
 
 %%===================================
 \begin{document}
+\include{Definitions}
 \include{front} % This is the titlepage
 \setcounter{page}{0}
 %\pagenumbering{roman}
@@ -38,8 +42,5 @@
 \bibliographystyle{apa}
 \addcontentsline{toc}{chapter}{\bibname}
 \bibliography{refs}
-%%=========================================
-%\include{vitae}         % Your curriculum Vitae     
-%%=============================================
 
 \end{document}
