@@ -1,0 +1,19 @@
+\begin{thebibliography}{}
+
+\bibitem[\protect\astroncite{Andrew and Susan}{2011}]{andrew11}
+Andrew, B. and Susan, L.~G. (2011).
+\newblock {\em Spoken Programs}.
+\newblock PhD thesis, Computer Science Division, EECS University of California,
+  Berkeley.
+
+\bibitem[\protect\astroncite{Graham}{2015}]{harmonia}
+Graham, S.~L. (2015).
+\newblock Harmonia research project.
+\newblock \url{http://harmonia.cs.berkeley.edu/harmonia/index.html}.
+
+\bibitem[\protect\astroncite{Yishai}{2013}]{yishai13}
+Yishai, F. (2013).
+\newblock Template-based development on mobile platforms.
+\newblock Technical report, IBM Research.
+
+\end{thebibliography}

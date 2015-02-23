@@ -1,0 +1,69 @@
+\chapter{Introduction}
+In the early days of computing, programmers had to work in offices. Personal computers allowed programmers to work at home as well. Laptops further expanded the working environment, and we often see people programming in coffee shops, terminals, trains, and airplanes. With ubiquitous mobile devices becoming increasingly popular, there is an opportunity to allow programmers to work in even more restrictive environments. While such small devices are unlikely to become the preferred working environment, they can be useful in circumstances where urgent action is required and other equipment is unavailable.
+
+This scenario presents two major obstacles: first, the lack of a convenient keyboard; and second, the small screen space, which limits the amount of code that can be shown simultaneously. Some have advocated the creation of new programming languages for mobile platforms, but the cost of adopting a new language, with its related tools and infrastructure, seems to be too great for the benefit of occasionally programming on a mobile device. This applies to the development of mobile and non-mobile applications alike; professional programmers who develop mobile applications still prefer to use large screens and physical keyboards. Instead, we focus on easy ways to use existing languages, such as Java and Java Script, on mobile devices. Our proposed solution, called \textbf{Deverywhere}, addresses both challenges, by using templates to make voice and touch input very effective for programming, and for showing much more code in a limited space. Templates, used in context, allow voice input for creating, editing, and navigation; and allow a compact representation of programs that makes maximum use of the given screen space. Both uses require a high degree of configuration, since programmers have different preferences regarding the way they want to voice and see programs. The underlying representation is always the original language, so that each programmer can see a tailored view while seamlessly collaborating on the same code with others.
+
+These ideas are also relevant to programming on laptop and desktop systems, for people with disabilities such as repetitive-stress injuries (RSI) that limit keyboard usage, and partial vision loss, which requires the use of very large fonts. For some programmers, no screen is large enough, and so we expect that these programmers will use the compact representation of code even on large displays.
+
+\section{Background}
+In-order to create such IDE we need to investigate several aspects. The first one is what are the features that need to be in such developing environment. The second one is how programmers tend to describe the code that they want to insert. And the third one is how we can create new representation of the code without harm the understanding of it. We need to investigate all those aspects in-order to design a new environment for developing with new approach that uses voice and touch gestures.
+
+Several works have been that related to this problem. Part of works deal more with research and part deal more with application. Susan L. Graham and Andrew Begel from Berkeley university Worked on a project named \textit{SPEED}. In their work they developed an add-on that integrated into Eclipse and allows the programmer to insert lines of Java code using speech. Sihan Li, Tao Xie (North Carolina State University) and Nikolai Tillman (Microsoft Research) worked on TouchDevelop. This project provides simple and clear environment which allows the developer to develop application right on mobile devices using touch gesture. Dennis Strein and Hans Kratz developed appfour, an IDE that runs on mobile devices. The user can compile applications right on the the mobile device and run them.
+
+None of the works that described above provides a comfortable solution for IDE on mobile devices that fully integrable with stationary computers. None of the works addresses the issue of lack of keyboards and small screen. 	Our work address this issue by providing a comfortable IDE which uses voice, touch and compact representation of the code.
+
+Dictation systems exist today, but their use for programming is extremely limited. Lacking any domain knowledge, they require most of the program to be dictated letter by letter, which is impractical. By building an understanding of program syntax and some semantics into the dictation tool, it is possible to make this process much more efficient.
+
+\section{Problem Formulation}
+Programming on mobile devices presents two major obstacles: the lack of a physical keyboard, and the small screen space, which limits the amount of code that can be shown simultaneously. This work addresses both challenges, and offers a method to enable programming on mobile and other devices with limited input and output capabilities, by using templates to make voice and touch input very effective for programming, and showing much more code in a limited space. These ideas are also relevant to programming on laptop and desktop systems, for people with disabilities such as repetitive-stress injuries (RSI) that limit keyboard usage, and partial vision loss, which requires the use of very large fonts. In this work we concentrate on several targets: design a new representation of the code so it will fit on mobile screens and will be readable as well; Create a set of templates that will allow the programmer to program by dictating the code; Allow the user to configure the representation of the code.
+
+\section{Literature Survey}
+
+In the following list we present the main books and articles that treat problems that are similar to what we are studying:
+\begin{itemize}
+	\item It is shown in \citet[Chap. 2]{andrew11} that programmers ran into problems of expressing their thought invoice when they had to dictate a program. This information is very important to us. We designed our experiments based on it
+	\item It is shown in \citet[Chap. 3]{andrew11} how spoken Java is processed. They developed several tools for analyzing the semantics and syntax of spoken Java. We are interested in studying the Harmonia tool for our research as well and integrate it in our system
+	\item \citet{harmonia} provide all the information about how to use the Harmonia tool and how to integrate in programming tools. It is useful information for for future work
+	\item It is shown in \citet[Programming By Voice and Touch]{yishai13} the basic ideas and concepts of our work. Basically this paper is the start-up point of this research
+\end{itemize}
+
+\section{Objectives}
+The main objectives are the following:
+\begin{enumerate}
+	\item Design the representation of the code in compact mode
+	\item Design a concept for configuring language features. It needs to be comfortable and intuitive for the user
+	\item Perform a series of experiments with different volunteers. The purposes of those experiments are to understand how programmers pronounce the code that they want to insert. What are the most negligible actions that programmers take
+	\item Based on the experiments, define a set of templates that will be used as a tool to identify programmers commands and transform them into lines of code
+	\item Search and investigate existing programming features. The features that we look for are those who are related to the Java and generally to programming. All those features have a potential to be integrated into the system
+	\item Build a prototype that proves that developing on mobile devices is possible
+	\item Provide a solid foundation for future works based on this research
+\end{enumerate}
+
+The objectives shall be written as \emph{fundamental objectives} telling what to do and not \emph{means objectives} telling how to do it.
+
+All objectives shall be stated such that we, after having read the thesis, can see whether or not you have met the objective. ``To become familiar with \ldots'' is therefore not a suitable objective.
+
+\section{Limitations}
+Our study have several limitations. The following is a list that represents limitations that we have in this study: 
+\begin{itemize}
+	\item This project requires a lot of codding work. Since I'm the only programmer the implementation will be very limited
+	\item The analysis part it very long is difficult. Might require a lot of time of the research
+	\item Not many studies have been done who relate to the field "Developing on Mobile Devices" or "Developing using Voice" are quite rare. Therefore, we don't have a many resources that we can learn from. Most the work we'll have to do on our own
+	\item To implement this system a knowledge in NLP is required. We might need to study this field in-order to use tools from it
+\end{itemize}
+
+\section{Approach}
+In this section I provide the scientific approach for each objective (the objectives and the approaches are correlated by the numbers of the times in the list):
+\begin{enumerate}
+	\item We will study the most common and major domains of programming features that exist in Java. After we will manage to collect enough programming features (cover enough domains) we will study other languages how those features represented there. We will search in related works for new ideas for representations and will have discusses about new ideas. After all those process will be completed we will design a new compact representation.
+	\item We need to study the most common programming features and collect them into categories. We need to design methods to configure programming features. After we will have both groups, we will find the relation between members from the second group with elements from the first group.
+	\item We will build a series of experiments. Every experiment will represent different style of programming, for example, object oriented, algorithmic. There will be two programmers, one will be the typist and the other will be the speaker. The speaker will ask from the typer to create a program that is already written in Java. The speaker will dictate the program and the speaker will type. After all experiments will be accomplished we will compare the source the and the reference (dictated program). And will analyze the difference between the desired results and the actual results.
+	\item We will extract all commands that have been pronounced during the experiments. We will group them into sets, for each set we will create a template that represents this group.
+	\item Schedule a series of team meetings. Every meeting the members of the group will suggest programming features that can be integrated into the system. Every feature will be discussed. All features that have been chosen will be saved in an archive.
+	\item I will build a text file that contained of a set of commands. Every command is a simulation of a dictation that the programmer pronounced. I will build a limited set of rules that know how to handle the commands and appropriate line will be written on the screen. The command will be in compact mode.
+\end{enumerate}
+
+\section{Structure of the Report}
+\begin{remark}
+Write here the structure of the document
+\end{remark}
