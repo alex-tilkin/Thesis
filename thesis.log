@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2015.2.9)  23 FEB 2015 23:40
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2015.2.9)  1 MAR 2015 23:40
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -823,6 +823,65 @@ File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
 )
 Package color Info: Driver file: pdftex.def on input line 137.
 )
+(/usr/local/texlive/2014/texmf-dist/tex/latex/datetime/datetime.sty
+Package: datetime 2013/09/10 v2.59 Date Time Package
+
+(/usr/local/texlive/2014/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+Package: etoolbox 2011/01/03 v2.1 e-TeX tools for LaTeX
+
+(/usr/local/texlive/2014/texmf-dist/tex/latex/etex-pkg/etex.sty
+Package: etex 1998/03/26 v2.0 eTeX basic definition package (PEB)
+\et@xins=\count128
+)
+\etb@tempcnta=\count129
+)
+(/usr/local/texlive/2014/texmf-dist/tex/latex/fmtcount/fmtcount.sty
+Package: fmtcount 2013/08/17 v2.03
+
+(/usr/local/texlive/2014/texmf-dist/tex/latex/fmtcount/fcprefix.sty
+Package: fcprefix 2012/09/28
+
+(/usr/local/texlive/2014/texmf-dist/tex/latex/fmtcount/fcnumparser.sty
+Package: fcnumparser 2012/09/28
+\fc@digit@counter=\count130
+))
+\c@padzeroesN=\count131
+\fc@tmpcatcode=\count132
+\@DT@modctr=\count133
+\@ordinalctr=\count134
+\@orgargctr=\count135
+\@strctr=\count136
+\@tmpstrctr=\count137
+\@DT@loopN=\count138
+\@DT@X=\count139
+
+(/usr/local/texlive/2014/texmf-dist/tex/latex/fmtcount/fc-english.def
+File: fc-english.def 2013/08/17
+))
+(/usr/local/texlive/2014/texmf-dist/tex/latex/datetime/datetime-defaults.sty
+Package: datetime-defaults 2013/09/10
+)
+\@day=\count140
+\@month=\count141
+\@year=\count142
+\c@HOUR=\count143
+\c@HOURXII=\count144
+\c@MINUTE=\count145
+\c@TOHOUR=\count146
+\c@TOMINUTE=\count147
+\c@SECOND=\count148
+\currenthour=\count149
+\currentminute=\count150
+\currentsecond=\count151
+Package datetime Info: No datetime.cfg file found, using default settings on in
+put line 308.
+\@dtctr=\count152
+\dayofyear=\count153
+\dayofweek=\count154
+LaTeX Info: Redefining \today on input line 736.
+\dt@a=\toks25
+\dt@b=\toks26
+)
 (./thesis.aux (./Definitions.aux) (./front.aux) (./preface.aux)
 (./acknowledgment.aux) (./summary.aux) (./chapter01.aux) (./chapter02.aux)
 (./chapter0n.aux) (./acronyms.aux) (./appendix-b.aux))
@@ -880,17 +939,17 @@ File: t1futs.fd 2004/03/02 Fontinst v1.926 font definitions for T1/futs.
 )
 (/usr/local/texlive/2014/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count128
+\scratchcounter=\count155
 \scratchdimen=\dimen143
 \scratchbox=\box31
-\nofMPsegments=\count129
-\nofMParguments=\count130
-\everyMPshowfont=\toks25
-\MPscratchCnt=\count131
+\nofMPsegments=\count156
+\nofMParguments=\count157
+\everyMPshowfont=\toks27
+\MPscratchCnt=\count158
 \MPscratchDim=\dimen144
-\MPnumerator=\count132
-\makeMPintoPDFobject=\count133
-\everyMPtoPDFconversion=\toks26
+\MPnumerator=\count159
+\makeMPintoPDFobject=\count160
+\everyMPtoPDFconversion=\toks28
 ) (/usr/local/texlive/2014/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
 
@@ -948,7 +1007,7 @@ Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
 (/usr/local/texlive/2014/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
 Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
-\c@section@level=\count134
+\c@section@level=\count161
 )
 LaTeX Info: Redefining \ref on input line 21.
 LaTeX Info: Redefining \pageref on input line 21.
@@ -958,7 +1017,7 @@ LaTeX Info: Redefining \nameref on input line 21.
 \@outlinefile=\write3
 \openout3 = `thesis.out'.
 
-\c@lstlisting=\count135
+\c@lstlisting=\count162
 \openout2 = `Definitions.aux'.
 
  (./Definitions.tex
@@ -968,7 +1027,7 @@ File: lstlang1.sty 2014/03/04 1.5c listings language file
 \openout2 = `front.aux'.
 
 
-(./front.tex <./fig/MTALogo.jpg, id=119, 487.8225pt x 200.75pt>
+(./front.tex <./fig/MTALogo.jpg, id=123, 487.8225pt x 200.75pt>
 File: ./fig/MTALogo.jpg Graphic file (type jpg)
 
 <use ./fig/MTALogo.jpg>
@@ -1087,96 +1146,95 @@ Chapter 2.
 LaTeX Font Info:    Try loading font information for T1+cmtt on input line 9.
 (/usr/local/texlive/2014/texmf-dist/tex/latex/base/t1cmtt.fd
 File: t1cmtt.fd 1999/05/25 v2.5h Standard LaTeX font definitions
-)
-
-LaTeX Warning: Reference `eq1' on page 8 undefined on input line 34.
-
-[8
+) [8
 
 
 
 ]
+
+LaTeX Warning: Reference `eq1' on page 9 undefined on input line 40.
+
 LaTeX Font Info:    Font shape `T1/futs/bx/n' in size <14.4> not available
-(Font)              Font shape `T1/futs/b/n' tried instead on input line 42.
- [9]
-LaTeX Font Info:    Try loading font information for U+mvs on input line 64.
+(Font)              Font shape `T1/futs/b/n' tried instead on input line 48.
+[9]
+LaTeX Font Info:    Try loading font information for U+mvs on input line 70.
  (/usr/local/texlive/2014/texmf-dist/tex/latex/marvosym/umvs.fd)
-Underfull \hbox (badness 10000) in paragraph at lines 64--66
+Underfull \hbox (badness 10000) in paragraph at lines 70--72
 
  []
 
-<fig/NTNU.pdf, id=246, 241.90375pt x 53.19875pt>
+[10] <fig/NTNU.pdf, id=257, 241.90375pt x 53.19875pt>
 File: fig/NTNU.pdf Graphic file (type pdf)
  <use fig/NTNU.pdf>
-Package pdftex.def Info: fig/NTNU.pdf used on input line 77.
+Package pdftex.def Info: fig/NTNU.pdf used on input line 83.
 (pdftex.def)             Requested size: 145.14336pt x 31.91948pt.
- [10 <./fig/NTNU.pdf>]
-Overfull \hbox (2.83617pt too wide) in paragraph at lines 85--86
+
+Overfull \hbox (2.83617pt too wide) in paragraph at lines 91--92
 \T1/futs/m/n/12 de-clare the fig-ure, you may in-clude the com-mand \T1/cmtt/m/
 n/12 [h] \T1/futs/m/n/12 (here) im-me-di-ately af-ter $\FMS/futm/m/n/12 n$\T1/c
 mtt/m/n/12 begin{figure}\T1/futs/m/n/12 .
  []
 
 LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
-(Font)              scaled to size 9.19998pt on input line 87.
+(Font)              scaled to size 9.19998pt on input line 93.
 LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
-(Font)              scaled to size 6.99199pt on input line 87.
+(Font)              scaled to size 6.99199pt on input line 93.
 LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
-(Font)              scaled to size 5.51999pt on input line 87.
+(Font)              scaled to size 5.51999pt on input line 93.
 LaTeX Font Info:    Font shape `U/futm/m/n' will be
-(Font)              scaled to size 9.19998pt on input line 87.
+(Font)              scaled to size 9.19998pt on input line 93.
 LaTeX Font Info:    Font shape `U/futm/m/n' will be
-(Font)              scaled to size 6.99199pt on input line 87.
+(Font)              scaled to size 6.99199pt on input line 93.
 LaTeX Font Info:    Font shape `U/futm/m/n' will be
-(Font)              scaled to size 5.51999pt on input line 87.
+(Font)              scaled to size 5.51999pt on input line 93.
 File: fig/NTNU.pdf Graphic file (type pdf)
 <use fig/NTNU.pdf>
-Package pdftex.def Info: fig/NTNU.pdf used on input line 90.
+Package pdftex.def Info: fig/NTNU.pdf used on input line 96.
 (pdftex.def)             Requested size: 435.4264pt x 95.75764pt.
+ [11 <./fig/NTNU.pdf>]
 LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
-(Font)              scaled to size 10.07397pt on input line 103.
+(Font)              scaled to size 10.07397pt on input line 109.
 LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
-(Font)              scaled to size 7.63599pt on input line 103.
+(Font)              scaled to size 7.63599pt on input line 109.
 LaTeX Font Info:    Font shape `U/futm/m/n' will be
-(Font)              scaled to size 10.07397pt on input line 103.
+(Font)              scaled to size 10.07397pt on input line 109.
 LaTeX Font Info:    Font shape `U/futm/m/n' will be
-(Font)              scaled to size 7.63599pt on input line 103.
+(Font)              scaled to size 7.63599pt on input line 109.
 
-Overfull \hbox (5.74524pt too wide) in paragraph at lines 118--120
+Overfull \hbox (5.74524pt too wide) in paragraph at lines 124--126
 \T1/futs/m/n/12 neath the com-mand $\FMS/futm/m/n/12 n$\T1/cmtt/m/n/12 includeg
 raphics \T1/futs/m/n/12 for fig-ures, and above the com-mand $\FMS/futm/m/n/12 
 n$\T1/cmtt/m/n/12 begin{tabular*}
  []
 
 
-Package natbib Warning: Citation `rausand04' on page 11 undefined on input line
- 123.
+Package natbib Warning: Citation `rausand04' on page 12 undefined on input line
+ 129.
 
-[11] [12]
 
-Package natbib Warning: Citation `rausand04' on page 13 undefined on input line
- 125.
+Package natbib Warning: Citation `rausand04' on page 12 undefined on input line
+ 131.
 
-[13]
+[12] [13] [14]
 
-Package natbib Warning: Citation `rausand04' on page 14 undefined on input line
- 148.
+Package natbib Warning: Citation `rausand04' on page 15 undefined on input line
+ 154.
 
-) [14]
+) [15]
 \openout2 = `chapter0n.aux'.
 
  (./chapter0n.tex
 Chapter 3.
-[15
+[16
 
 
 
-]) [16]
+]) [17]
 \openout2 = `acronyms.aux'.
 
  (./acronyms.tex
 Appendix A.
-) [17
+) [18
 
 
 
@@ -1185,18 +1243,18 @@ Appendix A.
 
  (./appendix-b.tex
 Appendix B.
-) [18
+) [19
 
 
 
-] (./thesis.bbl [19
+] (./thesis.bbl [20
 
 ])
 
 Package natbib Warning: There were undefined citations.
 
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 46.
-[20
+[21
 
 ]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 46.
@@ -1206,7 +1264,7 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 46.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 46.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 46.
 Package rerunfilecheck Info: File `thesis.out' has not changed.
-(rerunfilecheck)             Checksum: 208BE3E2534A7F8329283704EF54C294;1723.
+(rerunfilecheck)             Checksum: E1612D400AB14D9958A70EC851DDF61F;1785.
 
 
 LaTeX Warning: There were undefined references.
@@ -1214,10 +1272,10 @@ LaTeX Warning: There were undefined references.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 46.
  ) 
 Here is how much of TeX's memory you used:
- 10133 strings out of 493117
- 139932 string characters out of 6135434
- 246194 words of memory out of 5000000
- 13234 multiletter control sequences out of 15000+600000
+ 11087 strings out of 493117
+ 152692 string characters out of 6135434
+ 270758 words of memory out of 5000000
+ 14142 multiletter control sequences out of 15000+600000
  115545 words of font info for 122 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  36i,10n,42p,1504b,1225s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1234,10 +1292,10 @@ onts/type1/adobe/utopia/putr8a.pfb></usr/local/texlive/2014/texmf-dist/fonts/ty
 pe1/adobe/utopia/putri8a.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/pu
 blic/cm-super/sftt1095.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/publ
 ic/cm-super/sftt1200.pfb>
-Output written on thesis.pdf (25 pages, 229210 bytes).
+Output written on thesis.pdf (26 pages, 231564 bytes).
 PDF statistics:
- 376 PDF objects out of 1000 (max. 8388607)
- 331 compressed objects within 4 object streams
- 82 named destinations out of 1000 (max. 500000)
- 243 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 385 PDF objects out of 1000 (max. 8388607)
+ 339 compressed objects within 4 object streams
+ 84 named destinations out of 1000 (max. 500000)
+ 251 words of extra memory for PDF output out of 10000 (max. 10000000)
 
