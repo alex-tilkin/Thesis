@@ -1,11 +1,17 @@
 \chapter{Experiments}
 \section{Introduction}
-This chapter provides information about experiments that have been performed. Every experiment contained of two active participants and two passive participants (passive participants are listeners). One of the active participants was the speaker and the other one was the typer. In every experiment the typer gave to the speaker a programming task where he need to implement a program. 
+This chapter provides information about experiments that have been performed. The main goal of those experiments is to understand how we pronounce the code that we want to insert. The secondary goal is to create a repository of commands that will grouped into categories. Based on the repository will create templates that will help to analyze the pronounced commands.
 
-The speaker had to dictate a program and the typer had to type exactly what the speaker dictated. The speaker had to dictate lines of code in such way so the typer could understand what does he means but not too detailed. For example, if the speaker had to dictate the code in Figure~\ref{fig1}. He would dictate it like this, \textit{"For each element in elements call to to string"}. 
+Every experiment contained of two active participants and two passive participants (passive participants are listeners). One of the active participants was the speaker and the other one was the typer. In every experiment the typer gave to the speaker a programming task where he need to implement a program. 
+
+The speaker had to dictate a program and the typer had to type exactly what the speaker dictated. The speaker had to dictate lines of code in such way so the typer could understand what does he means but not too detailed. For example, if the speaker had to dictate the code in \autoref{fig1}. He would dictate it like this, \textit{"For each element in elements call to to string"}. 
 
 The typer need to follow dictations of the speaker and to type the code to the text editor (all four participants could see the screen). The typer typed the code in Java. Every one of the participants could participate and provide suggestion for pronouncing the commands. The typer could delete, edit and navigate in the code with no limitations. No time constrains and no limitations on the amount of lines. All experiments have been recorded.
-\begin{figure}
+
+After all experiments have been performed we analyzed them and extracted only the relevant lines that represent commands. For each experiment we created a table that contained of two columns. The left column contains the commands that have been dictated and the right column represents the code that has been typed.
+
+\remark{The commands that have been inserted into the tables are filtered from irrelevant vowles. For example, the commands \textit{create class ummm look up} (where \textit{ummm} is the vowel) has been converted to \textit{create class look up}}
+\begin{figure}[H]
 \begin{lstlisting}
 foreach(Element element in elements){
 	element.toString();
@@ -14,15 +20,106 @@ foreach(Element element in elements){
 \caption{A simple foreach loop where every item in elements activates it's toString method}
 \label{fig1}
 \end{figure}
-\section{Purpose}
 \section{Experiment No.1}
 \begin{itemize}
 	\item Date: 28/Apr/2014.
 	\item Speaker: Alex Tilkin.
 	\item Typist: Ari Gam.
-	\item Description: Implement a small program that contains an interface called \textit{Lookup}. This interface has one method called find. It returns \textit{Object} and receives \textit{String}. a class called \textit{SimpleLookup} that implements the \textit{Lookup}. It has two private members: \textit{Names} that is an array of \textit{String}s, and Values that is an array of \textit{Object}s. The implemented method \textit{find} iterates over all the elements in \textit{Names} and compares every on e of them with \textit{Name}. If it finds such element it returns the element. In-addition a method called processValues that receives: \textit{String[]} names, and \textit{Lookup} table (the program was presented to the speaker during all the experiment).
+	\item Description: Implement a small program that contains an interface called \textit{Lookup}. This interface has one method called \textit{find}. It returns \textit{Object} and receives \textit{String}. a class called \textit{SimpleLookup} that implements \textit{Lookup}. It has two private members: \textit{Names} that is an array of \textit{String}s, and \textit{Values} that is an array of \textit{Object}s. The implemented method \textit{find} iterates over all elements in \textit{Names} and compares every one of them with \textit{Name}. If it finds such element it returns the matched element. In addition a method called \textit{processValues} that receives: \textit{String[] names}, and \textit{Lookup table} (the program presented to the speaker during all the experiment).
 \end{itemize}
-
+\autoref{tab1} represents the order of the commands that have been dictated (top to bottom). \autoref{fig2} represents the code that was presented to the speaker. \autoref{fig3} represents the results of the dictation.
+\begin{figure}[H]
+	\begin{lstlisting}
+	interface Lookup {
+		Object find(String name);
+	}
+	
+	void processValues(String[] names, Lookup table) {
+		for (int i = 0; i != names.length; i++) {
+			Object value = table.find(names[i]); 
+			if (value != null)
+				processValue(names[i], value); 
+		}
+	}
+	
+	class SimpleLookup implements Lookup {
+		private String[] Names;
+		private Object[] Values;
+		
+		public Object find(String name) {
+			for (int i = 0; i < Names.length; i++) {
+				if (Names[i].equals(name)) 
+					return Values[i]; 
+				}
+				
+			return null;
+		}
+	}
+	\end{lstlisting}
+	\caption{The original Java code that was presented to the speaker during experiment No. 1}
+	\label{fig2}
+\end{figure}
+\begin{figure}[H]
+	\begin{lstlisting}
+	interface Lookup{
+		Object find(String name){
+		}
+	}
+	
+	void processValues(String[] names, Lookup table){
+		for(int i = 0; i < names.Length(); i++){
+			Object value = table.find(names[i]);
+				if(value != null){
+					processValues(names[i], value);
+				}
+			}
+		}
+		
+		class SimpleLookup implements Lookup{
+			private Strings[] names;
+			private Object[] values;
+			
+			public Object find(String name){
+				for (int i = 0; i < name.Length(); i++){
+					if (names[i].equals(name)){
+						return values[i];
+					}
+				}
+				
+				return null;
+			}
+		}
+	\end{lstlisting}
+	\caption{The result of dictating the code in \ref{fig2}}
+	\label{fig3}
+\end{figure}
+\begin{table}[h]
+	\begin{tabular}{|p{10cm}|p{6cm}|}
+		\hline
+		\rowcolor[HTML]{9B9B9B} 
+		{\color[HTML]{000000} The speaker said} & {\color[HTML]{000000} The typer typed} \\ \hline
+		Create a class LookUp & + Class LookUp \\ \hline
+		create a method that returns void processvalues and accepts array of strings names and lookupTable & + processValues(names, table) \\ \hline
+		Create a loop from zero to the length of names & for 0 <= i \textless names.length \\ \hline
+		Create value type of object accepts table.find, accepts names at i’s index & value = table.find(names{[}i{]}) \\ \hline
+		if value different from null then & value != null ? \\ \hline
+		call processValue that accepts name at i’s index and value & processValue(name{[}i{]}, value) \\ \hline
+		We done with processValues &  \\ \hline
+		Create a class SimpleLookUp implements LookUp & + Class SimpleLookUP : LookUp \\ \hline
+		Create names type of array of strings & {[}{]} names \\ \hline
+		Delete the last row &  \\ \hline
+		Create array of string call it names and make it private & - {[}{]} names \\ \hline
+		Create values type of array of object and make it private & - {[}{]} values \\ \hline
+		Create a method that returns an object call it find accepts name type of string and make it public & + find(name) \\ \hline
+		Create a loop from zero to the length of names in intervals of one & for 0 <= i \textless names.length \\ \hline
+		if names at i’s index dot equals accept name & names{[}i{]}.equals(name) ? \\ \hline
+		then return values at i’s index & return values{[}i{]} \\ \hline
+		exit the for &  \\ \hline
+		return null & null \\ \hline
+	\end{tabular}
+	\caption{This table presents m the major commands that have been dictated during experiment No.1}
+	\label{tab1}
+\end{table}
 \iffalse
 \begin{remark}
 If you want a shorter chapter or section title to appear in the Table of Contents and in the headings of the chapter, you just include the short title in square brackets before the title of the chapter/section. Example: \begin{verbatim}\section[Short Title]{Long Title}\end{verbatim}.
@@ -35,7 +132,7 @@ Mathematical symbols and equations can written in the text as $\lambda$, $F(t)$,
 F(t)=\int_0^t \exp(-\lambda x)\,dx
 \label{eq1}
 \end{equation}
-\fi
+
 
 The displayed equations are automatically given equation numbers -- here (\ref{eq1}) since this is the first equation in Chapter 2. Note that you can refer to the equation by referring to the ``label'' you specified as part of the equation environment.
 
@@ -43,7 +140,7 @@ You can also include equations without numbers:
 \begin{equation*}
 F(t)=\sum_{i=1}^n \binom{n}{i}\sin(i\cdot t)
 \end{equation*}
-
+\fi
 %%=========================================
 \subsection*{More Advanced Formulas}
 Long formulas that cannot fit into a single line can be written by using the environment \texttt{align} as
@@ -91,13 +188,14 @@ Notice that you can scale the size of the figure by the option \texttt{scale=k}.
 In \LaTeX\ all figures are floating objects and will normally be placed at the top of a page. This is the standard option in all scientific reports. If you insist on placing the figure exactly where you declare the figure, you may include the command \texttt{[h]} (here) immediately after $\backslash$\texttt{begin\{figure\}}. If you will force the figure to be located either at the top or bottom of the page, you may alternatively use  \texttt{[t]} or \texttt{[b]}. For more options, check the documentation.
 
 Large figures may be included as a \emph{sidewaysfigure} as shown in Figure~\ref{fig2}:\footnote{You can use a similar command for large tables.}
+\iffalse
 \begin{sidewaysfigure}
 \centering
 \includegraphics[scale=1.8]{fig/NTNU}
 \caption{This is the logo of NTNU.}
 \label{fig2}
 \end{sidewaysfigure}
-
+\fi
 %%=========================================
 \section{Including Tables}
 \LaTeX\ has a lot of different options to include tables. Only one of them is illustrated here.
@@ -105,7 +203,7 @@ Large figures may be included as a \emph{sidewaysfigure} as shown in Figure~\ref
 \begin{table}
 	\centering\small
 	\caption{The degree of newness of technology.}
-	\label{tab1}
+	\label{tab10}
 		\begin{tabular*}{\textwidth}{@{\extracolsep{\fill}}lccc}
 			\toprule
 			  &\multicolumn{3}{c}{Level of technology maturity}\\
