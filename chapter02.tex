@@ -98,33 +98,135 @@ foreach(Element element in elements){
 		\hline
 		\rowcolor[HTML]{9B9B9B} 
 		{\color[HTML]{000000} The speaker said} & {\color[HTML]{000000} The typer typed} \\ \hline
-		Create a class LookUp & + Class LookUp \\ \hline
-		create a method that returns void processvalues and accepts array of strings names and lookupTable & + processValues(names, table) \\ \hline
-		Create a loop from zero to the length of names & for 0 <= i \textless names.length \\ \hline
-		Create value type of object accepts table.find, accepts names at i’s index & value = table.find(names{[}i{]}) \\ \hline
-		if value different from null then & value != null ? \\ \hline
-		call processValue that accepts name at i’s index and value & processValue(name{[}i{]}, value) \\ \hline
+		Create class LookUp & +Class LookUp \\ \hline
+		Create a method processValues that returns void and accepts array of strings names and lookupTable & +processValues(names, table) \\ \hline
+		Create a loop from zero to the length of names & for 0 $\leq$ i \textless names.length \\ \hline
+		Create value type of object accepts table.find, accepts names at i’s index & value $\leftarrow $ table.find(names{[}i{]}) \\ \hline
+		If value different from null then & value $\neq$ null ? \\ \hline
+		call to processValue that accepts name at i’s index and value & processValue(name{[}i{]}, value) \\ \hline
 		We done with processValues &  \\ \hline
-		Create a class SimpleLookUp implements LookUp & + Class SimpleLookUP : LookUp \\ \hline
-		Create names type of array of strings & {[}{]} names \\ \hline
+		Create a class SimpleLookUp implements LookUp & +Class SimpleLookUP : LookUp \\ \hline
 		Delete the last row &  \\ \hline
-		Create array of string call it names and make it private & - {[}{]} names \\ \hline
-		Create values type of array of object and make it private & - {[}{]} values \\ \hline
-		Create a method that returns an object call it find accepts name type of string and make it public & + find(name) \\ \hline
-		Create a loop from zero to the length of names in intervals of one & for 0 <= i \textless names.length \\ \hline
-		if names at i’s index dot equals accept name & names{[}i{]}.equals(name) ? \\ \hline
-		then return values at i’s index & return values{[}i{]} \\ \hline
-		exit the for &  \\ \hline
-		return null & null \\ \hline
+		Create array of strings call it names and make it private & -{[}{]} names \\ \hline
+		Create values type of array of object and make it private & -{[}{]} values \\ \hline
+		Create a method that returns an object call it find accepts name type of string and make it public & +find(name) \\ \hline
+		Create a loop from zero to the length of names & for 0 $\leq$ i \textless names.length \\ \hline
+		If names at i’s index period equals accept name then & names{[}i{]}.equals(name) ? \\ \hline
+		Return values at i’s index & $\hookleftarrow$ values{[}i{]} \\ \hline
+		Exit the for loop &  \\ \hline
+		Return null & null \\ \hline
 	\end{tabular}
-	\caption{This table presents m the major commands that have been dictated during experiment No.1}
+	\caption{This table presents the major commands that have been dictated during experiment No.1}
 	\label{tab1}
 \end{table}
-\iffalse
-\begin{remark}
-If you want a shorter chapter or section title to appear in the Table of Contents and in the headings of the chapter, you just include the short title in square brackets before the title of the chapter/section. Example: \begin{verbatim}\section[Short Title]{Long Title}\end{verbatim}.
-\end{remark}
 
+\section{Experiment No.2}
+\subsection{Part A}
+\begin{itemize}
+	\item Date: 28/Apr/2014.
+	\item Speaker: Ari Gam.
+	\item Typist: Alex Tilkin.
+	\item Description: Implement the Bubble Sort algorithm . The speaker asked to implement the Bubble Sort algorithm without any assistance. The algorithm had to be implemented in Java.
+\end{itemize}
+\autoref{tab2} represents the order of the commands that have been dictated (top to bottom). \autoref{fig4} represents the result of the dictation by the speaker in part A.
+\begin{figure}[H]
+	\begin{lstlisting}
+	class BubbleSort{
+		public void do(){
+			for(int i = 0; i < data.length - 1; i++){
+				for(int j = 0; j < i; j++){
+					if(data[i] > data[j]){
+						int temp = data[j];
+						data[j] = data[i];
+						data[i] = temp;
+					}
+				}
+			}
+		}
+		
+		private int[] data;
+		
+		public BubbleSort(int[] init){
+			data = new int[init.length];
+			for(int i = 0; i < init.length; i++){
+				data[i] = init[i];
+			}
+		}
+	}
+	\end{lstlisting}
+	\caption{The result of the diction of the Bubble Sort algorithm}
+	\label{fig4}
+\end{figure}
+\subsection{Part B}
+\begin{itemize}
+	\item Date: 28/Apr/2014.
+	\item Speaker: Ari Gam.
+	\item Typist: Alex Tilkin.
+	\item Description: After the speaker has completed the implementation of the Bubble Sort algorithm he has been asked to improve it's time complexity by adding additional condition.
+\end{itemize}
+\autoref{tab2} represents the order of the commands that have been dictated (top to bottom). \autoref{fig5} represents the result of the dictation by the speaker in part B.
+\begin{figure}[H]
+	\begin{lstlisting}
+	class BubbleSort{
+		public void do(){
+			
+			for(int i = 0; i < data.length - 1; i++){
+				boolean done = true;
+				for(int j = 0; j < i; j++){
+					if(data[i] > data[j]){
+						int temp = data[j];
+						data[j] = data[i];
+						data[i] = temp;
+						done = false;
+					}
+				}
+				if(done){
+					break;
+				}
+			}
+		}
+		
+		private int[] data;
+		
+		public BubbleSort(int[] init){
+			data = new int[init.length];
+			for(int i = 0; i < init.length; i++){
+				data[i] = init[i];
+			}
+		}
+	}
+	\end{lstlisting}
+	\caption{The result after the additional condition has been  added to the Bubble Sort algorithm}
+	\label{fig5}
+\end{figure}
+\begin{table}[h]
+	\begin{tabular}{|p{10cm}|p{6cm}|}
+		\hline
+		\rowcolor[HTML]{9B9B9B} 
+		{\color[HTML]{000000} The speaker said} & {\color[HTML]{000000} The typer typed} \\ \hline
+		Create class bubble sort & +Class BubbleSort \\ \hline
+		Public void do with no arguments & +Do \\ \hline
+		Create array of ints call it data and make it private & -[] data \\ \hline
+		Create constructor that receives an array of ints and name it init & +BubbleSort([] init) \\ \hline
+		Copy init to data & data = init.clone \\ \hline
+		Go to Do method & \\ \hline
+		Create a loop from zero to the length of data minus one & for 0 $\leq$ i \textless data.length - 1 \\ \hline
+		Create an inner loop from zero to i & for 0 $\leq$ j \textless i \\ \hline
+		If the i element of data bigger than the j element of data then switch between them & \begin{tabular}[c]{@{}l@{}}data[i] \textgreater data[j] ?\\ temp $\leftarrow$ data[i]\\ data[i] $\leftarrow$ data[j]\\ data[j] $\leftarrow$ temp\end{tabular} \\ \hline
+		\rowcolor[HTML]{9B9B9B}Here starts part B &  \\ \hline
+		Go to the beginning of Do &  \\ \hline
+		Create a boolean variable done initialized to false & done $\leftarrow$ false \\ \hline
+		Add to the exit condition of outer loop not done & for 0 $\leq$ i \textless data.length - 1 \& ~done \\ \hline
+		undo & for 0 $\leq$ i \textless data.length - 1 \\ \hline
+		Move the statement boolean done initialized to false to the first line of the outer loop & \\ \hline
+		Change the value from false to true & done $\leftarrow$ true \\ \hline
+		Go to the end of the if & \\ \hline
+		Initialize done with false & done $\leftarrow$ false \\ \hline
+	\end{tabular}
+	\caption{This table presents the major commands that have been dictated during experiment No.2}
+	\label{tab2}
+\end{table}
+\iffalse
 %%=========================================
 \section{Simple Equations}
 Mathematical symbols and equations can written in the text as $\lambda$, $F(t)$, or even $F(t)=\int_0^t \exp(-\lambda x)\,dx$, or as displayed equations
@@ -252,6 +354,3 @@ Plagiarism is defined as ``use, without giving reasonable and appropriate credit
 Birnbaum's measure of reliability importance of component $i$ at time $t$ is equal to the probability that the system is in such a state at time $t$ that component $i$ is critical for the system.\newline \mbox{} \hfill \citet{rausand04}
 \end{quote}
 \end{itemize}
-
-
-
