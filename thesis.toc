@@ -13,20 +13,21 @@
 \contentsline {section}{\numberline {2.1}Introduction}{8}{section.2.1}
 \contentsline {section}{\numberline {2.2}Experiment No.1}{9}{section.2.2}
 \contentsline {section}{\numberline {2.3}Experiment No.2}{12}{section.2.3}
-\contentsline {subsection}{\numberline {2.3.1}Part A}{12}{subsection.2.3.1}
-\contentsline {subsection}{\numberline {2.3.2}Part B}{13}{subsection.2.3.2}
-\contentsline {section}{\numberline {2.4}Including Figures}{17}{section.2.4}
-\contentsline {section}{\numberline {2.5}Including Tables}{18}{section.2.5}
-\contentsline {section}{\numberline {2.6}Copying Figures and Tables}{19}{section.2.6}
-\contentsline {section}{\numberline {2.7}References to Figures and Tables}{19}{section.2.7}
-\contentsline {section}{\numberline {2.8}A Word About Font-encoding}{19}{section.2.8}
-\contentsline {section}{\numberline {2.9}Plagiarism}{20}{section.2.9}
-\contentsline {chapter}{\numberline {3}Summary}{21}{chapter.3}
-\contentsline {section}{\numberline {3.1}Summary and Conclusions}{21}{section.3.1}
-\contentsline {section}{\numberline {3.2}Discussion}{21}{section.3.2}
-\contentsline {section}{\numberline {3.3}Recommendations for Further Work}{22}{section.3.3}
-\contentsline {chapter}{\numberline {A}Acronyms}{23}{appendix.A}
-\contentsline {chapter}{\numberline {B}Additional Information}{24}{appendix.B}
-\contentsline {section}{\numberline {B.1}Introduction}{24}{section.B.1}
-\contentsline {subsection}{\numberline {B.1.1}More Details}{24}{subsection.B.1.1}
-\contentsline {chapter}{Bibliography}{25}{subsection.B.1.1}
+\contentsline {section}{\numberline {2.4}Experiment No.3}{14}{section.2.4}
+\contentsline {subsection}{\numberline {2.4.1}Part A}{14}{subsection.2.4.1}
+\contentsline {subsection}{\numberline {2.4.2}Part B}{16}{subsection.2.4.2}
+\contentsline {section}{\numberline {2.5}Including Figures}{20}{section.2.5}
+\contentsline {section}{\numberline {2.6}Including Tables}{21}{section.2.6}
+\contentsline {section}{\numberline {2.7}Copying Figures and Tables}{22}{section.2.7}
+\contentsline {section}{\numberline {2.8}References to Figures and Tables}{22}{section.2.8}
+\contentsline {section}{\numberline {2.9}A Word About Font-encoding}{22}{section.2.9}
+\contentsline {section}{\numberline {2.10}Plagiarism}{23}{section.2.10}
+\contentsline {chapter}{\numberline {3}Summary}{24}{chapter.3}
+\contentsline {section}{\numberline {3.1}Summary and Conclusions}{24}{section.3.1}
+\contentsline {section}{\numberline {3.2}Discussion}{24}{section.3.2}
+\contentsline {section}{\numberline {3.3}Recommendations for Further Work}{25}{section.3.3}
+\contentsline {chapter}{\numberline {A}Acronyms}{26}{appendix.A}
+\contentsline {chapter}{\numberline {B}Additional Information}{27}{appendix.B}
+\contentsline {section}{\numberline {B.1}Introduction}{27}{section.B.1}
+\contentsline {subsection}{\numberline {B.1.1}More Details}{27}{subsection.B.1.1}
+\contentsline {chapter}{Bibliography}{28}{subsection.B.1.1}

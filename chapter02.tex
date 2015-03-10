@@ -25,7 +25,7 @@ foreach(Element element in elements){
 	\item Date: 28/Apr/2014.
 	\item Speaker: Alex Tilkin.
 	\item Typist: Ari Gam.
-	\item Description: Implement a small program that contains an interface called \textit{Lookup}. This interface has one method called \textit{find}. It returns \textit{Object} and receives \textit{String}. a class called \textit{SimpleLookup} that implements \textit{Lookup}. It has two private members: \textit{Names} that is an array of \textit{String}s, and \textit{Values} that is an array of \textit{Object}s. The implemented method \textit{find} iterates over all elements in \textit{Names} and compares every one of them with \textit{Name}. If it finds such element it returns the matched element. In addition a method called \textit{processValues} that receives: \textit{String[] names}, and \textit{Lookup table} (the program presented to the speaker during all the experiment).
+	\item Description: Implement a small program that contains an interface called \textit{Lookup}. This interface has one method called \textit{find}. It returns \textit{Object} and receives \textit{String}. a class called \textit{SimpleLookup} that implements \textit{Lookup}. It has two private members: \textit{Names} that is an array of \textit{String}s, and \textit{Values} that is an array of \textit{Object}s. The implemented method \textit{find} iterates over all elements in \textit{Names} and compares every one of them with \textit{Name}. If it finds such element it returns the matched element. In addition a method called \textit{processValues} that receives: \textit{String[] names}, and \textit{Lookup table}. The program presented to the speaker during all the experiment.
 \end{itemize}
 \autoref{tab1} represents the order of the commands that have been dictated (top to bottom). \autoref{fig2} represents the code that was presented to the speaker. \autoref{fig3} represents the results of the dictation.
 \begin{figure}[H]
@@ -90,7 +90,7 @@ foreach(Element element in elements){
 			}
 		}
 	\end{lstlisting}
-	\caption{The result of dictating the code in \ref{fig2}}
+	\caption{The result of dictating the code in \autoref{fig2}}
 	\label{fig3}
 \end{figure}
 \begin{table}[h]
@@ -119,16 +119,105 @@ foreach(Element element in elements){
 	\caption{This table presents the major commands that have been dictated during experiment No.1}
 	\label{tab1}
 \end{table}
-
 \section{Experiment No.2}
-\subsection{Part A}
 \begin{itemize}
 	\item Date: 28/Apr/2014.
+	\item Speaker: Alex Tilkin.
+	\item Typist: Ari Gam.
+	\item Description: Implement a method called getInterpolatedValue. It receives two integers and returns double. The method needs to return the interpolated value based on certain conditions. The program presented to the speaker during all the experiment.
+\end{itemize}
+\autoref{tab2} represents the order of the commands that have been dictated (top to bottom). \autoref{fig4} represents the code that was presented to the speaker. \autoref{fig4} represents the results of the dictation.
+\begin{figure}[H]
+	\begin{lstlisting}
+	public final double getInterpolatedValue(double x, double y){
+		if(useBicubic){
+			return getBicubicInterpolatedPixel(x, y, this);
+		}
+		if(x < 0.0 || x >= width-1.0 || y < 0.0 || y >= height-1.0){
+			if(x < -1.0 || x >= width || y < -1.0 || y >= height){
+				return 0.0;
+			}
+			else{
+				return getInterpolatedEdgeValue(x, y);
+			}
+		}
+		int xBase = (int)x;
+		int yBase = (int)y;
+		double xFraction = x - xBase;
+		if(xFraction < 0.0){
+			xFraction = 0.0;
+		}
+		double lowerLeft = getPixelValue(xBase, yBase);
+		double lowerRight = getPixelValue(xBase + 1, yBase);
+		double upperAverage = upperLeft + xFraction * (upperRight - upperLeft);
+	}
+	\end{lstlisting}
+	\caption{The code that was presented to the speaker during experiment No.2}
+	\label{fig4}
+\end{figure}
+\begin{figure}[H]
+	\begin{lstlisting}
+	public final double getInterpolatedValue(double x, double y){
+		if(useBicubic){
+			return getBicubicInterpolatedPixel(x, y, this);
+			}
+			if(x < 0.0 || x >= width-1.0 || y < 0.0 || y >= height-1.0){
+				if(x < -1.0 || x >= width || y < -1.0 || y >= height){
+				return 0.0;
+			}
+			else{
+				return getInterpolatedEdgeValue(x, y);
+			}
+		}
+		int xBase = (int)x;
+		int yBase = (int)y;
+		double xFraction = x - xBase;
+		if(xFraction < 0.0){
+			xFraction = 0.0;
+		}
+		double lowerLeft = getPixelValue(xBase, yBase);
+		double lowerRight = getPixelValue(xBase + 1, yBase);
+		double upperAverage = upperLeft + xFraction * (upperRight - upperLeft);
+	}
+	\end{lstlisting}
+	\caption{The result of dictating the code in \autoref{fig3}}
+	\label{fig4}
+\end{figure}
+\begin{table}[h]
+	\begin{tabular}{|p{10cm}|p{6cm}|}
+		\hline
+		\rowcolor[HTML]{9B9B9B} 
+		{\color[HTML]{000000} The speaker said} & {\color[HTML]{000000} The typer typed} \\ \hline
+		Create class LookUp & +Class LookUp \\ \hline
+		Create a method processValues that returns void and accepts array of strings names and lookupTable & +processValues(names, table) \\ \hline
+		Create a loop from zero to the length of names & for 0 $\leq$ i \textless names.length \\ \hline
+		Create value type of object accepts table.find, accepts names at i’s index & value $\leftarrow $ table.find(names{[}i{]}) \\ \hline
+		If value different from null then & value $\neq$ null ? \\ \hline
+		call to processValue that accepts name at i’s index and value & processValue(name{[}i{]}, value) \\ \hline
+		We done with processValues &  \\ \hline
+		Create a class SimpleLookUp implements LookUp & +Class SimpleLookUP : LookUp \\ \hline
+		Delete the last row &  \\ \hline
+		Create array of strings call it names and make it private & -{[}{]} names \\ \hline
+		Create values type of array of object and make it private & -{[}{]} values \\ \hline
+		Create a method that returns an object call it find accepts name type of string and make it public & +find(name) \\ \hline
+		Create a loop from zero to the length of names & for 0 $\leq$ i \textless names.length \\ \hline
+		If names at i’s index period equals accept name then & names{[}i{]}.equals(name) ? \\ \hline
+		Return values at i’s index & $\hookleftarrow$ values{[}i{]} \\ \hline
+		Exit the for loop &  \\ \hline
+		Return null & null \\ \hline
+	\end{tabular}
+	\caption{This table presents the major commands that have been dictated during experiment Experiment No. 2}
+	\label{tab2}
+\end{table}
+\section{Experiment No.3}
+\subsection{Part A}
+\begin{itemize}
+	\item Date: 12/May/2014.
 	\item Speaker: Ari Gam.
 	\item Typist: Alex Tilkin.
 	\item Description: Implement the Bubble Sort algorithm . The speaker asked to implement the Bubble Sort algorithm without any assistance. The algorithm had to be implemented in Java.
 \end{itemize}
-\autoref{tab2} represents the order of the commands that have been dictated (top to bottom). \autoref{fig4} represents the result of the dictation by the speaker in part A.
+\autoref{tab3} represents the order of the commands that have been dictated (top to bottom). \autoref{fig5} represents the result of the dictation by the speaker in part A.
 \begin{figure}[H]
 	\begin{lstlisting}
 	class BubbleSort{
@@ -155,7 +244,7 @@ foreach(Element element in elements){
 	}
 	\end{lstlisting}
 	\caption{The result of the diction of the Bubble Sort algorithm}
-	\label{fig4}
+	\label{fig5}
 \end{figure}
 \subsection{Part B}
 \begin{itemize}
@@ -164,7 +253,7 @@ foreach(Element element in elements){
 	\item Typist: Alex Tilkin.
 	\item Description: After the speaker has completed the implementation of the Bubble Sort algorithm he has been asked to improve it's time complexity by adding additional condition.
 \end{itemize}
-\autoref{tab2} represents the order of the commands that have been dictated (top to bottom). \autoref{fig5} represents the result of the dictation by the speaker in part B.
+\autoref{tab3} represents the order of the commands that have been dictated (top to bottom). \autoref{fig6} represents the result of the dictation by the speaker in part B.
 \begin{figure}[H]
 	\begin{lstlisting}
 	class BubbleSort{
@@ -197,7 +286,7 @@ foreach(Element element in elements){
 	}
 	\end{lstlisting}
 	\caption{The result after the additional condition has been  added to the Bubble Sort algorithm}
-	\label{fig5}
+	\label{fig6}
 \end{figure}
 \begin{table}[h]
 	\begin{tabular}{|p{10cm}|p{6cm}|}
@@ -223,8 +312,8 @@ foreach(Element element in elements){
 		Go to the end of the if & \\ \hline
 		Initialize done with false & done $\leftarrow$ false \\ \hline
 	\end{tabular}
-	\caption{This table presents the major commands that have been dictated during experiment No.2}
-	\label{tab2}
+	\caption{This table presents the major commands that have been dictated during experiment No.3}
+	\label{tab3}
 \end{table}
 \iffalse
 %%=========================================
