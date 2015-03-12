@@ -188,11 +188,11 @@ foreach(Element element in elements){
 		\hline
 		\rowcolor[HTML]{9B9B9B} 
 		{\color[HTML]{000000} The speaker said} & {\color[HTML]{000000} The typer typed} \\ \hline
-		Create class LookUp & +Class LookUp \\ \hline
-		Create a method processValues that returns void and accepts array of strings names and lookupTable & +processValues(names, table) \\ \hline
-		Create a loop from zero to the length of names & for 0 $\leq$ i \textless names.length \\ \hline
-		Create value type of object accepts table.find, accepts names at i’s index & value $\leftarrow $ table.find(names{[}i{]}) \\ \hline
-		If value different from null then & value $\neq$ null ? \\ \hline
+		Create method getInterpolatedValue that accepts arguments x and y & +getInterpolatedValue(x, y) \\ \hline
+		if useBicubic & useByCubiq? \\ \hline
+		Change y to i, change q to c, Change capital C to small c & useBicubic? \\ \hline
+		return a call to getInterpulatedPixel that accepts arguments x, y and this & $\hookleftarrow$ getBicubicInterpulatedPixel(x, y, this) \\ \hline
+		We are done with the if & \\ \hline
 		call to processValue that accepts name at i’s index and value & processValue(name{[}i{]}, value) \\ \hline
 		We done with processValues &  \\ \hline
 		Create a class SimpleLookUp implements LookUp & +Class SimpleLookUP : LookUp \\ \hline
