@@ -93,7 +93,7 @@ foreach(Element element in elements){
 	\caption{The result of dictating the code in \autoref{fig2}}
 	\label{fig3}
 \end{figure}
-\begin{table}[h]
+\begin{table}[H]
 	\begin{tabular}{|p{10cm}|p{6cm}|}
 		\hline
 		\rowcolor[HTML]{9B9B9B} 
@@ -183,7 +183,7 @@ foreach(Element element in elements){
 	\caption{The result of dictating the code in \autoref{fig3}}
 	\label{fig4}
 \end{figure}
-\begin{table}[h]
+\begin{table}[H]
 	\begin{tabular}{|p{10cm}|p{6cm}|}
 		\hline
 		\rowcolor[HTML]{9B9B9B} 
@@ -193,21 +193,31 @@ foreach(Element element in elements){
 		Change y to i, change q to c, Change capital C to small c & useBicubic? \\ \hline
 		return a call to getInterpulatedPixel that accepts arguments x, y and this & $\hookleftarrow$ getBicubicInterpulatedPixel(x, y, this) \\ \hline
 		We are done with the if & \\ \hline
-		call to processValue that accepts name at i’s index and value & processValue(name{[}i{]}, value) \\ \hline
-		We done with processValues &  \\ \hline
-		Create a class SimpleLookUp implements LookUp & +Class SimpleLookUP : LookUp \\ \hline
-		Delete the last row &  \\ \hline
-		Create array of strings call it names and make it private & -{[}{]} names \\ \hline
-		Create values type of array of object and make it private & -{[}{]} values \\ \hline
-		Create a method that returns an object call it find accepts name type of string and make it public & +find(name) \\ \hline
-		Create a loop from zero to the length of names & for 0 $\leq$ i \textless names.length \\ \hline
-		If names at i’s index period equals accept name then & names{[}i{]}.equals(name) ? \\ \hline
-		Return values at i’s index & $\hookleftarrow$ values{[}i{]} \\ \hline
-		Exit the for loop &  \\ \hline
-		Return null & null \\ \hline
+		if x is less than zero dot zero or x is greater or equal to width minus one dot zero or y is less than zero dot zero or y is greater or equal to height minus one dot zero then & x < 0.0 || x $\geq$ width - 1.0 || y < 0.0 || y $\geq$ height - 1.0 ? \\ \hline
+		if x is less than minus one dot zero or x is greater or equal to width or y is less than minus one dot zero or y is greater or equal to height then return zero dot zero & x < -1.0 || x $\geq$ width || y < -1.0 || y $\geq$ height ?  $\hookleftarrow$ 0.0 \\ \hline
+		else return a call to getInterpulatedEdgeValue that accepts parameters x and y & : $\hookleftarrow$ getInterpulatedEdgeValue(x, y) \\ \hline
+		We are done with the outer if &  \\ \hline
+		Assign x to xBase & xBase $\leftarrow$ x \\ \hline
+		Assign y to yBase & yBase $\leftarrow$ y \\ \hline 
+		Subtract xBase from x and assign it to xFraction & xFraction $\hookleftarrow$ x - xBase \\ \hline
+		If xFraction is less than zero period zero then assign zero period zero to xFraction & xFraction < 0.0 ? xFraction $\leftarrow$ 0.0\\ \hline
+		We are done with the if  &  \\ \hline 
 	\end{tabular}
-	\caption{This table presents the major commands that have been dictated during experiment Experiment No. 2}
+	\caption{This table presents the major commands that have been dictated during experiment No.2}
 	\label{tab2}
+\end{table}
+\begin{table}[H]
+	\begin{tabular}{|p{10cm}|p{6cm}|}
+		\hline
+		\rowcolor[HTML]{9B9B9B} 
+		{\color[HTML]{000000} The speaker said} & {\color[HTML]{000000} The typer typed} \\ \hline
+		Assign the returned value from getPixelValue that accepts parameters xBase and yBase to lowerLeft & lowerLeft $\leftarrow$ getPixelValue(xBase, yBase) \\ \hline
+		Assign the returned value from getPixelValue that accepts first parameter xBase plus one and second parameter yBase to lowerRight & lowerRight $\leftarrow$ getPixelValue(xBase + 1, yBase) \\ \hline
+		Assign to upperAverage the calculation of upperLeft plus xFraction times open parenthesis upperRight minus upperLeft close parenthesis & upperAverage = upperLeft + xFraction * (upperRight - upperLeft) \\ \hline
+		return the calculation of lowerAverage plus yFraction times open parenthesis upperAverage minus lowerAverage & lowerAverage + yFraction * (upperAverage - lowerAverage) \\ \hline
+	\end{tabular}
+	\caption{Processing \autoref{tab2}. This table presents the major commands that have been dictated during experiment No.2}
+	\label{tab8}
 \end{table}
 \section{Experiment No.3}
 \subsection{Part A}
@@ -215,7 +225,7 @@ foreach(Element element in elements){
 	\item Date: 12/May/2014.
 	\item Speaker: Ari Gam.
 	\item Typist: Alex Tilkin.
-	\item Description: Implement the Bubble Sort algorithm . The speaker asked to implement the Bubble Sort algorithm without any assistance. The algorithm had to be implemented in Java.
+	\item Description: Implement the Bubble Sort algorithm . The speaker asked to implement the Bubble Sort algorithm without any assistance. The algorithm had to be implemented in Java. No source code presented to the speaker.
 \end{itemize}
 \autoref{tab3} represents the order of the commands that have been dictated (top to bottom). \autoref{fig5} represents the result of the dictation by the speaker in part A.
 \begin{figure}[H]
@@ -251,7 +261,7 @@ foreach(Element element in elements){
 	\item Date: 28/Apr/2014.
 	\item Speaker: Ari Gam.
 	\item Typist: Alex Tilkin.
-	\item Description: After the speaker has completed the implementation of the Bubble Sort algorithm he has been asked to improve it's time complexity by adding additional condition.
+	\item Description: After the speaker has completed the implementation of the Bubble Sort algorithm he has been asked to improve it's time complexity by adding additional condition. No source code presented to the speaker.
 \end{itemize}
 \autoref{tab3} represents the order of the commands that have been dictated (top to bottom). \autoref{fig6} represents the result of the dictation by the speaker in part B.
 \begin{figure}[H]
@@ -288,7 +298,7 @@ foreach(Element element in elements){
 	\caption{The result after the additional condition has been  added to the Bubble Sort algorithm}
 	\label{fig6}
 \end{figure}
-\begin{table}[h]
+\begin{table}[H]
 	\begin{tabular}{|p{10cm}|p{6cm}|}
 		\hline
 		\rowcolor[HTML]{9B9B9B} 
@@ -314,6 +324,410 @@ foreach(Element element in elements){
 	\end{tabular}
 	\caption{This table presents the major commands that have been dictated during experiment No.3}
 	\label{tab3}
+\end{table}
+\section{Experiment No.4}
+\begin{itemize}
+	\item Date: 19/May/2014.
+	\item Speaker: Alex Tilkin.
+	\item Typist: Yishai Feldman.
+	\item Description: A program that simulates TV controller has been presented to the speaker. The program contains the following interfaces: \textit{Command}, and \textit{ElectronicDevice} and the following classes: \textit{TurnOff}, \textit{TurnOn}, \textit{VolumeUp}, \textit{VolumeDown}, \textit{TV}, and \textit{DeviceButton}. the classes \textit{TurnOff}, \textit{TurnOn}, \textit{VolumeUp} and \textit{VolumeDown} implements Command. The class \textit{TV} implements \textit{ElectronicDevice}. The whole application is designed based on the Command design pattern. During the whole experiment the code was presented to the speaker.
+\end{itemize}
+\autoref{fig7} represents the \textit{Command} interface. \autoref{fig8} represents the \textit{VolumeDown} class that implements the \textit{Command} interface. \autoref{fig9} represents the \textit{VolumeUp} class that implements the \textit{Command} interface. \autoref{fig10} represents the \textit{TurnOn} class that implements the \textit{Command} interface. \autoref{fig11} represents the \textit{TurnOff} class that implements the \textit{Command} interface. \autoref{fig12} represents the \textit{ElectronicDevice} interface. \autoref{fig13} represents the \textit{TV} class that implements the \textit{ElectronicDevice} interface. \autoref{fig14} is the represents the \textit{DeviceButton} class. This class contains the \textit{main} method.
+
+The following tables represents the order of the major commands that have been dictated (top to bottom) during experiment No.4: \autoref{tab4}, \autoref{tab5}, \autoref{tab6}, \autoref{tab7}.
+\remark{In this experiment we present each class only once and not source and dictation result. This is because the source and the dictation results are identical.}
+\begin{figure}[H]
+	\begin{lstlisting}
+	public interface Command {
+		void execute();
+	}
+	\end{lstlisting}
+	\caption{The \textit{Command} interface}
+	\label{fig7}
+\end{figure}
+\begin{figure}[H]
+	\begin{lstlisting}
+	public class VolumeDown implements Command {
+		private TV tv;
+		
+		public VolumeDown(TV tv) {
+			this.tv = tv;
+		}
+		
+		@Override
+		public void execute() {
+			tv.volumeDown();
+		}
+	}
+	\end{lstlisting}
+	\caption{The \textit{VolumeDown} class that implements the \textit{Command} interface}
+	\label{fig8}
+\end{figure}
+\begin{figure}[H]
+	\begin{lstlisting}
+	public class VolumeUp implements Command {
+		private TV tv;
+		
+		public VolumeUp(TV tv) {
+			this.tv = tv;
+		}
+		
+		@Override
+		public void execute() {
+			tv.volumeUp();
+		}
+	}
+	\end{lstlisting}
+	\caption{The \textit{VolumeUp} class that implements the \textit{Command} interface}
+	\label{fig9}
+\end{figure}
+\begin{figure}[H]
+	\begin{lstlisting}
+		public class TurnOn implements Command {
+			private ElectronicDevice electronicDevice;
+			
+			public TurnOn(ElectronicDevice electronicDevice) {
+				this.electronicDevice = electronicDevice;
+			
+			}
+			
+			@Override
+			public void execute() {
+				electronicDevice.on();
+			}
+		}
+	\end{lstlisting}
+	\caption{The \textit{TurnOn} class that implements the \textit{Command} interface}
+	\label{fig10}
+\end{figure}
+\begin{figure}[H]
+	\begin{lstlisting}
+		public class TurnOff implements Command {
+			private ElectronicDevice electronicDevice;
+			
+			public TurnOff(ElectronicDevice electronicDevice) {
+				this.electronicDevice = electronicDevice;
+			}
+			
+			@Override
+			public void execute() {
+				electronicDevice.off();
+			}
+		}
+	\end{lstlisting}
+	\caption{The \textit{TurnOff} class that implements the \textit{Command} interface}
+	\label{fig11}
+\end{figure}
+\begin{figure}[H]
+	\begin{lstlisting}
+		public interface ElectronicDevice {
+			void on();
+			
+			void off();
+			
+			void volumeUp();
+			
+			void volumeDown();
+		}
+	\end{lstlisting}
+	\caption{The \textit{ElectronicDevice} interface}
+	\label{fig12}
+\end{figure}
+\begin{figure}[H]
+	\begin{lstlisting}
+		public class TV implements ElectronicDevice {
+			
+			private int volume;
+			
+			@Override
+			public void on() {
+				System.out.println("The TV is on");
+			}
+			
+			@Override
+			public void off() {
+				System.out.println("The TV is off");
+			}
+			
+			@Override
+			public void volumeUp() {
+				volume++;
+				System.out.println("The volume is now " + volume);
+			}
+			
+			@Override
+			public void volumeDown() {
+				volume--;
+				System.out.println("The volume is now " + volume);
+			}
+		}
+	\end{lstlisting}
+	\caption{The \textit{TV} class that implements the \textit{ElectronicDevice} interface}
+	\label{fig13}
+\end{figure}
+\begin{figure}[H]
+	\begin{lstlisting}
+	public class DeviceButton {
+		private Command command;
+		
+		public DeviceButton(Command command) {
+			this.command = command;
+		}
+		
+		public void press() {
+			command.execute();
+		}
+		
+		public static void main(String[] args) {
+			ElectronicDevice tv = new TV();
+			Command turnOffCommand = new TurnOff(tv);
+			Command turnOnCommand = new TurnOn(tv);
+			DeviceButton deviceButtonOn = new DeviceButton(turnOnCommand);
+			DeviceButton deviceButtonOff = new DeviceButton(turnOffCommand);
+			deviceButtonOff.press();
+			deviceButtonOn.press();
+		}
+	}
+	\end{lstlisting}
+	\caption{The \textit{DeviceButton} class that contains the \textit{main} method}
+	\label{fig14}
+\end{figure}
+\begin{table}[H]
+	\begin{tabular}{|p{10cm}|p{6cm}|}
+		\hline
+		\rowcolor[HTML]{9B9B9B} 
+		{\color[HTML]{000000} The speaker said} & {\color[HTML]{000000} The typer typed} \\ \hline
+		Create interface ElectronicDevice & +interface ElectronicDevice \\ \hline
+		Create method on & +on \\ \hline
+		Create method off & +off \\ \hline
+		Create method volumeUp & +volumeUp \\ \hline
+		Create method volumeDown & +volumeDown \\ \hline
+		Create class TvRemoteControl & +Class TvRemoteControl \\ \hline
+		Without RemoteControl & +Class Tv \\ \hline
+		That implements ElectronicDevice & +Class : ElectronicDevice \\ \hline
+		Go to on &  \\ \hline
+		Print the TV is on & Print "The TV is on" \\ \hline
+		Print the TV is off & \\ \hline
+		Print the TV is off & Print "The TV is off" \\ \hline
+		Create local field volume & -volume \\ \hline
+		Go to volumeUp &  \\ \hline
+		Do volume plus plus &  volume++ \\ \hline
+		Print the volume is now and concatenate volume  &  Print "The volume is now" + volume \\ \hline
+		Add space after now & "The volume is now " + volume \\ \hline
+		Go to volumeDown & \\ \hline
+		Do volume minus minus & volume-- \\ \hline
+		Print the volume is now space concatenate volume & Print "The volume is now " + volume \\ \hline
+		Create interface Command & +interface Command \\ \hline
+		Create method execute & +execute \\ \hline
+		Create class TurnTVOn implements Command & +class TurnTvOn : Command\\ \hline
+	\end{tabular}
+	\caption{This table presents the major commands that have been dictated during experiment No.4}
+\label{tab4}
+		\end{table}
+\begin{table}[H]
+	\begin{tabular}{|p{10cm}|p{6cm}|}
+		\hline
+		\rowcolor[HTML]{9B9B9B} 
+		{\color[HTML]{000000} The speaker said} & {\color[HTML]{000000} The typer typed} \\ \hline
+		Create constructor that accepts TV & +TurnTvOn(tv) \\ \hline
+		Assign tv to field tv & this.tv $\leftarrow$ tv \\ \hline
+		Go to execute & \\ \hline
+		Create class VolumeUp implements Command & +class volumeUp : Command \\ \hline
+		Create constructor that accepts TV & +volumeUp(tv) \\ \hline
+		Assign tv to field tv & this.tv $\leftarrow$ tv \\ \hline
+		Go to execute & \\ \hline
+		TV period volumeUp & tv.volumeUp \\ \hline
+		Create class VolumeDown implements Command & +Class VolumeDown : Command \\ \hline
+		Create constructor that accepts TV & +volumeDown(tv) \\ \hline
+		Assign tv to field tv & this.tv $\leftarrow$ tv \\ \hline
+		Go to execute & \\ \hline
+		TV period volumeDown & tv.volumeDown \\ \hline
+		Create class DeviceButton & +Class DeviceButton \\ \hline
+		Create constructor that accepts command & +deviceButton(command) \\ \hline
+		Assign command to field command & this.command $\leftarrow$ command \\ \hline
+		Create method press & +press \\ \hline
+		Command period execute & command.execute \\ \hline
+		\rowcolor[HTML]{9B9B9B}The programmer detected mistakes &  \\ \hline
+		Rename TurnTVOn to TurnOn & +Class TurnOn : Command \\ \hline
+		Change constructor's parameter type to ElectronicDevice & +turnOn(electronicDevice) \\ \hline
+		Change the type of the field tv to ElectronicDevice & +ElectronicDevice tv \\ \hline
+		Rename tv to ElectronicDevice & +ElectronicDevice electronicDevice \\ \hline
+		Rename TurnTvOff to TurnOff & +TurnOff : Command \\ \hline
+	\end{tabular}
+	\caption{Processing \autoref{tab4}. This table presents the major commands that have been dictated during experiment No.4}
+	\label{tab5}
+\end{table}
+\begin{table}[H]
+	\begin{tabular}{|p{10cm}|p{6cm}|}
+		\hline
+		\rowcolor[HTML]{9B9B9B} 
+		{\color[HTML]{000000} The speaker said} & {\color[HTML]{000000} The typer typed} \\ \hline
+		Change constructor's parameter type to ElectronicDevice & +turnOff(electronicDevice) \\ \hline
+		Change the type of the field tv to ElectronicDevice & +ElectronicDevice tv \\ \hline
+		Rename tv to ElectronicDevice & +ElectronicDevice electronicDevice \\ \hline
+		Go to volumeUp & \\ \hline
+		Change constructor's parameter type to ElectronicDevice & +volumeUp(electronicDevice) \\ \hline
+		Change the type of the field tv to ElectronicDevice & +ElectronicDevice tv \\ \hline
+		Rename tv to ElectronicDevice & +ElectronicDevice electronicDevice \\ \hline
+		Go to volumeDown & \\ \hline
+		Change constructor's parameter type to ElectronicDevice & +volumeDown(electronicDevice) \\ \hline
+		Change the type of the field tv to ElectronicDevice & +ElectronicDevice tv \\ \hline
+		Rename tv to ElectronicDevice & +ElectronicDevice electronicDevice \\ \hline
+		Create main & +main([]args) \\ \hline
+		Create ElectronicDevice type of TV & +main([]args) \\ \hline
+		Create Command type of TurnOff that receives tv and name it turnOffCommand & turnOffCommand $\leftarrow$ TurnOff(tv) \\ \hline
+		Create Command turnOnCommand type of TurnOn and intialize it with TV & turnOnCommand $\leftarrow$ TurnOn(tv) \\ \hline
+		Create DeviceButton that accepts turnOnCommand and assign it to deviceButtonOn & deviceButtonOn $\leftarrow$ DeviceButton(turnOnCommand)\\ \hline
+	\end{tabular}
+	\caption{Processing \autoref{tab5}. This table presents the major commands that have been dictated during experiment No.4}
+	\label{tab6}
+\end{table}
+\begin{table}[H]
+	\begin{tabular}{|p{10cm}|p{6cm}|}
+		\hline
+		\rowcolor[HTML]{9B9B9B} 
+		{\color[HTML]{000000} The speaker said} & {\color[HTML]{000000} The typer typed} \\ \hline
+		Create new DeviceButton, name it deviecButtonOff and initialize it with turnOffCommand & deviceButtoff $\leftarrow$ DeviceButton(turnOffCommand) \\ \hline
+		deviecButtonOff period press & deviceButtoff.press \\ \hline
+		deviecButtonOn period press & deviceButton.press \\ \hline
+		Save & \\ \hline
+		Run & \\ \hline
+	\end{tabular}
+	\caption{Processing \autoref{tab6}. This table presents the major commands that have been dictated during experiment No.4}
+	\label{tab7}
+\end{table}
+\section{Experiment No.5}
+\begin{itemize}
+	\item Date: 03/07/2014.
+	\item Speaker: Perry Shalom.
+	\item Typist: Alex Tilkin.
+	\item Description: In this experiment the typist has been asked to implement a program that builds a car. The program had to be designed based on the Builder design pattern. The program had one main class \textit{Car} It had to contain three private fields type of String: \textit{wheels}, \textit{engine}, and \textit{body}. A private constructor that accepts all three parameters that initialize the fields. If one of the parameter is null or empty string the constructor should return and not initialize anyone of the fields. The \textit{Car} class had to contain a private static class \textit{CarBuilder}, it had to contain three private fields type of String: \textit{wheels}, \textit{engine}, and \textit{body}. It had to contain a method named \textit{buildCar} that checks if all three fields are initialized and return a new instance of \textit{Car} class. If one of the fields is not initialized then the method will return null. A main method needs to build a car by using the \textit{CarBuilder} class. No source code presented to the speaker.
+\end{itemize}
+\autoref{fig15} represents the dictation result of experiment No.5. \autoref{fig16} represents the compact representation of \autoref{fig15}. \autoref{tab9} and \autoref{tab10} represents the major commands that have been taken during experiments No.5.
+\begin{figure}[H]
+	\begin{lstlisting}
+		public class Car{
+			private String _wheels;
+			private String _engine;
+			private String _body;
+			
+			private Car(String wheels, String engine, String body){
+				if(body == null || engine == null || wheels == null){
+					return;
+				}
+				_wheels = wheels;
+				_engine = engine;
+				_body = body;
+			}
+			
+			public static class CarBuilder{
+				String Body;
+				String Wheels;
+				String Engine;
+				public Car BuildCar(){
+					if(Body != null && Wheels != null && Engine != null){
+						return new Car(Wheels, Engine, Body);
+					}
+				return null;
+			}
+		}
+		
+		public static void main(String[] args){
+			Car.CarBuilder carBuilder = new CarBuilder();
+			carBuilder.Engine = "honda";
+			carBuilder.Wheels = "4";
+			carBuilder.Body = "private";
+			Car car;
+			car = carBuilder.BuildCar();
+		}
+	}
+	\end{lstlisting}
+	\caption{The result of experiment No.5}
+	\label{fig15}
+\end{figure}
+\begin{figure}[H]
+	\lstset{extendedchars=false,
+		escapeinside=/}
+	\begin{lstlisting}
+		+Class Car
+			-string _wheels
+			-string _engine
+			-string _body
+			
+			-Car(body, engine, wheels)
+				_body $\leftarrow$ body
+				_engine $\leftarrow$ engine
+				_wheels $\leftarrow$ wheels
+			
+			+static Class CarBuilder
+				+string _body
+				+string _wheels
+				+string _engine
+				
+				+Car BuildCar()
+					body $\neq$ null $\wedge$ engine $\neq$ null $\wedge$ wheels $\neq$ null ?
+						$\hookleftarrow$ new Car(body, engine, wheels)
+					$\hookleftarrow$ null
+		
+		+static Main(args[])
+			carBuilder $\leftarrow$ new CarBuilder()
+			carBuilder.engine $\leftarrow$ "honda"
+			carBuilder.wheels $\leftarrow$ "4"
+			carBuilder.body $\leftarrow$ "private"
+			car $\leftarrow$ CarBuilder.BuildCar
+	\end{lstlisting}
+	\caption{The result of experiment No.5 in compact representation}
+	\label{fig16}
+\end{figure}
+\begin{table}[H]
+	\begin{tabular}{|p{10cm}|p{6cm}|}
+		\hline
+		\rowcolor[HTML]{9B9B9B} 
+		{\color[HTML]{000000} The speaker said} & {\color[HTML]{000000} The typer typed} \\ \hline
+		Create interface ElectronicDevice & +interface ElectronicDevice \\ \hline
+		Create class car & +Class Car \\ \hline
+		Create wheels type of string and make it private & -string \_wheels \\ \hline
+		Create engine type of string and make it private & -string \_engine \\ \hline
+		Create body type of string make it private & -string \_body \\ \hline
+		Create static inner class CarBuilder & +Class CarBuilder \\ \hline
+		Create method CreateCar that returns Car & +Car \textit{CreateCar} \\ \hline
+		Change CreateCar to BuildCar & +Car BuildCar \\ \hline
+		Create body type of string make it public & +string body \\ \hline
+		Create wheels type of string and make it public & +string wheels \\ \hline
+		Create engine type of string and make it public & +string engine \\ \hline
+		Go to BuildCar &  \\ \hline
+		If wheels and body and engine are not empty strings then & wheels $\neq$ null $\wedge$ body $\neq$ null $\wedge$ engine $\neq$ null ? \\ \hline
+		Return to Car & \\ \hline
+		Create a constructor that receives its three fields and initializes them & \begin{tabular}[c]{@{}l@{}}+Car(body, engine, wheels)\\ \_body $\leftarrow$ body\\ \_engine $\leftarrow$ engine\\ \_wheels $\leftarrow$ wheels\end{tabular} \\ \hline
+		go to the the beginning of the constructor & \\ \hline
+		If body equals null or engine equals null or wheels equals null then return & body = null $\vee$ wheels = null $\vee$ engine = null ? $\hookleftarrow$ \\ \hline
+		Make the constructor of Car private & -Car \\ \hline
+		Go to the If of BuildCar in CarBuilder & \\ \hline
+		return a new instance of car with the fields body, engine and wheels & $\hookleftarrow$ new Car(body, engine, wheels) \\ \hline
+		Exit the If,  & \\ \hline
+	\end{tabular}
+	\caption{This table presents the major commands that have been dictated during experiment No.5}
+	\label{tab9}
+\end{table}
+\begin{table}[H]
+	\begin{tabular}{|p{10cm}|p{6cm}|}
+		\hline
+		\rowcolor[HTML]{9B9B9B} 
+		{\color[HTML]{000000} The speaker said} & {\color[HTML]{000000} The typer typed} \\ \hline
+		return null & $\hookleftarrow$ null \\ \hline
+		Create Main inside Car & \textit{main} \\ \hline
+		change the method to static & +Car \textit{BuildCar} \\ \hline
+		Undo & +Car BuildCar \\ \hline
+		Go to the beginning of Main & \\ \hline
+		Create an instance of CarBuilder & carBuilder $\leftarrow$ new CarBuilder \\ \hline
+		Initialize engine of carBuilder with honda & carBuilder.engine $\leftarrow$ "honda" \\ \hline
+		Initialize wheels of carBuilder the string four & carBuilder.wheels $\leftarrow$ "4" \\ \hline
+		Initialize body of carBuilder the string private & carBuilder.body $\leftarrow$ "private" \\ \hline
+		Create identifier type of car & car \\ \hline
+		Call to BuildCar of CarBuilder and put the returned value into car & car $\leftarrow$ CarBuilder.BuildCar \\ \hline
+	\end{tabular}
+	\caption{Proceeding \autoref{tab9}. This table presents the major commands that have been dictated during experiment No.5}
+	\label{tab10}
 \end{table}
 \iffalse
 %%=========================================
@@ -394,7 +808,7 @@ Large figures may be included as a \emph{sidewaysfigure} as shown in Figure~\ref
 \begin{table}
 	\centering\small
 	\caption{The degree of newness of technology.}
-	\label{tab10}
+	\label{tab90}
 		\begin{tabular*}{\textwidth}{@{\extracolsep{\fill}}lccc}
 			\toprule
 			  &\multicolumn{3}{c}{Level of technology maturity}\\
