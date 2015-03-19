@@ -18,18 +18,12 @@
 \contentsline {subsection}{\numberline {2.4.2}Part B}{18}{subsection.2.4.2}
 \contentsline {section}{\numberline {2.5}Experiment No.4}{22}{section.2.5}
 \contentsline {section}{\numberline {2.6}Experiment No.5}{31}{section.2.6}
-\contentsline {section}{\numberline {2.7}Including Figures}{37}{section.2.7}
-\contentsline {section}{\numberline {2.8}Including Tables}{38}{section.2.8}
-\contentsline {section}{\numberline {2.9}Copying Figures and Tables}{39}{section.2.9}
-\contentsline {section}{\numberline {2.10}References to Figures and Tables}{39}{section.2.10}
-\contentsline {section}{\numberline {2.11}A Word About Font-encoding}{39}{section.2.11}
-\contentsline {section}{\numberline {2.12}Plagiarism}{40}{section.2.12}
-\contentsline {chapter}{\numberline {3}Summary}{41}{chapter.3}
-\contentsline {section}{\numberline {3.1}Summary and Conclusions}{41}{section.3.1}
-\contentsline {section}{\numberline {3.2}Discussion}{41}{section.3.2}
-\contentsline {section}{\numberline {3.3}Recommendations for Further Work}{42}{section.3.3}
-\contentsline {chapter}{\numberline {A}Acronyms}{43}{appendix.A}
-\contentsline {chapter}{\numberline {B}Additional Information}{44}{appendix.B}
-\contentsline {section}{\numberline {B.1}Introduction}{44}{section.B.1}
-\contentsline {subsection}{\numberline {B.1.1}More Details}{44}{subsection.B.1.1}
-\contentsline {chapter}{Bibliography}{45}{subsection.B.1.1}
+\contentsline {chapter}{\numberline {3}Summary}{37}{chapter.3}
+\contentsline {section}{\numberline {3.1}Summary and Conclusions}{37}{section.3.1}
+\contentsline {section}{\numberline {3.2}Discussion}{37}{section.3.2}
+\contentsline {section}{\numberline {3.3}Recommendations for Further Work}{38}{section.3.3}
+\contentsline {chapter}{\numberline {A}Acronyms}{39}{appendix.A}
+\contentsline {chapter}{\numberline {B}Additional Information}{40}{appendix.B}
+\contentsline {section}{\numberline {B.1}Introduction}{40}{section.B.1}
+\contentsline {subsection}{\numberline {B.1.1}More Details}{40}{subsection.B.1.1}
+\contentsline {chapter}{Bibliography}{41}{subsection.B.1.1}
