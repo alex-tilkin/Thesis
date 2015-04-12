@@ -26,8 +26,20 @@
 \contentsline {subsection}{\numberline {3.2.3}Editing by Voice}{38}{subsection.3.2.3}
 \contentsline {subsection}{\numberline {3.2.4}Compact View Mode}{38}{subsection.3.2.4}
 \contentsline {subsection}{\numberline {3.2.5}Refactoring}{38}{subsection.3.2.5}
-\contentsline {chapter}{\numberline {A}Acronyms}{40}{appendix.A}
-\contentsline {chapter}{\numberline {B}Additional Information}{41}{appendix.B}
-\contentsline {section}{\numberline {B.1}Introduction}{41}{section.B.1}
-\contentsline {subsection}{\numberline {B.1.1}More Details}{41}{subsection.B.1.1}
-\contentsline {chapter}{Bibliography}{42}{subsection.B.1.1}
+\contentsline {subsection}{\numberline {3.2.6}Object Identification}{39}{subsection.3.2.6}
+\contentsline {subsection}{\numberline {3.2.7}Temporal Abstraction}{40}{subsection.3.2.7}
+\contentsline {subsection}{\numberline {3.2.8}Details on Touch}{40}{subsection.3.2.8}
+\contentsline {subsection}{\numberline {3.2.9}Changing the View Mode}{40}{subsection.3.2.9}
+\contentsline {subsection}{\numberline {3.2.10}Fish Eye}{40}{subsection.3.2.10}
+\contentsline {subsection}{\numberline {3.2.11}Quick Fix}{41}{subsection.3.2.11}
+\contentsline {subsection}{\numberline {3.2.12}Dictation User Experience and Error Correction}{42}{subsection.3.2.12}
+\contentsline {subsection}{\numberline {3.2.13}Undo, Redo}{43}{subsection.3.2.13}
+\contentsline {subsection}{\numberline {3.2.14}Templates and Concise commands}{43}{subsection.3.2.14}
+\contentsline {subsection}{\numberline {3.2.15}Save the Program as Regular Source Code}{43}{subsection.3.2.15}
+\contentsline {subsection}{\numberline {3.2.16}Support multiple source files for analyzing}{43}{subsection.3.2.16}
+\contentsline {subsection}{\numberline {3.2.17}Search}{43}{subsection.3.2.17}
+\contentsline {chapter}{\numberline {A}Acronyms}{44}{appendix.A}
+\contentsline {chapter}{\numberline {B}Additional Information}{45}{appendix.B}
+\contentsline {section}{\numberline {B.1}Introduction}{45}{section.B.1}
+\contentsline {subsection}{\numberline {B.1.1}More Details}{45}{subsection.B.1.1}
+\contentsline {chapter}{Bibliography}{46}{subsection.B.1.1}

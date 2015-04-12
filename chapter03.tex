@@ -14,7 +14,7 @@ Allow the user to program using his voice.
 	\item In case the system stumbles a case of ambiguity it will present options to the user which he could choose the most appropriate solution.
 	\item The system should distinguish between when the user dictates to it or speaking to someone (this is very complicated feature to implement so it might be postponed to later works).
 \end{itemize}
-\subsection{Navigation by Voice}
+\subsection{Navigation by Voice} \label{ssec:num1}
 \begin{itemize}
 	\item Priority: 2
 \end{itemize}
@@ -41,3 +41,146 @@ Enable the user to perform refactoring operations on the code with voice command
 	\item Self-Encapsulate Field - force code to access the field with getter and setter methods (should be hidden) (described in details in the section “Getters and Setters Identification”)
 	\item Change Method Signature
 \end{itemize}
+\subsection{Object Identification}
+\begin{itemize}
+	\item Priority: 2 (relates to \ref{ssec:num1})
+\end{itemize}
+This is a core feature that has to be implemented in-order to allow other features like: navigation, refactoring and any other feature that requires from the user to point where he want to take the action. Below is a list of several features that provides example where is it needed.
+\begin{itemize}
+	\item Refactoring - When a user asks to refactor a certain object he say something lie "change car to truck". in order to change this identifier first the system needs to identify it and then start the process of renaming it.
+	\item Navigation in code - In order to allow navigation in code the system needs to identify the object and its location in order to navigate correctly. For example, one may say “go to a method drive of car” and the cursor will go to the first line of the method “Drive” in the class “Car”.
+	\item Code Selection - user may select pieces of code by telling the system start and end points. For example, "Select the code from line sixteen to line twenty four".
+\end{itemize}
+\subsection{Temporal Abstraction}
+\begin{itemize}
+	\item Priority: 4
+\end{itemize}
+This feature Allows the user to speak in a high level commands and generate code automatically. Due to the complexity to implement the whole feature we chose to concentrate on the section “Sequences as Conventional Interfaces”: Allows the user to speak in loops terminology and presents the code in mathematical sequences representation.
+\begin{itemize}
+	\item The user will speak in loops terminology and create Java loops.
+	\item Transform Java loops to mathematical sequences.
+	\item Perform well-known algorithms on collections, for example. "Perform Quick Sort on a collection cars by the field year".
+\end{itemize}
+\subsection{Details on Touch}
+\begin{itemize}
+	\item Priority: 2
+\end{itemize}
+Allow the user to inspect an element in (e.g. a variable) and peek into hidden details (e.g. its type) without losing orientation.
+\subsection{Changing the View Mode}
+\begin{itemize}
+	\item Priority: 4
+\end{itemize}
+Allow a user to change the view mode from compact to explicit and vise versa (explicit means to show the types and the accessibility of each object).
+\subsection{Fish Eye}
+\begin{itemize}
+	\item Priority: 3
+\end{itemize}
+Improve user orientation by displaying a large part of the program on the screen; less-relevant lines will be displayed in small font.
+\subsection{Quick Fix}
+\begin{itemize}
+	\item Priority: 2
+\end{itemize}
+This is the same feature as Eclipse has.
+\begin{itemize}
+	\item Package Declaration - (need to run in the background). Add missing package declaration or correct package declaration. Move compilation unit to package that corresponds to the package declaration.
+	\item Imports - (need to run in the background). Remove unused, unresolvable or non-visible import. Invoke 'Organize imports' on problems in imports.
+	\item Types - Create new class, interface, enum, annotation or type variable for references to types that can not be resolved. Change visibility for types that are accessed but not visible. Rename to a similar type for references to types that can not be resolved. Add import statement for types that can not be resolved but exist in the project. Add explicit import statement for ambiguous type references (to import-on-demands for the same type). If the type name is not matching with the compilation unit name either rename the type or rename the compilation unit. Remove unused private types. Add missing type annotation attributes.
+	\item Constructors - Create new constructor for references to constructors that can not be resolved (this, super or new class creation). Reorder, add or remove arguments for constructor references that mismatch parameters. Change method with constructor name to constructor (remove return type). Change visibility for constructors that are accessed but not visible. Remove unused private constructor. Create constructor when super call of the implicit default constructor is undefined, not visible or throws an exception. If type contains unimplemented methods, change type modifier to 'abstract' or add the method to implement.
+	\item Methods - Create new method for references to methods that can not be resolved. Rename to a similar method for references to methods that can not be resolved. Reorder or remove arguments for method references that mismatch parameters. Correct access (visibility, static) of referenced methods. Remove unused private methods. Correct return type for methods that have a missing return type or where the return type does not match the return statement. Add return statement if missing.
+	For non-abstract methods with no body change to 'abstract' or add body. For an abstract method in a non-abstract type remove abstract modifier of the method or make type abstract. For an abstract/native method with body remove the abstract or native modifier or remove body. Change method access to 'static' if method is invoked inside a constructor invocation (super, this). Change method access to default access to avoid emulated method access. Add 'synchronized' modifier. Override hashCode(). Open the 'Generate hashCode() and equals()' wizard.
+	\item Fields and variables - Correct access (visibility, static) of referenced fields. Create new fields, parameters, local variables or constants for references to variables that can not be resolved. Rename to a variable with similar name for references that can not be resolved. Remove unused private fields. Correct non-static access of static fields. Add 'final' modifier to local variables accessed in outer types. Change field access to default access to avoid emulated method access. Change local variable type to fix a type mismatch. Initialize a variable that has not been initialized. Create getter and setters for invisible or unused fields. Create loop variable to correct an incomplete enhanced 'for' loop by adding the type of the loop variable.
+	\item Exception Handling - Remove unneeded catch block. Remove unneeded exceptions from a multi-catch clause. Handle uncaught exception by surrounding with try/catch or adding catch block to a surrounding try block. Handle uncaught exceptions by surrounding with try/multi-catch or adding exceptions to existing catch clause (1.7 or higher).Handle uncaught exception by adding a throw declaration to the parent method or by generalize an existing throw declaration
+\end{itemize}
+\subsection{Dictation User Experience and Error Correction}
+\begin{itemize}
+	\item Priority: 1
+\end{itemize}
+This feature provides rich user experience for dictation. When the user dictates the system will response not only with textual output but also with suggestions and recommendations for his work. For example, the user said "create for loop", an ambiguity might happen. The system need to present to the user relevant options and let him decide what does he mean. In addition identical to Eclipse the system will mark compilation error in real time.
+\subsection{Undo, Redo}
+\begin{itemize}
+	\item Priority: 2
+\end{itemize}
+Every step that have been taken during the development process can be reverted.
+\subsection{Templates and Concise commands}
+\begin{itemize}
+	\item Priority: 1
+\end{itemize}
+Allow the user to generate code without explicitly pronounce what needs to be written in the code, e.g., one can say  “Create main inside Car” and the program will generate main method inside the class Car. Another example can be, while the cursor is inside the Car class, the user can say “Create a constructor” and the program will generate a constructor with no parameters (no parameters because the user didn’t say that he wants parameters inside the constructor)
+\subsection{Save the Program as Regular Source Code}
+\begin{itemize}
+	\item Priority: 1
+\end{itemize}
+Open existing source code file.
+\subsection{Support multiple source files for analyzing}
+\begin{itemize}
+	\item Priority: 3
+\end{itemize}
+Refactoring and displaying definitions.
+\subsection{Search}
+\begin{itemize}
+	\item Priority: 3
+\end{itemize}
+Search and display results.
+\subsection{Source control integration}
+\begin{itemize}
+	\item Priority: 4
+\end{itemize}
+Allow source control programs such as GitHub to integrate the system and control your code.
+\subsection{Stand Alone System}
+\begin{itemize}
+	\item Priority: 4
+\end{itemize}
+The system runs on the mobile device, Internet connectivity is needed only if downloading/uploading source code.
+\subsection{Multi Platform}
+\begin{itemize}
+	\item Priority: 4
+\end{itemize}
+The system runs on major mobile operating systems.
+\subsection{License}
+\begin{itemize}
+	\item Priority: 2
+\end{itemize}
+Open source.
+\subsection{Show Time Complexity of Methods}
+\begin{itemize}
+	\item Priority: 4
+\end{itemize}
+Near every method show it's time complexity. For example, +print(object) \textit{o(n)}
+\subsection{Command Variability}
+\begin{itemize}
+	\item Priority: 3
+\end{itemize}
+Sometimes we use different words that have the same meaning (i.e. we say “create a function” when we actually mean “create a method”). In order to provide a convenient environment for programming one can hold a thesaurus (e.g. Wordnet) that will include relations between similar words. This thesaurus can be modified (add, remove, edit), users should be able to define their favorite ways of talking.  This includes the choice of words to describe templates, features, and locations.  (This may circumvent the need for dictionaries and improve the effectiveness of the process) Both of these assume a fixed set of templates.  Ideally, we would also have the following, perhaps for "super users": Create new templates. This should be as flexible as possible.
+\subsection{Programming Languages Support}
+\begin{itemize}
+	\item Priority: 4
+\end{itemize}
+One may transform the compact code to any language that the transformer will support (e.g. Java, C#). Relevant for variable name conventions, libraries and for explicit mode.
+\subsection{Recommendations System}
+\begin{itemize}
+	\item Priority: 4
+\end{itemize}
+While we work on our program the apprentice will recommend modifications that will improve the code (i.e. instead of writing nested code the apprentice will recommend to write an “if” statement with negative logic and a “return” or “continue” command)
+\begin{itemize}
+	\item The recommendations will be presented as a list, the programmer will choose the option by clicking on it or pronounce the option number.
+\end{itemize}
+\subsection{Duplication Handling}
+\begin{itemize}
+	\item Priority: 2
+\end{itemize}
+Once we generate an identifier that already exists the application will handle this and rename the identifier so it will be unique in its scope.
+\subsection{String Construction by Voice}
+\begin{itemize}
+	\item Priority: 2
+\end{itemize}
+String manipulation (e.g. concatenate strings), dictation of characters (e.g. white spaces in hard-coded strings). Simplest that can work.
+\subsection{Real Estate}
+\begin{itemize}
+	\item Priority: 4
+\end{itemize}
+We assume that this technology can be implemented not only on mobile devices but also on even more futuristic devices, e.g., Google Glass.
+\subsection{Auto Identifier Names Generation}
+\begin{itemize}
+	\item Priority: 1
+\end{itemize}
+The application will generate field names based on class name. Note that in compact representation the system might not show class name (i.e. Car car will be displayed as car).
