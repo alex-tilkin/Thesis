@@ -1,24 +1,10 @@
-% !TEX encoding = UTF-8 Unicode
-% !TEX spellcheck = en-US
-
-
-% This is the root file of your thesis: thesis.tex
-% A line starting with % is a comment. In some cases, I have included a command preceded by a %. You may activate the command by removing the %.
-
-%%===================================
 \documentclass[12pt]{report}
 \include{Packages}
-%%===================================
-%Write the various parts of your thesis as separate files and include them into the main file by the command \include{name of included file}. When you compile the LaTeX file, you may choose which subfiles to include by the command
-
-%\includeonly{chapter01,chapter02}
-
-%%===================================
 \begin{document}
 \include{Definitions}
-\include{front} % This is the titlepage
+\include{front}
 \setcounter{page}{0}
-%\pagenumbering{roman}
+\pagenumbering{roman}
 \include{preface}
 \include{acknowledgment}
 \include{summary}
@@ -28,15 +14,10 @@
 \include{chapter01}
 \include{chapter02}
 \include{chapter03}
-% Include more chapters as required.
-%%=========================================
 \appendix
 \include{acronyms}
 \include{appendix-b}
- Include more appendices as required.
-%%=========================================
 \bibliographystyle{apa}
 \addcontentsline{toc}{chapter}{\bibname}
 \bibliography{refs}
-
 \end{document}
