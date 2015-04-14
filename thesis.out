@@ -38,8 +38,33 @@
 \BOOKMARK [2][-]{subsection.3.2.15}{Save the Program as Regular Source Code}{section.3.2}% 38
 \BOOKMARK [2][-]{subsection.3.2.16}{Support multiple source files for analyzing}{section.3.2}% 39
 \BOOKMARK [2][-]{subsection.3.2.17}{Search}{section.3.2}% 40
-\BOOKMARK [0][-]{appendix.A}{Acronyms}{}% 41
-\BOOKMARK [0][-]{appendix.B}{Additional Information}{}% 42
-\BOOKMARK [1][-]{section.B.1}{Introduction}{appendix.B}% 43
-\BOOKMARK [2][-]{subsection.B.1.1}{More Details}{section.B.1}% 44
-\BOOKMARK [0][-]{subsection.B.1.1}{Bibliography}{}% 45
+\BOOKMARK [2][-]{subsection.3.2.18}{Source control integration}{section.3.2}% 41
+\BOOKMARK [2][-]{subsection.3.2.19}{Stand Alone System}{section.3.2}% 42
+\BOOKMARK [2][-]{subsection.3.2.20}{Multi Platform}{section.3.2}% 43
+\BOOKMARK [2][-]{subsection.3.2.21}{License}{section.3.2}% 44
+\BOOKMARK [2][-]{subsection.3.2.22}{Show Time Complexity of Methods}{section.3.2}% 45
+\BOOKMARK [2][-]{subsection.3.2.23}{Command Variability}{section.3.2}% 46
+\BOOKMARK [2][-]{subsection.3.2.24}{Programming Languages Support}{section.3.2}% 47
+\BOOKMARK [2][-]{subsection.3.2.25}{Recommendations System}{section.3.2}% 48
+\BOOKMARK [2][-]{subsection.3.2.26}{Duplication Handling}{section.3.2}% 49
+\BOOKMARK [2][-]{subsection.3.2.27}{String Construction by Voice}{section.3.2}% 50
+\BOOKMARK [2][-]{subsection.3.2.28}{Real Estate}{section.3.2}% 51
+\BOOKMARK [2][-]{subsection.3.2.29}{Auto Identifier Names Generation}{section.3.2}% 52
+\BOOKMARK [2][-]{subsection.3.2.30}{Extension Methods}{section.3.2}% 53
+\BOOKMARK [2][-]{subsection.3.2.31}{Multiple Views}{section.3.2}% 54
+\BOOKMARK [2][-]{subsection.3.2.32}{Breadcrumbs \(Presence in Classes\)}{section.3.2}% 55
+\BOOKMARK [2][-]{subsection.3.2.33}{Getters and Setters Identification}{section.3.2}% 56
+\BOOKMARK [2][-]{subsection.3.2.34}{Omit Declaration Lines}{section.3.2}% 57
+\BOOKMARK [2][-]{subsection.3.2.35}{Operator Overloading}{section.3.2}% 58
+\BOOKMARK [2][-]{subsection.3.2.36}{Lambda expression}{section.3.2}% 59
+\BOOKMARK [2][-]{subsection.3.2.37}{Type Inference}{section.3.2}% 60
+\BOOKMARK [2][-]{subsection.3.2.38}{Source Code on Demand}{section.3.2}% 61
+\BOOKMARK [2][-]{subsection.3.2.39}{Collaboration}{section.3.2}% 62
+\BOOKMARK [2][-]{subsection.3.2.40}{Native representation}{section.3.2}% 63
+\BOOKMARK [2][-]{subsection.3.2.41}{Inter-procedural Flow}{section.3.2}% 64
+\BOOKMARK [2][-]{subsection.3.2.42}{Annotations}{section.3.2}% 65
+\BOOKMARK [0][-]{appendix.A}{Acronyms}{}% 66
+\BOOKMARK [0][-]{appendix.B}{Additional Information}{}% 67
+\BOOKMARK [1][-]{section.B.1}{Introduction}{appendix.B}% 68
+\BOOKMARK [2][-]{subsection.B.1.1}{More Details}{section.B.1}% 69
+\BOOKMARK [0][-]{subsection.B.1.1}{Bibliography}{}% 70

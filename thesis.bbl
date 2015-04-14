@@ -6,6 +6,11 @@ Andrew, B. and Susan, L.~G. (2011).
 \newblock PhD thesis, Computer Science Division, EECS University of California,
   Berkeley.
 
+\bibitem[\protect\astroncite{Eisenberg}{2008}]{andrew08}
+Eisenberg, A.~D. (2008).
+\newblock {\em Presentation Techniques for more Expressive Programs}.
+\newblock PhD thesis, The University Of British Columbia.
+
 \bibitem[\protect\astroncite{Graham}{2015}]{harmonia}
 Graham, S.~L. (2015).
 \newblock Harmonia research project.

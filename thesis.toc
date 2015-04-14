@@ -38,8 +38,33 @@
 \contentsline {subsection}{\numberline {3.2.15}Save the Program as Regular Source Code}{43}{subsection.3.2.15}
 \contentsline {subsection}{\numberline {3.2.16}Support multiple source files for analyzing}{43}{subsection.3.2.16}
 \contentsline {subsection}{\numberline {3.2.17}Search}{43}{subsection.3.2.17}
-\contentsline {chapter}{\numberline {A}Acronyms}{44}{appendix.A}
-\contentsline {chapter}{\numberline {B}Additional Information}{45}{appendix.B}
-\contentsline {section}{\numberline {B.1}Introduction}{45}{section.B.1}
-\contentsline {subsection}{\numberline {B.1.1}More Details}{45}{subsection.B.1.1}
-\contentsline {chapter}{Bibliography}{46}{subsection.B.1.1}
+\contentsline {subsection}{\numberline {3.2.18}Source control integration}{44}{subsection.3.2.18}
+\contentsline {subsection}{\numberline {3.2.19}Stand Alone System}{44}{subsection.3.2.19}
+\contentsline {subsection}{\numberline {3.2.20}Multi Platform}{44}{subsection.3.2.20}
+\contentsline {subsection}{\numberline {3.2.21}License}{44}{subsection.3.2.21}
+\contentsline {subsection}{\numberline {3.2.22}Show Time Complexity of Methods}{44}{subsection.3.2.22}
+\contentsline {subsection}{\numberline {3.2.23}Command Variability}{44}{subsection.3.2.23}
+\contentsline {subsection}{\numberline {3.2.24}Programming Languages Support}{45}{subsection.3.2.24}
+\contentsline {subsection}{\numberline {3.2.25}Recommendations System}{45}{subsection.3.2.25}
+\contentsline {subsection}{\numberline {3.2.26}Duplication Handling}{45}{subsection.3.2.26}
+\contentsline {subsection}{\numberline {3.2.27}String Construction by Voice}{46}{subsection.3.2.27}
+\contentsline {subsection}{\numberline {3.2.28}Real Estate}{46}{subsection.3.2.28}
+\contentsline {subsection}{\numberline {3.2.29}Auto Identifier Names Generation}{46}{subsection.3.2.29}
+\contentsline {subsection}{\numberline {3.2.30}Extension Methods}{46}{subsection.3.2.30}
+\contentsline {subsection}{\numberline {3.2.31}Multiple Views}{46}{subsection.3.2.31}
+\contentsline {subsection}{\numberline {3.2.32}Breadcrumbs (Presence in Classes)}{47}{subsection.3.2.32}
+\contentsline {subsection}{\numberline {3.2.33}Getters and Setters Identification}{47}{subsection.3.2.33}
+\contentsline {subsection}{\numberline {3.2.34}Omit Declaration Lines}{48}{subsection.3.2.34}
+\contentsline {subsection}{\numberline {3.2.35}Operator Overloading}{48}{subsection.3.2.35}
+\contentsline {subsection}{\numberline {3.2.36}Lambda expression}{48}{subsection.3.2.36}
+\contentsline {subsection}{\numberline {3.2.37}Type Inference}{48}{subsection.3.2.37}
+\contentsline {subsection}{\numberline {3.2.38}Source Code on Demand}{49}{subsection.3.2.38}
+\contentsline {subsection}{\numberline {3.2.39}Collaboration}{49}{subsection.3.2.39}
+\contentsline {subsection}{\numberline {3.2.40}Native representation}{49}{subsection.3.2.40}
+\contentsline {subsection}{\numberline {3.2.41}Inter-procedural Flow}{49}{subsection.3.2.41}
+\contentsline {subsection}{\numberline {3.2.42}Annotations}{50}{subsection.3.2.42}
+\contentsline {chapter}{\numberline {A}Acronyms}{51}{appendix.A}
+\contentsline {chapter}{\numberline {B}Additional Information}{52}{appendix.B}
+\contentsline {section}{\numberline {B.1}Introduction}{52}{section.B.1}
+\contentsline {subsection}{\numberline {B.1.1}More Details}{52}{subsection.B.1.1}
+\contentsline {chapter}{Bibliography}{53}{subsection.B.1.1}

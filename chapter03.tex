@@ -155,7 +155,7 @@ Sometimes we use different words that have the same meaning (i.e. we say “crea
 \begin{itemize}
 	\item Priority: 4
 \end{itemize}
-One may transform the compact code to any language that the transformer will support (e.g. Java, C#). Relevant for variable name conventions, libraries and for explicit mode.
+One may transform the compact code to any language that the transformer will support (e.g. Java, C\#). Relevant for variable name conventions, libraries and for explicit mode.
 \subsection{Recommendations System}
 \begin{itemize}
 	\item Priority: 4
@@ -184,3 +184,90 @@ We assume that this technology can be implemented not only on mobile devices but
 	\item Priority: 1
 \end{itemize}
 The application will generate field names based on class name. Note that in compact representation the system might not show class name (i.e. Car car will be displayed as car).
+\subsection{Extension Methods}
+\begin{itemize}
+	\item Priority: 3
+\end{itemize}
+A method added to an object after the original object was compiled. The modified object is often a class, a prototype or a type. Extension methods are permitted by some object-oriented programming languages. There is no syntactic difference between calling an extension method and calling a method declared in the type definition, e.g., one can say "obj.to\_\_\_", and a list of methods such as: “toFirstUpper”, "toString" appears.
+\subsection{Multiple Views}
+\begin{itemize}
+	\item Priority: 2
+\end{itemize}
+This feature allows multiple views in a single language, but without modifying the source code. Davis and Kiczales’ registration-based abstractions enables programmers to switch between different views of their program at the press of a button. It is a convenient technique that allows the programmer to view the code in different representations so he will understand the code better and faster. Reference: "How Programming Languages Will Co-evolve with Software Engineering: A Bright Decade Ahead".
+\subsection{Breadcrumbs (Presence in Classes)}
+\begin{itemize}
+	\item Priority: 3
+\end{itemize}
+While we code we create classes and inside them inner classes, methods, properties etc. Sometimes, we might lose our presence due to over encapsulations. In-order to solve this issue we suggest a technique. The technique is to keep the header definition of the outer object on top of the screen while we scroll down in the inner object, e.g., 
+\begin{lstlisting}
+Class Human
+	Class Brain
+\end{lstlisting}
+So one can always understand the presence in the code in terms of encapsulation.
+\subsection{Getters and Setters Identification}
+\begin{itemize}
+	\item Priority: 2
+\end{itemize}
+Getter/ Setter technique is a very useful technique but one can't avoid writing explicitly "Set...", "Get...". We assume that the system needs to identify the pattern of whether it is a getter or a setter or not both of them and only print the suffix of the method (ignore the explicit prefix), e.g., 
+\begin{lstlisting}
+public SetName(string name)
+{_name = name;}
+\end{lstlisting}
+Transformed to,
+\begin{lstlisting}
+person.name(name)
+\end{lstlisting}
+One can only call the method Name and based on the template of the call the systems will understand if the user wants to call a setter or a getter. Moreover, instead of writing person.name(name) one can write person.Name $\leftarrow$ name
+\subsection{Omit Declaration Lines}
+\begin{itemize}
+	\item Priority: 1
+\end{itemize}
+Line that contains only object declaration is not a necessary information and can be omitted. The proposal is to emit the lines that contains only object declaration without any binding, e.g., the “Object obj” can be omitted.
+\subsection{Operator Overloading}
+\begin{itemize}
+	\item Priority: 2
+\end{itemize}
+Allow using simple operators instead of using Java libraries for special types, e.g, instead of writing BigDecimalExtension.operator\_plus(x,y) we will write e1+e2 (e1 and e2 are type of big decimal).
+\subsection{Lambda expression}
+\begin{itemize}
+	\item Priority: 3
+\end{itemize}
+Lambda expressions are a new and important feature included in Java SE 8. They provide a clear and concise way to represent one method interface using an expression. Lambda expressions also improve the Collection libraries making it easier to iterate through, filter, and extract data from a Collection. In addition, new concurrency features improve performance in multi-core environments.
+\subsection{Type Inference}
+\begin{itemize}
+	\item Priority: 3
+\end{itemize}
+You rarely need to write down type signatures anymore, Types Deduction - The application will deduce the type of the identifier based on the right side of the statement.
+\subsection{Source Code on Demand}
+\begin{itemize}
+	\item Priority: 2
+\end{itemize}
+One can see the source code by providing the scope of code that the user wants to see it's source code.
+\subsection{Collaboration}
+\begin{itemize}
+	\item Priority: 4
+\end{itemize}
+Collaboration with colleagues.
+\subsection{Native representation}
+\begin{itemize}
+	\item Priority: 3
+\end{itemize}
+Allow mathematical expressions in their native representation, as described in \citet{andrew08}.
+\subsection{Inter-procedural Flow}
+\begin{itemize}
+	\item Priority: 3
+\end{itemize}
+A technique that helps the user to understand the flow of the program easily.  It presents code blocks connected one to another based on the flow of the program. This technique helps the user to understand the flow a program in a much better way. Inter-procedural Flow is based on Control Flow Graph (CFG) representation technique, using graph notation, of all paths that might be traversed through a program during its execution. Inter-procedural Flow has several applications, we present one that fits our system the most:
+\begin{itemize}
+	\item Code Bubbles - This is an application that helps the users to navigate and investigate their code in a novel approach. Link: \url{http://www.andrewbragdon.com/codebubbles\_site.asp}. Additional link which provides a more detailed description is \url{http://cs.brown.edu/~spr/codebubbles/}.
+\end{itemize}
+\subsection{Annotations}
+\begin{itemize}
+	\item Priority: 2
+\end{itemize}
+Allow the user to dictate annotations and display annotations in compact form.
+Allow using tools that are based on annotations:
+\begin{itemize}
+	\item JML
+	\item Doxygen
+\end{itemize}
