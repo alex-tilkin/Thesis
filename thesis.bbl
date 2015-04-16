@@ -11,14 +11,30 @@ Eisenberg, A.~D. (2008).
 \newblock {\em Presentation Techniques for more Expressive Programs}.
 \newblock PhD thesis, The University Of British Columbia.
 
+\bibitem[\protect\astroncite{Feldman}{2013}]{yishai13}
+Feldman, Y.~A. (2013).
+\newblock Template-based development on mobile platforms.
+\newblock Technical report, IBM Research.
+
+\bibitem[\protect\astroncite{Feldman et~al.}{2015}]{deverywhere15}
+Feldman, Y.~A., Tilkin, A., Gam, A., and Tyszberowicz, S. (2015).
+\newblock Deverywhere: Develop software everywhere.
+
 \bibitem[\protect\astroncite{Graham}{2015}]{harmonia}
 Graham, S.~L. (2015).
 \newblock Harmonia research project.
 \newblock \url{http://harmonia.cs.berkeley.edu/harmonia/index.html}.
 
-\bibitem[\protect\astroncite{Yishai}{2013}]{yishai13}
-Yishai, F. (2013).
-\newblock Template-based development on mobile platforms.
-\newblock Technical report, IBM Research.
+\bibitem[\protect\astroncite{Mey}{2015}]{google15}
+Mey, G.~D. (2015).
+\newblock Google speech api v2.
+\newblock
+  \url{https://github.com/gillesdemey/google-speech-v2/blob/master/README.md}.
+
+\bibitem[\protect\astroncite{Sihan et~al.}{2013}]{sihan13}
+Sihan, L., Tao, X., and Tillmann, N. (2013).
+\newblock A comprehensive field study of end-user programming on mobile
+  devices.
+\newblock Technical report, North Carolina State University.
 
 \end{thebibliography}

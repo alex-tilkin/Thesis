@@ -34,6 +34,17 @@
   Year                     = {2015}
 }
 
+@Other{google15,
+  Title                    = {Google Speech API v2},
+  Author                   = {Gilles De Mey},
+  Date-added               = {2015-04-16 11:45:14 +0000},
+  Date-modified            = {2015-04-16 11:45:36 +0000},
+  HowPublished             = {\url{https://github.com/gillesdemey/google-speech-v2/blob/master/README.md}},
+  Keywords                 = {Google, NLP, Speech, Server, API},
+  Month                    = {April},
+  Year                     = {2015}
+}
+
 @TechReport{sihan13,
   Title                    = {A Comprehensive Field Study of End-User Programming on Mobile Devices},
   Author                   = {Sihan, Li and Tao, Xie and Nikolai Tillmann},
@@ -42,6 +53,15 @@
 
   Date-added               = {2015-02-13 18:43:46 +0000},
   Date-modified            = {2015-02-13 20:01:27 +0000}
+}
+
+@Article{deverywhere15,
+  Title                    = {Deverywhere: Develop Software Everywhere},
+  Author                   = {Yishai A. Feldman, Alex Tilkin, Ari Gam,, Shmuel Tyszberowicz},
+  Year                     = {2015},
+
+  Owner                    = {ATilkin},
+  Timestamp                = {2015.04.16}
 }
 
 @TechReport{yishai13,

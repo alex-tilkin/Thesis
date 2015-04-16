@@ -7,10 +7,15 @@ A level-1 auxiliary file: summary.aux
 A level-1 auxiliary file: chapter01.aux
 A level-1 auxiliary file: chapter02.aux
 A level-1 auxiliary file: chapter03.aux
+A level-1 auxiliary file: chapter04.aux
+A level-1 auxiliary file: additionalProducts.aux
 A level-1 auxiliary file: acronyms.aux
 A level-1 auxiliary file: appendix-b.aux
 The style file: apa.bst
 Database file #1: refs.bib
 Warning--entry type for "harmonia" isn't style-file defined
 --line 26 of file refs.bib
-(There was 1 warning)
+Warning--entry type for "google15" isn't style-file defined
+--line 37 of file refs.bib
+Warning--empty journal in deverywhere15
+(There were 3 warnings)
