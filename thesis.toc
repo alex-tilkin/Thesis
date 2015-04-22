@@ -70,6 +70,7 @@
 \contentsline {subsubsection}{Host}{52}{section*.5}
 \contentsline {subsubsection}{Request}{52}{section*.6}
 \contentsline {subsubsection}{Response}{52}{section*.7}
+\contentsline {subsection}{\numberline {4.2.2}Speech to Text Library}{54}{subsection.4.2.2}
 \contentsline {chapter}{\numberline {A}Additional Products}{55}{appendix.A}
 \contentsline {section}{\numberline {A.1}MobileSoft 2015 Conference}{55}{section.A.1}
 \contentsline {chapter}{\numberline {B}Acronyms}{60}{appendix.B}

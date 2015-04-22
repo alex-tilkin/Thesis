@@ -5,7 +5,7 @@ This chapter discusses the prototype that provides a proof of concept for this r
 This prototype presents an ability of programing using speech and represent code in a compact way. It is written in the Java language and uses different third party services and applications. Every service and application that used is discussed and described.
 
 \section{Speech to Text}
-This is a module which is responsible for the translation from speech to text. The engine that is used for the STT process is Google Speech V2 server. It is shown in \citet{google15} how to interact with this server.
+This is a module which responsible for the translation from speech to text. The engine that is used for the STT process is Google Speech V2 server. It is shown in \citet{google15} how to interact with this server.
 \subsection{Google Speech V2 Server}
 Google Speech V2 server provides STT service with no charge for everyone who willing to use their service.
 \remark{In order to use this service you have to be a chromium user (\url{https://www.chromium.org/}) because Google's server requires developer's key}.
@@ -66,3 +66,14 @@ When it's doubtful, it adds a confidence parameter for you. It also seems to add
 	      "result_index":0
 	}
 \end{lstlisting}
+\subsection{Speech to Text Library}
+This library used to bring speech recognition to Processing applications (processing is a programming language, development environment, and online community. Since 2001, Processing has promoted software literacy within the visual arts and visual literacy within technology). Using WebSocket, Google Chrome and Processing, you can get unlimited speech recognition results in your Sketch. As of May 2014, you need a developer API key to use this library. The new API has a limit of 50 requests/day.
+
+This library is an open source with dependency in Processing, hence we had to make modifications so it will fit our needs. Several modifications have been made to this open source:
+\begin{itemize}
+	\item The dependency in Processing has been removed so the application could run as a simple Java project. 
+	\item A new response parser has been developed because the one that was in use didn't know how to parse the new format of Google Speech V2.
+	\item Auto Speech Recording had memory issues.
+	\item Various redesign modifications.
+\end{itemize}
+It is shown in \citet{getflourish14} where to get the source code from and how to use it's API.

@@ -31,6 +31,11 @@ Mey, G.~D. (2015).
 \newblock
   \url{https://github.com/gillesdemey/google-speech-v2/blob/master/README.md}.
 
+\bibitem[\protect\astroncite{Schulz}{2015}]{getflourish14}
+Schulz, F. (2015).
+\newblock Speech to text library for java/processing.
+\newblock \url{http://stt.getflourish.com/archive/}.
+
 \bibitem[\protect\astroncite{Sihan et~al.}{2013}]{sihan13}
 Sihan, L., Tao, X., and Tillmann, N. (2013).
 \newblock A comprehensive field study of end-user programming on mobile
