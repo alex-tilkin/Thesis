@@ -63,18 +63,17 @@
 \contentsline {subsection}{\numberline {3.2.40}Native representation}{49}{subsection.3.2.40}
 \contentsline {subsection}{\numberline {3.2.41}Inter-procedural Flow}{49}{subsection.3.2.41}
 \contentsline {subsection}{\numberline {3.2.42}Annotations}{50}{subsection.3.2.42}
-\contentsline {chapter}{\numberline {4}Prototype}{51}{chapter.4}
-\contentsline {section}{\numberline {4.1}Introduction}{51}{section.4.1}
-\contentsline {section}{\numberline {4.2}Speech to Text}{51}{section.4.2}
-\contentsline {subsection}{\numberline {4.2.1}Google Speech V2 Server}{51}{subsection.4.2.1}
-\contentsline {subsubsection}{Host}{52}{section*.5}
-\contentsline {subsubsection}{Request}{52}{section*.6}
-\contentsline {subsubsection}{Response}{52}{section*.7}
-\contentsline {subsection}{\numberline {4.2.2}Speech to Text Library}{54}{subsection.4.2.2}
-\contentsline {chapter}{\numberline {A}Additional Products}{55}{appendix.A}
-\contentsline {section}{\numberline {A.1}MobileSoft 2015 Conference}{55}{section.A.1}
-\contentsline {chapter}{\numberline {B}Acronyms}{60}{appendix.B}
-\contentsline {chapter}{\numberline {C}Additional Information}{61}{appendix.C}
-\contentsline {section}{\numberline {C.1}Introduction}{61}{section.C.1}
-\contentsline {subsection}{\numberline {C.1.1}More Details}{61}{subsection.C.1.1}
-\contentsline {chapter}{Bibliography}{62}{subsection.C.1.1}
+\contentsline {chapter}{\numberline {4}Compact Representation}{51}{chapter.4}
+\contentsline {chapter}{\numberline {5}Input Processing}{52}{chapter.5}
+\contentsline {chapter}{\numberline {6}Prototype}{53}{chapter.6}
+\contentsline {section}{\numberline {6.1}Introduction}{53}{section.6.1}
+\contentsline {section}{\numberline {6.2}Speech to Text}{53}{section.6.2}
+\contentsline {subsection}{\numberline {6.2.1}Google Speech V2 Server}{53}{subsection.6.2.1}
+\contentsline {subsubsection}{Host}{54}{section*.5}
+\contentsline {subsubsection}{Request}{54}{section*.6}
+\contentsline {subsubsection}{Response}{54}{section*.7}
+\contentsline {subsection}{\numberline {6.2.2}Speech to Text Library}{56}{subsection.6.2.2}
+\contentsline {chapter}{\numberline {A}Publications}{57}{appendix.A}
+\contentsline {section}{\numberline {A.1}MobileSoft 2015 Conference}{57}{section.A.1}
+\contentsline {chapter}{\numberline {B}Acronyms}{62}{appendix.B}
+\contentsline {chapter}{Bibliography}{63}{appendix.B}

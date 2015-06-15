@@ -63,15 +63,14 @@
 \BOOKMARK [2][-]{subsection.3.2.40}{Native representation}{section.3.2}% 63
 \BOOKMARK [2][-]{subsection.3.2.41}{Inter-procedural Flow}{section.3.2}% 64
 \BOOKMARK [2][-]{subsection.3.2.42}{Annotations}{section.3.2}% 65
-\BOOKMARK [0][-]{chapter.4}{Prototype}{}% 66
-\BOOKMARK [1][-]{section.4.1}{Introduction}{chapter.4}% 67
-\BOOKMARK [1][-]{section.4.2}{Speech to Text}{chapter.4}% 68
-\BOOKMARK [2][-]{subsection.4.2.1}{Google Speech V2 Server}{section.4.2}% 69
-\BOOKMARK [2][-]{subsection.4.2.2}{Speech to Text Library}{section.4.2}% 70
-\BOOKMARK [0][-]{appendix.A}{Additional Products}{}% 71
-\BOOKMARK [1][-]{section.A.1}{MobileSoft 2015 Conference}{appendix.A}% 72
-\BOOKMARK [0][-]{appendix.B}{Acronyms}{}% 73
-\BOOKMARK [0][-]{appendix.C}{Additional Information}{}% 74
-\BOOKMARK [1][-]{section.C.1}{Introduction}{appendix.C}% 75
-\BOOKMARK [2][-]{subsection.C.1.1}{More Details}{section.C.1}% 76
-\BOOKMARK [0][-]{subsection.C.1.1}{Bibliography}{}% 77
+\BOOKMARK [0][-]{chapter.4}{Compact Representation}{}% 66
+\BOOKMARK [0][-]{chapter.5}{Input Processing}{}% 67
+\BOOKMARK [0][-]{chapter.6}{Prototype}{}% 68
+\BOOKMARK [1][-]{section.6.1}{Introduction}{chapter.6}% 69
+\BOOKMARK [1][-]{section.6.2}{Speech to Text}{chapter.6}% 70
+\BOOKMARK [2][-]{subsection.6.2.1}{Google Speech V2 Server}{section.6.2}% 71
+\BOOKMARK [2][-]{subsection.6.2.2}{Speech to Text Library}{section.6.2}% 72
+\BOOKMARK [0][-]{appendix.A}{Publications}{}% 73
+\BOOKMARK [1][-]{section.A.1}{MobileSoft 2015 Conference}{appendix.A}% 74
+\BOOKMARK [0][-]{appendix.B}{Acronyms}{}% 75
+\BOOKMARK [0][-]{appendix.B}{Bibliography}{}% 76

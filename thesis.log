@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2015.3.26)  19 APR 2015 14:02
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2015.3.26)  15 JUN 2015 17:42
 entering extended mode
 **thesis.tex
 (thesis.tex
@@ -956,8 +956,8 @@ File: pppdftex.def 2013/08/25 v0.4v Pdfpages driver for pdfTeX (AM)
 
 LaTeX Warning: Label `fig4' multiply defined.
 
-) (chapter03.aux) (chapter04.aux) (additionalProducts.aux) (acronyms.aux)
-(appendix-b.aux))
+) (chapter03.aux) (chapter04.aux) (chapter05.aux) (chapter06.aux)
+(Publications.aux) (acronyms.aux) (appendix-b.aux))
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 3.
 LaTeX Font Info:    ... okay on input line 3.
 LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 3.
@@ -972,7 +972,8 @@ LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 3.
 LaTeX Font Info:    ... okay on input line 3.
 LaTeX Font Info:    Checking defaults for FML/futm/m/it on input line 3.
 LaTeX Font Info:    Try loading font information for FML+futm on input line 3.
- ("C:\Program Files\MiKTeX 2.9\tex\latex\fourier\fmlfutm.fd"
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\fourier\fmlfutm.fd"
 File: fmlfutm.fd 2004/10/30 Fontinst v1.926 font definitions for FML/futm.
 )
 LaTeX Font Info:    ... okay on input line 3.
@@ -1073,7 +1074,7 @@ LaTeX Info: Redefining \nameref on input line 3.
 ("C:\Program Files\MiKTeX 2.9\tex\latex\listings\lstlang1.sty"
 File: lstlang1.sty 2014/09/06 1.5e listings language file
 )) (front.tex
-<./fig/MTALogo.jpg, id=310, 487.8225pt x 200.75pt>
+<./fig/MTALogo.jpg, id=318, 487.8225pt x 200.75pt>
 File: ./fig/MTALogo.jpg Graphic file (type jpg)
  <use ./fig/MTALogo.jpg>
 Package pdftex.def Info: ./fig/MTALogo.jpg used on input line 11.
@@ -1135,7 +1136,7 @@ LaTeX Font Info:    Font shape `T1/futs/bx/n' in size <12> not available
  [4
 
 
-] [5])
+] [5] [6])
 \tf@toc=\write4
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
 been already used, duplicate ignored
@@ -1491,7 +1492,19 @@ er, in-stead of writ-ing per-son.name(name)
 
 [47] [48] [49]) [50] (chapter04.tex
 Chapter 4.
-[51
+) [51
+
+
+
+] (chapter05.tex
+Chapter 5.
+) [52
+
+
+
+] (chapter06.tex
+Chapter 6.
+[53
 
 
 
@@ -1502,9 +1515,9 @@ Overfull \hbox (178.68143pt too wide) in paragraph at lines 20--21
 [][][][][][][][][][][][][][][][][]  
  []
 
-[52] [53]) [54] (additionalProducts.tex
+[54] [55]) [56] (Publications.tex
 Appendix A.
-<./files/deverywhere-mobilesoft15.pdf, id=1142, 614.295pt x 794.97pt>
+<./files/deverywhere-mobilesoft15.pdf, id=1165, 614.295pt x 794.97pt>
 File: ./files/deverywhere-mobilesoft15.pdf Graphic file (type pdf)
 
 <use ./files/deverywhere-mobilesoft15.pdf>
@@ -1517,12 +1530,12 @@ File: ./files/deverywhere-mobilesoft15.pdf Graphic file (type pdf)
 Package pdftex.def Info: ./files/deverywhere-mobilesoft15.pdf used on input lin
 e 16.
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
- [55
+ [57
 
 
 
 ]
-<./files/deverywhere-mobilesoft15.pdf, id=1150, page=1, 614.295pt x 794.97pt>
+<./files/deverywhere-mobilesoft15.pdf, id=1172, page=1, 614.295pt x 794.97pt>
 File: ./files/deverywhere-mobilesoft15.pdf Graphic file (type pdf)
 
 <use ./files/deverywhere-mobilesoft15.pdf, page 1>
@@ -1553,48 +1566,48 @@ File: ./files/deverywhere-mobilesoft15.pdf Graphic file (type pdf)
 Package pdftex.def Info: ./files/deverywhere-mobilesoft15.pdf, page1 used on in
 put line 16.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
- [56 <./files/deverywhere-mobilesoft15.pdf>]
-<./files/deverywhere-mobilesoft15.pdf, id=1191, page=2, 614.295pt x 794.97pt>
-File: ./files/deverywhere-mobilesoft15.pdf Graphic file (type pdf)
-
-<use ./files/deverywhere-mobilesoft15.pdf, page 2>
-Package pdftex.def Info: ./files/deverywhere-mobilesoft15.pdf, page2 used on in
-put line 16.
-(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
-File: ./files/deverywhere-mobilesoft15.pdf Graphic file (type pdf)
-
-<use ./files/deverywhere-mobilesoft15.pdf, page 2>
-Package pdftex.def Info: ./files/deverywhere-mobilesoft15.pdf, page2 used on in
-put line 16.
-(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
-File: ./files/deverywhere-mobilesoft15.pdf Graphic file (type pdf)
-
-<use ./files/deverywhere-mobilesoft15.pdf, page 2>
-Package pdftex.def Info: ./files/deverywhere-mobilesoft15.pdf, page2 used on in
-put line 16.
-(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
- [57 <./files/deverywhere-mobilesoft15.pdf>]
-<./files/deverywhere-mobilesoft15.pdf, id=1196, page=3, 614.295pt x 794.97pt>
-File: ./files/deverywhere-mobilesoft15.pdf Graphic file (type pdf)
-
-<use ./files/deverywhere-mobilesoft15.pdf, page 3>
-Package pdftex.def Info: ./files/deverywhere-mobilesoft15.pdf, page3 used on in
-put line 16.
-(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
-File: ./files/deverywhere-mobilesoft15.pdf Graphic file (type pdf)
-
-<use ./files/deverywhere-mobilesoft15.pdf, page 3>
-Package pdftex.def Info: ./files/deverywhere-mobilesoft15.pdf, page3 used on in
-put line 16.
-(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
-File: ./files/deverywhere-mobilesoft15.pdf Graphic file (type pdf)
-
-<use ./files/deverywhere-mobilesoft15.pdf, page 3>
-Package pdftex.def Info: ./files/deverywhere-mobilesoft15.pdf, page3 used on in
-put line 16.
-(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
  [58 <./files/deverywhere-mobilesoft15.pdf>]
-<./files/deverywhere-mobilesoft15.pdf, id=1271, page=4, 614.295pt x 794.97pt>
+<./files/deverywhere-mobilesoft15.pdf, id=1213, page=2, 614.295pt x 794.97pt>
+File: ./files/deverywhere-mobilesoft15.pdf Graphic file (type pdf)
+
+<use ./files/deverywhere-mobilesoft15.pdf, page 2>
+Package pdftex.def Info: ./files/deverywhere-mobilesoft15.pdf, page2 used on in
+put line 16.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: ./files/deverywhere-mobilesoft15.pdf Graphic file (type pdf)
+
+<use ./files/deverywhere-mobilesoft15.pdf, page 2>
+Package pdftex.def Info: ./files/deverywhere-mobilesoft15.pdf, page2 used on in
+put line 16.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: ./files/deverywhere-mobilesoft15.pdf Graphic file (type pdf)
+
+<use ./files/deverywhere-mobilesoft15.pdf, page 2>
+Package pdftex.def Info: ./files/deverywhere-mobilesoft15.pdf, page2 used on in
+put line 16.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+ [59 <./files/deverywhere-mobilesoft15.pdf>]
+<./files/deverywhere-mobilesoft15.pdf, id=1218, page=3, 614.295pt x 794.97pt>
+File: ./files/deverywhere-mobilesoft15.pdf Graphic file (type pdf)
+
+<use ./files/deverywhere-mobilesoft15.pdf, page 3>
+Package pdftex.def Info: ./files/deverywhere-mobilesoft15.pdf, page3 used on in
+put line 16.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: ./files/deverywhere-mobilesoft15.pdf Graphic file (type pdf)
+
+<use ./files/deverywhere-mobilesoft15.pdf, page 3>
+Package pdftex.def Info: ./files/deverywhere-mobilesoft15.pdf, page3 used on in
+put line 16.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: ./files/deverywhere-mobilesoft15.pdf Graphic file (type pdf)
+
+<use ./files/deverywhere-mobilesoft15.pdf, page 3>
+Package pdftex.def Info: ./files/deverywhere-mobilesoft15.pdf, page3 used on in
+put line 16.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+ [60 <./files/deverywhere-mobilesoft15.pdf>]
+<./files/deverywhere-mobilesoft15.pdf, id=1294, page=4, 614.295pt x 794.97pt>
 File: ./files/deverywhere-mobilesoft15.pdf Graphic file (type pdf)
 
 <use ./files/deverywhere-mobilesoft15.pdf, page 4>
@@ -1613,15 +1626,9 @@ File: ./files/deverywhere-mobilesoft15.pdf Graphic file (type pdf)
 Package pdftex.def Info: ./files/deverywhere-mobilesoft15.pdf, page4 used on in
 put line 16.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
- [59 <./files/deverywhere-mobilesoft15.pdf>]) (acronyms.tex
+ [61 <./files/deverywhere-mobilesoft15.pdf>]) (acronyms.tex
 Appendix B.
-) [60
-
-
-
-] (appendix-b.tex
-Appendix C.
-) [61
+) [62
 
 
 
@@ -1632,55 +1639,70 @@ Underfull \hbox (badness 2970) in paragraph at lines 29--33
  []
 
 )
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 26.
- [62
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 28.
+ [63
 
 
 ]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 26.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 28.
  (thesis.aux (Definitions.aux) (front.aux) (preface.aux)
 (acknowledgment.aux) (summary.aux) (chapter01.aux) (chapter02.aux)
-(chapter03.aux) (chapter04.aux) (additionalProducts.aux) (acronyms.aux)
-(appendix-b.aux))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 26.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 26.
-Package rerunfilecheck Info: File `thesis.out' has not changed.
-(rerunfilecheck)             Checksum: 57009C6A3B848B543DB96D1313BF72DA;5325.
+(chapter03.aux) (chapter04.aux) (chapter05.aux) (chapter06.aux)
+(Publications.aux) (acronyms.aux))
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 28.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 28.
 
+
+Package rerunfilecheck Warning: File `thesis.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `thesis.out':
+(rerunfilecheck)             Before: 3093A913662C7D0D1F0499530452542C;5430
+(rerunfilecheck)             After:  9879586B5ABC36A571BC6F57C9DBAFA4;5236.
 
 LaTeX Warning: There were multiply-defined labels.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 26.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 28.
  ) 
 Here is how much of TeX's memory you used:
- 12837 strings out of 493698
- 176110 string characters out of 3144406
- 350063 words of memory out of 3000000
- 15245 multiletter control sequences out of 15000+200000
+ 12855 strings out of 493698
+ 176258 string characters out of 3144406
+ 350945 words of memory out of 3000000
+ 15249 multiletter control sequences out of 15000+200000
  98063 words of font info for 98 fonts, out of 3000000 for 9000
  1025 hyphenation exceptions out of 8191
  45i,19n,45p,1504b,1830s stack positions out of 5000i,500n,10000p,200000b,50000s
- <C:\Users\ATilkin\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi60
-0\ectt1200.pk> <C:\Users\ATilkin\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknap
-pen\ec\dpi600\ectt1095.pk>{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/fontname
-/8r.enc}<C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb>
-<C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Progr
-am Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files
-/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Program Files/MiKTeX 2
-.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Program Files/MiKTeX 2.9/fonts/
-type1/public/fourier/fourier-ml.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/pu
-blic/fourier/fourier-ms.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/adobe/utop
-ia/putb8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/adobe/utopia/putbi8a.pfb
-><C:/Program Files/MiKTeX 2.9/fonts/type1/adobe/utopia/putr8a.pfb><C:/Program F
-iles/MiKTeX 2.9/fonts/type1/adobe/utopia/putr8a.pfb><C:/Program Files/MiKTeX 2.
-9/fonts/type1/adobe/utopia/putri8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1
-/urw/courier/ucrr8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmb
-8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmbi8a.pfb><C:/Progr
-am Files/MiKTeX 2.9/fonts/type1/urw/times/utmr8a.pfb><C:/Program Files/MiKTeX 2
-.9/fonts/type1/urw/times/utmri8a.pfb>
-Output written on thesis.pdf (68 pages, 882449 bytes).
+pdfTeX warning (dest): name{subsection.C.1.1} has been referenced but does no
+t exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{section.C.1} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{appendix.C} has been referenced but does not exist,
+ replaced by a fixed one
+
+ <C:\Users\ATilkin\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\
+ectt1200.pk> <C:\Users\ATilkin\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappe
+n\ec\dpi600\ectt1095.pk>{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/fontname/8
+r.enc}<C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C
+:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program
+ Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/M
+iKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Program Files/MiKTeX 2.9
+/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Program Files/MiKTeX 2.9/fonts/ty
+pe1/public/fourier/fourier-ml.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/publ
+ic/fourier/fourier-ms.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/adobe/utopia
+/putb8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/adobe/utopia/putbi8a.pfb><
+C:/Program Files/MiKTeX 2.9/fonts/type1/adobe/utopia/putr8a.pfb><C:/Program Fil
+es/MiKTeX 2.9/fonts/type1/adobe/utopia/putr8a.pfb><C:/Program Files/MiKTeX 2.9/
+fonts/type1/adobe/utopia/putri8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/u
+rw/courier/ucrr8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmb8a
+.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmbi8a.pfb><C:/Program
+ Files/MiKTeX 2.9/fonts/type1/urw/times/utmr8a.pfb><C:/Program Files/MiKTeX 2.9
+/fonts/type1/urw/times/utmri8a.pfb>
+Output written on thesis.pdf (70 pages, 884581 bytes).
 PDF statistics:
- 1581 PDF objects out of 1728 (max. 8388607)
- 582 named destinations out of 1000 (max. 500000)
- 657 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1600 PDF objects out of 1728 (max. 8388607)
+ 586 named destinations out of 1000 (max. 500000)
+ 673 words of extra memory for PDF output out of 10000 (max. 10000000)
 
