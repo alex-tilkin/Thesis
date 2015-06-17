@@ -8,9 +8,10 @@ A level-1 auxiliary file: chapter01.aux
 A level-1 auxiliary file: chapter02.aux
 A level-1 auxiliary file: chapter03.aux
 A level-1 auxiliary file: chapter04.aux
-A level-1 auxiliary file: additionalProducts.aux
+A level-1 auxiliary file: chapter05.aux
+A level-1 auxiliary file: chapter06.aux
+A level-1 auxiliary file: Publications.aux
 A level-1 auxiliary file: acronyms.aux
-A level-1 auxiliary file: appendix-b.aux
 The style file: apa.bst
 Database file #1: refs.bib
 Warning--entry type for "harmonia" isn't style-file defined
