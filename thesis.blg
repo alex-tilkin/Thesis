@@ -20,5 +20,11 @@ Warning--entry type for "google15" isn't style-file defined
 --line 37 of file refs.bib
 Warning--entry type for "getflourish14" isn't style-file defined
 --line 48 of file refs.bib
+Warning--entry type for "Nuance14" isn't style-file defined
+--line 88 of file refs.bib
+Warning--entry type for "IEEEBNF1996" isn't style-file defined
+--line 112 of file refs.bib
+Warning--to sort, need author or key in IEEEBNF1996
+Warning--empty year in IEEEBNF1996
 Warning--empty journal in deverywhere15
-(There were 4 warnings)
+(There were 8 warnings)

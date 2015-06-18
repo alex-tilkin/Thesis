@@ -1,5 +1,9 @@
 \begin{thebibliography}{}
 
+\bibitem[\protect\astroncite{IEE}{}]{IEEEBNF1996}
+Iso/iec 14977 : 1996(e), extended backus naur form (ebnf) a standard syntactic
+  metalanguage.
+
 \bibitem[\protect\astroncite{Andrew and Susan}{2011}]{andrew11}
 Andrew, B. and Susan, L.~G. (2011).
 \newblock {\em Spoken Programs}.
@@ -30,6 +34,20 @@ Mey, G.~D. (2015).
 \newblock Google speech api v2.
 \newblock
   \url{https://github.com/gillesdemey/google-speech-v2/blob/master/README.md}.
+
+\bibitem[\protect\astroncite{Nuance}{2015}]{Nuance14}
+Nuance, D. (2015).
+\newblock Nuance dragon.
+\newblock \url{http://www.nuance.com/for-developers/dragon/index.htm}.
+
+\bibitem[\protect\astroncite{Povey et~al.}{2011}]{Povey_ASRU2011}
+Povey, D., Ghoshal, A., Boulianne, G., Burget, L., Glembek, O., Goel, N.,
+  Hannemann, M., Motlicek, P., Qian, Y., Schwarz, P., Silovsky, J., Stemmer,
+  G., and Vesely, K. (2011).
+\newblock The kaldi speech recognition toolkit.
+\newblock In {\em IEEE 2011 Workshop on Automatic Speech Recognition and
+  Understanding}. IEEE Signal Processing Society.
+\newblock IEEE Catalog No.: CFP11SRW-USB.
 
 \bibitem[\protect\astroncite{Schulz}{2015}]{getflourish14}
 Schulz, F. (2015).
