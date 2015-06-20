@@ -2,7 +2,7 @@
 \section{Introduction}
 Programming languages are textual, and so require a keyboard In order to edit programs. Standard on-screen keyboards are inconvenient for texting, let alone for programming. In addition, they take almost one third of the screen which makes the small screen even smaller. In order to avoid using the inconvenient on-screen keyboard or an external device, we suggest to program by voice. Voice dictation is based on a common set of templates; these templates are individually customizable so that each developer can use the idioms that are most convenient for him or her.
 
-We describe the idea of programming in natural language by writing requirements in order to bridge the gap between the code that the programmer wants to write and a code that is written on the screen. We claim that natural language can serve as the main tool for programming. We do not claim that it is the only tool, the programmer may use other gestures such as touch, on-screen keyboard, or external devices when he need them.
+We describe the idea of programming in natural language by writing requirements in order to bridge the gap between the code that the programmer wants to write and a code that is written on the screen. We claim that natural language can serve as the main tool for programming. We do not claim that it is the only tool, the programmer may use other gestures such as touch, on-screen keyboard, or external devices when he needs them.
 
 \section{Configuration}
 We suggest that every programmer will dictate his program the way is more convenient to him or her. Every one of us has a different way of describing the things that s/he want to say. Same with code dictation.
@@ -35,4 +35,31 @@ Extended Backus Naur Form is a notation for formally describing syntax how to wr
 	ambiguity about where a rule ends.
 	\item Brackets group items together. It is an obvious convenience to use ( and ) in their ordinary mathematical sense.
 \end{itemize}
-We use EBNF to create a formal language that represents code dictation and as a set of templates that process programming commands. We use \citet{IEEEBNF1996} as our main reference for EBNF.
+\subsection{Dictation Parser}
+We use EBNF to create a set of rules that will validate commands that the programmer dictates. This set of rules can be extended easily by every user that understand EBNF. We use IEEE\\IEC EBNF \cite{IEEEBNF1996} as our main reference to learn how to use EBNF. In \cite[pages 51-86]{Michal2009} Michal Gordon and David Harel claim that formal structured natural language requirements can serve as the mean and the end to programming the behavior of reactive system using fully executable languages such as live sequence charts (LSC). We adopt this approach and use it to create a set of rules to process user dictation.
+
+\subsubsection{Grammar Construction}
+We now show how our grammar translates controlled natural language. Since we allow a CFG we can increment the grammar with additional rules that allow various ways of generating similar constructs. We can thus increase the set of accepted specifications by augmenting the grammar. However, ambiguity may grow as the grammar grows which would require the user to explicitly disambiguate his intentions in too many cases for the process to be friendly. We shall describe how basic commands such as: creation, creation, navigation, and modification are parsed. The \textit{Dictation Parser} tries to build a parse tree for every dictation that it receives. A valid dictation is a one that the \textit{Diction Parser} succeeded to create a parse tree for. A number of advanced ideas are not yet supported in the current implementation. Nevertheless, the current grammar allows implementing fully executable systems, and has been tested, among other examples, on the \textit{LinkList} Example, and on the \textit{Command Pattern} Example.
+
+\begin{table}[H]
+	\centering
+	\label{my-label}
+	\begin{tabular}{|p{10cm}|p{6cm}|}
+		\hline
+		\rowcolor[HTML]{9B9B9B} 
+		{\color[HTML]{000000} Rule} & {\color[HTML]{000000} Description} \\ \hline
+		<Command> ::= <Creation-Command> | <Navigation-Command> | <Modification-Command> | <Selection-Command>& bla \\ \hline
+		<Creation-Command> ::= <Creation-Verb> [(an | a)] (<Create-Statement> | <Create-Data-Type> | <Create-Field> | <Create-Method> | <Create-Block>) [<Element-Location>]&     \\ \hline
+		&     \\ \hline
+		&     \\ \hline
+	\end{tabular}
+	\caption{My caption}
+\end{table}
+
+\begin{figure}[H]
+	\begin{lstlisting}
+	for(int i = 0; i < n; i++)
+	\end{lstlisting}
+	\caption{A simple for loop}
+	\label{fig18}
+\end{figure}

@@ -35,6 +35,12 @@ Mey, G.~D. (2015).
 \newblock
   \url{https://github.com/gillesdemey/google-speech-v2/blob/master/README.md}.
 
+\bibitem[\protect\astroncite{Michal and David}{2009}]{Michal2009}
+Michal, G. and David, H. (2009).
+\newblock Programming in natural language.
+\newblock {\em 10th Int. Conf. on Computational Linguistics and Intelligent
+  Text Processing (CICLing'09)}, pages 456--467.
+
 \bibitem[\protect\astroncite{Nuance}{2015}]{Nuance14}
 Nuance, D. (2015).
 \newblock Nuance dragon.
