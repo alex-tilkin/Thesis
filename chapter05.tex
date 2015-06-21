@@ -39,8 +39,21 @@ Extended Backus Naur Form is a notation for formally describing syntax how to wr
 We use EBNF to create a set of rules that will validate commands that the programmer dictates. This set of rules can be extended easily by every user that understand EBNF. We use IEEE\\IEC EBNF \cite{IEEEBNF1996} as our main reference to learn how to use EBNF. In \cite[pages 51-86]{Michal2009} Michal Gordon and David Harel claim that formal structured natural language requirements can serve as the mean and the end to programming the behavior of reactive system using fully executable languages such as live sequence charts (LSC). We adopt this approach and use it to create a set of rules to process user dictation.
 
 \subsubsection{Grammar Construction}
-We now show how our grammar translates controlled natural language. Since we allow a CFG we can increment the grammar with additional rules that allow various ways of generating similar constructs. We can thus increase the set of accepted specifications by augmenting the grammar. However, ambiguity may grow as the grammar grows which would require the user to explicitly disambiguate his intentions in too many cases for the process to be friendly. We shall describe how basic commands such as: creation, creation, navigation, and modification are parsed. The \textit{Dictation Parser} tries to build a parse tree for every dictation that it receives. A valid dictation is a one that the \textit{Diction Parser} succeeded to create a parse tree for. A number of advanced ideas are not yet supported in the current implementation. Nevertheless, the current grammar allows implementing fully executable systems, and has been tested, among other examples, on the \textit{LinkList} Example, and on the \textit{Command Pattern} Example.
+We now show how our grammar translates controlled natural language. Since we allow a CFG we can increment the grammar with additional rules that allow various ways of generating similar constructs. We can thus increase the set of accepted specifications by augmenting the grammar. However, ambiguity may grow as the grammar grows which would require the user to explicitly disambiguate his intentions in too many cases for the process to be friendly. We shall describe how basic commands such as: creation, navigation, and modification are parsed. The \textit{Dictation Parser} tries to build a parse tree for every dictation that it receives. A valid dictation is a one that the \textit{Diction Parser} succeeded to create a parse tree for. A number of advanced ideas are not yet supported in the current implementation. Nevertheless, the current grammar allows implementing fully executable systems, and has been tested, among other examples, on the \textit{LinkList} Example, and on the \textit{Command Pattern} Example.
 
+The set of rules is divided into three main layers: \textit{Top}, \textit{Categories}, and \textit{Common}. The \textit{Top} layer contains rules that have access to all categories. The Categories layer contains sub sections that divided to different categories. For example, the \textit{Creation} sub section contains all rules that deal with creation. The \textit{Common} layer knows nothing about any category, it contains all the necessary information for all actions. The \textit{Top} layer and the \textit{Categories} layer have access to the \textit{Common} layer. \ref{fig19} shows how rules divided into layers and sub categories. Note that this division has no effect on the action of rules. It is only to understand the set of rules better.
+
+We now shall explain every sub category inside the \textit{Categories} layer. \textit{Creation} contains all rules that parse any creation dictation. For example, "Create a new class". \textit{Navigation} contains all rules that parse any navigation dictation. For example, "Go to class person". \textit{Modification} contains all rules that parse any modification dictation.
+
+Figure 4 displays the parse tree for the requirement: “when the user clicks the
+b button, the light turns to on”. For example, "Rename class person to driver".
+\begin{figure}[H]
+\centering
+\includegraphics[scale=0.4]{./fig/BNFDiagram}
+\caption{This is the architecture of the Dictation Parser rules}
+\label{fig19}
+\end{figure}
+\autoref{tab11} .
 \begin{table}[H]
 	\centering
 	\label{my-label}
@@ -53,7 +66,8 @@ We now show how our grammar translates controlled natural language. Since we all
 		&     \\ \hline
 		&     \\ \hline
 	\end{tabular}
-	\caption{My caption}
+	\caption{}
+	\label{tab11}
 \end{table}
 
 \begin{figure}[H]
@@ -61,5 +75,5 @@ We now show how our grammar translates controlled natural language. Since we all
 	for(int i = 0; i < n; i++)
 	\end{lstlisting}
 	\caption{A simple for loop}
-	\label{fig18}
+	\label{fig20}
 \end{figure}
