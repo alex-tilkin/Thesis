@@ -45,15 +45,23 @@ The set of rules is divided into three main layers: \textit{Top}, \textit{Catego
 
 We now shall explain every sub category inside the \textit{Categories} layer. \textit{Creation} contains all rules that parse any creation dictation. For example, "Create a new class". \textit{Navigation} contains all rules that parse any navigation dictation. For example, "Go to class person". \textit{Modification} contains all rules that parse any modification dictation.
 
-Figure 4 displays the parse tree for the requirement: “when the user clicks the
-b button, the light turns to on”. For example, "Rename class person to driver".
+We now discuss two dictations that have the same meaning but expressed differently. It is important to Deverywhere to allow programmers dictate code in their preferred way. Lets assume that the programmer created a class \textit{Car} and now he wants to create an inner class \textit{Wheel}. One way to say it is \textit{"create a static public class named wheel inside class car"}. \autoref{fig21} presents the parse tree that is generated for this dictation. This dictation will lead to creating a new class called \textit{Wheel} inside a class that is called \textit{Car}. Another way to say it is \textit{"create an inner class wheel"}.
+YOU STOPPED HERE! NEED TO CHANGE CLASS CAR TO CLASS ELEMENT-NAME->CAR AND CONTINUE THE DESCRIPTION.
+\begin{figure}[H]
+\centering
+\includegraphics[scale=0.4]{"./fig/Parse Tree Example"}
+\caption{This is the architecture of the Dictation Parser rules}
+\label{fig21}
+\end{figure}
+
+Figure 4 displays the parse tree for the dictation: \textit{create a static public class named wheel inside class car}.
 \begin{figure}[H]
 \centering
 \includegraphics[scale=0.4]{./fig/BNFDiagram}
 \caption{This is the architecture of the Dictation Parser rules}
 \label{fig19}
 \end{figure}
-\autoref{tab11} .
+\autoref{tab11}
 \begin{table}[H]
 	\centering
 	\label{my-label}
