@@ -74,17 +74,17 @@
 \contentsline {subsection}{\numberline {5.3.3}Dictation Parser}{54}{subsection.5.3.3}
 \contentsline {subsubsection}{Grammar Construction}{55}{section*.6}
 \contentsline {subsection}{\numberline {5.3.4}Grammar Testing}{57}{subsection.5.3.4}
-\contentsline {section}{\numberline {5.4}Implementation}{64}{section.5.4}
-\contentsline {chapter}{\numberline {6}Prototype}{65}{chapter.6}
-\contentsline {section}{\numberline {6.1}Introduction}{65}{section.6.1}
-\contentsline {section}{\numberline {6.2}Speech to Text}{65}{section.6.2}
-\contentsline {subsection}{\numberline {6.2.1}Google Speech V2 Server}{65}{subsection.6.2.1}
-\contentsline {subsubsection}{Host}{66}{section*.7}
-\contentsline {subsubsection}{Request}{66}{section*.8}
-\contentsline {subsubsection}{Response}{66}{section*.9}
-\contentsline {subsection}{\numberline {6.2.2}Speech to Text Library}{68}{subsection.6.2.2}
-\contentsline {section}{\numberline {6.3}BNF Parser}{68}{section.6.3}
-\contentsline {chapter}{\numberline {A}Publications}{69}{appendix.A}
-\contentsline {section}{\numberline {A.1}MobileSoft 2015 Conference}{69}{section.A.1}
-\contentsline {chapter}{\numberline {B}Acronyms}{74}{appendix.B}
-\contentsline {chapter}{Bibliography}{75}{appendix.B}
+\contentsline {section}{\numberline {5.4}Implementation}{71}{section.5.4}
+\contentsline {chapter}{\numberline {6}Prototype}{72}{chapter.6}
+\contentsline {section}{\numberline {6.1}Introduction}{72}{section.6.1}
+\contentsline {section}{\numberline {6.2}Speech to Text}{72}{section.6.2}
+\contentsline {subsection}{\numberline {6.2.1}Google Speech V2 Server}{72}{subsection.6.2.1}
+\contentsline {subsubsection}{Host}{73}{section*.7}
+\contentsline {subsubsection}{Request}{73}{section*.8}
+\contentsline {subsubsection}{Response}{73}{section*.9}
+\contentsline {subsection}{\numberline {6.2.2}Speech to Text Library}{75}{subsection.6.2.2}
+\contentsline {section}{\numberline {6.3}BNF Parser}{75}{section.6.3}
+\contentsline {chapter}{\numberline {A}Publications}{76}{appendix.A}
+\contentsline {section}{\numberline {A.1}MobileSoft 2015 Conference}{76}{section.A.1}
+\contentsline {chapter}{\numberline {B}Acronyms}{81}{appendix.B}
+\contentsline {chapter}{Bibliography}{82}{appendix.B}
