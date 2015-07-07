@@ -95,7 +95,9 @@ Another way to say it is \textit{"create an inner class wheel"}. In this case th
 \end{figure}
 
 \subsection{Grammar Testing} \label{subsection: Grammar Testing}
-To test the grammar we provide two programs and their transcripts. The first example is an implementation of a linked list and the second is an example of the Command design pattern. \autoref{fig23}-\autoref{fig29} presents the program that implements Linked List.
+To test the grammar we provide two programs and their transcripts. The first example is an implementation of a linked list and the second is an example of the Command design pattern. 
+\subsubsection{LinkedList Example}
+This is an implementation of the data structure linked list. \autoref{fig23}-\autoref{fig29} presents the program that implements Linked List. \autoref{itemize:LinkedList Dictation} lists the dictations that generates this program.
 \begin{figure}[H]
 	\begin{lstlisting}
 	public class LinkedList implements Iterable {
@@ -385,7 +387,8 @@ To test the grammar we provide two programs and their transcripts. The first exa
 	\caption{Implementation of Linked List in Java part 7}
 	\label{fig29}
 \end{figure}
-\begin{itemize}
+This is the list of the dictations that generates the program.
+\begin{itemize} \label{itemize:LinkedList Dictation}
 	\item Create class LinkedList that implements Iterable
 	\item Create private field head of type Node
 	\item Create private field tail of type Node
@@ -504,7 +507,84 @@ To test the grammar we provide two programs and their transcripts. The first exa
 	\item exit the loop
 	\item return result
 \end{itemize}
-
-WRITE ABOUT THE TRANSCRIPT.
+\subsubsection{Car Builder Example}
+This is an implementation of the Builder design pattern. We created a class of type Car that have properties and contains an inner class of type CarBuilder that has the functionallity to create an instance of Car. In-addition it has main. \autoref{fig30}-\autoref{fig31} presents the program that implements Linked List. \autoref{itemize:Car Builder Dictation} lists the dictations that generates this program.
+\begin{figure}[H]
+	\begin{lstlisting}
+	public class Car
+	{
+		private String _wheels;
+		private String _engine;
+		private String _body;
+	
+		private Car(String wheels, String engine, String body)
+		{
+			if(body == null || engine == null || wheels == null)return;
+	
+			_wheels = wheels;
+			_engine = engine;
+			_body = body;
+		}
+	
+		public static class CarBuilder
+		{
+			String Body;
+			String Wheels;
+			String Engine;
+			public Car BuildCar()
+			{
+				if(Body != null && Wheels != null && Engine != null)
+				{
+					return new Car(Wheels, Engine, Body);
+				}
+				return null;
+			}
+		}
+	\end{lstlisting}
+	\caption{Implementation of the design pattern Builder that creates a class of type Car part 1}
+	\label{fig30}
+\end{figure}
+\begin{figure}[H]
+	\begin{lstlisting}
+		public static void main(String[] args)
+		{
+			Car.CarBuilder carBuilder = new CarBuilder();
+			carBuilder.Engine = "honda";
+			carBuilder.Wheels = "4";
+			carBuilder.Body = "private";
+			Car car;
+			car = carBuilder.BuildCar();
+		}
+	}
+	\end{lstlisting}
+	\caption{Implementation of the design pattern Builder that creates a class of type Car part 2}
+	\label{fig31}
+\end{figure}
+This is the list of the dictations that generates the program.
+\begin{itemize} \label{itemize:Car Builder Dictation}
+	\item Create class car
+	\item Create field wheel of type string
+	\item Create field engine of type string
+	\item Create field body of type string
+	\item Create private constructor that accept wheels of type string engine of type string and body of type string
+	\item If body equals null or engine equals null or wheels equals null then return	
+	\item Assign wheels to field wheels
+	\item Assign engine to field engine
+	\item Assign body to field body
+	\item Create inner class CarBuilder
+	\item Create public field body of type string
+	\item Create public field wheels of type string
+	\item Create public field engine of type string
+	\item Create method buildCar that returns Car
+	\item If body different from null or wheels different from null or engine different from null then return new car that accepts wheels engine and body
+	\item Return null
+	\item Create main inside car
+	\item Create new CarBuilder and assign it to carBuilder of type carBuilder
+	\item Assign honda as string to carBuilder.engine
+	\item Assign 4 as string to carBuilder.engine
+	\item Assign private as string to carBuilder.engine
+	\item Create car of type car
+	\item Call carBuilder.BuildCar and assign it to car
+\end{itemize}
 \section{Implementation}
-We choose Antlr as the tool for the implementation. The implementation of the \textit{Dictation Parser} is explained in details in \ref{section:BNF Parser}.
+To implement the \textit{Dictation Parser} we reviewed different applications such as: BNFC, BNF Parser Generator, BNF for Java, Antlr 4. We decided to use Antlr 4 because it is can be integrated well in our solution, popular and well-known tool and it is well known to other members of the team. The implementation of the \textit{Dictation Parser} is explained in details in \ref{section:BNF Parser}.
