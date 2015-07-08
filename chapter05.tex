@@ -404,12 +404,12 @@ This is the list of the dictations that generates the program.
 	\item Assign next to this.next
 	\item Assign data to this.data
 	\item Create method getNext that returns Object
-	\item return next
+	\item Return next
 	\item Create method getData that returns Object
-	\item return data
+	\item Return data
 	\item Create method setNext that accepts next of type object
 	\item Assign next to this.next
-	\item exit class Node
+	\item Exit class Node
 	\item Create inner class LLIterator that implement Iterator
 	\item Create a constructor
 	\item Assign head to field nextNode	
@@ -420,7 +420,7 @@ This is the list of the dictations that generates the program.
 	\item Ceate method next that return Object
 	\item Assert hasNext
 	\item Create result of type object and assign nextNode.getData to it
-	\item call nextNode.getNext and assign it to nextNode
+	\item Call nextNode.getNext and assign it to nextNode
 	\item Assign true to removeOK
 	\item Increase posToRemove
 	\item Return result
@@ -450,9 +450,9 @@ This is the list of the dictations that generates the program.
 	\item Call temp.getNext.getData and assign it to result
 	\item Call temp.setNext that accepts temp.getNext.getNext
 	\item If pos equal size minus 1 then
-	\item assign temp to tail
-	\item exit else
-	\item decrease size
+	\item Assign temp to tail
+	\item Exit else
+	\item Decrease size
 	\item return result
 	\item Create method get that accepts pos of type int and returns Object
 	\item Assert is pos more or equal to 0 and less than size
@@ -502,10 +502,10 @@ This is the list of the dictations that generates the program.
 	\item Create result of type String and initialize it with an empty string
 	\item Assign head to temp of type Node
 	\item For i from 0 to size
-	\item result plus equal temp.getData plus space
-	\item call temp.getNext and assign it to temp
-	\item exit the loop
-	\item return result
+	\item Result plus equal temp.getData plus space
+	\item Call temp.getNext and assign it to temp
+	\item Exit the loop
+	\item Return result
 \end{itemize}
 \subsubsection{Car Builder Example}
 This is an implementation of the Builder design pattern. We created a class of type Car that have properties and contains an inner class of type CarBuilder that has the functionallity to create an instance of Car. In-addition it has main. \autoref{fig30}-\autoref{fig31} presents the program that implements Linked List. \autoref{itemize:Car Builder Dictation} lists the dictations that generates this program.
