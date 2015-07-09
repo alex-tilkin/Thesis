@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2015.3.26)  8 JUL 2015 20:36
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2015.3.26)  9 JUL 2015 20:39
 entering extended mode
 **thesis.tex
 (thesis.tex
@@ -968,17 +968,52 @@ LaTeX Info: Thecontrolsequence`\]'isalreadyrobust on input line 129.
 \l_MT_below_intertext_sep=\dimen151
 \l_MT_above_shortintertext_sep=\dimen152
 \l_MT_below_shortintertext_sep=\dimen153
-)) (thesis.aux
+))
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\amssymb.sty"
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\amsfonts.sty"
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\symAMSa=\mathgroup6
+\symAMSb=\mathgroup7
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+LaTeX Font Info:    Redeclaring math symbol \square on input line 141.
+)
+LaTeX Font Info:    Redeclaring math symbol \blacksquare on input line 48.
+LaTeX Font Info:    Redeclaring math symbol \vDash on input line 60.
+LaTeX Font Info:    Redeclaring math symbol \leftleftarrows on input line 63.
+LaTeX Font Info:    Redeclaring math symbol \rightrightarrows on input line 64.
+
+LaTeX Font Info:    Redeclaring math symbol \leqslant on input line 101.
+LaTeX Font Info:    Redeclaring math symbol \geqslant on input line 108.
+LaTeX Font Info:    Redeclaring math symbol \blacktriangleright on input line 1
+20.
+LaTeX Font Info:    Redeclaring math symbol \blacktriangleleft on input line 12
+1.
+LaTeX Font Info:    Redeclaring math symbol \complement on input line 165.
+LaTeX Font Info:    Redeclaring math symbol \intercal on input line 166.
+LaTeX Font Info:    Redeclaring math symbol \nleqslant on input line 181.
+LaTeX Font Info:    Redeclaring math symbol \ngeqslant on input line 182.
+LaTeX Font Info:    Redeclaring math symbol \varsubsetneq on input line 203.
+LaTeX Font Info:    Redeclaring math symbol \subsetneqq on input line 207.
+LaTeX Font Info:    Redeclaring math symbol \nparallel on input line 215.
+LaTeX Font Info:    Redeclaring math symbol \nvDash on input line 221.
+LaTeX Font Info:    Redeclaring math symbol \nexists on input line 235.
+LaTeX Font Info:    Redeclaring math symbol \smallsetminus on input line 251.
+LaTeX Font Info:    Redeclaring math symbol \curvearrowleft on input line 257.
+LaTeX Font Info:    Redeclaring math symbol \curvearrowright on input line 258.
+
+LaTeX Font Info:    Redeclaring math symbol \varkappa on input line 260.
+LaTeX Font Info:    Redeclaring math symbol \hslash on input line 262.
+) (thesis.aux
 (Definitions.aux) (front.aux) (preface.aux) (acknowledgment.aux) (summary.aux)
 (chapter01.aux) (chapter02.aux
 
 LaTeX Warning: Label `fig4' multiply defined.
 
-) (chapter03.aux) (chapter04.aux) (chapter05.aux
-
-LaTeX Warning: Label `my-label' multiply defined.
-
-) (chapter06.aux) (Publications.aux) (acronyms.aux))
+) (chapter03.aux) (chapter04.aux) (chapter05.aux) (chapter06.aux)
+(Publications.aux) (acronyms.aux))
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 3.
 LaTeX Font Info:    ... okay on input line 3.
 LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 3.
@@ -1152,6 +1187,16 @@ LaTeX Font Info:    Font shape `U/futm/m/n' will be
 (Font)              scaled to size 8.27998pt on input line 1.
 LaTeX Font Info:    Font shape `U/futm/m/n' will be
 (Font)              scaled to size 6.43999pt on input line 1.
+LaTeX Font Info:    Try loading font information for U+msa on input line 1.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 1.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
 LaTeX Font Info:    Font shape `T1/futs/bx/n' in size <12> not available
 (Font)              Font shape `T1/futs/b/n' tried instead on input line 4.
  [4
@@ -1519,30 +1564,40 @@ Chapter 4.
 
 ]
 
-LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 10.
+LaTeX Warning: Command \textasciicircum invalid in math mode on input line 28.
 
-) [52pdfTeX warning (ext4): destination with the same identifier (name{table.4.
-1}) has been already used, duplicate ignored
+
+Overfull \hbox (13.3966pt too wide) in paragraph at lines 13--35
+ [][] 
+ []
+
+
+LaTeX Warning: Reference `fdsfsd' on page 52 undefined on input line 35.
+
+
+LaTeX Warning: Reference `fdsfsd' on page 52 undefined on input line 35.
+
+) [52] [53pdfTeX warning (ext4): destination with the same identifier (name{tab
+le.4.1}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.18 \include{chapter04}
                         ] (chapter05.tex
 Chapter 5.
-[53
+[54
 
 
 
-] [54pdfTeX warning (ext4): destination with the same identifier (name{figure.5
+] [55pdfTeX warning (ext4): destination with the same identifier (name{figure.5
 .1}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.24 \subsection
-                {Context Free Grammar}] [55] [56]
+                {Context Free Grammar}] [56] [57]
 <"./fig/Parse Tree create a static public class named wheel inside class car".p
-ng, id=1179, 960.58875pt x 413.545pt>
+ng, id=1184, 960.58875pt x 413.545pt>
 File: "./fig/Parse Tree create a static public class named wheel inside class c
 ar".png Graphic file (type png)
 
@@ -1552,7 +1607,7 @@ Package pdftex.def Info: "./fig/Parse Tree create a static public class named w
 heel inside class car".png used on input line 52.
 (pdftex.def)             Requested size: 384.22868pt x 165.41505pt.
 
-<"./fig/Parse Tree create an inner class wheel".png, id=1182, 649.42625pt x 343
+<"./fig/Parse Tree create an inner class wheel".png, id=1187, 649.42625pt x 343
 .2825pt>
 File: "./fig/Parse Tree create an inner class wheel".png Graphic file (type png
 )
@@ -1561,13 +1616,13 @@ Package pdftex.def Info: "./fig/Parse Tree create an inner class wheel".png use
 d on input line 61.
 (pdftex.def)             Requested size: 259.7659pt x 137.31056pt.
 
-<./fig/BNFDiagram.jpg, id=1183, 1025.8325pt x 283.0575pt>
+<./fig/BNFDiagram.jpg, id=1188, 1025.8325pt x 283.0575pt>
 File: ./fig/BNFDiagram.jpg Graphic file (type jpg)
 
 <use ./fig/BNFDiagram.jpg>
 Package pdftex.def Info: ./fig/BNFDiagram.jpg used on input line 68.
 (pdftex.def)             Requested size: 410.32574pt x 113.22098pt.
- [57pdfTeX warning (ext4): destination with the same identifier (name{figure.5.
+ [58pdfTeX warning (ext4): destination with the same identifier (name{figure.5.
 2}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
@@ -1605,7 +1660,7 @@ Overfull \hbox (8.41283pt too wide) in paragraph at lines 76--85
  [][] 
  []
 
-[58pdfTeX warning (ext4): destination with the same identifier (name{figure.5.4
+[59pdfTeX warning (ext4): destination with the same identifier (name{figure.5.4
 }) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
@@ -1623,17 +1678,17 @@ name{figure.5.5}) has been already used, duplicate ignored
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.136 \end{figure}
-                   <./fig/BNFDiagram.jpg>] [59]
+                   <./fig/BNFDiagram.jpg>] [60]
 Overfull \vbox (4.7136pt too high) has occurred while \output is active []
 
 
-[60pdfTeX warning (ext4): destination with the same identifier (name{figure.5.6
+[61pdfTeX warning (ext4): destination with the same identifier (name{figure.5.6
 }) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.168 \end{figure}
-                  ] [61pdfTeX warning (ext4): destination with the same identif
+                  ] [62pdfTeX warning (ext4): destination with the same identif
 ier (name{figure.5.7}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
@@ -1643,19 +1698,19 @@ l.289 \end{figure}
 Overfull \vbox (1371.5142pt too high) has occurred while \output is active []
 
 
-[62pdfTeX warning (ext4): destination with the same identifier (name{figure.5.8
+[63pdfTeX warning (ext4): destination with the same identifier (name{figure.5.8
 }) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.289 \end{figure}
-                  ] [63pdfTeX warning (ext4): destination with the same identif
+                  ] [64pdfTeX warning (ext4): destination with the same identif
 ier (name{figure.5.9}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.353 \end{figure}
-                  ] [64pdfTeX warning (ext4): destination with the same identif
+                  ] [65pdfTeX warning (ext4): destination with the same identif
 ier (name{figure.5.10}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
@@ -1665,7 +1720,7 @@ l.389 \end{figure}
 Overfull \vbox (25.1136pt too high) has occurred while \output is active []
 
 
-[65pdfTeX warning (ext4): destination with the same identifier (name{figure.5.1
+[66pdfTeX warning (ext4): destination with the same identifier (name{figure.5.1
 1}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
@@ -1675,29 +1730,29 @@ l.389 \end{figure}
 Overfull \vbox (4.7136pt too high) has occurred while \output is active []
 
 
-[66pdfTeX warning (ext4): destination with the same identifier (name{figure.5.1
+[67pdfTeX warning (ext4): destination with the same identifier (name{figure.5.1
 2}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.390 T
-       his is the list of the dictations that generates the program.] [67]
-[68] [69] [70] [71] [72] [73pdfTeX warning (ext4): destination with the same id
+       his is the list of the dictations that generates the program.] [68]
+[69] [70] [71] [72] [73] [74pdfTeX warning (ext4): destination with the same id
 entifier (name{figure.5.13}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.563 T
-       his is the list of the dictations that generates the program.] [74pdfTeX
+       his is the list of the dictations that generates the program.] [75pdfTeX
  warning (ext4): destination with the same identifier (name{figure.5.14}) has b
 een already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.577 	\item C
-              reate public field engine of type string]) [75] (chapter06.tex
+              reate public field engine of type string]) [76] (chapter06.tex
 Chapter 6.
-[76
+[77
 
 
 
@@ -1708,9 +1763,9 @@ Overfull \hbox (178.68143pt too wide) in paragraph at lines 20--21
 [][][][][][][][][][][][][][][][][]  
  []
 
-[77] [78]) [79] (Publications.tex
+[78] [79]) [80] (Publications.tex
 Appendix A.
-<./files/deverywhere-mobilesoft15.pdf, id=1654, 614.295pt x 794.97pt>
+<./files/deverywhere-mobilesoft15.pdf, id=1659, 614.295pt x 794.97pt>
 File: ./files/deverywhere-mobilesoft15.pdf Graphic file (type pdf)
 
 <use ./files/deverywhere-mobilesoft15.pdf>
@@ -1723,12 +1778,12 @@ File: ./files/deverywhere-mobilesoft15.pdf Graphic file (type pdf)
 Package pdftex.def Info: ./files/deverywhere-mobilesoft15.pdf used on input lin
 e 16.
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
- [80
+ [81
 
 
 
 ]
-<./files/deverywhere-mobilesoft15.pdf, id=1661, page=1, 614.295pt x 794.97pt>
+<./files/deverywhere-mobilesoft15.pdf, id=1666, page=1, 614.295pt x 794.97pt>
 File: ./files/deverywhere-mobilesoft15.pdf Graphic file (type pdf)
 
 <use ./files/deverywhere-mobilesoft15.pdf, page 1>
@@ -1759,48 +1814,48 @@ File: ./files/deverywhere-mobilesoft15.pdf Graphic file (type pdf)
 Package pdftex.def Info: ./files/deverywhere-mobilesoft15.pdf, page1 used on in
 put line 16.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
- [81 <./files/deverywhere-mobilesoft15.pdf>]
-<./files/deverywhere-mobilesoft15.pdf, id=1702, page=2, 614.295pt x 794.97pt>
-File: ./files/deverywhere-mobilesoft15.pdf Graphic file (type pdf)
-
-<use ./files/deverywhere-mobilesoft15.pdf, page 2>
-Package pdftex.def Info: ./files/deverywhere-mobilesoft15.pdf, page2 used on in
-put line 16.
-(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
-File: ./files/deverywhere-mobilesoft15.pdf Graphic file (type pdf)
-
-<use ./files/deverywhere-mobilesoft15.pdf, page 2>
-Package pdftex.def Info: ./files/deverywhere-mobilesoft15.pdf, page2 used on in
-put line 16.
-(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
-File: ./files/deverywhere-mobilesoft15.pdf Graphic file (type pdf)
-
-<use ./files/deverywhere-mobilesoft15.pdf, page 2>
-Package pdftex.def Info: ./files/deverywhere-mobilesoft15.pdf, page2 used on in
-put line 16.
-(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
  [82 <./files/deverywhere-mobilesoft15.pdf>]
-<./files/deverywhere-mobilesoft15.pdf, id=1707, page=3, 614.295pt x 794.97pt>
+<./files/deverywhere-mobilesoft15.pdf, id=1707, page=2, 614.295pt x 794.97pt>
 File: ./files/deverywhere-mobilesoft15.pdf Graphic file (type pdf)
 
-<use ./files/deverywhere-mobilesoft15.pdf, page 3>
-Package pdftex.def Info: ./files/deverywhere-mobilesoft15.pdf, page3 used on in
+<use ./files/deverywhere-mobilesoft15.pdf, page 2>
+Package pdftex.def Info: ./files/deverywhere-mobilesoft15.pdf, page2 used on in
 put line 16.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
 File: ./files/deverywhere-mobilesoft15.pdf Graphic file (type pdf)
 
-<use ./files/deverywhere-mobilesoft15.pdf, page 3>
-Package pdftex.def Info: ./files/deverywhere-mobilesoft15.pdf, page3 used on in
+<use ./files/deverywhere-mobilesoft15.pdf, page 2>
+Package pdftex.def Info: ./files/deverywhere-mobilesoft15.pdf, page2 used on in
 put line 16.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
 File: ./files/deverywhere-mobilesoft15.pdf Graphic file (type pdf)
 
-<use ./files/deverywhere-mobilesoft15.pdf, page 3>
-Package pdftex.def Info: ./files/deverywhere-mobilesoft15.pdf, page3 used on in
+<use ./files/deverywhere-mobilesoft15.pdf, page 2>
+Package pdftex.def Info: ./files/deverywhere-mobilesoft15.pdf, page2 used on in
 put line 16.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
  [83 <./files/deverywhere-mobilesoft15.pdf>]
-<./files/deverywhere-mobilesoft15.pdf, id=1782, page=4, 614.295pt x 794.97pt>
+<./files/deverywhere-mobilesoft15.pdf, id=1712, page=3, 614.295pt x 794.97pt>
+File: ./files/deverywhere-mobilesoft15.pdf Graphic file (type pdf)
+
+<use ./files/deverywhere-mobilesoft15.pdf, page 3>
+Package pdftex.def Info: ./files/deverywhere-mobilesoft15.pdf, page3 used on in
+put line 16.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: ./files/deverywhere-mobilesoft15.pdf Graphic file (type pdf)
+
+<use ./files/deverywhere-mobilesoft15.pdf, page 3>
+Package pdftex.def Info: ./files/deverywhere-mobilesoft15.pdf, page3 used on in
+put line 16.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: ./files/deverywhere-mobilesoft15.pdf Graphic file (type pdf)
+
+<use ./files/deverywhere-mobilesoft15.pdf, page 3>
+Package pdftex.def Info: ./files/deverywhere-mobilesoft15.pdf, page3 used on in
+put line 16.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+ [84 <./files/deverywhere-mobilesoft15.pdf>]
+<./files/deverywhere-mobilesoft15.pdf, id=1788, page=4, 614.295pt x 794.97pt>
 File: ./files/deverywhere-mobilesoft15.pdf Graphic file (type pdf)
 
 <use ./files/deverywhere-mobilesoft15.pdf, page 4>
@@ -1819,9 +1874,9 @@ File: ./files/deverywhere-mobilesoft15.pdf Graphic file (type pdf)
 Package pdftex.def Info: ./files/deverywhere-mobilesoft15.pdf, page4 used on in
 put line 16.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
- [84 <./files/deverywhere-mobilesoft15.pdf>]) (acronyms.tex
+ [85 <./files/deverywhere-mobilesoft15.pdf>]) (acronyms.tex
 Appendix B.
-) [85
+) [86
 
 
 
@@ -1831,12 +1886,12 @@ Underfull \hbox (badness 2970) in paragraph at lines 33--37
 12 https : / / github . com / gillesdemey /$
  []
 
-[86
+[87
 
 
 ])
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 28.
- [87]
+ [88]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 28.
  (thesis.aux (Definitions.aux) (front.aux) (preface.aux)
 (acknowledgment.aux) (summary.aux) (chapter01.aux) (chapter02.aux)
@@ -1848,16 +1903,19 @@ Package rerunfilecheck Info: File `thesis.out' has not changed.
 (rerunfilecheck)             Checksum: 1FF544707D4D0CCEE16CC7E84D311623;6047.
 
 
+LaTeX Warning: There were undefined references.
+
+
 LaTeX Warning: There were multiply-defined labels.
 
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 28.
  ) 
 Here is how much of TeX's memory you used:
- 13759 strings out of 493698
- 191535 string characters out of 3144406
- 406666 words of memory out of 3000000
- 15790 multiletter control sequences out of 15000+200000
- 98063 words of font info for 98 fonts, out of 3000000 for 9000
+ 14023 strings out of 493698
+ 194466 string characters out of 3144406
+ 406882 words of memory out of 3000000
+ 16036 multiletter control sequences out of 15000+200000
+ 100533 words of font info for 110 fonts, out of 3000000 for 9000
  1025 hyphenation exceptions out of 8191
  45i,19n,45p,1504b,1830s stack positions out of 5000i,500n,10000p,200000b,50000s
  <C:\Users\ATilkin\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi60
@@ -1870,18 +1928,19 @@ am Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files
 .9/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Program Files/MiKTeX 2.9/fonts/
 type1/public/fourier/fourier-mex.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/p
 ublic/fourier/fourier-ml.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/fo
-urier/fourier-ms.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/adobe/utopia/putb
-8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/adobe/utopia/putbi8a.pfb><C:/Pr
-ogram Files/MiKTeX 2.9/fonts/type1/adobe/utopia/putr8a.pfb><C:/Program Files/Mi
-KTeX 2.9/fonts/type1/adobe/utopia/putr8a.pfb><C:/Program Files/MiKTeX 2.9/fonts
-/type1/adobe/utopia/putri8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/co
-urier/ucrr8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmb8a.pfb>
-<C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmbi8a.pfb><C:/Program File
-s/MiKTeX 2.9/fonts/type1/urw/times/utmr8a.pfb><C:/Program Files/MiKTeX 2.9/font
-s/type1/urw/times/utmri8a.pfb>
-Output written on thesis.pdf (94 pages, 1050400 bytes).
+urier/fourier-ms.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/s
+ymbols/msam10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/adobe/utopia/putb8a.
+pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/adobe/utopia/putbi8a.pfb><C:/Progr
+am Files/MiKTeX 2.9/fonts/type1/adobe/utopia/putr8a.pfb><C:/Program Files/MiKTe
+X 2.9/fonts/type1/adobe/utopia/putr8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/ty
+pe1/adobe/utopia/putri8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/couri
+er/ucrr8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmb8a.pfb><C:
+/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmbi8a.pfb><C:/Program Files/M
+iKTeX 2.9/fonts/type1/urw/times/utmr8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/t
+ype1/urw/times/utmri8a.pfb>
+Output written on thesis.pdf (95 pages, 1060134 bytes).
 PDF statistics:
- 2170 PDF objects out of 2487 (max. 8388607)
- 942 named destinations out of 1000 (max. 500000)
+ 2179 PDF objects out of 2487 (max. 8388607)
+ 943 named destinations out of 1000 (max. 500000)
  760 words of extra memory for PDF output out of 10000 (max. 10000000)
 
