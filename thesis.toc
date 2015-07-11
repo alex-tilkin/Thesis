@@ -67,42 +67,42 @@
 \contentsline {section}{\numberline {4.1}Introduction}{51}{section.4.1}
 \contentsline {section}{\numberline {4.2}Operators}{52}{section.4.2}
 \contentsline {subsection}{\numberline {4.2.1}Basic Operators}{52}{subsection.4.2.1}
-\contentsline {chapter}{\numberline {5}Representation Configuration}{54}{chapter.5}
-\contentsline {section}{\numberline {5.1}Introduction}{54}{section.5.1}
-\contentsline {section}{\numberline {5.2}Configuration}{54}{section.5.2}
-\contentsline {section}{\numberline {5.3}Natural Language Processing}{55}{section.5.3}
-\contentsline {subsection}{\numberline {5.3.1}Speech To Text Engines}{55}{subsection.5.3.1}
-\contentsline {subsection}{\numberline {5.3.2}Context Free Grammar}{56}{subsection.5.3.2}
-\contentsline {subsubsection}{Extended Backus Naur Form}{56}{section*.5}
-\contentsline {subsection}{\numberline {5.3.3}Dictation Parser}{56}{subsection.5.3.3}
-\contentsline {subsubsection}{Grammar Construction}{57}{section*.6}
-\contentsline {subsection}{\numberline {5.3.4}Grammar Testing}{59}{subsection.5.3.4}
-\contentsline {subsubsection}{LinkedList Example}{60}{section*.7}
-\contentsline {subsubsection}{Car Builder Example}{73}{section*.8}
-\contentsline {section}{\numberline {5.4}Implementation}{76}{section.5.4}
-\contentsline {chapter}{\numberline {6}Programming in Natural Language}{77}{chapter.6}
-\contentsline {section}{\numberline {6.1}Introduction}{77}{section.6.1}
-\contentsline {section}{\numberline {6.2}Configuration}{77}{section.6.2}
-\contentsline {section}{\numberline {6.3}Natural Language Processing}{78}{section.6.3}
-\contentsline {subsection}{\numberline {6.3.1}Speech To Text Engines}{78}{subsection.6.3.1}
-\contentsline {subsection}{\numberline {6.3.2}Context Free Grammar}{79}{subsection.6.3.2}
-\contentsline {subsubsection}{Extended Backus Naur Form}{79}{section*.9}
-\contentsline {subsection}{\numberline {6.3.3}Dictation Parser}{79}{subsection.6.3.3}
-\contentsline {subsubsection}{Grammar Construction}{80}{section*.10}
-\contentsline {subsection}{\numberline {6.3.4}Grammar Testing}{82}{subsection.6.3.4}
-\contentsline {subsubsection}{LinkedList Example}{83}{section*.11}
-\contentsline {subsubsection}{Car Builder Example}{96}{section*.12}
-\contentsline {section}{\numberline {6.4}Implementation}{99}{section.6.4}
-\contentsline {chapter}{\numberline {7}Prototype}{100}{chapter.7}
-\contentsline {section}{\numberline {7.1}Introduction}{100}{section.7.1}
-\contentsline {section}{\numberline {7.2}Speech to Text}{100}{section.7.2}
-\contentsline {subsection}{\numberline {7.2.1}Google Speech V2 Server}{100}{subsection.7.2.1}
-\contentsline {subsubsection}{Host}{101}{section*.13}
-\contentsline {subsubsection}{Request}{101}{section*.14}
-\contentsline {subsubsection}{Response}{101}{section*.15}
-\contentsline {subsection}{\numberline {7.2.2}Speech to Text Library}{103}{subsection.7.2.2}
-\contentsline {section}{\numberline {7.3}BNF Parser}{103}{section.7.3}
-\contentsline {chapter}{\numberline {A}Publications}{104}{appendix.A}
-\contentsline {section}{\numberline {A.1}MobileSoft 2015 Conference}{104}{section.A.1}
-\contentsline {chapter}{\numberline {B}Acronyms}{109}{appendix.B}
-\contentsline {chapter}{Bibliography}{110}{appendix.B}
+\contentsline {section}{\numberline {4.3}Statement Terminators}{53}{section.4.3}
+\contentsline {section}{\numberline {4.4}Mathematical Expressions}{54}{section.4.4}
+\contentsline {section}{\numberline {4.5}Boolean expressions}{54}{section.4.5}
+\contentsline {subsection}{\numberline {4.5.1}Range}{54}{subsection.4.5.1}
+\contentsline {section}{\numberline {4.6}Scopes}{54}{section.4.6}
+\contentsline {subsection}{\numberline {4.6.1}Scope Brackets}{54}{subsection.4.6.1}
+\contentsline {subsection}{\numberline {4.6.2}Frame}{55}{subsection.4.6.2}
+\contentsline {subsection}{\numberline {4.6.3}Indentation}{55}{subsection.4.6.3}
+\contentsline {subsection}{\numberline {4.6.4}Line Break}{56}{subsection.4.6.4}
+\contentsline {subsubsection}{New Line}{56}{section*.5}
+\contentsline {subsubsection}{2 Columns}{56}{section*.6}
+\contentsline {subsection}{\numberline {4.6.5}Fill}{57}{subsection.4.6.5}
+\contentsline {chapter}{\numberline {5}Representation Configuration}{58}{chapter.5}
+\contentsline {chapter}{\numberline {6}Programming in Natural Language}{59}{chapter.6}
+\contentsline {section}{\numberline {6.1}Introduction}{59}{section.6.1}
+\contentsline {section}{\numberline {6.2}Configuration}{59}{section.6.2}
+\contentsline {section}{\numberline {6.3}Natural Language Processing}{60}{section.6.3}
+\contentsline {subsection}{\numberline {6.3.1}Speech To Text Engines}{60}{subsection.6.3.1}
+\contentsline {subsection}{\numberline {6.3.2}Context Free Grammar}{61}{subsection.6.3.2}
+\contentsline {subsubsection}{Extended Backus Naur Form}{61}{section*.7}
+\contentsline {subsection}{\numberline {6.3.3}Dictation Parser}{61}{subsection.6.3.3}
+\contentsline {subsubsection}{Grammar Construction}{62}{section*.8}
+\contentsline {subsection}{\numberline {6.3.4}Grammar Testing}{64}{subsection.6.3.4}
+\contentsline {subsubsection}{LinkedList Example}{65}{section*.9}
+\contentsline {subsubsection}{Car Builder Example}{78}{section*.10}
+\contentsline {section}{\numberline {6.4}Implementation}{81}{section.6.4}
+\contentsline {chapter}{\numberline {7}Prototype}{82}{chapter.7}
+\contentsline {section}{\numberline {7.1}Introduction}{82}{section.7.1}
+\contentsline {section}{\numberline {7.2}Speech to Text}{82}{section.7.2}
+\contentsline {subsection}{\numberline {7.2.1}Google Speech V2 Server}{82}{subsection.7.2.1}
+\contentsline {subsubsection}{Host}{83}{section*.11}
+\contentsline {subsubsection}{Request}{83}{section*.12}
+\contentsline {subsubsection}{Response}{83}{section*.13}
+\contentsline {subsection}{\numberline {7.2.2}Speech to Text Library}{85}{subsection.7.2.2}
+\contentsline {section}{\numberline {7.3}BNF Parser}{85}{section.7.3}
+\contentsline {chapter}{\numberline {A}Publications}{86}{appendix.A}
+\contentsline {section}{\numberline {A.1}MobileSoft 2015 Conference}{86}{section.A.1}
+\contentsline {chapter}{\numberline {B}Acronyms}{91}{appendix.B}
+\contentsline {chapter}{Bibliography}{92}{appendix.B}

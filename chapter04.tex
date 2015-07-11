@@ -19,7 +19,7 @@ Multiplication & * \\ \hline
 Division & / \\ \hline
 Modulo & \% \\ \hline
 Increment & ++ \\ \hline
-Decrement & -- \\ \hline
+Decrement & - - \\ \hline
 Null & $ \perp $ \\ \hline
 Shift & $ \ll $; $ \gg $; $ \ggg $ \\ \hline
 Relational & <; >; $ \leq $; $ \geq $ \\ \hline
@@ -32,5 +32,80 @@ Logical OR & $ \vee $  \\ \hline
 Ternary & ?; : \\ \hline
 Assignment & $ \longleftarrow $; +$ \longleftarrow $; -$ \longleftarrow $; *$ \longleftarrow $; /$ \longleftarrow $; \%$ \longleftarrow $; \&$ \longleftarrow $; $ \wedge $$ \longleftarrow $; $ \vee $$ \longleftarrow $; $ \ll $$ \longleftarrow $; $ \gg $$ \longleftarrow $; $ \ggg $$ \longleftarrow $\\ \hline
 \end{tabular}
-\caption{This table presents operators and symbols that represent them in compact representation. The symbols are examples for how symbols may be presented. The user may modify to any representation that s/he wants. This idea is discussed in \autoref{chapter:Representation Configuration}. Note: ; used as a separator between operator symbols.}
+\caption{This table presents operators and symbols that represent them in compact representation. The symbols are examples for how symbols may be presented. The user may modify to any representation that s/he wants. This idea is discussed in \autoref{chapter:Representation Configuration}. Note: ; is used as a separator between operator symbols.}
 \end{table}
+\section{Statement Terminators}
+A statement terminator is used to demarcate the end of an individual statement. For example, a statement terminator in Java is ';' (semicolon) similarly to C, C++ and other programming languages. This character doesn't gives any information except where the statement end. The programmer will be able to modify the symbol, s/he may decide if it will be displayed or how will it looks like, e.g., result $ \longleftarrow $ nextNode.data, this is a line of code that missing statement terminator symbol. It is also possible to modify the style of the terminators or to use an icon.
+\section{Mathematical Expressions}
+Mathematical expressions are very common in programming. Sometimes they can be very long and complex. Therefore, we would like to represent those expressions in more compact and native way. We can reduce expressions length by changing mathematical expressions representation to native mathematical representation, e.g., $ (a-b)/(c-d) \longleftarrow \frac{a-b}{c-d} $.
+\section{Boolean expressions}
+This section discuses compact representation of boolean expressions.
+\subsection{Range}
+In-order to check if an integer is in a range the programmer needs write to write $ 0 <= i \&\& i < 10 $. We propose to write this expression in a natural representation, it will save space and will be easier for reading. For example, $ 0 \leq i < 10 $.
+\section{Scopes}
+This section discusses ideas of how the programmer may modify the representation of a scope.
+\subsection{Scope Brackets}
+The programmer may omit the brackets then the indentation of the code will denote the scope of the code. \autoref{fig32} presents a small example of code without scope brackets.
+\begin{figure}[H]
+\begin{lstlisting}
+age = 10 ?
+	adult $ \longleftarrow $ false
+	isChild $ \longleftarrow $ true
+\end{lstlisting}
+\caption{This is an example of a control block that checks if the age is smaller than 10 then the false is assigned to the identifier \textit{adult} and true is assigned to the identifier \textit{isChild}.}
+\label{fig32}
+\end{figure}
+\subsection{Frame}
+\autoref{fig32} shows that both lines of code related to the condition because they have the same indentation. In-addition it is possible to frame the scope. It may help the programmer to understand scopes better. \ref{fig33} presents how frame can be used to represent scopes.
+\begin{figure}[H]
+\includegraphics{"./fig/Condition With Frame"}
+\caption{This is the same code that presented in \autoref{fig32} but a frame is used to represent a scope.}
+\label{fig33}
+\end{figure}
+\subsection{Indentation}
+It is also possible to reduce the number of spaces.
+\begin{figure}[H]
+\includegraphics{"./fig/Condition With Frame and short Indentation"}
+\caption{This is the same code that presented in \autoref{fig33} but with a shorter indentation.}
+\label{fig34}
+\end{figure}
+The programmer may modify frame's border color, background color, border width, and border style.
+\subsection{Line Break}
+Line breaks have an influence on the length and the width of the code. Therefore, we would like to provide several different representations for line breaking.
+\subsubsection{New Line}
+Every block of code starts in the same line with the condition key word. \autoref{fig35} presents an example of this style.
+\begin{figure}[H]
+\begin{lstlisting}
+if [condition]
+then [code_1]
+else [code_2]
+[code_3]
+\end{lstlisting}
+\caption{This is a style where every block of code starts in the same line with the condition key word.}
+\label{fig35}
+\end{figure}
+\subsubsection{2 Columns} \label{subsubsection: 2 Columns}
+In this representation the \textit{then} and the \textit{else} are below the if expression but placed side by side. \autoref{fig36} presents an example of this style.
+\begin{figure}[H]
+\begin{lstlisting}
+if [condition]
+then  [code_1] else [code_2]
+	   [code_1]        [code_2]
+				 		    [code_2]
+\end{lstlisting}
+\caption{This is a style where the \textit{then} and the \textit{else} are below the if expression but placed side by side.}
+\label{fig36}
+\end{figure}
+\subsection{Fill}
+This configuration is quite identical to \autoref{subsubsection: 2 Columns} but here if one of the code blocks is longer than the other it will catch the whole line. \autoref{fig37} presents an example of this style.
+\begin{figure}[H]
+\begin{lstlisting}
+if [condition]
+then  [code_1] else [code_2]
+	   [code_1]       [code_2]
+[			code_2			     ]
+[			code_2			     ]
+\end{lstlisting}
+\caption{This is a style where if one of the code blocks is longer than the other it will catch the whole line.}
+\label{fig37}
+\end{figure}
