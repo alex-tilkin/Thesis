@@ -6,7 +6,7 @@ This chapter discusses how the code can be presented in compact representation. 
 \section{Operators}
 This section discusses how atomic operators will be represented. Every symbol may be modified by the user to any character or icon that s/he wants.
 \subsection{Basic Operators}
-The following table provides a set of basic atomic operators that used in almost every line of code.
+\autoref{tab12} provides a set of basic atomic operators that used in almost every line of code.
 
 \begin{table}[H]
 \centering
@@ -33,6 +33,7 @@ Ternary & ?; : \\ \hline
 Assignment & $ \longleftarrow $; +$ \longleftarrow $; -$ \longleftarrow $; *$ \longleftarrow $; /$ \longleftarrow $; \%$ \longleftarrow $; \&$ \longleftarrow $; $ \wedge $$ \longleftarrow $; $ \vee $$ \longleftarrow $; $ \ll $$ \longleftarrow $; $ \gg $$ \longleftarrow $; $ \ggg $$ \longleftarrow $\\ \hline
 \end{tabular}
 \caption{This table presents operators and symbols that represent them in compact representation. The symbols are examples for how symbols may be presented. The user may modify to any representation that s/he wants. This idea is discussed in \autoref{chapter:Representation Configuration}. Note: ; is used as a separator between operator symbols.}
+\label{tab12}
 \end{table}
 \section{Statement Terminators}
 A statement terminator is used to demarcate the end of an individual statement. For example, a statement terminator in Java is ';' (semicolon) similarly to C, C++ and other programming languages. This character doesn't gives any information except where the statement end. The programmer will be able to modify the symbol, s/he may decide if it will be displayed or how will it looks like, e.g., result $ \longleftarrow $ nextNode.data, this is a line of code that missing statement terminator symbol. It is also possible to modify the style of the terminators or to use an icon.
@@ -109,3 +110,21 @@ then  [code_1] else [code_2]
 \caption{This is a style where if one of the code blocks is longer than the other it will catch the whole line.}
 \label{fig37}
 \end{figure}
+\section{Accessibilities}
+The programmer may change the accessibility of classes, and attributes, For instance, they can be presented in the default way, e.g., \textit{public, private, protected, internal} or they can be presented with symbols as show in \autoref{tab13}. Also, it is possible to color the symbols:
+$ \textcolor{green}{+}, \textcolor{red}{-}, \textcolor{yellow}{\textasciitilde}, \textcolor{blue}{\pm} $. Moreover, the programmer may ignore symbols and just color the identifier, e.g., \textcolor{red}{head} will stand for private, \textcolor{green}{iterator} will stand for public. It is also possible to use icons instead.
+\begin{table}[H]
+\centering
+\begin{tabular}{|l|l|}
+\hline
+{\bf Operator} & {\bf Symbol} \\ \hline
+Public & + \\ \hline
+Private & - \\ \hline
+Protected & $ \pm $ \\ \hline
+Internal & $ \textasciitilde $ \\ \hline
+\end{tabular}
+\caption{This table represents possible representations for accessibilities.}
+\label{tab13}
+\end{table}
+\section{Implementation and Inheritance}
+Instead of using long terms such as: Implements, and inherits. The programmer may change the text to a more compact representation, e.g., use the symbol ”:” from C++. It is Also possible to use text or icon.

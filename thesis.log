@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2015.3.26)  11 JUL 2015 17:17
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2015.3.26)  13 JUL 2015 21:04
 entering extended mode
 **thesis.tex
 (thesis.tex
@@ -1130,7 +1130,7 @@ LaTeX Info: Redefining \nameref on input line 3.
 ("C:\Program Files\MiKTeX 2.9\tex\latex\listings\lstlang1.sty"
 File: lstlang1.sty 2014/09/06 1.5e listings language file
 )) (front.tex
-<./fig/MTALogo.jpg, id=398, 487.8225pt x 200.75pt>
+<./fig/MTALogo.jpg, id=402, 487.8225pt x 200.75pt>
 File: ./fig/MTALogo.jpg Graphic file (type jpg)
  <use ./fig/MTALogo.jpg>
 Package pdftex.def Info: ./fig/MTALogo.jpg used on input line 11.
@@ -1576,23 +1576,23 @@ Overfull \hbox (13.3966pt too wide) in paragraph at lines 13--35
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.39 \section
+l.40 \section
              {Mathematical Expressions}] [54]
-<"./fig/Condition With Frame".png, id=1212, 132.495pt x 60.225pt>
+<"./fig/Condition With Frame".png, id=1218, 132.495pt x 60.225pt>
 File: "./fig/Condition With Frame".png Graphic file (type png)
 
 <use "./fig/Condition With Frame".png>
-Package pdftex.def Info: "./fig/Condition With Frame".png used on input line 61
+Package pdftex.def Info: "./fig/Condition With Frame".png used on input line 62
 .
 (pdftex.def)             Requested size: 132.49466pt x 60.22484pt.
 
-<"./fig/Condition With Frame and short Indentation".png, id=1216, 109.1578pt x 
+<"./fig/Condition With Frame and short Indentation".png, id=1222, 109.1578pt x 
 57.96657pt>
 File: "./fig/Condition With Frame and short Indentation".png Graphic file (type
  png)
  <use "./fig/Condition With Frame and short Indentation".png>
 Package pdftex.def Info: "./fig/Condition With Frame and short Indentation".png
- used on input line 68.
+ used on input line 69.
 (pdftex.def)             Requested size: 109.15753pt x 57.96642pt.
 
 [55pdfTeX warning (ext4): destination with the same identifier (name{figure.4.1
@@ -1600,19 +1600,19 @@ Package pdftex.def Info: "./fig/Condition With Frame and short Indentation".png
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.75 \subsubsection
+l.76 \subsubsection
                    {New Line}pdfTeX warning (ext4): destination with the same i
 dentifier (name{figure.4.2}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.75 \subsubsection
+l.76 \subsubsection
                    {New Line}pdfTeX warning (ext4): destination with the same i
 dentifier (name{figure.4.3}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.75 \subsubsection
+l.76 \subsubsection
                    {New Line} <./fig/Condition With Frame.png> <./fig/Condition
  With Frame and short Indentation.png>] [56pdfTeX warning (ext4): destination w
 ith the same identifier (name{figure.4.4}) has been already used, duplicate ign
@@ -1620,15 +1620,28 @@ ored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.111 \end{figure}
+l.112 \end{figure}
                   pdfTeX warning (ext4): destination with the same identifier (
 name{figure.4.5}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.111 \end{figure}
-                  ]) [57pdfTeX warning (ext4): destination with the same identi
-fier (name{figure.4.6}) has been already used, duplicate ignored
+l.112 \end{figure}
+                  ]
+
+LaTeX Warning: Command \textasciitilde invalid in math mode on input line 115.
+
+
+LaTeX Warning: Command \textasciitilde invalid in math mode on input line 124.
+
+) [57pdfTeX warning (ext4): destination with the same identifier (name{figure.4
+.6}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.18 \include{chapter04}
+                        pdfTeX warning (ext4): destination with the same identi
+fier (name{table.4.2}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
@@ -1653,7 +1666,7 @@ Chapter 6.
 l.24 \subsection
                 {Context Free Grammar}] [61] [62]
 <"./fig/Parse Tree create a static public class named wheel inside class car".p
-ng, id=1305, 960.58875pt x 413.545pt>
+ng, id=1313, 960.58875pt x 413.545pt>
 File: "./fig/Parse Tree create a static public class named wheel inside class c
 ar".png Graphic file (type png)
 
@@ -1663,7 +1676,7 @@ Package pdftex.def Info: "./fig/Parse Tree create a static public class named w
 heel inside class car".png used on input line 52.
 (pdftex.def)             Requested size: 384.22868pt x 165.41505pt.
 
-<"./fig/Parse Tree create an inner class wheel".png, id=1307, 649.42625pt x 343
+<"./fig/Parse Tree create an inner class wheel".png, id=1315, 649.42625pt x 343
 .2825pt>
 File: "./fig/Parse Tree create an inner class wheel".png Graphic file (type png
 )
@@ -1672,7 +1685,7 @@ Package pdftex.def Info: "./fig/Parse Tree create an inner class wheel".png use
 d on input line 61.
 (pdftex.def)             Requested size: 259.7659pt x 137.31056pt.
 
-<./fig/BNFDiagram.jpg, id=1308, 1025.8325pt x 283.0575pt>
+<./fig/BNFDiagram.jpg, id=1316, 1025.8325pt x 283.0575pt>
 File: ./fig/BNFDiagram.jpg Graphic file (type jpg)
 
 <use ./fig/BNFDiagram.jpg>
@@ -1821,7 +1834,7 @@ Overfull \hbox (178.68143pt too wide) in paragraph at lines 20--21
 
 [83] [84]) [85] (Publications.tex
 Appendix A.
-<./files/deverywhere-mobilesoft15.pdf, id=1779, 614.295pt x 794.97pt>
+<./files/deverywhere-mobilesoft15.pdf, id=1787, 614.295pt x 794.97pt>
 File: ./files/deverywhere-mobilesoft15.pdf Graphic file (type pdf)
 
 <use ./files/deverywhere-mobilesoft15.pdf>
@@ -1839,7 +1852,7 @@ e 16.
 
 
 ]
-<./files/deverywhere-mobilesoft15.pdf, id=1786, page=1, 614.295pt x 794.97pt>
+<./files/deverywhere-mobilesoft15.pdf, id=1794, page=1, 614.295pt x 794.97pt>
 File: ./files/deverywhere-mobilesoft15.pdf Graphic file (type pdf)
 
 <use ./files/deverywhere-mobilesoft15.pdf, page 1>
@@ -1871,7 +1884,7 @@ Package pdftex.def Info: ./files/deverywhere-mobilesoft15.pdf, page1 used on in
 put line 16.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
  [87 <./files/deverywhere-mobilesoft15.pdf>]
-<./files/deverywhere-mobilesoft15.pdf, id=1827, page=2, 614.295pt x 794.97pt>
+<./files/deverywhere-mobilesoft15.pdf, id=1835, page=2, 614.295pt x 794.97pt>
 File: ./files/deverywhere-mobilesoft15.pdf Graphic file (type pdf)
 
 <use ./files/deverywhere-mobilesoft15.pdf, page 2>
@@ -1891,7 +1904,7 @@ Package pdftex.def Info: ./files/deverywhere-mobilesoft15.pdf, page2 used on in
 put line 16.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
  [88 <./files/deverywhere-mobilesoft15.pdf>]
-<./files/deverywhere-mobilesoft15.pdf, id=1832, page=3, 614.295pt x 794.97pt>
+<./files/deverywhere-mobilesoft15.pdf, id=1840, page=3, 614.295pt x 794.97pt>
 File: ./files/deverywhere-mobilesoft15.pdf Graphic file (type pdf)
 
 <use ./files/deverywhere-mobilesoft15.pdf, page 3>
@@ -1911,7 +1924,7 @@ Package pdftex.def Info: ./files/deverywhere-mobilesoft15.pdf, page3 used on in
 put line 16.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
  [89 <./files/deverywhere-mobilesoft15.pdf>]
-<./files/deverywhere-mobilesoft15.pdf, id=1907, page=4, 614.295pt x 794.97pt>
+<./files/deverywhere-mobilesoft15.pdf, id=1915, page=4, 614.295pt x 794.97pt>
 File: ./files/deverywhere-mobilesoft15.pdf Graphic file (type pdf)
 
 <use ./files/deverywhere-mobilesoft15.pdf, page 4>
@@ -1956,7 +1969,7 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 29.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 29.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 29.
 Package rerunfilecheck Info: File `thesis.out' has not changed.
-(rerunfilecheck)             Checksum: 1E46FB78BFDB3ED4567EA98B02088A42;6753.
+(rerunfilecheck)             Checksum: E0024F3DD0872B4DBEED67C3ADDA663D;6817.
 
 
 LaTeX Warning: There were multiply-defined labels.
@@ -1964,10 +1977,10 @@ LaTeX Warning: There were multiply-defined labels.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 29.
  ) 
 Here is how much of TeX's memory you used:
- 14117 strings out of 493698
- 196002 string characters out of 3144406
- 408240 words of memory out of 3000000
- 16071 multiletter control sequences out of 15000+200000
+ 14122 strings out of 493698
+ 196049 string characters out of 3144406
+ 408627 words of memory out of 3000000
+ 16074 multiletter control sequences out of 15000+200000
  102298 words of font info for 116 fonts, out of 3000000 for 9000
  1025 hyphenation exceptions out of 8191
  45i,19n,45p,1504b,1830s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -1991,9 +2004,9 @@ er/ucrr8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmb8a.pfb><C:
 /Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmbi8a.pfb><C:/Program Files/M
 iKTeX 2.9/fonts/type1/urw/times/utmr8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/t
 ype1/urw/times/utmri8a.pfb>
-Output written on thesis.pdf (100 pages, 1096512 bytes).
+Output written on thesis.pdf (100 pages, 1098853 bytes).
 PDF statistics:
- 2307 PDF objects out of 2487 (max. 8388607)
- 987 named destinations out of 1000 (max. 500000)
- 858 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 2315 PDF objects out of 2487 (max. 8388607)
+ 989 named destinations out of 1000 (max. 500000)
+ 866 words of extra memory for PDF output out of 10000 (max. 10000000)
 
