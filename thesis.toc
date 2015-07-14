@@ -80,30 +80,40 @@
 \contentsline {subsubsection}{2 Columns}{56}{section*.6}
 \contentsline {subsection}{\numberline {4.6.5}Fill}{57}{subsection.4.6.5}
 \contentsline {section}{\numberline {4.7}Accessibilities}{57}{section.4.7}
-\contentsline {chapter}{\numberline {5}Representation Configuration}{58}{chapter.5}
-\contentsline {chapter}{\numberline {6}Programming in Natural Language}{59}{chapter.6}
-\contentsline {section}{\numberline {6.1}Introduction}{59}{section.6.1}
-\contentsline {section}{\numberline {6.2}Configuration}{59}{section.6.2}
-\contentsline {section}{\numberline {6.3}Natural Language Processing}{60}{section.6.3}
-\contentsline {subsection}{\numberline {6.3.1}Speech To Text Engines}{60}{subsection.6.3.1}
-\contentsline {subsection}{\numberline {6.3.2}Context Free Grammar}{61}{subsection.6.3.2}
-\contentsline {subsubsection}{Extended Backus Naur Form}{61}{section*.7}
-\contentsline {subsection}{\numberline {6.3.3}Dictation Parser}{61}{subsection.6.3.3}
-\contentsline {subsubsection}{Grammar Construction}{62}{section*.8}
-\contentsline {subsection}{\numberline {6.3.4}Grammar Testing}{64}{subsection.6.3.4}
-\contentsline {subsubsection}{LinkedList Example}{65}{section*.9}
-\contentsline {subsubsection}{Car Builder Example}{78}{section*.10}
-\contentsline {section}{\numberline {6.4}Implementation}{81}{section.6.4}
-\contentsline {chapter}{\numberline {7}Prototype}{82}{chapter.7}
-\contentsline {section}{\numberline {7.1}Introduction}{82}{section.7.1}
-\contentsline {section}{\numberline {7.2}Speech to Text}{82}{section.7.2}
-\contentsline {subsection}{\numberline {7.2.1}Google Speech V2 Server}{82}{subsection.7.2.1}
-\contentsline {subsubsection}{Host}{83}{section*.11}
-\contentsline {subsubsection}{Request}{83}{section*.12}
-\contentsline {subsubsection}{Response}{83}{section*.13}
-\contentsline {subsection}{\numberline {7.2.2}Speech to Text Library}{85}{subsection.7.2.2}
-\contentsline {section}{\numberline {7.3}BNF Parser}{85}{section.7.3}
-\contentsline {chapter}{\numberline {A}Publications}{86}{appendix.A}
-\contentsline {section}{\numberline {A.1}MobileSoft 2015 Conference}{86}{section.A.1}
-\contentsline {chapter}{\numberline {B}Acronyms}{91}{appendix.B}
-\contentsline {chapter}{Bibliography}{92}{appendix.B}
+\contentsline {section}{\numberline {4.8}Implementation and Inheritance}{58}{section.4.8}
+\contentsline {section}{\numberline {4.9}Types}{58}{section.4.9}
+\contentsline {subsection}{\numberline {4.9.1}Style}{58}{subsection.4.9.1}
+\contentsline {subsection}{\numberline {4.9.2}Text Value}{58}{subsection.4.9.2}
+\contentsline {subsection}{\numberline {4.9.3}Omit Types}{58}{subsection.4.9.3}
+\contentsline {section}{\numberline {4.10}Fields}{58}{section.4.10}
+\contentsline {section}{\numberline {4.11}Methods}{59}{section.4.11}
+\contentsline {subsection}{\numberline {4.11.1}Omit Returned Type}{59}{subsection.4.11.1}
+\contentsline {subsection}{\numberline {4.11.2}Omit Types of Formal Parameters}{59}{subsection.4.11.2}
+\contentsline {subsection}{\numberline {4.11.3}Omit Parentheses}{59}{subsection.4.11.3}
+\contentsline {chapter}{\numberline {5}Representation Configuration}{60}{chapter.5}
+\contentsline {chapter}{\numberline {6}Programming in Natural Language}{61}{chapter.6}
+\contentsline {section}{\numberline {6.1}Introduction}{61}{section.6.1}
+\contentsline {section}{\numberline {6.2}Configuration}{61}{section.6.2}
+\contentsline {section}{\numberline {6.3}Natural Language Processing}{62}{section.6.3}
+\contentsline {subsection}{\numberline {6.3.1}Speech To Text Engines}{62}{subsection.6.3.1}
+\contentsline {subsection}{\numberline {6.3.2}Context Free Grammar}{63}{subsection.6.3.2}
+\contentsline {subsubsection}{Extended Backus Naur Form}{63}{section*.7}
+\contentsline {subsection}{\numberline {6.3.3}Dictation Parser}{63}{subsection.6.3.3}
+\contentsline {subsubsection}{Grammar Construction}{64}{section*.8}
+\contentsline {subsection}{\numberline {6.3.4}Grammar Testing}{66}{subsection.6.3.4}
+\contentsline {subsubsection}{LinkedList Example}{67}{section*.9}
+\contentsline {subsubsection}{Car Builder Example}{80}{section*.10}
+\contentsline {section}{\numberline {6.4}Implementation}{83}{section.6.4}
+\contentsline {chapter}{\numberline {7}Prototype}{84}{chapter.7}
+\contentsline {section}{\numberline {7.1}Introduction}{84}{section.7.1}
+\contentsline {section}{\numberline {7.2}Speech to Text}{84}{section.7.2}
+\contentsline {subsection}{\numberline {7.2.1}Google Speech V2 Server}{84}{subsection.7.2.1}
+\contentsline {subsubsection}{Host}{85}{section*.11}
+\contentsline {subsubsection}{Request}{85}{section*.12}
+\contentsline {subsubsection}{Response}{85}{section*.13}
+\contentsline {subsection}{\numberline {7.2.2}Speech to Text Library}{87}{subsection.7.2.2}
+\contentsline {section}{\numberline {7.3}BNF Parser}{87}{section.7.3}
+\contentsline {chapter}{\numberline {A}Publications}{88}{appendix.A}
+\contentsline {section}{\numberline {A.1}MobileSoft 2015 Conference}{88}{section.A.1}
+\contentsline {chapter}{\numberline {B}Acronyms}{93}{appendix.B}
+\contentsline {chapter}{Bibliography}{94}{appendix.B}

@@ -127,4 +127,43 @@ Internal & $ \textasciitilde $ \\ \hline
 \label{tab13}
 \end{table}
 \section{Implementation and Inheritance}
-Instead of using long terms such as: Implements, and inherits. The programmer may change the text to a more compact representation, e.g., use the symbol ”:” from C++. It is Also possible to use text or icon.
+Instead of using long terms such as: \textit{Implements}, and \textit{inherits} the programmer may change the text to a more compact representation, e.g., ":" from C++. It is Also possible to use text or icon.
+\section{Types}
+\subsection{Style}
+The programmer may modify the style of types, e.g., change int to \textit{\textcolor{red}{int}}.
+\subsection{Text Value}
+The programmer may modify the textual value of types, e.g., change int to integer.
+\subsection{Omit Types}
+In-order to save space the programmer may hide types, access level, modifier and show only identifiers. Since types are hidden the programmer may not understand what is the type of the identifier. In-order to avoid ambiguity we suggest a technique that when an object is created the name of the identifier will be the same as the type (but the first letter will be in lowercase), e.g., private Person \_person will be presented \textcolor{red}{person} (the \textcolor{red}{Red} color denotes that this is a private field and the \textit{italic} denotes that it is static).
+\section{Fields}
+The programmer may configure that every field that is created will has a specific prefix or postfix, e.g., if the user configured the prefix to be "\_" and asked to create the field \textit{car} the system will write "\_car". The programmer may configure that all fields will have a certain style, e.g., \_car.
+\section{Methods}
+This section discusses compact representation of methods.
+\subsection{Omit Returned Type}
+Returned types is important for compilation but also it provides information to the programmer what type is returned from methods. This information may be omitted because it is not needed to be presented. \autoref{fig38} shows an example of a method that its returned type is hidden.
+\begin{figure}[H]
+\begin{lstlisting}
+foo(int a)
+	return a
+\end{lstlisting}
+\caption{The returned type (in this case it is int) is omitted.}
+\label{fig38}
+\end{figure}
+\subsection{Omit Types of Formal Parameters}
+In addition the programmer may omit types of formal parameters of methods. \autoref{39} shows the same method that is presented in \autoref{fig38} but without the type of its formal parameter.
+\begin{figure}[H]
+\begin{lstlisting}
+foo(a)
+	return a
+\end{lstlisting}
+\caption{The type of the formal parameter is omitted.}
+\label{fig39}
+\end{figure}
+\subsection{Omit Parentheses}
+If a method doesn't has formal parameters it is possible to omit its Parentheses. \autoref{40} shows a method that doesn't has formal parameters hence its parentheses are omitted.
+\begin{figure}[H]
+\includegraphics{"./fig/foo with omitted parentheses"}
+\caption{This is method that its parentheses are omitted. The icon of the mobile phone denotes that the text "Hello, world!" will be printed to the console.}
+\label{fig40}
+\end{figure}
+\subsection{Constructors}
