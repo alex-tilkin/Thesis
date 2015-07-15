@@ -167,3 +167,121 @@ If a method doesn't has formal parameters it is possible to omit its Parentheses
 \label{fig40}
 \end{figure}
 \subsection{Constructors}
+Constructors are used in every class that is created. There is no need to name the constructors in the name of the classes, we can use symbols or words that will represent it. This section presents ideas that might be used as a representation for constructors.
+
+\subsubsection{Different Name}
+\autoref{fig41} presents an example how constructor may be represented with different name other then the name of the class. The programmer may choose any text that make sense to him or her.
+\begin{figure}[H]
+\begin{lstlisting}
+constructor
+	name $ \leftarrow $ "name"
+\end{lstlisting}
+\caption{This is an example of a constructor that uses the word "constructor" as its symbol.}
+\label{fig41}
+\end{figure}
+\subsubsection{Icon}
+Instead of using words the programmer may use an icon that will represent constructors. \autoref{fig42} presents an example where an icon of a crane is used to represent constructor.
+\begin{figure}[H]
+\includegraphics{"./fig/Crane Constructor"}
+\caption{This is an example where the programmer choose to use an icon of a crane to represent constructors.}
+\label{fig42}
+\end{figure}
+\section{Control Blocks}
+Condition statements are very common in programming. It is important to allow programmers to modify their appearance. This section discusses compact representation of control blocks.
+\subsection{If Statements}
+\autoref{fig43} presents an example how "if" statements may be presented. We use the short version of if statement. It is also allowed to use the short version without the else part(":").
+\begin{figure}[H]
+\begin{lstlisting}
+[Condition] ?
+	[Code]
+:
+	[Code]
+\end{lstlisting}
+\caption{}
+\label{fig43}
+\end{figure}
+\subsection{Switch}
+Similar to "if" statements the programmer may change the representation of the switch statements. In \autoref{fig44} shows an example of switch that presented in compact representation. Note: The word default may be modified as well.
+\begin{figure}[H]
+\begin{lstlisting}
+name ?
+	"Danny": 
+		[code]
+	"Ben": 
+		[code]
+	"Alex": 
+		[code]
+	default: 
+		[code]
+\end{lstlisting}
+\caption{This is an example of a switch statement that uses "?" character instead of "switch". In addition breaks are omitted.}
+\label{fig44}
+\end{figure}
+\section{Temporal Abstraction}
+Temporal abstraction is a technique where the programmer instead of writing loops in imperative programming concept, writes the code in functional programming concept. For instance, \autoref{fig45} shows an example of code that checks if a collection contains a certain element.
+\begin{figure}[H]
+\begin{lstlisting}
+for(int index = 0; index < collection.length; index++){
+	if(collection[index] == element)
+		return true;
+}
+return false;
+\end{lstlisting}
+\caption{This is an example of a for loop that iterates over a collection and looks for an element by comparing instances.}
+\label{fig45}
+\end{figure}
+One can see that the code in \autoref{fig45} has an index that runs from zero to the length of the collection and checks each element if it is the element that it is looking for. If the element has been identified then True is returned. \autoref{fig47} presents the same code but in temporal abstraction.
+\begin{figure}[H]
+\begin{lstlisting}
+return collection.exists(element);
+\end{lstlisting}
+\caption{This is an example of the loop in \autoref{fig45} in temporal abstraction representation.}
+\label{fig46}
+\end{figure}
+The method "exists" in \autoref{fig46} accepts an element and returns \textit{True} if it exists in the collection or \textit{False} if it doesn't. On may notice that the first version is much more longer than the second. This is a very important advantage. This example is simple, \autoref{fig47} presents a more complicated example of temporal abstraction.
+\begin{figure}[H]
+\begin{lstlisting}
+shapes.stream()
+      .filter(s -> s.getColor() == BLUE)
+      .forEach(s -> s.setColor(RED));
+\end{lstlisting}
+\caption{This is an example of code that is written in temporal abstraction technique. The elements that their color is blue are selected and their color is changed to red.}
+\label{fig47}
+\end{figure}
+The following list contains methods that will be supported by this system. The signature of those methods is such that accepts two arguments, but we should not be confused since those are "extension methods":
+\begin{itemize}
+	\item drop(java.lang.Iterable<T> iterable, int count) - Returns a view on this iterable that provides all elements except the first count entries.
+	\item elementsEqual(java.lang.Iterable<?> iterable, java.lang.Iterable<?> other) - Determines whether two iterables contain equal elements in the same order.
+	\item exists(java.lang.Iterable<T> iterable, Functions.Function1<? super T,java.lang.Boolean> predicate) - Returns true if one or more elements in iterable satisfy the predicate.
+	\item filter(java.lang.Iterable<?> unfiltered, java.lang.Class<T> type) - Returns all instances of class type in unfiltered.
+	\item filter(java.lang.Iterable<T> unfiltered, Functions.Function1<? super T,java.lang.Boolean> predicate) - Returns the elements of unfiltered that satisfy a predicate.
+	\item filterNull(java.lang.Iterable<T> unfiltered) - Returns a new iterable filtering any null references.
+	\item findFirst(java.lang.Iterable<T> iterable, Functions.Function1<? super T,java.lang.Boolean> predicate) - Finds the first element in the given iterable that fulfills the predicate.
+	\item findLast(java.lang.Iterable<T> iterable, Functions.Function1<? super T,java.lang.Boolean> predicate) - Finds the last element in the given iterable that fulfills the predicate.
+	\item flatten(java.lang.Iterable<? extends java.lang.Iterable<? extends T>> inputs) - Combines multiple iterables into a single iterable.
+	\item fold(java.lang.Iterable<T> iterable, R seed, Functions.Function2<? super R,? super T,? extends R> function) - Applies the combinator function to all elements of the iterable in turn and uses seed as the start value.
+	\item forall(java.lang.Iterable<T> iterable, Functions.Function1<? super T,java.lang.Boolean> predicate) - Returns true if every element in iterable satisfies the predicate.
+	\item forEach(java.lang.Iterable<T> iterable, Procedures.Procedure1<? super T> procedure) - Applies procedure for each element of the given iterable.
+	\item forEach(java.lang.Iterable<T> iterable, Procedures.Procedure2<? super T,? super java.lang.Integer> procedure) - Applies procedure for each element of the given iterabl.e
+	\item head(java.lang.Iterable<T> iterable) - Returns the first element in the given iterable or null if empty.
+	\item isEmpty(java.lang.Iterable<?> iterable) - Determines if the given iterable contains no elements.
+	\item isNullOrEmpty(java.lang.Iterable<?> iterable) - Determines if the given iterable is null or contains no elements.
+	\item join(java.lang.Iterable<?> iterable) - Returns the concatenated string representation of the elements in the given iterable.
+	\item join(java.lang.Iterable<?> iterable, java.lang.CharSequence separator) - Returns the concatenated string representation of the elements in the given iterable.
+	\item join(java.lang.Iterable<T> iterable, java.lang.CharSequence before, java.lang.CharSequence separator, java.lang.CharSequence after,Functions.Function1<? super T,? extends java.lang.CharSequence> function) - Returns the concatenated string representation of the elements in the given iterable.
+	\item join(java.lang.Iterable<T> iterable, java.lang.CharSequence separator, Functions.Function1<? super T,? extends java.lang.CharSequence> function) - Returns the concatenated string representation of the elements in the given iterable.
+	\item last(java.lang.Iterable<T> iterable) - Returns the last element in the given iterable or null if empty.
+	\item map(java.lang.Iterable<T> original, Functions.Function1<? super T,? extends R> transformation) - Returns an iterable that performs the given transformation for each element of original when requested.
+	\item operator\_plus(java.lang.Iterable<? extends T> a, java.lang.Iterable<? extends T> b) - Concatenates two iterables into a single iterable.
+	\item reduce(java.lang.Iterable<? extends T> iterable, Functions.Function2<? super T,? super T,? extends T> function) - Applies the combinator function to all elements of the iterable in turn.
+	\item size(java.lang.Iterable<?> iterable) - Returns the number of elements in iterable.
+	\item sort(java.lang.Iterable<T> iterable) - Creates a sorted list that contains the items of the given iterable.
+	\item sort(java.lang.Iterable<T> iterable, java.util.Comparator<? super T> comparator) - Creates a sorted list that contains the items of the given iterable.
+	\item sortBy(java.lang.Iterable<T> iterable, Functions.Function1<? super T,C> key) - Creates a sorted list that contains the items of the given iterable.
+	\item tail(java.lang.Iterable<T> iterable) - Returns a view on this iterable that contains all the elements except the first.
+	\item take(java.lang.Iterable<T> iterable, int count) - Returns a view on this iterable that provides at most the first count entries.
+	\item toInvertedMap(java.lang.Iterable<? extends K> keys, Functions.Function1<? super K,V> computeValues) - Returns a map for which the Map.values() are computed by the given function, and each key is an element in the given keys.
+	\item toList(java.lang.Iterable<T> iterable) - Returns a list that contains all the entries of the given iterable in the same order.
+	\item toMap(java.lang.Iterable<? extends V> values, Functions.Function1<? super V,K> computeKeys) - Returns a map for which the Map.values() are the given elements in the given order, and each key is the product of invoking a supplied function computeKeys on its corresponding value.
+	\item toSet(java.lang.Iterable<T> iterable) - Returns a set that contains all the unique entries of the given iterable in the order of their appearance.
+\end{itemize}
