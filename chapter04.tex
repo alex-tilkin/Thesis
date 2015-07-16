@@ -217,7 +217,7 @@ name ?
 \caption{This is an example of a switch statement that uses "?" character instead of "switch". In addition breaks are omitted.}
 \label{fig44}
 \end{figure}
-\section{Temporal Abstraction}
+\section{Temporal Abstraction} \label{sec:Temporal Abstraction}
 Temporal abstraction is a technique where the programmer instead of writing loops in imperative programming concept, writes the code in functional programming concept. For instance, \autoref{fig45} shows an example of code that checks if a collection contains a certain element.
 \begin{figure}[H]
 \begin{lstlisting}
@@ -285,3 +285,31 @@ The following list contains methods that will be supported by this system. The s
 	\item toMap(java.lang.Iterable<? extends V> values, Functions.Function1<? super V,K> computeKeys) - Returns a map for which the Map.values() are the given elements in the given order, and each key is the product of invoking a supplied function computeKeys on its corresponding value.
 	\item toSet(java.lang.Iterable<T> iterable) - Returns a set that contains all the unique entries of the given iterable in the order of their appearance.
 \end{itemize}
+\section{Loops}
+This section discusses compact representation of loops. We suggest several representations for loops, some of them may look like the for loop.
+\subsection{Temporal Abstraction}
+Temporal Abstraction is a very useful technique when it comes to loops representation. \section{sec:Temporal Abstraction} describes how Temporal Abstraction works and how does it used in our system. Below you can find six modes of representation that supported, every mode provided with description and an example of how the program will look like in this mode. The example that is used is a program that calculates sum of square roots of all positive elements of a certain collection.
+
+\autoref{fig48} shows an how code looks like with no temporal abstraction.
+\begin{figure}[H]
+\begin{lstlisting}
+int sum = 0;
+for (int i : input) {
+    if (i > 0)
+        sum += sqrt(i)
+}
+\end{lstlisting}
+\caption{This is an example of how the program looks like if Temporal Abstraction is disabled.}
+\label{fig48}
+\end{figure}
+
+\begin{figure}[H]
+\begin{lstlisting}
+int sum = 0;
+for (int i : input) {
+    if (i > 0)
+        sum += sqrt(i)
+}
+\end{lstlisting}
+\caption{This is an example of how the program looks like if Temporal Abstraction is disabled.}
+\label{fig49}
