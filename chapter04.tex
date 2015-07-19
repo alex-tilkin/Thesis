@@ -288,9 +288,8 @@ The following list contains methods that will be supported by this system. The s
 \section{Loops}
 This section discusses compact representation of loops. We suggest several representations for loops, some of them may look like the for loop.
 \subsection{Temporal Abstraction}
-Temporal Abstraction is a very useful technique when it comes to loops representation. \section{sec:Temporal Abstraction} describes how Temporal Abstraction works and how does it used in our system. Below you can find six modes of representation that supported, every mode provided with description and an example of how the program will look like in this mode. The example that is used is a program that calculates sum of square roots of all positive elements of a certain collection.
-
-\autoref{fig48} shows an how code looks like with no temporal abstraction.
+Temporal Abstraction is a very useful technique when it comes to loops representation. \autoref{sec:Temporal Abstraction} describes how Temporal Abstraction works and how does it used in our system. Below you can find six modes of representation that supported, every mode provided with description and an example of how the program will look like in this mode. The example that is used is a program that calculates sum of square roots of all positive elements of a collection.
+\autoref{fig48} shows how code looks like with no temporal abstraction.
 \begin{figure}[H]
 \begin{lstlisting}
 int sum = 0;
@@ -302,14 +301,58 @@ for (int i : input) {
 \caption{This is an example of how the program looks like if Temporal Abstraction is disabled.}
 \label{fig48}
 \end{figure}
-
+\autoref{fig49} is an example from Java 8 java.util.stream where a sequence of methods called one-by-one and the returned value of the first method activates the next method. We call this type of representation \textbf{Program}.
 \begin{figure}[H]
 \begin{lstlisting}
-int sum = 0;
-for (int i : input) {
-    if (i > 0)
-        sum += sqrt(i)
-}
+input.stream()
+   .filter(i $ \rightarrow $ i > 0)
+   .mapToInt(i $ \rightarrow $ sqrt(i))
+   .sum()
 \end{lstlisting}
-\caption{This is an example of how the program looks like if Temporal Abstraction is disabled.}
+\caption{This is an example of how Temporal Abstraction may be used. In this code all the elements that their value is greater than 0 are selected. Each element is inserted into a map where it's value is the key and the value is it's square. Finally all value are summed. The result of this code is sum of squares of all elements that their values are greater then 0.}
 \label{fig49}
+\end{figure}
+Another representation is a lexical representation. The code is represented by a phrase that explains what happens in the line of code. We call this representation \textbf{Paragraph of Text}.
+\begin{figure}[H]
+\begin{lstlisting}
+Sum the square roots of the positive integers of input
+\end{lstlisting}
+\caption{This is an example of how line of code may be represented by a phrase. For example, this phrase explains what happens in \autoref{fig49}.}
+\label{fig50}
+\end{figure}
+Another idea of representing Temporal Abstraction code is by a technique we call \textbf{Bullets}. \autoref{fig51} shows an example of the code in \autoref{fig49} where every action that is taken on the stream presented in a different bullet. For example, the filtering condition named \textit{Filter} and the criteria is positive, which means take only the positive elements.
+\begin{figure}[H]
+\begin{lstlisting}
+	- Enumerate:   input
+	- Filter:      positive?
+	- Map:         sqrt
+	- Accumulate:  +, 0
+\end{lstlisting}
+\caption{This is an example of the \textbf{Bullets} technique. The original code is presented in \autoref{fig49}. \textbf{Enumerate} is the stream that we want to process. \textbf{Filter} is the passing criteria. \textbf{Map} is the data structure each element will be inserted and \textbf{Accumulate} is the action that will be taken on all the elements in the data structure.}
+\label{fig51}
+\end{figure}
+\textbf{Signal Flow} technique is similar to signal-processing concepts. The different parts of the plan are represented as stages, and the computation is represented as a signal that flows through the stages. \autoref{fig52} shows an example of the code in \autoref{fig49} in \textbf{Signal Flow} representation.
+\begin{figure}[H]
+\begin{table}[H]
+\centering
+\begin{tabular}{l p{2cm}l p{0.3cm}l p{1.5cm}l p{0.3cm}l p{1cm}l p{0.3cm}l p{1cm} l}
+\underline{Enumerate} & $ \rightarrow $ & \underline{Filter} & $ \rightarrow $ & \underline{Map}  & $ \rightarrow $ & \underline{Accumulate} \\
+input & & positive? & & sqrt & & +, 0
+\end{tabular}
+\end{table}
+\caption{This is an example of the \textbf{Signal Flow} technique. The original code is presented in \autoref{fig49}. The first stage is \textbf{Enumerate} that enumerates the input; The second stage is \textbf{Filter} that filters the input based on the criteria\; The third stage is \textbf{Map} that maps the filtered elements; And the last stage is \textbf{Accumulate} that accumulates the elements.}
+\label{fig52}
+\end{figure}
+The last representation technique is \textbf{Spreadsheet}, this is a simple way to represent what the code does by a small example. The idea is yielded from the concept that some people prefer to see an example in order to understand what the code does instead of reading it. \autoref{fig54} shows an example of how the code in \autoref{fig49} may presented with \textbf{Spreadsheet} technique.
+\begin{figure}[H]
+\begin{table}[H]
+\centering
+\begin{tabular}{llllll}
+Positive input: & 1  & 7  & 0 & -29 & 42 \\
+sqrt (int):     & 1  & 3  &   &     & 6  \\ \hline
+0-based Sum:    & \multicolumn{5}{l}{10} \\
+\end{tabular}
+\end{table}
+\caption{This is an example of the \textbf{Spreadsheet} represents the code in \autoref{fig49}. The first line of is a set of values that may be in a data structure. The second line is the result of the sqrt function. Note that there are no values below the values 0 and -29, this is because the don't pass the criteria (only positive elements). The third row is the result of summing the elements that left. In that case are: 1, 3, and 6. When summing them we will get 10.}
+\label{fig54}
+\end{figure}
