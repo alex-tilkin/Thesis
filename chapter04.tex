@@ -41,7 +41,7 @@ A statement terminator is used to demarcate the end of an individual statement. 
 Mathematical expressions are very common in programming. Sometimes they can be very long and complex. Therefore, we would like to represent those expressions in more compact and native way. We can reduce expressions length by changing mathematical expressions representation to native mathematical representation, e.g., $ (a-b)/(c-d) \longleftarrow \frac{a-b}{c-d} $.
 \section{Boolean expressions}
 This section discuses compact representation of boolean expressions.
-\subsection{Range}
+\subsection{Range} \label{subsection: Range}
 In-order to check if an integer is in a range the programmer needs write to write $ 0 <= i \&\& i < 10 $. We propose to write this expression in a natural representation, it will save space and will be easier for reading. For example, $ 0 \leq i < 10 $.
 \section{Scopes}
 This section discusses ideas of how the programmer may modify the representation of a scope.
@@ -355,4 +355,104 @@ sqrt (int):     & 1  & 3  &   &     & 6  \\ \hline
 \end{table}
 \caption{This is an example of the \textbf{Spreadsheet} represents the code in \autoref{fig49}. The first line of is a set of values that may be in a data structure. The second line is the result of the sqrt function. Note that there are no values below the values 0 and -29, this is because the don't pass the criteria (only positive elements). The third row is the result of summing the elements that left. In that case are: 1, 3, and 6. When summing them we will get 10.}
 \label{fig54}
+\end{figure}
+\subsection{Imperative Representation}
+This section discusses imperative representations for loops. Loops are very common, hence we would like to provide several types of compact representation for them. We call this type of representation Imperative. In computer science terminologies, imperative programming is a programming paradigm that describes computation in terms of statements that change a program state. We decided to call this compact representation imperative because it reminds the imperative programming languages such as: C, C++, and Java.
+
+\subsubsection{Loop Icon}
+The first representation that we suggest is called \textbf{Loop Icon}. The idea is to replace the key words that represent loops with $ \circlearrowright $. By replacing the keywords we save space on one hand but still it is clear to the reader that this is a loop. \autoref{fig55} shows an example of a loop without the \textit{for} keyword, Instead $ \circlearrowright $ is placed.
+\begin{figure}[H]
+\begin{lstlisting}
+$ \circlearrowright $(int i = 0; i < n; i++)
+   system.out.println(i)
+\end{lstlisting}
+\caption{This is an example where the \textit{for} keyword was replaced with $ \circlearrowright $.}
+\label{fig55}
+\end{figure}
+\subsubsection{Loop Watermark}
+This technique is the most compact representation that we came up with that related to loops representation. We use the background to place the loop symbol, \autoref{fig56} shows an example of a loop that uses the \textbf{Loop Watermark} representation.
+\begin{figure}[H]
+\includegraphics{"./fig/Loop Watermark"}
+\caption{This is a public method named \textit{toString}, in middle of the method there is a loop that runs from 1 to \textit{pos}, for each iteration it concatenates the value of \textit{temp.data} with space and concatenates it with result. The technique that is used in the line $ i \in [1, pos)] $ is described in \autoref{subsubsec:Loop Range Representation}.}
+\label{fig56}
+\end{figure}
+\subsubsection{Loop Range Representation} \label{subsubsec:Loop Range Representation}
+The idea for Loop Range technique was taken from mathematics. For example, $ i \in [1, pos) \circlearrowright $ represents that \textit{i} is between 1 and \textit{pos} (not included). It is also very convenient to use this form to iterate over objects in data structures, e.g., a loop over a list of cars may look like this, $ item \in cars $. The programmer may iterate only on part of the list. For example, in order to iterate over the first 10 items we will write $ item \in cars[0, 10] \circlearrowright $.
+
+Another way to present loop range is to use the representation that is discussed in \autoref{subsection: Range}. For example, for 0 $ \leq $ i $ < $ 10. This is a loop the iterates from i to 10.
+\subsubsection{Loop variables}
+This technique suggests to present the loop variable and on the background a symbol that shows that this is a loop. For example, \autoref{fig55} will be presented like this \autoref{fig57}.
+\begin{figure}[H]
+\includegraphics{"./fig/Loop Variable"}
+\caption{This is an example how a loop like is shown in \autoref{fig55} can be presented in Loop Variable mode.}
+\label{fig57}
+\end{figure}
+\subsubsection{Loop Complexity}
+Sometimes when a programmer is programming and uses others code he might be interested in the complexity of the code that he uses. Therefore we suggest a representation technique where the programmer may see the complexity instead of the code itself. the code that is shown in \autoref{fig55} may be presented as shown in \autoref{fig58}.
+\begin{figure}[H]
+\includegraphics{"./fig/Code Complexity Representation"}
+\caption{This is an example of \textbf{Loop Complexity} representation. The complexity of the code in \autoref{fig55} is \textit{O(n)}, therefore it is represented with \textit{O(n)} and a circulation loops that denotes that this is a loop.}
+\label{fig58}
+\end{figure}
+\subsubsection{Loop Signature}
+This technique allows the programmer to see only the signature of the loop without the code inside it. For example, the loop 
+\begin{lstlisting}
+for (int i = begin; i < n; i++)
+   system.out.println(i)
+\end{lstlisting}
+Will be presented as follows:
+\begin{lstlisting}
+for (int i = begin; i < n; i++)
+\end{lstlisting}
+\section{System Methods}
+Our motivation is to provide a compact representation to all system methods. System method is a method that has been provided by the developers of the language, e.g., System.arraycopy(). Currently it is quite difficult to pinpoint what are going to be the functions that the system will support but the motivation is to denote that this is part of our scope of the work. Gradually we'll add more and more functionality to this section.
+\subsubsection{Print to Screen (System.out)}
+Instead of writing long lines, e.g., System.out.println("Hello, World!"), one may show only println "Hello, World!" or use an icon like this: \includegraphics{"./fig/System Out Hello World"}.
+\subsubsection{Memory Copy}
+Java provides methods that allow copying memory from one data structure to another, e.g., System.arraycopy();. This method accepts the source, the target, the initial  index of the source, the initial index of the target, and how many items to copy. We suggest the following representation a[i : ...]$ \leftarrow $b[i : j], which provides more compact view of the code, more readable and understandable code (note: the ... in the \textit{a} vector means that the program will use as much as memory as it needs). In this example the system copies all elements from index i to index j from vector b to vector a starting from index i.
+\subsubsection{Strings Utilities}
+The class StringUtils is a very useful class when it comes to performing operations on strings, e.g., check if string is empty or null; remove substrings, replace substrings, and split a string. The problem with commands is they are very long, e.g., StringUtils.isEmpty(name) (name is a string). Instead we would like to give the option to write this line as follows: name.isEmpty.
+\section{Layouts}
+Deverywhere is a system that aims not only for mobile devices but also for personal computers. Compact representation can also be useful to make larger screens more clear and efficient. This section discusses ideas of how code may be presented on large screens.
+\subsection{Tiles}
+If the user would like to review several methods at the same time he may choose this representation to see them in a grid. In \autoref{fig59} 9 methods are displayed simultaneously on the tablet/computer screen. Each method's body is displayed in compact form. \autoref{fig60} presents a more clear view of how the methods may be organized.
+\begin{figure}[H]
+\includegraphics{"./fig/Tiles"}
+\caption{This is an example of Tiles.}
+\label{fig59}
+\end{figure}
+\begin{figure}[H]
+\centering
+\begin{tabular}{lll}
+\begin{tabular}[c]{@{}l@{}}method 1\\ {[}compact body{]}\end{tabular} & \begin{tabular}[c]{@{}l@{}}method 2\\ {[}compact body{]}\end{tabular} & \begin{tabular}[c]{@{}l@{}}method 3\\ {[}compact body{]}\end{tabular} \\
+\begin{tabular}[c]{@{}l@{}}method 4\\ {[}compact body{]}\end{tabular} & \begin{tabular}[c]{@{}l@{}}method 5\\ {[}compact body{]}\end{tabular} & \begin{tabular}[c]{@{}l@{}}method 6\\ {[}compact body{]}\end{tabular} \\
+\begin{tabular}[c]{@{}l@{}}method 7\\ {[}compact body{]}\end{tabular} & \begin{tabular}[c]{@{}l@{}}method 8\\ {[}compact body{]}\end{tabular} & \begin{tabular}[c]{@{}l@{}}method 9\\ {[}compact body{]}\end{tabular}
+\end{tabular}
+\caption{This is a more clear view of the methods in \autoref{59}. The methods are organized in a transparent table.}
+\label{fig60}
+\end{figure}
+\subsection{Breadcrumbs}
+While we write code we nest methods inside classes; classes inside classes; control blocks inside methods; control blocks inside control blocks etc. Sometimes, we might lose our presence due to over nesting. In-order to solve this issue we suggest a technique where the nesting hierarchy will be presented to the user at top of the screen, e.g., we have a class \textit{Human}, inside this class we have a class \textit{Brain} and inside this class we have a method \textit{think}. \autoref{fig61} presents how code may be presented the user if currently he is located in the method \textit{think} (note: there might be code between the three first rows).
+\begin{figure}[H]
+\begin{lstlisting}
++class Human
+	+class Brain
+		+think
+			[code]
+\end{lstlisting}
+\caption{This is an example of a method (\textit{think}) inside the class \textit{Brain} inside the class \textit{Human}. In order not to loose the orientation inside the code the titles of encapsulating classes are kept and the code between them is folded. Therefore while the programmer writes code inside the method \textit{think} he knows that he is inside the classes \textit{Brain} and \textit{Human}.}
+\label{fig61}
+\end{figure}
+\subsection{Inter-procedural Flow}
+A technique that helps the programmer to understand the flow of the program easily. It presents code blocks connected one to another based on the flow of the program. This technique helps the programmer to understand the flow a program in a much better way. Inter-procedural Flow is based on Control Flow Graph (CFG) representation technique, using graph notation, of all paths that might be traversed through a program during its execution.
+\subsubsection{Code Bubbles}
+Developers spend significant time reading and navigating code fragments spread across multiple locations. The file-based nature of contemporary IDEs makes it prohibitively difficult to create and maintain a simultaneous view of such fragments. We propose a novel user interface metaphor for code understanding and maintenance based on collections of lightweight, editable fragments called bubbles, which form concurrently visible working sets.
+
+The essential goal of this feature is to make it easier for developers to see many fragments of code (or other information) at once without having to navigate back and forth. Each of these fragments is shown in a bubble.
+
+The following is an example of how will look like compact representation with Code Bubbles. \autoref{fig62} is a class which named \textit{Person} who has two private fields: name - the name of the person; partOfTheDay - which indicates which part of the day it is (morning, noon, afternoon, midnight, night etc.). It has two methods: greetings - receives a name of a person and greets him; getPartOfTheDay - returns the part of the day.
+\begin{figure}[H]
+\includegraphics{"./fig/Code Bubbles"}
+\caption{This is an example of Code Bubbles.}
+\label{fig62}
 \end{figure}
