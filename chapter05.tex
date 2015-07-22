@@ -1,1 +1,70 @@
-\chapter{Representation Configuration} \label{chapter:Representation Configuration}
+\chapter{Configuration of Representation} \label{chapter:Representation Configuration}
+\section{Introduction}
+One of the goals of this project is to allow the programmer to configure the representation of the code that s/he works on. We would like to allow this ability because every programmer prefers to see the code in different representation. As discussed in \autoref{cap: Compact Representation} we suggest different style of compact representation to programming idioms.
+
+This chapter discusses how the representation of programming features may be configured. All features that have configuration methods in common are grouped. On the left column one can find groups of features and on the right column find how those features can be configured. Different style attributes of the same element can represent multiple features; for example, foreground color of the name of a method can represent access level. In-order to have more details one can look for the following documents: Compact Representation, Supported Features.
+\section{Terminology}
+\begin{itemize}
+	\item Configuration Item - A feature that helps the user to set a configuration for a programming feature.
+	\item Configuration Settings - The values that are chosen by the user (or by default) for the configuration items.
+	\item Scope - Configuration settings are not necessarily global. The user can apply different configuration settings to different code scopes (described below).
+\end{itemize}
+\section{Configuration scope}
+\subsection{Configuration Settings}
+One of the major goals of this project is to allow the user to work on a project from a different devices. PCs are much more convenient environment for programming than laptops and specially more convenient than tablets and mobile devices. Therefore, we assuming that it would be very convenient for the programmer if s/he could configure different representations for different environments. The programmer will have three modes for representation: Desktop(PCs and laptops) - This configuration provides the most detailed environment that the user needs since it has a big screen; Tablet - This environment is much smaller than the previous one but the screen is big enough to show details. Therefore, it will show details but much less; Mobile Phones - This is the smallest environment for developing. Therefore, it will be the most compact representation space wise. Every one of the three configurations that have been described above comes with a default settings that meets the requirements of the environment. One can modify them. The user can change the representation on-demand (get detailed representation of a specific displayed element).
+\subsection{Features and Configuration}
+dsa
+\subsubsection{Configuration Features}
+\subsubsection{Language Features}
+\begin{table}[H]
+\centering
+\begin{tabular}{|l|p{14cm}|}
+\hline
+\textbf{ID}           & \textbf{Configuration Feature}                                                                                                              \\ \hline
+TEMPORAL     & Temporal Abstraction - Off/ Program/ Paragraph of Text/ Bullets /Signal flow/ Spreadsheet                                          \\ \hline
+PLAN         & Cliche - Replace code with high-level description                                                                                  \\ \hline
+STYLE        & Style - foreground color; background color; size; font; enable/disable bold; enable/disable italics, and enable/disable underlined \\ \hline
+ICON         & Icon - an icon that represents programming feature                                                                                 \\ \hline
+TEXT         & Text - a text that represents programming feature                                                                                  \\ \hline
+OMIT         & Omit - Remove syntax features in-order to preserve space                                                                           \\ \hline
+ORDER        & Order - Modify the order of elements, e.g., put the "if" before or after the condition                                             \\ \hline
+INDENTATION  & Indentation Depth - Selecting how many spaces, tabs, pixels or percentage (\%) of the line length will the indentation take        \\ \hline
+FRAME        & Frame - Use frame as the boundaries of the scope. Also modify frame style. Also use symbols like "\{" that encapsulates the code   \\ \hline
+NATIVE       & Native Form - Convert mathematical expressions into native representation style                                                    \\ \hline
+LAYOUT       & New Line Break - Select where text is located; non-textual spatial arrangement of blocks; breadcrumbs                              \\ \hline
+RANGE        & Range Representation - Select how range will be presented, e.g., i $ \in $ {[}1, pos) will be used for loops                       \\ \hline
+WATERMARK    & Watermark - Set background image                                                                                                   \\ \hline
+COMPLEXITY   & Complexity - Show complexity If can be computed using Static Analysis                                                              \\ \hline
+IO           & I/O - Replace code with just input and output                                                                                      \\ \hline
+CONTRIBUTORS & Contributors - Replace code with contributor's name                                                                                \\ \hline
+\end{tabular}
+\caption{This table presents configuration techniques and their ID}
+\label{tab14}
+\end{table}
+
+\begin{table}[H]
+\centering
+\begin{tabular}{|l|p{11cm}|}
+\hline
+{\bf Language Feature}            & {\bf Configuration Features IDs}                                              \\ \hline
+Operators                         & STYLE, ICON, TEXT                                                             \\ \hline
+Conditions                        & STYLE, TEXT, ICON, RANGE                                                      \\ \hline
+Accessibilities                   & STYLE, ICON, TEXT, OMIT                                                       \\ \hline
+Implementation and Inheritance    & STYLE, ICON, TEXT                                                             \\ \hline
+Methods, Constructors             & STYLE, ICON, TEXT, FRAME, CONTRIBUTORS, PLAN, OMIT, LAYOUT                    \\ \hline
+Classes                           & LAYOUT, STYLE, TEXT, OMIT                                                     \\ \hline
+OMIT                              & Omit - Remove syntax features in-order to preserve space                      \\ \hline
+Fields                            & TEXT, STYLE                                                                   \\ \hline
+Control Blocks                    & STYLE, ICON, TEXT, ORDER, INDENTATION , FRAME, LAYOUT                         \\ \hline
+Statement Terminators             & STYLE, ICON, TEXT, OMIT                                                       \\ \hline
+Types                             & STYLE, TEXT, OMIT                                                             \\ \hline
+Delimiters, Operators, Separators & STYLE, TEXT, ICON, OMIT                                                       \\ \hline
+Keywords                          & STYLE, ICON, TEXT, OMIT                                                       \\ \hline
+Scope                             & FRAME, INDENTATION, TEXT, STYLE, CONTRIBUTORS, PLAN, LAYOUT                   \\ \hline
+Expressions                       & RANGE, CONTRIBUTORS, NATIVE                                                   \\ \hline
+Loops                             & STYLE, ICON, TEXT, OMIT, TEMPORAL, COMPLEXITY, IO, CONTRIBUTORS, PLAN, LAYOUT \\ \hline
+Comments                          & OMIT                                                                          \\ \hline
+\end{tabular}
+\caption{This table presents Language Features and their related Configuration Features (by ID).}
+\label{tab15}
+\end{table}

@@ -101,23 +101,28 @@
 \BOOKMARK [2][-]{subsection.4.16.1}{Tiles}{section.4.16}% 101
 \BOOKMARK [2][-]{subsection.4.16.2}{Breadcrumbs}{section.4.16}% 102
 \BOOKMARK [2][-]{subsection.4.16.3}{Inter-procedural Flow}{section.4.16}% 103
-\BOOKMARK [0][-]{chapter.5}{Representation Configuration}{}% 104
-\BOOKMARK [0][-]{chapter.6}{Programming in Natural Language}{}% 105
-\BOOKMARK [1][-]{section.6.1}{Introduction}{chapter.6}% 106
-\BOOKMARK [1][-]{section.6.2}{Configuration}{chapter.6}% 107
-\BOOKMARK [1][-]{section.6.3}{Natural Language Processing}{chapter.6}% 108
-\BOOKMARK [2][-]{subsection.6.3.1}{Speech To Text Engines}{section.6.3}% 109
-\BOOKMARK [2][-]{subsection.6.3.2}{Context Free Grammar}{section.6.3}% 110
-\BOOKMARK [2][-]{subsection.6.3.3}{Dictation Parser}{section.6.3}% 111
-\BOOKMARK [2][-]{subsection.6.3.4}{Grammar Testing}{section.6.3}% 112
-\BOOKMARK [1][-]{section.6.4}{Implementation}{chapter.6}% 113
-\BOOKMARK [0][-]{chapter.7}{Prototype}{}% 114
-\BOOKMARK [1][-]{section.7.1}{Introduction}{chapter.7}% 115
-\BOOKMARK [1][-]{section.7.2}{Speech to Text}{chapter.7}% 116
-\BOOKMARK [2][-]{subsection.7.2.1}{Google Speech V2 Server}{section.7.2}% 117
-\BOOKMARK [2][-]{subsection.7.2.2}{Speech to Text Library}{section.7.2}% 118
-\BOOKMARK [1][-]{section.7.3}{BNF Parser}{chapter.7}% 119
-\BOOKMARK [0][-]{appendix.A}{Publications}{}% 120
-\BOOKMARK [1][-]{section.A.1}{MobileSoft 2015 Conference}{appendix.A}% 121
-\BOOKMARK [0][-]{appendix.B}{Acronyms}{}% 122
-\BOOKMARK [0][-]{appendix.B}{Bibliography}{}% 123
+\BOOKMARK [0][-]{chapter.5}{Configuration of Representation}{}% 104
+\BOOKMARK [1][-]{section.5.1}{Introduction}{chapter.5}% 105
+\BOOKMARK [1][-]{section.5.2}{Terminology}{chapter.5}% 106
+\BOOKMARK [1][-]{section.5.3}{Configuration scope}{chapter.5}% 107
+\BOOKMARK [2][-]{subsection.5.3.1}{Configuration Settings}{section.5.3}% 108
+\BOOKMARK [2][-]{subsection.5.3.2}{Features and Configuration}{section.5.3}% 109
+\BOOKMARK [0][-]{chapter.6}{Programming in Natural Language}{}% 110
+\BOOKMARK [1][-]{section.6.1}{Introduction}{chapter.6}% 111
+\BOOKMARK [1][-]{section.6.2}{Configuration}{chapter.6}% 112
+\BOOKMARK [1][-]{section.6.3}{Natural Language Processing}{chapter.6}% 113
+\BOOKMARK [2][-]{subsection.6.3.1}{Speech To Text Engines}{section.6.3}% 114
+\BOOKMARK [2][-]{subsection.6.3.2}{Context Free Grammar}{section.6.3}% 115
+\BOOKMARK [2][-]{subsection.6.3.3}{Dictation Parser}{section.6.3}% 116
+\BOOKMARK [2][-]{subsection.6.3.4}{Grammar Testing}{section.6.3}% 117
+\BOOKMARK [1][-]{section.6.4}{Implementation}{chapter.6}% 118
+\BOOKMARK [0][-]{chapter.7}{Prototype}{}% 119
+\BOOKMARK [1][-]{section.7.1}{Introduction}{chapter.7}% 120
+\BOOKMARK [1][-]{section.7.2}{Speech to Text}{chapter.7}% 121
+\BOOKMARK [2][-]{subsection.7.2.1}{Google Speech V2 Server}{section.7.2}% 122
+\BOOKMARK [2][-]{subsection.7.2.2}{Speech to Text Library}{section.7.2}% 123
+\BOOKMARK [1][-]{section.7.3}{BNF Parser}{chapter.7}% 124
+\BOOKMARK [0][-]{appendix.A}{Publications}{}% 125
+\BOOKMARK [1][-]{section.A.1}{MobileSoft 2015 Conference}{appendix.A}% 126
+\BOOKMARK [0][-]{appendix.B}{Acronyms}{}% 127
+\BOOKMARK [0][-]{appendix.B}{Bibliography}{}% 128
