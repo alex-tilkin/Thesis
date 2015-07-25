@@ -1,26 +1,33 @@
-\chapter{Configuration of Representation} \label{chapter:Representation Configuration}
+\chapter{Configuration of Representation} \label{chapter:Configuration of Representation}
 \section{Introduction}
-One of the goals of this project is to allow the programmer to configure the representation of the code that s/he works on. We would like to allow this ability because every programmer prefers to see the code in different representation. As discussed in \autoref{cap: Compact Representation} we suggest different style of compact representation to programming idioms.
+One of the goals of this project is to allow the programmer to configure the representation of the code on different devices. PCs are much more convenient environment for programming than laptops and specially more convenient than tablets and mobile devices. We would like to allow this ability because every programmer prefers to see the code in different representation. As discussed in \autoref{chapter: Compact Representation} we suggest different styles of compact representation to programming idioms. We assuming that it would be very convenient for the programmer if s/he could configure different representations for different environments.
 
-This chapter discusses how the representation of programming features may be configured. All features that have configuration methods in common are grouped. On the left column one can find groups of features and on the right column find how those features can be configured. Different style attributes of the same element can represent multiple features; for example, foreground color of the name of a method can represent access level. In-order to have more details one can look for the following documents: Compact Representation, Supported Features.
+This chapter discusses how the representation of programming idioms may be configured. This is a basic concept that might guide those who will proceed this research and will deiced to focus on the configuration of the representation of the code. We believe that different language features have different configuration features in common. For example, Access Levels may be presented as an icon, text, stylized text, e.g., \textit{private}, and may be omitted. Operators may be presented as an icon, text, or stylized text, e.g., \textbf{\textit{+}}. It is clear that both operators and accessibilities may be presented by text, stylized text, and as an icon. This conclusion may help those who will design the configuration of the compact representation of the operators and the accessibilities. 
+
+The motivation is that the developers who will develop configuration system for a programming feature will be aware of all the other programming features that have configuration features in common. It will optimize the configuration system and will create more intuitive experience for the user.
+
+It is important to note that this is a generic idea that might be expanded by others. Everyone who may add language features, configuration feature or add configuration features to language features.
 \section{Terminology}
+This section provides explanations about terms that appear in this section.
 \begin{itemize}
-	\item Configuration Item - A feature that helps the user to set a configuration for a programming feature.
-	\item Configuration Settings - The values that are chosen by the user (or by default) for the configuration items.
-	\item Scope - Configuration settings are not necessarily global. The user can apply different configuration settings to different code scopes (described below).
+	\item Configuration Feature - A feature that helps the user to set a configuration for a programming feature.
+	\item Language Feature - A feature in a programming language. For example, loops.
 \end{itemize}
 \section{Configuration scope}
-\subsection{Configuration Settings}
-One of the major goals of this project is to allow the user to work on a project from a different devices. PCs are much more convenient environment for programming than laptops and specially more convenient than tablets and mobile devices. Therefore, we assuming that it would be very convenient for the programmer if s/he could configure different representations for different environments. The programmer will have three modes for representation: Desktop(PCs and laptops) - This configuration provides the most detailed environment that the user needs since it has a big screen; Tablet - This environment is much smaller than the previous one but the screen is big enough to show details. Therefore, it will show details but much less; Mobile Phones - This is the smallest environment for developing. Therefore, it will be the most compact representation space wise. Every one of the three configurations that have been described above comes with a default settings that meets the requirements of the environment. One can modify them. The user can change the representation on-demand (get detailed representation of a specific displayed element).
-\subsection{Features and Configuration}
-dsa
-\subsubsection{Configuration Features}
-\subsubsection{Language Features}
+\subsection{Configuration Main Settings}
+We assume that there are three main modes of configuration of representation: Desktop(PCs and laptops) - This configuration provides the most detailed environment that the user needs, since it has a big screen; Tablet - This environment is smaller than the previous one but the screen is big enough to show details. Therefore, it will show details but much less; and Mobile Phones - This is the smallest environment for developing. Therefore, it will be the most compact representation. 
+
+All three configurations that described above come with default settings that meet the requirements of the environment. The user may customize the representations so they will fit his or her needs.
+\subsection{Features and Configurations}
+In order to understand how each programming feature may be represented we reviewed \autoref{chapter: Supported Features} and \autoref{chapter: Compact Representation}. Those chapters helped us to group programming features into groups, e.g., operators. After we managed to group the programming features we created groups of configuration features. Each configuration feature represents a technique of how a programming feature may be represented.
+\autoref{tab14} presents all configuration feature that we grouped and \autoref{tab15} presents all language features and the configuration feature that may be used to present them.
+
+In order to understand how every programming feature may be represented you need to use both \autoref{tab14} and \autoref{tab15}. Fo example, let's take the first row in \autoref{tab15}. The language feature is Operators, it represents all the operators in Java. The referenced configuration features IDs are: STYLE, ICON and TEXT. Which means it may be represented in three ways.
 \begin{table}[H]
 \centering
 \begin{tabular}{|l|p{14cm}|}
 \hline
-\textbf{ID}           & \textbf{Configuration Feature}                                                                                                              \\ \hline
+\textbf{ID}  & \textbf{Configuration Feature}                                                                                            		  \\ \hline
 TEMPORAL     & Temporal Abstraction - Off/ Program/ Paragraph of Text/ Bullets /Signal flow/ Spreadsheet                                          \\ \hline
 PLAN         & Cliche - Replace code with high-level description                                                                                  \\ \hline
 STYLE        & Style - foreground color; background color; size; font; enable/disable bold; enable/disable italics, and enable/disable underlined \\ \hline
@@ -38,10 +45,9 @@ COMPLEXITY   & Complexity - Show complexity If can be computed using Static Anal
 IO           & I/O - Replace code with just input and output                                                                                      \\ \hline
 CONTRIBUTORS & Contributors - Replace code with contributor's name                                                                                \\ \hline
 \end{tabular}
-\caption{This table presents configuration techniques and their ID}
+\caption{This table has two columns: ID and Configuration Feature. Configuration feature (right column) is a technique how a programming feature may be configured. Every configuration feature has a short explanation. The left column is the given ID for every configuration  feature. For example, the ID TEMPORAL represents the Temporal Abstraction configuration feature.}
 \label{tab14}
 \end{table}
-
 \begin{table}[H]
 \centering
 \begin{tabular}{|l|p{11cm}|}
@@ -65,6 +71,6 @@ Expressions                       & RANGE, CONTRIBUTORS, NATIVE                 
 Loops                             & STYLE, ICON, TEXT, OMIT, TEMPORAL, COMPLEXITY, IO, CONTRIBUTORS, PLAN, LAYOUT \\ \hline
 Comments                          & OMIT                                                                          \\ \hline
 \end{tabular}
-\caption{This table presents Language Features and their related Configuration Features (by ID).}
+\caption{This table has two columns: Language Feature and Configuration Features IDs. Language feature column presents all language feature that we managed to grouped until today. Configuration Features IDs are a set of configuration features that may represent a language feature. For example, Operators may be represented with STYLE, ICON, and TEXT.}
 \label{tab15}
 \end{table}
