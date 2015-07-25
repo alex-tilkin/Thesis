@@ -1,6 +1,6 @@
 \chapter{Experiments}
 \section{Introduction}
-This chapter provides information about experiments that have been performed. The main goal of those experiments is to understand how we pronounce the code that we want to insert. The secondary goal is to create a repository of commands that will grouped into categories. Based on the repository will create templates that will help to analyze the pronounced commands.
+This chapter provides information about experiments that have been performed. The main goal of those experiments is to understand how we pronounce the code that we want to insert. The secondary goal is to create a repository of commands that will grouped into categories. Based on the repository we will create templates that will help to analyze the pronounced commands.
 
 Every experiment contained of two active participants and two passive participants (passive participants are listeners). One of the active participants was the speaker and the other one was the typer. In every experiment the typer gave to the speaker a programming task where he need to implement a program. 
 
@@ -20,7 +20,8 @@ foreach(Element element in elements){
 \caption{A simple foreach loop where every item in elements activates it's toString method}
 \label{fig1}
 \end{figure}
-\section{Experiment No.1}
+\section{Experiments} \label{sec: Experiments}
+\subsection{Experiment No.1}
 \begin{itemize}
 	\item Date: 28/Apr/2014.
 	\item Speaker: Alex Tilkin.
@@ -119,7 +120,7 @@ foreach(Element element in elements){
 	\caption{This table presents the major commands that have been dictated during experiment No.1}
 	\label{tab1}
 \end{table}
-\section{Experiment No.2}
+\subsection{Experiment No.2}
 \begin{itemize}
 	\item Date: 28/Apr/2014.
 	\item Speaker: Alex Tilkin.
@@ -219,8 +220,8 @@ foreach(Element element in elements){
 	\caption{Processing \autoref{tab2}. This table presents the major commands that have been dictated during experiment No.2}
 	\label{tab8}
 \end{table}
-\section{Experiment No.3}
-\subsection{Part A}
+\subsection{Experiment No.3}
+\subsubsection{Part A}
 \begin{itemize}
 	\item Date: 12/May/2014.
 	\item Speaker: Ari Gam.
@@ -256,7 +257,7 @@ foreach(Element element in elements){
 	\caption{The result of the diction of the Bubble Sort algorithm}
 	\label{fig5}
 \end{figure}
-\subsection{Part B}
+\subsubsection{Part B}
 \begin{itemize}
 	\item Date: 28/Apr/2014.
 	\item Speaker: Ari Gam.
@@ -325,7 +326,7 @@ foreach(Element element in elements){
 	\caption{This table presents the major commands that have been dictated during experiment No.3}
 	\label{tab3}
 \end{table}
-\section{Experiment No.4}
+\subsection{Experiment No.4}
 \begin{itemize}
 	\item Date: 19/May/2014.
 	\item Speaker: Alex Tilkin.
@@ -596,7 +597,7 @@ The following tables represents the order of the major commands that have been d
 	\caption{Processing \autoref{tab6}. This table presents the major commands that have been dictated during experiment No.4}
 	\label{tab7}
 \end{table}
-\section{Experiment No.5}
+\subsection{Experiment No.5}
 \begin{itemize}
 	\item Date: 03/07/2014.
 	\item Speaker: Perry Shalom.
@@ -729,3 +730,53 @@ The following tables represents the order of the major commands that have been d
 	\caption{Proceeding \autoref{tab9}. This table presents the major commands that have been dictated during experiment No.5}
 	\label{tab10}
 \end{table}
+\section{Commands Repository} \label{sec: Commands Repositorysi}
+The following lists present commands that have been recorded during the experiments (see \ref{sec: Experiments}). It is important to denote that the commands were extracted from the recordings manually and filtered to make the process of organization more easy. For example, random vowels, long pauses and "off the record discussions" were removed. 
+
+The commands were organized by categories. Each category represents a common action that was repeated during the Experiments. Under the categories you will find sub-categories that make the category more specific to what language feature they relate. 
+
+The phrases grouped so they will make a pattern. Below every group you may find a template that represents the group. Based on the those patterns we create a set of BNF rules which is discussed in \ref{subsec: Dictation Parser}. By using the BNF rules the system will resolve the textual commands that the user inserts orally and transforms them to data that the system will be able to handle.
+\subsection{Administration commands}
+\begin{itemize}
+	\item SAVE
+	\item RUN
+\end{itemize}
+\subsection{I/O}
+\begin{itemize}
+	\item Print The TV is on
+	\item Print The TV is off
+\end{itemize}
+PRINT string
+\begin{itemize}
+	\item Print The volume is now concatenate volume
+\end{itemize}
+PRINT [string CONCATENATE languageFeature]+
+\subsection{Navigation}
+\subsubsection{Method}
+\begin{itemize}
+	\item Go to on
+	\item Go to off
+	\item Go to volumeUp
+	\item Go to volumeDown
+	\item Go to execute
+	\item Go to main
+	\item Go to the beginning of main
+	\item Go to Do method
+	\item Go to the beginning of Do
+	\item Go to BuildCar
+\end{itemize}
+GO TO methodName
+\subsubsection{Loop}
+\begin{itemize}
+	\item Go to the for loop
+	\item Go to the while loop
+	\item Go to the end of the for loop
+	\item Go to the end of the while loop
+	\item Go to the beginning of do while loop
+\end{itemize}
+GO TO LOCATION LOOP TYPE
+\subsubsection{Control Block}
+\begin{itemize}
+	\item Go to the end of the if
+	\item Go to the If of BuildCar in CarBuilder
+\end{itemize}

@@ -11,118 +11,121 @@
 \BOOKMARK [1][-]{section.1.7}{Structure of the Report}{chapter.1}% 11
 \BOOKMARK [0][-]{chapter.2}{Experiments}{}% 12
 \BOOKMARK [1][-]{section.2.1}{Introduction}{chapter.2}% 13
-\BOOKMARK [1][-]{section.2.2}{Experiment No.1}{chapter.2}% 14
-\BOOKMARK [1][-]{section.2.3}{Experiment No.2}{chapter.2}% 15
-\BOOKMARK [1][-]{section.2.4}{Experiment No.3}{chapter.2}% 16
-\BOOKMARK [2][-]{subsection.2.4.1}{Part A}{section.2.4}% 17
-\BOOKMARK [2][-]{subsection.2.4.2}{Part B}{section.2.4}% 18
-\BOOKMARK [1][-]{section.2.5}{Experiment No.4}{chapter.2}% 19
-\BOOKMARK [1][-]{section.2.6}{Experiment No.5}{chapter.2}% 20
-\BOOKMARK [0][-]{chapter.3}{Supported Features}{}% 21
-\BOOKMARK [1][-]{section.3.1}{Introduction}{chapter.3}% 22
-\BOOKMARK [1][-]{section.3.2}{List of Features}{chapter.3}% 23
-\BOOKMARK [2][-]{subsection.3.2.1}{Programming by Voice \(writing\)}{section.3.2}% 24
-\BOOKMARK [2][-]{subsection.3.2.2}{Navigation by Voice}{section.3.2}% 25
-\BOOKMARK [2][-]{subsection.3.2.3}{Editing by Voice}{section.3.2}% 26
-\BOOKMARK [2][-]{subsection.3.2.4}{Compact View Mode}{section.3.2}% 27
-\BOOKMARK [2][-]{subsection.3.2.5}{Refactoring}{section.3.2}% 28
-\BOOKMARK [2][-]{subsection.3.2.6}{Object Identification}{section.3.2}% 29
-\BOOKMARK [2][-]{subsection.3.2.7}{Temporal Abstraction}{section.3.2}% 30
-\BOOKMARK [2][-]{subsection.3.2.8}{Details on Touch}{section.3.2}% 31
-\BOOKMARK [2][-]{subsection.3.2.9}{Changing the View Mode}{section.3.2}% 32
-\BOOKMARK [2][-]{subsection.3.2.10}{Fish Eye}{section.3.2}% 33
-\BOOKMARK [2][-]{subsection.3.2.11}{Quick Fix}{section.3.2}% 34
-\BOOKMARK [2][-]{subsection.3.2.12}{Dictation User Experience and Error Correction}{section.3.2}% 35
-\BOOKMARK [2][-]{subsection.3.2.13}{Undo, Redo}{section.3.2}% 36
-\BOOKMARK [2][-]{subsection.3.2.14}{Templates and Concise commands}{section.3.2}% 37
-\BOOKMARK [2][-]{subsection.3.2.15}{Save the Program as Regular Source Code}{section.3.2}% 38
-\BOOKMARK [2][-]{subsection.3.2.16}{Support multiple source files for analyzing}{section.3.2}% 39
-\BOOKMARK [2][-]{subsection.3.2.17}{Search}{section.3.2}% 40
-\BOOKMARK [2][-]{subsection.3.2.18}{Source control integration}{section.3.2}% 41
-\BOOKMARK [2][-]{subsection.3.2.19}{Stand Alone System}{section.3.2}% 42
-\BOOKMARK [2][-]{subsection.3.2.20}{Multi Platform}{section.3.2}% 43
-\BOOKMARK [2][-]{subsection.3.2.21}{License}{section.3.2}% 44
-\BOOKMARK [2][-]{subsection.3.2.22}{Show Time Complexity of Methods}{section.3.2}% 45
-\BOOKMARK [2][-]{subsection.3.2.23}{Command Variability}{section.3.2}% 46
-\BOOKMARK [2][-]{subsection.3.2.24}{Programming Languages Support}{section.3.2}% 47
-\BOOKMARK [2][-]{subsection.3.2.25}{Recommendations System}{section.3.2}% 48
-\BOOKMARK [2][-]{subsection.3.2.26}{Duplication Handling}{section.3.2}% 49
-\BOOKMARK [2][-]{subsection.3.2.27}{String Construction by Voice}{section.3.2}% 50
-\BOOKMARK [2][-]{subsection.3.2.28}{Real Estate}{section.3.2}% 51
-\BOOKMARK [2][-]{subsection.3.2.29}{Auto Identifier Names Generation}{section.3.2}% 52
-\BOOKMARK [2][-]{subsection.3.2.30}{Extension Methods}{section.3.2}% 53
-\BOOKMARK [2][-]{subsection.3.2.31}{Multiple Views}{section.3.2}% 54
-\BOOKMARK [2][-]{subsection.3.2.32}{Breadcrumbs \(Presence in Classes\)}{section.3.2}% 55
-\BOOKMARK [2][-]{subsection.3.2.33}{Getters and Setters Identification}{section.3.2}% 56
-\BOOKMARK [2][-]{subsection.3.2.34}{Omit Declaration Lines}{section.3.2}% 57
-\BOOKMARK [2][-]{subsection.3.2.35}{Operator Overloading}{section.3.2}% 58
-\BOOKMARK [2][-]{subsection.3.2.36}{Lambda expression}{section.3.2}% 59
-\BOOKMARK [2][-]{subsection.3.2.37}{Type Inference}{section.3.2}% 60
-\BOOKMARK [2][-]{subsection.3.2.38}{Source Code on Demand}{section.3.2}% 61
-\BOOKMARK [2][-]{subsection.3.2.39}{Collaboration}{section.3.2}% 62
-\BOOKMARK [2][-]{subsection.3.2.40}{Native representation}{section.3.2}% 63
-\BOOKMARK [2][-]{subsection.3.2.41}{Inter-procedural Flow}{section.3.2}% 64
-\BOOKMARK [2][-]{subsection.3.2.42}{Annotations}{section.3.2}% 65
-\BOOKMARK [0][-]{chapter.4}{Compact Representation}{}% 66
-\BOOKMARK [1][-]{section.4.1}{Introduction}{chapter.4}% 67
-\BOOKMARK [1][-]{section.4.2}{Operators}{chapter.4}% 68
-\BOOKMARK [2][-]{subsection.4.2.1}{Basic Operators}{section.4.2}% 69
-\BOOKMARK [1][-]{section.4.3}{Statement Terminators}{chapter.4}% 70
-\BOOKMARK [1][-]{section.4.4}{Mathematical Expressions}{chapter.4}% 71
-\BOOKMARK [1][-]{section.4.5}{Boolean expressions}{chapter.4}% 72
-\BOOKMARK [2][-]{subsection.4.5.1}{Range}{section.4.5}% 73
-\BOOKMARK [1][-]{section.4.6}{Scopes}{chapter.4}% 74
-\BOOKMARK [2][-]{subsection.4.6.1}{Scope Brackets}{section.4.6}% 75
-\BOOKMARK [2][-]{subsection.4.6.2}{Frame}{section.4.6}% 76
-\BOOKMARK [2][-]{subsection.4.6.3}{Indentation}{section.4.6}% 77
-\BOOKMARK [2][-]{subsection.4.6.4}{Line Break}{section.4.6}% 78
-\BOOKMARK [2][-]{subsection.4.6.5}{Fill}{section.4.6}% 79
-\BOOKMARK [1][-]{section.4.7}{Accessibilities}{chapter.4}% 80
-\BOOKMARK [1][-]{section.4.8}{Implementation and Inheritance}{chapter.4}% 81
-\BOOKMARK [1][-]{section.4.9}{Types}{chapter.4}% 82
-\BOOKMARK [2][-]{subsection.4.9.1}{Style}{section.4.9}% 83
-\BOOKMARK [2][-]{subsection.4.9.2}{Text Value}{section.4.9}% 84
-\BOOKMARK [2][-]{subsection.4.9.3}{Omit Types}{section.4.9}% 85
-\BOOKMARK [1][-]{section.4.10}{Fields}{chapter.4}% 86
-\BOOKMARK [1][-]{section.4.11}{Methods}{chapter.4}% 87
-\BOOKMARK [2][-]{subsection.4.11.1}{Omit Returned Type}{section.4.11}% 88
-\BOOKMARK [2][-]{subsection.4.11.2}{Omit Types of Formal Parameters}{section.4.11}% 89
-\BOOKMARK [2][-]{subsection.4.11.3}{Omit Parentheses}{section.4.11}% 90
-\BOOKMARK [2][-]{subsection.4.11.4}{Constructors}{section.4.11}% 91
-\BOOKMARK [1][-]{section.4.12}{Control Blocks}{chapter.4}% 92
-\BOOKMARK [2][-]{subsection.4.12.1}{If Statements}{section.4.12}% 93
-\BOOKMARK [2][-]{subsection.4.12.2}{Switch}{section.4.12}% 94
-\BOOKMARK [1][-]{section.4.13}{Temporal Abstraction}{chapter.4}% 95
-\BOOKMARK [1][-]{section.4.14}{Loops}{chapter.4}% 96
-\BOOKMARK [2][-]{subsection.4.14.1}{Temporal Abstraction}{section.4.14}% 97
-\BOOKMARK [2][-]{subsection.4.14.2}{Imperative Representation}{section.4.14}% 98
-\BOOKMARK [1][-]{section.4.15}{System Methods}{chapter.4}% 99
-\BOOKMARK [1][-]{section.4.16}{Layouts}{chapter.4}% 100
-\BOOKMARK [2][-]{subsection.4.16.1}{Tiles}{section.4.16}% 101
-\BOOKMARK [2][-]{subsection.4.16.2}{Breadcrumbs}{section.4.16}% 102
-\BOOKMARK [2][-]{subsection.4.16.3}{Inter-procedural Flow}{section.4.16}% 103
-\BOOKMARK [0][-]{chapter.5}{Configuration of Representation}{}% 104
-\BOOKMARK [1][-]{section.5.1}{Introduction}{chapter.5}% 105
-\BOOKMARK [1][-]{section.5.2}{Terminology}{chapter.5}% 106
-\BOOKMARK [1][-]{section.5.3}{Configuration scope}{chapter.5}% 107
-\BOOKMARK [2][-]{subsection.5.3.1}{Configuration Main Settings}{section.5.3}% 108
-\BOOKMARK [2][-]{subsection.5.3.2}{Features and Configurations}{section.5.3}% 109
-\BOOKMARK [0][-]{chapter.6}{Programming in Natural Language}{}% 110
-\BOOKMARK [1][-]{section.6.1}{Introduction}{chapter.6}% 111
-\BOOKMARK [1][-]{section.6.2}{Configuration}{chapter.6}% 112
-\BOOKMARK [1][-]{section.6.3}{Natural Language Processing}{chapter.6}% 113
-\BOOKMARK [2][-]{subsection.6.3.1}{Speech To Text Engines}{section.6.3}% 114
-\BOOKMARK [2][-]{subsection.6.3.2}{Context Free Grammar}{section.6.3}% 115
-\BOOKMARK [2][-]{subsection.6.3.3}{Dictation Parser}{section.6.3}% 116
-\BOOKMARK [2][-]{subsection.6.3.4}{Grammar Testing}{section.6.3}% 117
-\BOOKMARK [1][-]{section.6.4}{Implementation}{chapter.6}% 118
-\BOOKMARK [0][-]{chapter.7}{Prototype}{}% 119
-\BOOKMARK [1][-]{section.7.1}{Introduction}{chapter.7}% 120
-\BOOKMARK [1][-]{section.7.2}{Speech to Text}{chapter.7}% 121
-\BOOKMARK [2][-]{subsection.7.2.1}{Google Speech V2 Server}{section.7.2}% 122
-\BOOKMARK [2][-]{subsection.7.2.2}{Speech to Text Library}{section.7.2}% 123
-\BOOKMARK [1][-]{section.7.3}{BNF Parser}{chapter.7}% 124
-\BOOKMARK [0][-]{appendix.A}{Publications}{}% 125
-\BOOKMARK [1][-]{section.A.1}{MobileSoft 2015 Conference}{appendix.A}% 126
-\BOOKMARK [0][-]{appendix.B}{Acronyms}{}% 127
-\BOOKMARK [0][-]{appendix.B}{Bibliography}{}% 128
+\BOOKMARK [1][-]{section.2.2}{Experiments}{chapter.2}% 14
+\BOOKMARK [2][-]{subsection.2.2.1}{Experiment No.1}{section.2.2}% 15
+\BOOKMARK [2][-]{subsection.2.2.2}{Experiment No.2}{section.2.2}% 16
+\BOOKMARK [2][-]{subsection.2.2.3}{Experiment No.3}{section.2.2}% 17
+\BOOKMARK [2][-]{subsection.2.2.4}{Experiment No.4}{section.2.2}% 18
+\BOOKMARK [2][-]{subsection.2.2.5}{Experiment No.5}{section.2.2}% 19
+\BOOKMARK [1][-]{section.2.3}{Commands Repository}{chapter.2}% 20
+\BOOKMARK [2][-]{subsection.2.3.1}{Administration commands}{section.2.3}% 21
+\BOOKMARK [2][-]{subsection.2.3.2}{I/O}{section.2.3}% 22
+\BOOKMARK [2][-]{subsection.2.3.3}{Navigation}{section.2.3}% 23
+\BOOKMARK [0][-]{chapter.3}{Supported Features}{}% 24
+\BOOKMARK [1][-]{section.3.1}{Introduction}{chapter.3}% 25
+\BOOKMARK [1][-]{section.3.2}{List of Features}{chapter.3}% 26
+\BOOKMARK [2][-]{subsection.3.2.1}{Programming by Voice \(writing\)}{section.3.2}% 27
+\BOOKMARK [2][-]{subsection.3.2.2}{Navigation by Voice}{section.3.2}% 28
+\BOOKMARK [2][-]{subsection.3.2.3}{Editing by Voice}{section.3.2}% 29
+\BOOKMARK [2][-]{subsection.3.2.4}{Compact View Mode}{section.3.2}% 30
+\BOOKMARK [2][-]{subsection.3.2.5}{Refactoring}{section.3.2}% 31
+\BOOKMARK [2][-]{subsection.3.2.6}{Object Identification}{section.3.2}% 32
+\BOOKMARK [2][-]{subsection.3.2.7}{Temporal Abstraction}{section.3.2}% 33
+\BOOKMARK [2][-]{subsection.3.2.8}{Details on Touch}{section.3.2}% 34
+\BOOKMARK [2][-]{subsection.3.2.9}{Changing the View Mode}{section.3.2}% 35
+\BOOKMARK [2][-]{subsection.3.2.10}{Fish Eye}{section.3.2}% 36
+\BOOKMARK [2][-]{subsection.3.2.11}{Quick Fix}{section.3.2}% 37
+\BOOKMARK [2][-]{subsection.3.2.12}{Dictation User Experience and Error Correction}{section.3.2}% 38
+\BOOKMARK [2][-]{subsection.3.2.13}{Undo, Redo}{section.3.2}% 39
+\BOOKMARK [2][-]{subsection.3.2.14}{Templates and Concise commands}{section.3.2}% 40
+\BOOKMARK [2][-]{subsection.3.2.15}{Save the Program as Regular Source Code}{section.3.2}% 41
+\BOOKMARK [2][-]{subsection.3.2.16}{Support multiple source files for analyzing}{section.3.2}% 42
+\BOOKMARK [2][-]{subsection.3.2.17}{Search}{section.3.2}% 43
+\BOOKMARK [2][-]{subsection.3.2.18}{Source control integration}{section.3.2}% 44
+\BOOKMARK [2][-]{subsection.3.2.19}{Stand Alone System}{section.3.2}% 45
+\BOOKMARK [2][-]{subsection.3.2.20}{Multi Platform}{section.3.2}% 46
+\BOOKMARK [2][-]{subsection.3.2.21}{License}{section.3.2}% 47
+\BOOKMARK [2][-]{subsection.3.2.22}{Show Time Complexity of Methods}{section.3.2}% 48
+\BOOKMARK [2][-]{subsection.3.2.23}{Command Variability}{section.3.2}% 49
+\BOOKMARK [2][-]{subsection.3.2.24}{Programming Languages Support}{section.3.2}% 50
+\BOOKMARK [2][-]{subsection.3.2.25}{Recommendations System}{section.3.2}% 51
+\BOOKMARK [2][-]{subsection.3.2.26}{Duplication Handling}{section.3.2}% 52
+\BOOKMARK [2][-]{subsection.3.2.27}{String Construction by Voice}{section.3.2}% 53
+\BOOKMARK [2][-]{subsection.3.2.28}{Real Estate}{section.3.2}% 54
+\BOOKMARK [2][-]{subsection.3.2.29}{Auto Identifier Names Generation}{section.3.2}% 55
+\BOOKMARK [2][-]{subsection.3.2.30}{Extension Methods}{section.3.2}% 56
+\BOOKMARK [2][-]{subsection.3.2.31}{Multiple Views}{section.3.2}% 57
+\BOOKMARK [2][-]{subsection.3.2.32}{Breadcrumbs \(Presence in Classes\)}{section.3.2}% 58
+\BOOKMARK [2][-]{subsection.3.2.33}{Getters and Setters Identification}{section.3.2}% 59
+\BOOKMARK [2][-]{subsection.3.2.34}{Omit Declaration Lines}{section.3.2}% 60
+\BOOKMARK [2][-]{subsection.3.2.35}{Operator Overloading}{section.3.2}% 61
+\BOOKMARK [2][-]{subsection.3.2.36}{Lambda expression}{section.3.2}% 62
+\BOOKMARK [2][-]{subsection.3.2.37}{Type Inference}{section.3.2}% 63
+\BOOKMARK [2][-]{subsection.3.2.38}{Source Code on Demand}{section.3.2}% 64
+\BOOKMARK [2][-]{subsection.3.2.39}{Collaboration}{section.3.2}% 65
+\BOOKMARK [2][-]{subsection.3.2.40}{Native representation}{section.3.2}% 66
+\BOOKMARK [2][-]{subsection.3.2.41}{Inter-procedural Flow}{section.3.2}% 67
+\BOOKMARK [2][-]{subsection.3.2.42}{Annotations}{section.3.2}% 68
+\BOOKMARK [0][-]{chapter.4}{Compact Representation}{}% 69
+\BOOKMARK [1][-]{section.4.1}{Introduction}{chapter.4}% 70
+\BOOKMARK [1][-]{section.4.2}{Operators}{chapter.4}% 71
+\BOOKMARK [2][-]{subsection.4.2.1}{Basic Operators}{section.4.2}% 72
+\BOOKMARK [1][-]{section.4.3}{Statement Terminators}{chapter.4}% 73
+\BOOKMARK [1][-]{section.4.4}{Mathematical Expressions}{chapter.4}% 74
+\BOOKMARK [1][-]{section.4.5}{Boolean expressions}{chapter.4}% 75
+\BOOKMARK [2][-]{subsection.4.5.1}{Range}{section.4.5}% 76
+\BOOKMARK [1][-]{section.4.6}{Scopes}{chapter.4}% 77
+\BOOKMARK [2][-]{subsection.4.6.1}{Scope Brackets}{section.4.6}% 78
+\BOOKMARK [2][-]{subsection.4.6.2}{Frame}{section.4.6}% 79
+\BOOKMARK [2][-]{subsection.4.6.3}{Indentation}{section.4.6}% 80
+\BOOKMARK [2][-]{subsection.4.6.4}{Line Break}{section.4.6}% 81
+\BOOKMARK [2][-]{subsection.4.6.5}{Fill}{section.4.6}% 82
+\BOOKMARK [1][-]{section.4.7}{Accessibilities}{chapter.4}% 83
+\BOOKMARK [1][-]{section.4.8}{Implementation and Inheritance}{chapter.4}% 84
+\BOOKMARK [1][-]{section.4.9}{Types}{chapter.4}% 85
+\BOOKMARK [2][-]{subsection.4.9.1}{Style}{section.4.9}% 86
+\BOOKMARK [2][-]{subsection.4.9.2}{Text Value}{section.4.9}% 87
+\BOOKMARK [2][-]{subsection.4.9.3}{Omit Types}{section.4.9}% 88
+\BOOKMARK [1][-]{section.4.10}{Fields}{chapter.4}% 89
+\BOOKMARK [1][-]{section.4.11}{Methods}{chapter.4}% 90
+\BOOKMARK [2][-]{subsection.4.11.1}{Omit Returned Type}{section.4.11}% 91
+\BOOKMARK [2][-]{subsection.4.11.2}{Omit Types of Formal Parameters}{section.4.11}% 92
+\BOOKMARK [2][-]{subsection.4.11.3}{Omit Parentheses}{section.4.11}% 93
+\BOOKMARK [2][-]{subsection.4.11.4}{Constructors}{section.4.11}% 94
+\BOOKMARK [1][-]{section.4.12}{Control Blocks}{chapter.4}% 95
+\BOOKMARK [2][-]{subsection.4.12.1}{If Statements}{section.4.12}% 96
+\BOOKMARK [2][-]{subsection.4.12.2}{Switch}{section.4.12}% 97
+\BOOKMARK [1][-]{section.4.13}{Temporal Abstraction}{chapter.4}% 98
+\BOOKMARK [1][-]{section.4.14}{Loops}{chapter.4}% 99
+\BOOKMARK [2][-]{subsection.4.14.1}{Temporal Abstraction}{section.4.14}% 100
+\BOOKMARK [2][-]{subsection.4.14.2}{Imperative Representation}{section.4.14}% 101
+\BOOKMARK [1][-]{section.4.15}{System Methods}{chapter.4}% 102
+\BOOKMARK [1][-]{section.4.16}{Layouts}{chapter.4}% 103
+\BOOKMARK [2][-]{subsection.4.16.1}{Tiles}{section.4.16}% 104
+\BOOKMARK [2][-]{subsection.4.16.2}{Breadcrumbs}{section.4.16}% 105
+\BOOKMARK [2][-]{subsection.4.16.3}{Inter-procedural Flow}{section.4.16}% 106
+\BOOKMARK [0][-]{chapter.5}{Configuration of Representation}{}% 107
+\BOOKMARK [1][-]{section.5.1}{Introduction}{chapter.5}% 108
+\BOOKMARK [1][-]{section.5.2}{Terminology}{chapter.5}% 109
+\BOOKMARK [1][-]{section.5.3}{Configuration scope}{chapter.5}% 110
+\BOOKMARK [2][-]{subsection.5.3.1}{Configuration Main Settings}{section.5.3}% 111
+\BOOKMARK [2][-]{subsection.5.3.2}{Features and Configurations}{section.5.3}% 112
+\BOOKMARK [0][-]{chapter.6}{Programming in Natural Language}{}% 113
+\BOOKMARK [1][-]{section.6.1}{Introduction}{chapter.6}% 114
+\BOOKMARK [1][-]{section.6.2}{Configuration}{chapter.6}% 115
+\BOOKMARK [1][-]{section.6.3}{Natural Language Processing}{chapter.6}% 116
+\BOOKMARK [2][-]{subsection.6.3.1}{Speech To Text Engines}{section.6.3}% 117
+\BOOKMARK [2][-]{subsection.6.3.2}{Context Free Grammar}{section.6.3}% 118
+\BOOKMARK [2][-]{subsection.6.3.3}{Dictation Parser}{section.6.3}% 119
+\BOOKMARK [2][-]{subsection.6.3.4}{Grammar Testing}{section.6.3}% 120
+\BOOKMARK [1][-]{section.6.4}{Implementation}{chapter.6}% 121
+\BOOKMARK [0][-]{chapter.7}{Prototype}{}% 122
+\BOOKMARK [1][-]{section.7.1}{Introduction}{chapter.7}% 123
+\BOOKMARK [1][-]{section.7.2}{Speech to Text}{chapter.7}% 124
+\BOOKMARK [2][-]{subsection.7.2.1}{Google Speech V2 Server}{section.7.2}% 125
+\BOOKMARK [2][-]{subsection.7.2.2}{Speech to Text Library}{section.7.2}% 126
+\BOOKMARK [1][-]{section.7.3}{BNF Parser}{chapter.7}% 127
+\BOOKMARK [0][-]{appendix.A}{Publications}{}% 128
+\BOOKMARK [1][-]{section.A.1}{MobileSoft 2015 Conference}{appendix.A}% 129
+\BOOKMARK [0][-]{appendix.B}{Acronyms}{}% 130
+\BOOKMARK [0][-]{appendix.B}{Bibliography}{}% 131
