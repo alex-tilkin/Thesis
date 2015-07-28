@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2015.3.26)  26 JUL 2015 20:49
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2015.3.26)  28 JUL 2015 21:25
 entering extended mode
 **thesis.tex
 (thesis.tex
@@ -1007,13 +1007,13 @@ LaTeX Font Info:    Redeclaring math symbol \curvearrowright on input line 258.
 LaTeX Font Info:    Redeclaring math symbol \varkappa on input line 260.
 LaTeX Font Info:    Redeclaring math symbol \hslash on input line 262.
 )) (thesis.aux
-(Definitions.aux) (front.aux) (preface.aux) (acknowledgment.aux) (summary.aux)
+(Definitions.aux) (front.aux) (preface.aux) (acknowledgment.aux) (abstract.aux)
 (chapter01.aux) (chapter02.aux
 
 LaTeX Warning: Label `fig4' multiply defined.
 
 ) (chapter03.aux) (chapter04.aux) (chapter05.aux) (chapter06.aux)
-(chapter07.aux) (Publications.aux) (acronyms.aux))
+(chapter07.aux) (futurework.aux) (Publications.aux) (acronyms.aux))
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 3.
 LaTeX Font Info:    ... okay on input line 3.
 LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 3.
@@ -1130,7 +1130,7 @@ LaTeX Info: Redefining \nameref on input line 3.
 ("C:\Program Files\MiKTeX 2.9\tex\latex\listings\lstlang1.sty"
 File: lstlang1.sty 2014/09/06 1.5e listings language file
 )) (front.tex
-<./fig/MTALogo.jpg, id=530, 487.8225pt x 200.75pt>
+<./fig/MTALogo.jpg, id=534, 487.8225pt x 200.75pt>
 File: ./fig/MTALogo.jpg Graphic file (type jpg)
  <use ./fig/MTALogo.jpg>
 Package pdftex.def Info: ./fig/MTALogo.jpg used on input line 11.
@@ -1162,7 +1162,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 7--8
 ] (acknowledgment.tex) [2
 
 
-] (summary.tex) [3
+] (abstract.tex) [3
 
 
 ]
@@ -1204,37 +1204,37 @@ LaTeX Font Info:    Font shape `T1/futs/bx/n' in size <12> not available
 
 ] [5] [6] [7]
 Overfull \hbox (1.19994pt too wide) detected at line 145
- []\T1/futs/m/n/12 107
+ []\T1/futs/m/n/12 108
  []
 
 
 Overfull \hbox (1.19994pt too wide) detected at line 147
- []\T1/futs/m/n/12 108
+ []\T1/futs/m/n/12 109
  []
 
 
 Overfull \hbox (1.19994pt too wide) detected at line 148
- []\T1/futs/m/n/12 108
+ []\T1/futs/m/n/12 109
  []
 
 
 Overfull \hbox (1.19994pt too wide) detected at line 149
- []\T1/futs/m/n/12 108
+ []\T1/futs/m/n/12 109
  []
 
 
 Overfull \hbox (1.19994pt too wide) detected at line 153
- []\T1/futs/m/n/12 111
+ []\T1/futs/m/n/12 112
  []
 
 
 Overfull \hbox (1.19994pt too wide) detected at line 154
- []\T1/futs/m/n/12 111
+ []\T1/futs/m/n/12 112
  []
 
 
-Overfull \hbox (1.19994pt too wide) detected at line 156
- []\T1/futs/m/n/12 112
+Overfull \hbox (1.19994pt too wide) detected at line 157
+ []\T1/futs/m/n/12 114
  []
 
 )
@@ -1612,7 +1612,7 @@ Overfull \hbox (13.3966pt too wide) in paragraph at lines 13--35
                                                   \fi \fi 
 l.40 \section
              {Mathematical Expressions}] [56]
-<"./fig/Condition With Frame".png, id=1397, 132.495pt x 60.225pt>
+<"./fig/Condition With Frame".png, id=1402, 132.495pt x 60.225pt>
 File: "./fig/Condition With Frame".png Graphic file (type png)
 
 <use "./fig/Condition With Frame".png>
@@ -1620,7 +1620,7 @@ Package pdftex.def Info: "./fig/Condition With Frame".png used on input line 62
 .
 (pdftex.def)             Requested size: 132.49466pt x 60.22484pt.
 
-<"./fig/Condition With Frame and short Indentation".png, id=1401, 109.1578pt x 
+<"./fig/Condition With Frame and short Indentation".png, id=1406, 109.1578pt x 
 57.96657pt>
 File: "./fig/Condition With Frame and short Indentation".png Graphic file (type
  png)
@@ -1687,7 +1687,7 @@ LaTeX Warning: Reference `39' on page 61 undefined on input line 153.
 
 LaTeX Warning: Reference `40' on page 61 undefined on input line 163.
 
-<"./fig/foo with omitted parentheses".png, id=1457, 147.55125pt x 30.86531pt>
+<"./fig/foo with omitted parentheses".png, id=1462, 147.55125pt x 30.86531pt>
 File: "./fig/foo with omitted parentheses".png Graphic file (type png)
 
 <use "./fig/foo with omitted parentheses".png>
@@ -1713,7 +1713,7 @@ l.171
                                                   \fi \fi 
 l.171 
        <./fig/foo with omitted parentheses.png>]
-<"./fig/Crane Constructor".png, id=1474, 127.97812pt x 57.21375pt>
+<"./fig/Crane Constructor".png, id=1479, 127.97812pt x 57.21375pt>
 File: "./fig/Crane Constructor".png Graphic file (type png)
 
 <use "./fig/Crane Constructor".png>
@@ -1844,7 +1844,7 @@ gnored
                                                   \fi \fi 
 l.359 \subsection
                  {Imperative Representation}]
-<"./fig/Loop Watermark".png, id=1607, 246.9225pt x 151.3153pt>
+<"./fig/Loop Watermark".png, id=1612, 246.9225pt x 151.3153pt>
 File: "./fig/Loop Watermark".png Graphic file (type png)
 
 <use "./fig/Loop Watermark".png>
@@ -1863,7 +1863,7 @@ name{figure.4.23}) has been already used, duplicate ignored
                                                   \fi \fi 
 l.378 \end{figure}
                   ]
-<"./fig/Loop Variable".png, id=1623, 77.53969pt x 65.49469pt>
+<"./fig/Loop Variable".png, id=1628, 77.53969pt x 65.49469pt>
 File: "./fig/Loop Variable".png Graphic file (type png)
 
 <use "./fig/Loop Variable".png>
@@ -1876,7 +1876,7 @@ Package pdftex.def Info: "./fig/Loop Variable".png used on input line 386.
                                                   \fi \fi 
 l.390 \subsubsection
                     {Loop Complexity} <./fig/Loop Watermark.png>]
-<"./fig/Code Complexity Representation".png, id=1639, 50.43843pt x 40.65187pt>
+<"./fig/Code Complexity Representation".png, id=1644, 50.43843pt x 40.65187pt>
 File: "./fig/Code Complexity Representation".png Graphic file (type png)
 
 <use "./fig/Code Complexity Representation".png>
@@ -1898,7 +1898,7 @@ cate ignored
 l.409 \subsubsection
                     {Print to Screen (System.out)} <./fig/Loop Variable.png> <.
 /fig/Code Complexity Representation.png>]
-<"./fig/System Out Hello World".png, id=1656, 87.32625pt x 14.30344pt>
+<"./fig/System Out Hello World".png, id=1661, 87.32625pt x 14.30344pt>
 File: "./fig/System Out Hello World".png Graphic file (type png)
 
 <use "./fig/System Out Hello World".png>
@@ -1912,7 +1912,7 @@ o, World!"), one may show only println
  []
 
 [74 <./fig/System Out Hello World.png>]
-<"./fig/Tiles".png, id=1667, 471.26062pt x 237.88875pt>
+<"./fig/Tiles".png, id=1672, 471.26062pt x 237.88875pt>
 File: "./fig/Tiles".png Graphic file (type png)
 
 <use "./fig/Tiles".png>
@@ -1949,14 +1949,14 @@ ame identifier (name{figure.4.29}) has been already used, duplicate ignored
                                                   \fi \fi 
 l.448 \subsubsection
                     {Code Bubbles}]
-<"./fig/Code Bubbles".png, id=1687, 374.90062pt x 149.05687pt>
+<"./fig/Code Bubbles".png, id=1692, 374.90062pt x 149.05687pt>
 File: "./fig/Code Bubbles".png Graphic file (type png)
 
 <use "./fig/Code Bubbles".png>
 Package pdftex.def Info: "./fig/Code Bubbles".png used on input line 455.
 (pdftex.def)             Requested size: 374.8997pt x 149.0565pt.
  [77]
-<./files/Linked-List-Compact-Representation.pdf, id=1695, 845.19763pt x 1565.12
+<./files/Linked-List-Compact-Representation.pdf, id=1700, 845.19763pt x 1565.12
 733pt>
 File: ./files/Linked-List-Compact-Representation.pdf Graphic file (type pdf)
  <use ./files/Linked-List-Compact-Representation.pdf>
@@ -1977,7 +1977,7 @@ Package pdftex.def Info: ./files/Linked-List-Compact-Representation.pdf used on
 l.466 ...s/Linked-List-Compact-Representation.pdf}
                                                    <./fig/Code Bubbles.png>]
 [79]
-<./files/Linked-List-Compact-Representation.pdf, id=1707, page=1, 845.19763pt x
+<./files/Linked-List-Compact-Representation.pdf, id=1712, page=1, 845.19763pt x
  1565.12733pt>
 File: ./files/Linked-List-Compact-Representation.pdf Graphic file (type pdf)
  <use ./files/Linked-List-Compact-Representation.pdf, page 1>
@@ -2060,7 +2060,7 @@ Chapter 6.
 l.24 \subsection
                 {Context Free Grammar}] [88] [89]
 <"./fig/Parse Tree create a static public class named wheel inside class car".p
-ng, id=1847, 960.58875pt x 413.545pt>
+ng, id=1852, 960.58875pt x 413.545pt>
 File: "./fig/Parse Tree create a static public class named wheel inside class c
 ar".png Graphic file (type png)
 
@@ -2070,7 +2070,7 @@ Package pdftex.def Info: "./fig/Parse Tree create a static public class named w
 heel inside class car".png used on input line 52.
 (pdftex.def)             Requested size: 384.22868pt x 165.41505pt.
 
-<"./fig/Parse Tree create an inner class wheel".png, id=1849, 649.42625pt x 343
+<"./fig/Parse Tree create an inner class wheel".png, id=1854, 649.42625pt x 343
 .2825pt>
 File: "./fig/Parse Tree create an inner class wheel".png Graphic file (type png
 )
@@ -2079,7 +2079,7 @@ Package pdftex.def Info: "./fig/Parse Tree create an inner class wheel".png use
 d on input line 61.
 (pdftex.def)             Requested size: 259.7659pt x 137.31056pt.
 
-<./fig/BNFDiagram.jpg, id=1850, 1025.8325pt x 283.0575pt>
+<./fig/BNFDiagram.jpg, id=1855, 1025.8325pt x 283.0575pt>
 File: ./fig/BNFDiagram.jpg Graphic file (type jpg)
 
 <use ./fig/BNFDiagram.jpg>
@@ -2226,9 +2226,21 @@ Overfull \hbox (178.68143pt too wide) in paragraph at lines 20--21
 [][][][][][][][][][][][][][][][][]  
  []
 
-[110] [111]) [112] (Publications.tex
+[110] [111] [112]
+Overfull \hbox (3.90042pt too wide) in paragraph at lines 92--93
+[]\T1/futs/m/n/12 Grammar file con-tains ev-ery-thing ANTLR needs to gen-er-ate
+ cor-rect lexer and parser. Whether
+ []
+
+) [113] (futurework.tex
+Chapter 8.
+) [114
+
+
+
+] (Publications.tex
 Appendix A.
-<./files/deverywhere-mobilesoft15.pdf, id=2320, 614.295pt x 794.97pt>
+<./files/deverywhere-mobilesoft15.pdf, id=2335, 614.295pt x 794.97pt>
 File: ./files/deverywhere-mobilesoft15.pdf Graphic file (type pdf)
 
 <use ./files/deverywhere-mobilesoft15.pdf>
@@ -2241,12 +2253,12 @@ File: ./files/deverywhere-mobilesoft15.pdf Graphic file (type pdf)
 Package pdftex.def Info: ./files/deverywhere-mobilesoft15.pdf used on input lin
 e 16.
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
- [113
+ [115
 
 
 
 ]
-<./files/deverywhere-mobilesoft15.pdf, id=2328, page=1, 614.295pt x 794.97pt>
+<./files/deverywhere-mobilesoft15.pdf, id=2342, page=1, 614.295pt x 794.97pt>
 File: ./files/deverywhere-mobilesoft15.pdf Graphic file (type pdf)
 
 <use ./files/deverywhere-mobilesoft15.pdf, page 1>
@@ -2277,48 +2289,48 @@ File: ./files/deverywhere-mobilesoft15.pdf Graphic file (type pdf)
 Package pdftex.def Info: ./files/deverywhere-mobilesoft15.pdf, page1 used on in
 put line 16.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
- [114 <./files/deverywhere-mobilesoft15.pdf>]
-<./files/deverywhere-mobilesoft15.pdf, id=2369, page=2, 614.295pt x 794.97pt>
-File: ./files/deverywhere-mobilesoft15.pdf Graphic file (type pdf)
-
-<use ./files/deverywhere-mobilesoft15.pdf, page 2>
-Package pdftex.def Info: ./files/deverywhere-mobilesoft15.pdf, page2 used on in
-put line 16.
-(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
-File: ./files/deverywhere-mobilesoft15.pdf Graphic file (type pdf)
-
-<use ./files/deverywhere-mobilesoft15.pdf, page 2>
-Package pdftex.def Info: ./files/deverywhere-mobilesoft15.pdf, page2 used on in
-put line 16.
-(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
-File: ./files/deverywhere-mobilesoft15.pdf Graphic file (type pdf)
-
-<use ./files/deverywhere-mobilesoft15.pdf, page 2>
-Package pdftex.def Info: ./files/deverywhere-mobilesoft15.pdf, page2 used on in
-put line 16.
-(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
- [115 <./files/deverywhere-mobilesoft15.pdf>]
-<./files/deverywhere-mobilesoft15.pdf, id=2374, page=3, 614.295pt x 794.97pt>
-File: ./files/deverywhere-mobilesoft15.pdf Graphic file (type pdf)
-
-<use ./files/deverywhere-mobilesoft15.pdf, page 3>
-Package pdftex.def Info: ./files/deverywhere-mobilesoft15.pdf, page3 used on in
-put line 16.
-(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
-File: ./files/deverywhere-mobilesoft15.pdf Graphic file (type pdf)
-
-<use ./files/deverywhere-mobilesoft15.pdf, page 3>
-Package pdftex.def Info: ./files/deverywhere-mobilesoft15.pdf, page3 used on in
-put line 16.
-(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
-File: ./files/deverywhere-mobilesoft15.pdf Graphic file (type pdf)
-
-<use ./files/deverywhere-mobilesoft15.pdf, page 3>
-Package pdftex.def Info: ./files/deverywhere-mobilesoft15.pdf, page3 used on in
-put line 16.
-(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
  [116 <./files/deverywhere-mobilesoft15.pdf>]
-<./files/deverywhere-mobilesoft15.pdf, id=2449, page=4, 614.295pt x 794.97pt>
+<./files/deverywhere-mobilesoft15.pdf, id=2383, page=2, 614.295pt x 794.97pt>
+File: ./files/deverywhere-mobilesoft15.pdf Graphic file (type pdf)
+
+<use ./files/deverywhere-mobilesoft15.pdf, page 2>
+Package pdftex.def Info: ./files/deverywhere-mobilesoft15.pdf, page2 used on in
+put line 16.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: ./files/deverywhere-mobilesoft15.pdf Graphic file (type pdf)
+
+<use ./files/deverywhere-mobilesoft15.pdf, page 2>
+Package pdftex.def Info: ./files/deverywhere-mobilesoft15.pdf, page2 used on in
+put line 16.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: ./files/deverywhere-mobilesoft15.pdf Graphic file (type pdf)
+
+<use ./files/deverywhere-mobilesoft15.pdf, page 2>
+Package pdftex.def Info: ./files/deverywhere-mobilesoft15.pdf, page2 used on in
+put line 16.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+ [117 <./files/deverywhere-mobilesoft15.pdf>]
+<./files/deverywhere-mobilesoft15.pdf, id=2388, page=3, 614.295pt x 794.97pt>
+File: ./files/deverywhere-mobilesoft15.pdf Graphic file (type pdf)
+
+<use ./files/deverywhere-mobilesoft15.pdf, page 3>
+Package pdftex.def Info: ./files/deverywhere-mobilesoft15.pdf, page3 used on in
+put line 16.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: ./files/deverywhere-mobilesoft15.pdf Graphic file (type pdf)
+
+<use ./files/deverywhere-mobilesoft15.pdf, page 3>
+Package pdftex.def Info: ./files/deverywhere-mobilesoft15.pdf, page3 used on in
+put line 16.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: ./files/deverywhere-mobilesoft15.pdf Graphic file (type pdf)
+
+<use ./files/deverywhere-mobilesoft15.pdf, page 3>
+Package pdftex.def Info: ./files/deverywhere-mobilesoft15.pdf, page3 used on in
+put line 16.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+ [118 <./files/deverywhere-mobilesoft15.pdf>]
+<./files/deverywhere-mobilesoft15.pdf, id=2463, page=4, 614.295pt x 794.97pt>
 File: ./files/deverywhere-mobilesoft15.pdf Graphic file (type pdf)
 
 <use ./files/deverywhere-mobilesoft15.pdf, page 4>
@@ -2337,9 +2349,9 @@ File: ./files/deverywhere-mobilesoft15.pdf Graphic file (type pdf)
 Package pdftex.def Info: ./files/deverywhere-mobilesoft15.pdf, page4 used on in
 put line 16.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
- [117 <./files/deverywhere-mobilesoft15.pdf>]) (acronyms.tex
+ [119 <./files/deverywhere-mobilesoft15.pdf>]) (acronyms.tex
 Appendix B.
-) [118
+) [120
 
 
 
@@ -2349,21 +2361,21 @@ Underfull \hbox (badness 2970) in paragraph at lines 33--37
 12 https : / / github . com / gillesdemey /$
  []
 
-[119
+[121
 
 
 ])
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 29.
- [120]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 29.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 30.
+ [122]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 30.
  (thesis.aux (Definitions.aux) (front.aux) (preface.aux)
-(acknowledgment.aux) (summary.aux) (chapter01.aux) (chapter02.aux)
+(acknowledgment.aux) (abstract.aux) (chapter01.aux) (chapter02.aux)
 (chapter03.aux) (chapter04.aux) (chapter05.aux) (chapter06.aux) (chapter07.aux)
-(Publications.aux) (acronyms.aux))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 29.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 29.
+(futurework.aux) (Publications.aux) (acronyms.aux))
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 30.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 30.
 Package rerunfilecheck Info: File `thesis.out' has not changed.
-(rerunfilecheck)             Checksum: B37CC7C2B12C0C5B95022A691993AF5F;9040.
+(rerunfilecheck)             Checksum: DC34E795019E4606C0FE949BD5B59A0F;9089.
 
 
 LaTeX Warning: There were undefined references.
@@ -2371,13 +2383,13 @@ LaTeX Warning: There were undefined references.
 
 LaTeX Warning: There were multiply-defined labels.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 29.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 30.
  ) 
 Here is how much of TeX's memory you used:
- 14446 strings out of 493698
- 201333 string characters out of 3144406
- 414412 words of memory out of 3000000
- 16218 multiletter control sequences out of 15000+200000
+ 14458 strings out of 493698
+ 201487 string characters out of 3144406
+ 414856 words of memory out of 3000000
+ 16220 multiletter control sequences out of 15000+200000
  102298 words of font info for 116 fonts, out of 3000000 for 9000
  1025 hyphenation exceptions out of 8191
  45i,19n,45p,1504b,1830s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -2401,9 +2413,9 @@ er/ucrr8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmb8a.pfb><C:
 /Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmbi8a.pfb><C:/Program Files/M
 iKTeX 2.9/fonts/type1/urw/times/utmr8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/t
 ype1/urw/times/utmri8a.pfb>
-Output written on thesis.pdf (128 pages, 1660793 bytes).
+Output written on thesis.pdf (130 pages, 1656306 bytes).
 PDF statistics:
- 2885 PDF objects out of 2984 (max. 8388607)
- 1159 named destinations out of 1200 (max. 500000)
- 1182 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 2899 PDF objects out of 2984 (max. 8388607)
+ 1163 named destinations out of 1200 (max. 500000)
+ 1190 words of extra memory for PDF output out of 10000 (max. 10000000)
 

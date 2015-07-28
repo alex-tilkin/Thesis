@@ -78,3 +78,21 @@ This library is an open source with dependency in Processing, hence we had to ma
 \end{itemize}
 It is shown in \citet{getflourish14} where to get the source code from and how to use it's API.
 \section{BNF Parser} \label{section:BNF Parser}
+\subsubsection{Antlr 4}
+Antlr stands for Another Tool for Language Recognition. The tool is able to generate compiler or interpreter for any computer language. Besides obvious use, e.g. need to parse a real 'big' programming language such as Java, PHP or SQL, it can help with smaller, more common tasks.
+
+It is useful any time you need to evaluate expressions unknown at compile-time or to parse non-trivial user input or files in a weird format. Of course, it is possible to create custom hand made parser for any of these tasks. However, it usually takes much more time and effort. A little knowledge of a good parser generator may turn these time-consuming tasks into easy and fast exercises.
+
+ANTLR seems to be popular in open source word. Among others, it is used by Apache Camel, Apache Lucene, Apache Hadoop, Groovy and Hibernate. They all needed parser for a custom language. For example, Hibernate uses ANTLR to parse its query language HQL.
+
+ANTLR is code generator. It takes so called grammar file as input and generates two classes: lexer and parser.
+
+Lexer runs first and splits input into pieces called tokens. Each token represents more or less meaningful piece of input. The stream of tokes is passed to parser which do all necessary work. It is the parser who builds abstract syntax tree, interprets the code or translate it into some other form.
+
+Grammar file contains everything ANTLR needs to generate correct lexer and parser. Whether it should generate java or python classes, whether parser generates abstract syntax tree, assembler code or directly interprets code and so on. As this tutorial shows how to build abstract syntax tree, we will ignore other options in following explanations.
+
+Most importantly, grammar file describes how to split input into tokens and how to build tree from tokens. In other words, grammar file contains lexer rules and parser rules.
+
+Each lexer rule describes one token: TokenName: regular expression; Parser rules are more complicated. The most basic version is similar as in lexer rule: ParserRuleName: regular expression;  
+
+They may contain modifiers that specify special transformations on input, root and childs in result abstract syntax tree or actions to be performed whenever rule is used. Almost all work is usually done inside parser rules.
