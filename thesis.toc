@@ -26,135 +26,169 @@
 \contentsline {subsubsection}{Method}{37}{section*.7}
 \contentsline {subsubsection}{Loop}{38}{section*.8}
 \contentsline {subsubsection}{Control Block}{38}{section*.9}
-\contentsline {chapter}{\numberline {3}Supported Features}{39}{chapter.3}
-\contentsline {section}{\numberline {3.1}Introduction}{39}{section.3.1}
-\contentsline {section}{\numberline {3.2}List of Features}{39}{section.3.2}
-\contentsline {subsection}{\numberline {3.2.1}Programming by Voice (writing)}{39}{subsection.3.2.1}
-\contentsline {subsection}{\numberline {3.2.2}Navigation by Voice}{40}{subsection.3.2.2}
-\contentsline {subsection}{\numberline {3.2.3}Editing by Voice}{40}{subsection.3.2.3}
-\contentsline {subsection}{\numberline {3.2.4}Compact View Mode}{40}{subsection.3.2.4}
-\contentsline {subsection}{\numberline {3.2.5}Refactoring}{40}{subsection.3.2.5}
-\contentsline {subsection}{\numberline {3.2.6}Object Identification}{41}{subsection.3.2.6}
-\contentsline {subsection}{\numberline {3.2.7}Temporal Abstraction}{42}{subsection.3.2.7}
-\contentsline {subsection}{\numberline {3.2.8}Details on Touch}{42}{subsection.3.2.8}
-\contentsline {subsection}{\numberline {3.2.9}Changing the View Mode}{42}{subsection.3.2.9}
-\contentsline {subsection}{\numberline {3.2.10}Fish Eye}{42}{subsection.3.2.10}
-\contentsline {subsection}{\numberline {3.2.11}Quick Fix}{43}{subsection.3.2.11}
-\contentsline {subsection}{\numberline {3.2.12}Dictation User Experience and Error Correction}{44}{subsection.3.2.12}
-\contentsline {subsection}{\numberline {3.2.13}Undo, Redo}{45}{subsection.3.2.13}
-\contentsline {subsection}{\numberline {3.2.14}Templates and Concise commands}{45}{subsection.3.2.14}
-\contentsline {subsection}{\numberline {3.2.15}Save the Program as Regular Source Code}{45}{subsection.3.2.15}
-\contentsline {subsection}{\numberline {3.2.16}Support multiple source files for analyzing}{45}{subsection.3.2.16}
-\contentsline {subsection}{\numberline {3.2.17}Search}{45}{subsection.3.2.17}
-\contentsline {subsection}{\numberline {3.2.18}Source control integration}{46}{subsection.3.2.18}
-\contentsline {subsection}{\numberline {3.2.19}Stand Alone System}{46}{subsection.3.2.19}
-\contentsline {subsection}{\numberline {3.2.20}Multi Platform}{46}{subsection.3.2.20}
-\contentsline {subsection}{\numberline {3.2.21}License}{46}{subsection.3.2.21}
-\contentsline {subsection}{\numberline {3.2.22}Show Time Complexity of Methods}{46}{subsection.3.2.22}
-\contentsline {subsection}{\numberline {3.2.23}Command Variability}{46}{subsection.3.2.23}
-\contentsline {subsection}{\numberline {3.2.24}Programming Languages Support}{47}{subsection.3.2.24}
-\contentsline {subsection}{\numberline {3.2.25}Recommendations System}{47}{subsection.3.2.25}
-\contentsline {subsection}{\numberline {3.2.26}Duplication Handling}{47}{subsection.3.2.26}
-\contentsline {subsection}{\numberline {3.2.27}String Construction by Voice}{48}{subsection.3.2.27}
-\contentsline {subsection}{\numberline {3.2.28}Real Estate}{48}{subsection.3.2.28}
-\contentsline {subsection}{\numberline {3.2.29}Auto Identifier Names Generation}{48}{subsection.3.2.29}
-\contentsline {subsection}{\numberline {3.2.30}Extension Methods}{48}{subsection.3.2.30}
-\contentsline {subsection}{\numberline {3.2.31}Multiple Views}{48}{subsection.3.2.31}
-\contentsline {subsection}{\numberline {3.2.32}Breadcrumbs (Presence in Classes)}{49}{subsection.3.2.32}
-\contentsline {subsection}{\numberline {3.2.33}Getters and Setters Identification}{49}{subsection.3.2.33}
-\contentsline {subsection}{\numberline {3.2.34}Omit Declaration Lines}{50}{subsection.3.2.34}
-\contentsline {subsection}{\numberline {3.2.35}Operator Overloading}{50}{subsection.3.2.35}
-\contentsline {subsection}{\numberline {3.2.36}Lambda expression}{50}{subsection.3.2.36}
-\contentsline {subsection}{\numberline {3.2.37}Type Inference}{50}{subsection.3.2.37}
-\contentsline {subsection}{\numberline {3.2.38}Source Code on Demand}{51}{subsection.3.2.38}
-\contentsline {subsection}{\numberline {3.2.39}Collaboration}{51}{subsection.3.2.39}
-\contentsline {subsection}{\numberline {3.2.40}Native representation}{51}{subsection.3.2.40}
-\contentsline {subsection}{\numberline {3.2.41}Inter-procedural Flow}{51}{subsection.3.2.41}
-\contentsline {subsection}{\numberline {3.2.42}Annotations}{52}{subsection.3.2.42}
-\contentsline {chapter}{\numberline {4}Compact Representation}{53}{chapter.4}
-\contentsline {section}{\numberline {4.1}Introduction}{53}{section.4.1}
-\contentsline {section}{\numberline {4.2}Operators}{54}{section.4.2}
-\contentsline {subsection}{\numberline {4.2.1}Basic Operators}{54}{subsection.4.2.1}
-\contentsline {section}{\numberline {4.3}Statement Terminators}{55}{section.4.3}
-\contentsline {section}{\numberline {4.4}Mathematical Expressions}{56}{section.4.4}
-\contentsline {section}{\numberline {4.5}Boolean expressions}{56}{section.4.5}
-\contentsline {subsection}{\numberline {4.5.1}Range}{56}{subsection.4.5.1}
-\contentsline {section}{\numberline {4.6}Scopes}{56}{section.4.6}
-\contentsline {subsection}{\numberline {4.6.1}Scope Brackets}{56}{subsection.4.6.1}
-\contentsline {subsection}{\numberline {4.6.2}Frame}{57}{subsection.4.6.2}
-\contentsline {subsection}{\numberline {4.6.3}Indentation}{57}{subsection.4.6.3}
-\contentsline {subsection}{\numberline {4.6.4}Line Break}{58}{subsection.4.6.4}
-\contentsline {subsubsection}{New Line}{58}{section*.10}
-\contentsline {subsubsection}{2 Columns}{58}{section*.11}
-\contentsline {subsection}{\numberline {4.6.5}Fill}{59}{subsection.4.6.5}
-\contentsline {section}{\numberline {4.7}Accessibilities}{59}{section.4.7}
-\contentsline {section}{\numberline {4.8}Implementation and Inheritance}{60}{section.4.8}
-\contentsline {section}{\numberline {4.9}Types}{60}{section.4.9}
-\contentsline {subsection}{\numberline {4.9.1}Style}{60}{subsection.4.9.1}
-\contentsline {subsection}{\numberline {4.9.2}Text Value}{60}{subsection.4.9.2}
-\contentsline {subsection}{\numberline {4.9.3}Omit Types}{60}{subsection.4.9.3}
-\contentsline {section}{\numberline {4.10}Fields}{60}{section.4.10}
-\contentsline {section}{\numberline {4.11}Methods}{61}{section.4.11}
-\contentsline {subsection}{\numberline {4.11.1}Omit Returned Type}{61}{subsection.4.11.1}
-\contentsline {subsection}{\numberline {4.11.2}Omit Types of Formal Parameters}{61}{subsection.4.11.2}
-\contentsline {subsection}{\numberline {4.11.3}Omit Parentheses}{61}{subsection.4.11.3}
-\contentsline {subsection}{\numberline {4.11.4}Constructors}{62}{subsection.4.11.4}
-\contentsline {subsubsection}{Different Name}{62}{section*.12}
-\contentsline {subsubsection}{Icon}{62}{section*.13}
-\contentsline {section}{\numberline {4.12}Control Blocks}{62}{section.4.12}
-\contentsline {subsection}{\numberline {4.12.1}If Statements}{63}{subsection.4.12.1}
-\contentsline {subsection}{\numberline {4.12.2}Switch}{63}{subsection.4.12.2}
-\contentsline {section}{\numberline {4.13}Temporal Abstraction}{64}{section.4.13}
-\contentsline {section}{\numberline {4.14}Loops}{68}{section.4.14}
-\contentsline {subsection}{\numberline {4.14.1}Temporal Abstraction}{68}{subsection.4.14.1}
-\contentsline {subsection}{\numberline {4.14.2}Imperative Representation}{71}{subsection.4.14.2}
-\contentsline {subsubsection}{Loop Icon}{71}{section*.14}
-\contentsline {subsubsection}{Loop Watermark}{72}{section*.15}
-\contentsline {subsubsection}{Loop Range Representation}{72}{section*.16}
-\contentsline {subsubsection}{Loop variables}{72}{section*.17}
-\contentsline {subsubsection}{Loop Complexity}{73}{section*.18}
-\contentsline {subsubsection}{Loop Signature}{73}{section*.19}
-\contentsline {section}{\numberline {4.15}System Methods}{74}{section.4.15}
-\contentsline {subsubsection}{Print to Screen (System.out)}{74}{section*.20}
-\contentsline {subsubsection}{Memory Copy}{74}{section*.21}
-\contentsline {subsubsection}{Strings Utilities}{74}{section*.22}
-\contentsline {section}{\numberline {4.16}Layouts}{75}{section.4.16}
-\contentsline {subsection}{\numberline {4.16.1}Tiles}{75}{subsection.4.16.1}
-\contentsline {subsection}{\numberline {4.16.2}Breadcrumbs}{76}{subsection.4.16.2}
-\contentsline {subsection}{\numberline {4.16.3}Inter-procedural Flow}{77}{subsection.4.16.3}
-\contentsline {subsubsection}{Code Bubbles}{77}{section*.23}
-\contentsline {section}{\numberline {4.17}Example}{78}{section.4.17}
-\contentsline {chapter}{\numberline {5}Configuration of Representation}{81}{chapter.5}
-\contentsline {section}{\numberline {5.1}Introduction}{81}{section.5.1}
-\contentsline {section}{\numberline {5.2}Terminology}{82}{section.5.2}
-\contentsline {section}{\numberline {5.3}Configuration scope}{82}{section.5.3}
-\contentsline {subsection}{\numberline {5.3.1}Configuration Main Settings}{82}{subsection.5.3.1}
-\contentsline {subsection}{\numberline {5.3.2}Features and Configurations}{82}{subsection.5.3.2}
-\contentsline {chapter}{\numberline {6}Programming in Natural Language}{86}{chapter.6}
-\contentsline {section}{\numberline {6.1}Introduction}{86}{section.6.1}
-\contentsline {section}{\numberline {6.2}Configuration}{86}{section.6.2}
-\contentsline {section}{\numberline {6.3}Natural Language Processing}{87}{section.6.3}
-\contentsline {subsection}{\numberline {6.3.1}Speech To Text Engines}{87}{subsection.6.3.1}
-\contentsline {subsection}{\numberline {6.3.2}Context Free Grammar}{88}{subsection.6.3.2}
-\contentsline {subsubsection}{Extended Backus Naur Form}{88}{section*.24}
-\contentsline {subsection}{\numberline {6.3.3}Dictation Parser}{88}{subsection.6.3.3}
-\contentsline {subsubsection}{Grammar Construction}{89}{section*.25}
-\contentsline {subsection}{\numberline {6.3.4}Grammar Testing}{91}{subsection.6.3.4}
-\contentsline {subsubsection}{LinkedList Example}{92}{section*.26}
-\contentsline {subsubsection}{Car Builder Example}{105}{section*.27}
-\contentsline {section}{\numberline {6.4}Implementation}{108}{section.6.4}
-\contentsline {chapter}{\numberline {7}Prototype}{109}{chapter.7}
-\contentsline {section}{\numberline {7.1}Introduction}{109}{section.7.1}
-\contentsline {section}{\numberline {7.2}Speech to Text}{109}{section.7.2}
-\contentsline {subsection}{\numberline {7.2.1}Google Speech V2 Server}{109}{subsection.7.2.1}
-\contentsline {subsubsection}{Host}{110}{section*.28}
-\contentsline {subsubsection}{Request}{110}{section*.29}
-\contentsline {subsubsection}{Response}{110}{section*.30}
-\contentsline {subsection}{\numberline {7.2.2}Speech to Text Library}{112}{subsection.7.2.2}
-\contentsline {section}{\numberline {7.3}BNF Parser}{112}{section.7.3}
-\contentsline {subsubsection}{Antlr 4}{112}{section*.31}
-\contentsline {chapter}{\numberline {8}Future Work}{114}{chapter.8}
-\contentsline {chapter}{\numberline {A}Publications}{115}{appendix.A}
-\contentsline {section}{\numberline {A.1}MobileSoft 2015 Conference}{115}{section.A.1}
-\contentsline {chapter}{\numberline {B}Acronyms}{120}{appendix.B}
-\contentsline {chapter}{Bibliography}{121}{appendix.B}
+\contentsline {subsubsection}{Constructor}{38}{section*.10}
+\contentsline {subsection}{\numberline {2.3.4}Exit}{39}{subsection.2.3.4}
+\contentsline {subsubsection}{If}{39}{section*.11}
+\contentsline {subsubsection}{Method}{39}{section*.12}
+\contentsline {subsubsection}{Loop}{39}{section*.13}
+\contentsline {subsubsection}{Class}{40}{section*.14}
+\contentsline {subsection}{\numberline {2.3.5}Expression}{40}{subsection.2.3.5}
+\contentsline {subsubsection}{Mathematical Expression}{40}{section*.15}
+\contentsline {subsubsection}{Assignment Expression}{40}{section*.16}
+\contentsline {subsection}{\numberline {2.3.6}Collections}{41}{subsection.2.3.6}
+\contentsline {subsubsection}{Add}{41}{section*.17}
+\contentsline {subsection}{\numberline {2.3.7}Conditions}{41}{subsection.2.3.7}
+\contentsline {subsection}{\numberline {2.3.8}Return}{42}{subsection.2.3.8}
+\contentsline {subsection}{\numberline {2.3.9}Call}{42}{subsection.2.3.9}
+\contentsline {subsubsection}{Method}{42}{section*.18}
+\contentsline {subsection}{\numberline {2.3.10}Delete}{43}{subsection.2.3.10}
+\contentsline {subsection}{\numberline {2.3.11}Change/Modify}{43}{subsection.2.3.11}
+\contentsline {subsubsection}{Class}{43}{section*.19}
+\contentsline {subsubsection}{Methods}{44}{section*.20}
+\contentsline {subsubsection}{Strings}{44}{section*.21}
+\contentsline {subsubsection}{Constructors}{44}{section*.22}
+\contentsline {subsubsection}{Identifiers}{44}{section*.23}
+\contentsline {subsubsection}{Loops}{44}{section*.24}
+\contentsline {subsection}{\numberline {2.3.12}Inheritance/Implementation}{45}{subsection.2.3.12}
+\contentsline {subsubsection}{Inheritance}{45}{section*.25}
+\contentsline {subsubsection}{Implemintation}{45}{section*.26}
+\contentsline {subsection}{\numberline {2.3.13}Create}{45}{subsection.2.3.13}
+\contentsline {subsubsection}{Method}{45}{section*.27}
+\contentsline {subsubsection}{Class}{46}{section*.28}
+\contentsline {subsubsection}{Loop}{46}{section*.29}
+\contentsline {subsubsection}{Interfaces}{46}{section*.30}
+\contentsline {subsubsection}{Constructors}{47}{section*.31}
+\contentsline {subsubsection}{Identifiers}{47}{section*.32}
+\contentsline {subsubsection}{Main}{48}{section*.33}
+\contentsline {chapter}{\numberline {3}Supported Features}{49}{chapter.3}
+\contentsline {section}{\numberline {3.1}Introduction}{49}{section.3.1}
+\contentsline {section}{\numberline {3.2}List of Features}{49}{section.3.2}
+\contentsline {subsection}{\numberline {3.2.1}Programming by Voice (writing)}{49}{subsection.3.2.1}
+\contentsline {subsection}{\numberline {3.2.2}Navigation by Voice}{50}{subsection.3.2.2}
+\contentsline {subsection}{\numberline {3.2.3}Editing by Voice}{50}{subsection.3.2.3}
+\contentsline {subsection}{\numberline {3.2.4}Compact View Mode}{50}{subsection.3.2.4}
+\contentsline {subsection}{\numberline {3.2.5}Refactoring}{50}{subsection.3.2.5}
+\contentsline {subsection}{\numberline {3.2.6}Object Identification}{51}{subsection.3.2.6}
+\contentsline {subsection}{\numberline {3.2.7}Temporal Abstraction}{52}{subsection.3.2.7}
+\contentsline {subsection}{\numberline {3.2.8}Details on Touch}{52}{subsection.3.2.8}
+\contentsline {subsection}{\numberline {3.2.9}Changing the View Mode}{52}{subsection.3.2.9}
+\contentsline {subsection}{\numberline {3.2.10}Fish Eye}{52}{subsection.3.2.10}
+\contentsline {subsection}{\numberline {3.2.11}Quick Fix}{53}{subsection.3.2.11}
+\contentsline {subsection}{\numberline {3.2.12}Dictation User Experience and Error Correction}{54}{subsection.3.2.12}
+\contentsline {subsection}{\numberline {3.2.13}Undo, Redo}{55}{subsection.3.2.13}
+\contentsline {subsection}{\numberline {3.2.14}Templates and Concise commands}{55}{subsection.3.2.14}
+\contentsline {subsection}{\numberline {3.2.15}Save the Program as Regular Source Code}{55}{subsection.3.2.15}
+\contentsline {subsection}{\numberline {3.2.16}Support multiple source files for analyzing}{55}{subsection.3.2.16}
+\contentsline {subsection}{\numberline {3.2.17}Search}{55}{subsection.3.2.17}
+\contentsline {subsection}{\numberline {3.2.18}Source control integration}{56}{subsection.3.2.18}
+\contentsline {subsection}{\numberline {3.2.19}Stand Alone System}{56}{subsection.3.2.19}
+\contentsline {subsection}{\numberline {3.2.20}Multi Platform}{56}{subsection.3.2.20}
+\contentsline {subsection}{\numberline {3.2.21}License}{56}{subsection.3.2.21}
+\contentsline {subsection}{\numberline {3.2.22}Show Time Complexity of Methods}{56}{subsection.3.2.22}
+\contentsline {subsection}{\numberline {3.2.23}Command Variability}{56}{subsection.3.2.23}
+\contentsline {subsection}{\numberline {3.2.24}Programming Languages Support}{57}{subsection.3.2.24}
+\contentsline {subsection}{\numberline {3.2.25}Recommendations System}{57}{subsection.3.2.25}
+\contentsline {subsection}{\numberline {3.2.26}Duplication Handling}{57}{subsection.3.2.26}
+\contentsline {subsection}{\numberline {3.2.27}String Construction by Voice}{58}{subsection.3.2.27}
+\contentsline {subsection}{\numberline {3.2.28}Real Estate}{58}{subsection.3.2.28}
+\contentsline {subsection}{\numberline {3.2.29}Auto Identifier Names Generation}{58}{subsection.3.2.29}
+\contentsline {subsection}{\numberline {3.2.30}Extension Methods}{58}{subsection.3.2.30}
+\contentsline {subsection}{\numberline {3.2.31}Multiple Views}{58}{subsection.3.2.31}
+\contentsline {subsection}{\numberline {3.2.32}Breadcrumbs (Presence in Classes)}{59}{subsection.3.2.32}
+\contentsline {subsection}{\numberline {3.2.33}Getters and Setters Identification}{59}{subsection.3.2.33}
+\contentsline {subsection}{\numberline {3.2.34}Omit Declaration Lines}{60}{subsection.3.2.34}
+\contentsline {subsection}{\numberline {3.2.35}Operator Overloading}{60}{subsection.3.2.35}
+\contentsline {subsection}{\numberline {3.2.36}Lambda expression}{60}{subsection.3.2.36}
+\contentsline {subsection}{\numberline {3.2.37}Type Inference}{60}{subsection.3.2.37}
+\contentsline {subsection}{\numberline {3.2.38}Source Code on Demand}{61}{subsection.3.2.38}
+\contentsline {subsection}{\numberline {3.2.39}Collaboration}{61}{subsection.3.2.39}
+\contentsline {subsection}{\numberline {3.2.40}Native representation}{61}{subsection.3.2.40}
+\contentsline {subsection}{\numberline {3.2.41}Inter-procedural Flow}{61}{subsection.3.2.41}
+\contentsline {subsection}{\numberline {3.2.42}Annotations}{62}{subsection.3.2.42}
+\contentsline {chapter}{\numberline {4}Compact Representation}{63}{chapter.4}
+\contentsline {section}{\numberline {4.1}Introduction}{63}{section.4.1}
+\contentsline {section}{\numberline {4.2}Operators}{64}{section.4.2}
+\contentsline {subsection}{\numberline {4.2.1}Basic Operators}{64}{subsection.4.2.1}
+\contentsline {section}{\numberline {4.3}Statement Terminators}{65}{section.4.3}
+\contentsline {section}{\numberline {4.4}Mathematical Expressions}{66}{section.4.4}
+\contentsline {section}{\numberline {4.5}Boolean expressions}{66}{section.4.5}
+\contentsline {subsection}{\numberline {4.5.1}Range}{66}{subsection.4.5.1}
+\contentsline {section}{\numberline {4.6}Scopes}{66}{section.4.6}
+\contentsline {subsection}{\numberline {4.6.1}Scope Brackets}{66}{subsection.4.6.1}
+\contentsline {subsection}{\numberline {4.6.2}Frame}{67}{subsection.4.6.2}
+\contentsline {subsection}{\numberline {4.6.3}Indentation}{67}{subsection.4.6.3}
+\contentsline {subsection}{\numberline {4.6.4}Line Break}{68}{subsection.4.6.4}
+\contentsline {subsubsection}{New Line}{68}{section*.34}
+\contentsline {subsubsection}{2 Columns}{68}{section*.35}
+\contentsline {subsection}{\numberline {4.6.5}Fill}{69}{subsection.4.6.5}
+\contentsline {section}{\numberline {4.7}Accessibilities}{69}{section.4.7}
+\contentsline {section}{\numberline {4.8}Implementation and Inheritance}{70}{section.4.8}
+\contentsline {section}{\numberline {4.9}Types}{70}{section.4.9}
+\contentsline {subsection}{\numberline {4.9.1}Style}{70}{subsection.4.9.1}
+\contentsline {subsection}{\numberline {4.9.2}Text Value}{70}{subsection.4.9.2}
+\contentsline {subsection}{\numberline {4.9.3}Omit Types}{70}{subsection.4.9.3}
+\contentsline {section}{\numberline {4.10}Fields}{70}{section.4.10}
+\contentsline {section}{\numberline {4.11}Methods}{71}{section.4.11}
+\contentsline {subsection}{\numberline {4.11.1}Omit Returned Type}{71}{subsection.4.11.1}
+\contentsline {subsection}{\numberline {4.11.2}Omit Types of Formal Parameters}{71}{subsection.4.11.2}
+\contentsline {subsection}{\numberline {4.11.3}Omit Parentheses}{71}{subsection.4.11.3}
+\contentsline {subsection}{\numberline {4.11.4}Constructors}{72}{subsection.4.11.4}
+\contentsline {subsubsection}{Different Name}{72}{section*.36}
+\contentsline {subsubsection}{Icon}{72}{section*.37}
+\contentsline {section}{\numberline {4.12}Control Blocks}{72}{section.4.12}
+\contentsline {subsection}{\numberline {4.12.1}If Statements}{73}{subsection.4.12.1}
+\contentsline {subsection}{\numberline {4.12.2}Switch}{73}{subsection.4.12.2}
+\contentsline {section}{\numberline {4.13}Temporal Abstraction}{74}{section.4.13}
+\contentsline {section}{\numberline {4.14}Loops}{78}{section.4.14}
+\contentsline {subsection}{\numberline {4.14.1}Temporal Abstraction}{78}{subsection.4.14.1}
+\contentsline {subsection}{\numberline {4.14.2}Imperative Representation}{81}{subsection.4.14.2}
+\contentsline {subsubsection}{Loop Icon}{81}{section*.38}
+\contentsline {subsubsection}{Loop Watermark}{82}{section*.39}
+\contentsline {subsubsection}{Loop Range Representation}{82}{section*.40}
+\contentsline {subsubsection}{Loop variables}{82}{section*.41}
+\contentsline {subsubsection}{Loop Complexity}{83}{section*.42}
+\contentsline {subsubsection}{Loop Signature}{83}{section*.43}
+\contentsline {section}{\numberline {4.15}System Methods}{84}{section.4.15}
+\contentsline {subsubsection}{Print to Screen (System.out)}{84}{section*.44}
+\contentsline {subsubsection}{Memory Copy}{84}{section*.45}
+\contentsline {subsubsection}{Strings Utilities}{84}{section*.46}
+\contentsline {section}{\numberline {4.16}Layouts}{85}{section.4.16}
+\contentsline {subsection}{\numberline {4.16.1}Tiles}{85}{subsection.4.16.1}
+\contentsline {subsection}{\numberline {4.16.2}Breadcrumbs}{86}{subsection.4.16.2}
+\contentsline {subsection}{\numberline {4.16.3}Inter-procedural Flow}{87}{subsection.4.16.3}
+\contentsline {subsubsection}{Code Bubbles}{87}{section*.47}
+\contentsline {section}{\numberline {4.17}Example}{88}{section.4.17}
+\contentsline {chapter}{\numberline {5}Configuration of Representation}{91}{chapter.5}
+\contentsline {section}{\numberline {5.1}Introduction}{91}{section.5.1}
+\contentsline {section}{\numberline {5.2}Terminology}{92}{section.5.2}
+\contentsline {section}{\numberline {5.3}Configuration scope}{92}{section.5.3}
+\contentsline {subsection}{\numberline {5.3.1}Configuration Main Settings}{92}{subsection.5.3.1}
+\contentsline {subsection}{\numberline {5.3.2}Features and Configurations}{92}{subsection.5.3.2}
+\contentsline {chapter}{\numberline {6}Programming in Natural Language}{96}{chapter.6}
+\contentsline {section}{\numberline {6.1}Introduction}{96}{section.6.1}
+\contentsline {section}{\numberline {6.2}Configuration}{96}{section.6.2}
+\contentsline {section}{\numberline {6.3}Natural Language Processing}{97}{section.6.3}
+\contentsline {subsection}{\numberline {6.3.1}Speech To Text Engines}{97}{subsection.6.3.1}
+\contentsline {subsection}{\numberline {6.3.2}Context Free Grammar}{98}{subsection.6.3.2}
+\contentsline {subsubsection}{Extended Backus Naur Form}{98}{section*.48}
+\contentsline {subsection}{\numberline {6.3.3}Dictation Parser}{98}{subsection.6.3.3}
+\contentsline {subsubsection}{Grammar Construction}{99}{section*.49}
+\contentsline {subsection}{\numberline {6.3.4}Grammar Testing}{101}{subsection.6.3.4}
+\contentsline {subsubsection}{LinkedList Example}{102}{section*.50}
+\contentsline {subsubsection}{Car Builder Example}{115}{section*.51}
+\contentsline {section}{\numberline {6.4}Implementation}{118}{section.6.4}
+\contentsline {chapter}{\numberline {7}Prototype}{119}{chapter.7}
+\contentsline {section}{\numberline {7.1}Introduction}{119}{section.7.1}
+\contentsline {section}{\numberline {7.2}Speech to Text}{119}{section.7.2}
+\contentsline {subsection}{\numberline {7.2.1}Google Speech V2 Server}{119}{subsection.7.2.1}
+\contentsline {subsubsection}{Host}{120}{section*.52}
+\contentsline {subsubsection}{Request}{120}{section*.53}
+\contentsline {subsubsection}{Response}{120}{section*.54}
+\contentsline {subsection}{\numberline {7.2.2}Speech to Text Library}{122}{subsection.7.2.2}
+\contentsline {section}{\numberline {7.3}BNF Parser}{122}{section.7.3}
+\contentsline {subsubsection}{Antlr 4}{122}{section*.55}
+\contentsline {chapter}{\numberline {8}Future Work}{124}{chapter.8}
+\contentsline {chapter}{\numberline {A}Publications}{125}{appendix.A}
+\contentsline {section}{\numberline {A.1}MobileSoft 2015 Conference}{125}{section.A.1}
+\contentsline {chapter}{\numberline {B}Acronyms}{130}{appendix.B}
+\contentsline {chapter}{Bibliography}{131}{appendix.B}
