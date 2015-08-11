@@ -1,8 +1,8 @@
 \chapter{Supported Features} \label{chapter: Supported Features}
 \section{Introduction}
-This chapter discusses about the research that has been done to collect information about existing technologies for the Java language. The purpose of this research is to collect information about potential technologies that can be integrated in to Deverywhere system and to increase it's functionality. All features have been discussed by the research group whether they have a potential to be integrated or not. The features that presented in this chapter are only those which have been chosen to be integrated. Note that this research is flexible and the list of features might be changed. This part is important for the research because our architecture and prototype are designed in such way so all the mentioned features can be integrated into it.
+This chapter discusses the research that has been done to collect information about existing technologies for the Java language. The purpose of this research is to collect information about potential technologies that can be integrated into the Deverywhere system and to increase its functionality. All features have been discussed by the research group whether they have a potential to be integrated or not. The features that are presented in this chapter are only those which have been chosen to be integrated. Note that this research is flexible and the list of features might be changed. This part is important for the research because our architecture and prototype are designed in such way so all the mentioned features can be integrated into it.
 
-Every feature that discussed in this chapter is followed by a numerical value which represents the priority of the feature. the range of the numbers is 1-4 where 1 is the highest priority and 4 is the lowest priority. The meaning of priority is how important that feature to this research.
+Every feature that is discussed in this chapter is followed by a numerical value which represents the priority of the feature. The range of the numbers is 1-4 where 1 is the highest priority and 4 is the lowest priority. The definition of priority for our purposes is how important that feature is to this research.
 
 \section{List of Features}
 \subsection{Programming by Voice (writing)}
@@ -11,8 +11,8 @@ Every feature that discussed in this chapter is followed by a numerical value wh
 \end{itemize}
 Allow the user to program using his voice.
 \begin{itemize}
-	\item In case the system stumbles a case of ambiguity it will present options to the user which he could choose the most appropriate solution.
-	\item The system should distinguish between when the user dictates to it or speaking to someone (this is very complicated feature to implement so it might be postponed to later works).
+	\item In case the system stumbles on a case of ambiguity it will present options to the user from which he could choose the most appropriate solution.
+	\item The system should distinguish between when the user dictates to it or speaks to someone (this is a very complicated feature to implement so it might be postponed until  later works).
 \end{itemize}
 \subsection{Navigation by Voice} \label{ssec:num1}
 \begin{itemize}
@@ -28,12 +28,12 @@ The user could edit the code by using his voice.
 \begin{itemize}
 	\item Priority: 1
 \end{itemize}
-Provide an easy for understanding, comfortable and compact representation for code. Allow the use of emoticons and other graphical symbols in order to represent language features such as: classes, methods, and variables.
+Provide an easy method for understanding, comfortable and compact representation for code. Allow the use of emoticons and other graphical symbols in order to represent language features such as: classes, methods, and variables.
 \subsection{Refactoring}
-Enable the user to perform refactoring operations on the code with voice commands. Due to it is complicated to support all refactoring features we decided to choose several that will be supported (prioritized list where the first one has the highest priority).
+Enable the user to perform refactoring operations on the code with voice commands. Because it is complicated to support all refactoring features, we decided to choose several features that will be supported (prioritized list where the first one has the highest priority).
 \begin{itemize}
 	\item Rename Element (Variable, Rename, Field etc.) - Changing the name into a new one that better reveals its purpose
-	\item Constructor Using Fields - Create constructor by selecting a couple of fields and and create a constructor that receives those fields as a formal variables that initialize the local fields
+	\item Constructor Using Fields - Create constructor by selecting a couple of fields and create a constructor that receives those fields as a formal variables that initialize the local fields
 	\item Surround with “try-catch” - Surround a chunk of code with “try-catch” statement
 	\item Move Element (Method or Field) - move to a more appropriate Class or source file
 	\item Push Down - Move fields from derived class to the base class
@@ -45,9 +45,9 @@ Enable the user to perform refactoring operations on the code with voice command
 \begin{itemize}
 	\item Priority: 2 (relates to \ref{ssec:num1})
 \end{itemize}
-This is a core feature that has to be implemented in-order to allow other features like: navigation, refactoring and any other feature that requires from the user to point where he want to take the action. Below is a list of several features that provides example where is it needed.
+This is a core feature that has to be implemented in-order to allow other features such as: navigation, refactoring and any other feature that requires from the user to point to where he wants to take the action. Below is a list of several features that provides an example where is it needed.
 \begin{itemize}
-	\item Refactoring - When a user asks to refactor a certain object he say something lie "change car to truck". in order to change this identifier first the system needs to identify it and then start the process of renaming it.
+	\item Refactoring - When a user asks to refactor a certain object he says something like "change car to truck". In order to change this identifier, first the system needs to identify it and then start the process of renaming it.
 	\item Navigation in code - In order to allow navigation in code the system needs to identify the object and its location in order to navigate correctly. For example, one may say “go to a method drive of car” and the cursor will go to the first line of the method “Drive” in the class “Car”.
 	\item Code Selection - user may select pieces of code by telling the system start and end points. For example, "Select the code from line sixteen to line twenty four".
 \end{itemize}
@@ -55,11 +55,11 @@ This is a core feature that has to be implemented in-order to allow other featur
 \begin{itemize}
 	\item Priority: 4
 \end{itemize}
-This feature Allows the user to speak in a high level commands and generate code automatically. Due to the complexity to implement the whole feature we chose to concentrate on the section “Sequences as Conventional Interfaces”: Allows the user to speak in loops terminology and presents the code in mathematical sequences representation.
+This feature allows the user to speak in high level commands and generate code automatically. Due to the complexity of implementing the whole feature, we chose to concentrate on the section “Sequences as Conventional Interfaces”: Allows the user to speak in loops terminology and presents the code in mathematical sequences representation.
 \begin{itemize}
 	\item The user will speak in loops terminology and create Java loops.
 	\item Transform Java loops to mathematical sequences.
-	\item Perform well-known algorithms on collections, for example. "Perform Quick Sort on a collection cars by the field year".
+	\item Perform well-known algorithms on collections, for example. "Perform Quick Sort on the collection cars by the field year". 
 \end{itemize}
 \subsection{Details on Touch}
 \begin{itemize}
@@ -84,28 +84,28 @@ This is the same feature as Eclipse has.
 \begin{itemize}
 	\item Package Declaration - (need to run in the background). Add missing package declaration or correct package declaration. Move compilation unit to package that corresponds to the package declaration.
 	\item Imports - (need to run in the background). Remove unused, unresolvable or non-visible import. Invoke 'Organize imports' on problems in imports.
-	\item Types - Create new class, interface, enum, annotation or type variable for references to types that can not be resolved. Change visibility for types that are accessed but not visible. Rename to a similar type for references to types that can not be resolved. Add import statement for types that can not be resolved but exist in the project. Add explicit import statement for ambiguous type references (to import-on-demands for the same type). If the type name is not matching with the compilation unit name either rename the type or rename the compilation unit. Remove unused private types. Add missing type annotation attributes.
-	\item Constructors - Create new constructor for references to constructors that can not be resolved (this, super or new class creation). Reorder, add or remove arguments for constructor references that mismatch parameters. Change method with constructor name to constructor (remove return type). Change visibility for constructors that are accessed but not visible. Remove unused private constructor. Create constructor when super call of the implicit default constructor is undefined, not visible or throws an exception. If type contains unimplemented methods, change type modifier to 'abstract' or add the method to implement.
-	\item Methods - Create new method for references to methods that can not be resolved. Rename to a similar method for references to methods that can not be resolved. Reorder or remove arguments for method references that mismatch parameters. Correct access (visibility, static) of referenced methods. Remove unused private methods. Correct return type for methods that have a missing return type or where the return type does not match the return statement. Add return statement if missing.
-	For non-abstract methods with no body change to 'abstract' or add body. For an abstract method in a non-abstract type remove abstract modifier of the method or make type abstract. For an abstract/native method with body remove the abstract or native modifier or remove body. Change method access to 'static' if method is invoked inside a constructor invocation (super, this). Change method access to default access to avoid emulated method access. Add 'synchronized' modifier. Override hashCode(). Open the 'Generate hashCode() and equals()' wizard.
-	\item Fields and variables - Correct access (visibility, static) of referenced fields. Create new fields, parameters, local variables or constants for references to variables that can not be resolved. Rename to a variable with similar name for references that can not be resolved. Remove unused private fields. Correct non-static access of static fields. Add 'final' modifier to local variables accessed in outer types. Change field access to default access to avoid emulated method access. Change local variable type to fix a type mismatch. Initialize a variable that has not been initialized. Create getter and setters for invisible or unused fields. Create loop variable to correct an incomplete enhanced 'for' loop by adding the type of the loop variable.
-	\item Exception Handling - Remove unneeded catch block. Remove unneeded exceptions from a multi-catch clause. Handle uncaught exception by surrounding with try/catch or adding catch block to a surrounding try block. Handle uncaught exceptions by surrounding with try/multi-catch or adding exceptions to existing catch clause (1.7 or higher).Handle uncaught exception by adding a throw declaration to the parent method or by generalize an existing throw declaration
+	\item Types - Create new class, interface, enum, annotation or type variable for references to types that cannot be resolved. Change visibility for types that are accessed but not visible. Rename to a similar type for references to types that cannot be resolved. Add import statement for types that cannot be resolved but exist in the project. Add explicit import statement for ambiguous type references (to import-on-demands for the same type). If the type name does not match with the compilation unit name, either rename the type or rename the compilation unit. Remove unused private types. Add missing type annotation attributes.
+	\item Constructors - Create new constructor for references to constructors that cannot be resolved (this, super or new class creation). Reorder, add or remove arguments for constructor references that mismatch parameters. Change method with constructor name to constructor (remove return type). Change visibility for constructors that are accessed but not visible. Remove unused private constructor. Create constructor when super call of the implicit default constructor is undefined, not visible or throws an exception. If type contains unimplemented methods, change type modifier to 'abstract' or add the method to implement.
+	\item Methods - Create new method for references to methods that cannot be resolved. Rename to a similar method for references to methods that cannot be resolved. Reorder or remove arguments for method references that mismatch parameters. Correct access (visibility, static) of referenced methods. Remove unused private methods. Correct return type for methods that have a missing return type or where the return type does not match the return statement. Add return statement if missing.
+	For non-abstract methods with no body, change to 'abstract' or add body. For an abstract method in a non-abstract type, remove abstract modifier of the method or make type abstract. For an abstract/native method with body, remove the abstract or native modifier or remove body. Change method access to 'static' if method is invoked inside a constructor invocation (super, this). Change method access to default access to avoid emulated method access.  Add 'synchronized' modifier. Override hashCode(). Open the 'Generate hashCode() and equals()' wizard.
+	\item Fields and variables - Correct access (visibility, static) of referenced fields. Create new fields, parameters, local variables or constants for references to variables that cannot be resolved. Rename to a variable with similar name for references that cannot be resolved. Remove unused private fields. Correct non-static access of static fields. Add 'final' modifier to local variables accessed in outer types. Change field access to default access to avoid emulated method access. Change local variable type to fix a type mismatch. Initialize a variable that has not been initialized. Create getter and setters for invisible or unused fields. Create loop variable to correct an incomplete enhanced 'for' loop by adding the type of the loop variable.
+	\item Exception Handling - Remove unneeded catch block. Remove unneeded exceptions from a multi-catch clause. Handle uncaught exception by surrounding with try/catch or adding catch block to a surrounding try block. Handle uncaught exceptions by surrounding with try/multi-catch or adding exceptions to existing catch clause (1.7 or higher).Handle uncaught exception by adding a throw declaration to the parent method or by generalizing an existing throw declaration
 \end{itemize}
 \subsection{Dictation User Experience and Error Correction}
 \begin{itemize}
 	\item Priority: 1
 \end{itemize}
-This feature provides rich user experience for dictation. When the user dictates the system will response not only with textual output but also with suggestions and recommendations for his work. For example, the user said "create for loop", an ambiguity might happen. The system need to present to the user relevant options and let him decide what does he mean. In addition identical to Eclipse the system will mark compilation error in real time.
+This feature provides rich user experience for dictation. When the user dictates, the system will respond not only with textual output but also with suggestions and recommendations for his work. For example, the user said "create for loop", an ambiguity might happen. The system needs to present to the user relevant options and let him decide what he means. In addition, just as in Eclipse, the system will mark compilation error in real time.
 \subsection{Undo, Redo}
 \begin{itemize}
 	\item Priority: 2
 \end{itemize}
-Every step that have been taken during the development process can be reverted.
+Every step that has been taken during the development process can be reverted.
 \subsection{Templates and Concise commands}
 \begin{itemize}
 	\item Priority: 1
 \end{itemize}
-Allow the user to generate code without explicitly pronounce what needs to be written in the code, e.g., one can say  “Create main inside Car” and the program will generate main method inside the class Car. Another example can be, while the cursor is inside the Car class, the user can say “Create a constructor” and the program will generate a constructor with no parameters (no parameters because the user didn’t say that he wants parameters inside the constructor)
+Allow the user to generate code without explicitly pronouncing what needs to be written in the code, e.g., one can say  “Create main inside Car” and the program will generate main method inside the class Car. Another example can be, while the cursor is inside the Car class, the user can say “Create a constructor” and the program will generate a constructor with no parameters (no parameters because the user didn’t say that he wants parameters inside the constructor).
 \subsection{Save the Program as Regular Source Code}
 \begin{itemize}
 	\item Priority: 1
@@ -145,7 +145,7 @@ Open source.
 \begin{itemize}
 	\item Priority: 4
 \end{itemize}
-Near every method show it's time complexity. For example, +print(object) \textit{o(n)}
+Near every method show its time complexity. For example, +print(object) \textit{o(n)}
 \subsection{Command Variability}
 \begin{itemize}
 	\item Priority: 3
@@ -160,9 +160,9 @@ One may transform the compact code to any language that the transformer will sup
 \begin{itemize}
 	\item Priority: 4
 \end{itemize}
-While we work on our program the apprentice will recommend modifications that will improve the code (i.e. instead of writing nested code the apprentice will recommend to write an “if” statement with negative logic and a “return” or “continue” command)
+While we work on our program the apprentice will recommend modifications that will improve the code (i.e. instead of writing nested code the apprentice will recommend to write an “if” statement with negative logic and a “return” or “continue” command).
 \begin{itemize}
-	\item The recommendations will be presented as a list, the programmer will choose the option by clicking on it or pronounce the option number.
+	\item The recommendations will be presented as a list, the programmer will choose the option by clicking on it or pronouncing the option number.
 \end{itemize}
 \subsection{Duplication Handling}
 \begin{itemize}
@@ -188,7 +188,7 @@ The application will generate field names based on class name. Note that in comp
 \begin{itemize}
 	\item Priority: 3
 \end{itemize}
-A method added to an object after the original object was compiled. The modified object is often a class, a prototype or a type. Extension methods are permitted by some object-oriented programming languages. There is no syntactic difference between calling an extension method and calling a method declared in the type definition, e.g., one can say "obj.to\_\_\_", and a list of methods such as: “toFirstUpper”, "toString" appears.
+A method is added to an object after the original object was compiled. The modified object is often a class, a prototype or a type. Extension methods are permitted by some object-oriented programming languages. There is no syntactic difference between calling an extension method and calling a method declared in the type definition, e.g., one can say "obj.to\_\_\_", and a list of methods such as: “toFirstUpper”, "toString" appears.
 \subsection{Multiple Views}
 \begin{itemize}
 	\item Priority: 2
@@ -198,17 +198,17 @@ This feature allows multiple views in a single language, but without modifying t
 \begin{itemize}
 	\item Priority: 3
 \end{itemize}
-While we code we create classes and inside them inner classes, methods, properties etc. Sometimes, we might lose our presence due to over encapsulations. In-order to solve this issue we suggest a technique. The technique is to keep the header definition of the outer object on top of the screen while we scroll down in the inner object, e.g., 
+While we code we create classes and inside them inner classes, methods, properties etc. Sometimes, we might lose our presence due to over encapsulations. In order to solve this issue we suggest a technique of keeping the header definition of the outer object on top of the screen while we scroll down in the inner object, e.g., 
 \begin{lstlisting}
 Class Human
 	Class Brain
 \end{lstlisting}
-So one can always understand the presence in the code in terms of encapsulation.
+So, one can always understand the presence in the code in terms of encapsulation.
 \subsection{Getters and Setters Identification}
 \begin{itemize}
 	\item Priority: 2
 \end{itemize}
-Getter/ Setter technique is a very useful technique but one can't avoid writing explicitly "Set...", "Get...". We assume that the system needs to identify the pattern of whether it is a getter or a setter or not both of them and only print the suffix of the method (ignore the explicit prefix), e.g., 
+Getter/ Setter technique is a very useful technique but one can't avoid writing explicitly "Set...", "Get...". We assume that the system needs to identify the pattern of whether it is a getter or a setter or neither  of them, and only print the suffix of the method (ignore the explicit prefix), e.g., 
 \begin{lstlisting}
 public SetName(string name)
 {_name = name;}
@@ -217,17 +217,17 @@ Transformed to,
 \begin{lstlisting}
 person.name(name)
 \end{lstlisting}
-One can only call the method Name and based on the template of the call the systems will understand if the user wants to call a setter or a getter. Moreover, instead of writing person.name(name) one can write person.Name $\leftarrow$ name
+One can only call the method Name, and based on the template of the call the systems will understand if the user wants to call a setter or a getter. Moreover, instead of writing person.name(name) one can write person.Name $\leftarrow$ name
 \subsection{Omit Declaration Lines}
 \begin{itemize}
 	\item Priority: 1
 \end{itemize}
-Line that contains only object declaration is not a necessary information and can be omitted. The proposal is to emit the lines that contains only object declaration without any binding, e.g., the “Object obj” can be omitted.
+Line that contains only object declaration is not a necessary bit of information and can be omitted. The proposal is to emit the lines that contain only object declaration without any binding, e.g., the “Object obj” can be omitted.
 \subsection{Operator Overloading}
 \begin{itemize}
 	\item Priority: 2
 \end{itemize}
-Allow using simple operators instead of using Java libraries for special types, e.g, instead of writing BigDecimalExtension.operator\_plus(x,y) we will write e1+e2 (e1 and e2 are type of big decimal).
+Allow using simple operators instead of using Java libraries for special types, e.g., instead of writing BigDecimalExtension.operator\_plus(x,y) we will write e1+e2 (e1 and e2 are type of big decimal).
 \subsection{Lambda expression}
 \begin{itemize}
 	\item Priority: 3
@@ -242,7 +242,7 @@ You rarely need to write down type signatures anymore, Types Deduction - The app
 \begin{itemize}
 	\item Priority: 2
 \end{itemize}
-One can see the source code by providing the scope of code that the user wants to see it's source code.
+One can see the source code by requesting the system to provide the original full source of the code which the user wants to see.
 \subsection{Collaboration}
 \begin{itemize}
 	\item Priority: 4
@@ -257,7 +257,7 @@ Allow mathematical expressions in their native representation, as described in \
 \begin{itemize}
 	\item Priority: 3
 \end{itemize}
-A technique that helps the user to understand the flow of the program easily.  It presents code blocks connected one to another based on the flow of the program. This technique helps the user to understand the flow a program in a much better way. Inter-procedural Flow is based on Control Flow Graph (CFG) representation technique, using graph notation, of all paths that might be traversed through a program during its execution. Inter-procedural Flow has several applications, we present one that fits our system the most:
+A technique that helps the user to understand the flow of the program easily.  It presents code blocks connected one to another based on the flow of the program. This technique helps the user to understand the flow of a program in a much better way. Inter-procedural Flow is based on the Control Flow Graph (CFG) representation technique, using graph notation, of all paths that might be traversed through a program during its execution. Inter-procedural Flow has several application;we present one that fits our system the most:
 \begin{itemize}
 	\item Code Bubbles - This is an application that helps the users to navigate and investigate their code in a novel approach. Link: \url{http://www.andrewbragdon.com/codebubbles\_site.asp}. Additional link which provides a more detailed description is \url{http://cs.brown.edu/~spr/codebubbles/}.
 \end{itemize}

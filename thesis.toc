@@ -187,7 +187,7 @@
 \contentsline {subsection}{\numberline {7.2.2}Speech to Text Library}{122}{subsection.7.2.2}
 \contentsline {section}{\numberline {7.3}BNF Parser}{122}{section.7.3}
 \contentsline {subsubsection}{Antlr 4}{122}{section*.55}
-\contentsline {chapter}{\numberline {8}Future Work}{124}{chapter.8}
+\contentsline {chapter}{\numberline {8}Conclusions and Future Work}{124}{chapter.8}
 \contentsline {chapter}{\numberline {A}Publications}{125}{appendix.A}
 \contentsline {section}{\numberline {A.1}MobileSoft 2015 Conference}{125}{section.A.1}
 \contentsline {chapter}{\numberline {B}Acronyms}{130}{appendix.B}

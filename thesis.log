@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2015.3.26)  29 JUL 2015 16:42
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2015.3.26)  10 AUG 2015 10:20
 entering extended mode
 **thesis.tex
 (thesis.tex
@@ -1571,22 +1571,16 @@ Chapter 3.
 
 
 
-]
-Overfull \hbox (2.45891pt too wide) in paragraph at lines 15--16
-\T1/futs/m/n/12 one (this is very com-pli-cated fea-ture to im-ple-ment so it m
-ight be post-poned to later works). 
- []
-
-[50]
+] [50]
 Overfull \hbox (6.97096pt too wide) in paragraph at lines 41--42
 []\T1/futs/m/n/12 Self-Encapsulate Field - force code to ac-cess the field with
  get-ter and set-ter meth-ods (should
  []
 
 [51] [52] [53] [54] [55] [56] [57] [58]
-Overfull \hbox (4.6722pt too wide) in paragraph at lines 220--221
-\T1/futs/m/n/12 stand if the user wants to call a set-ter or a get-ter. More-ov
-er, in-stead of writ-ing per-son.name(name)
+Overfull \hbox (21.24417pt too wide) in paragraph at lines 220--221
+\T1/futs/m/n/12 der-stand if the user wants to call a set-ter or a get-ter. Mor
+e-over, in-stead of writ-ing per-son.name(name)
  []
 
 [59] [60] [61]) [62] (chapter04.tex
@@ -2374,7 +2368,7 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 30.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 30.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 30.
 Package rerunfilecheck Info: File `thesis.out' has not changed.
-(rerunfilecheck)             Checksum: C8ABA37329C73B2B819C31775DDDEFE8;9749.
+(rerunfilecheck)             Checksum: A328354814729017970AB89E8BE660EA;9765.
 
 
 LaTeX Warning: There were undefined references.
@@ -2387,11 +2381,11 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 30.
 Here is how much of TeX's memory you used:
  14513 strings out of 493698
  202188 string characters out of 3144406
- 414872 words of memory out of 3000000
+ 414832 words of memory out of 3000000
  16230 multiletter control sequences out of 15000+200000
  102298 words of font info for 116 fonts, out of 3000000 for 9000
  1025 hyphenation exceptions out of 8191
- 45i,19n,45p,1504b,1830s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 45i,19n,45p,1488b,1830s stack positions out of 5000i,500n,10000p,200000b,50000s
  <C:\Users\ATilkin\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi60
 0\ectt1200.pk> <C:\Users\ATilkin\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknap
 pen\ec\dpi600\ectt1095.pk>{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/fontname
@@ -2412,7 +2406,7 @@ er/ucrr8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmb8a.pfb><C:
 /Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmbi8a.pfb><C:/Program Files/M
 iKTeX 2.9/fonts/type1/urw/times/utmr8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/t
 ype1/urw/times/utmri8a.pfb>
-Output written on thesis.pdf (141 pages, 1686637 bytes).
+Output written on thesis.pdf (141 pages, 1687823 bytes).
 PDF statistics:
  3025 PDF objects out of 3580 (max. 8388607)
  1208 named destinations out of 1440 (max. 500000)
