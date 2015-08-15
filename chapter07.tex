@@ -78,84 +78,59 @@ This library is an open source with dependency in Processing, hence we had to ma
 \end{itemize}
 It is shown in \citet{getflourish14} where to get the source code from and how to use it's API.
 \subsection{Testing the module}
-In order to be sure that we may use this module in our system we performed several tests with several testers. We used the Linked List program that is presented in \autoref{fig63} to perform the main test. The following list is the result of the dictation of the Linked List program. Every command was dictated separately, each row is the result of the command.
+In order to be sure that we can use this module in our system we performed several tests with several testers. We used the Linked List program that is presented in \autoref{section: Example} to perform the main test. \ref{tab16} and \ref{tab17} are the result of the dictation of the Linked List program. Every command was dictated separately, each row is contains three columns: Expected Result, is the context that was dictated, Actual Result, is the context that was returned, and Match Score, represents how both contexts are matched. Since programming is not a natural language then we expect mismatches. For example, the use may dictate "create field has next of type boolean". He means that he wants to create a field named hasNext which is of type boolean. The module will return "create field has next of type boolean". We do not expect the speech to text engine to return hasNext, therefore, this conclusion should be considered in the Dictation Parser. Similar issue is shorten words. For example, is the user will dictate "create field pos" the system may return "create field pose". pos is different from pose, since pos is not a legal word in the language we expect this mismatch and asuume that this will be handled by the user. 
+
+
 \begin{table}[H]
 \centering
-\begin{tabular}{|l|l|l|}
+\begin{tabular}{|p{6cm}|p{6cm}|p{2cm}|}
 \hline
-{\bf Expected Result} & {\bf Actual Result}                             & {\bf Match Score (\%)} \\ \hline
-                      & create class linked list                        &                        \\ \hline
-                      & create inner class node                         &                        \\ \hline
-                      & create field data type object                   &                        \\ \hline
-                      & make it public                                  &                        \\ \hline
-                      & create public field next of type of object      &                        \\ \hline
-                      & we are done with class node                     &                        \\ \hline
-                      & create field tail of type node                  &                        \\ \hline
-                      & create an int field size                        &                        \\ \hline
-                      & create method iterator                          &                        \\ \hline
-                      & return new ll interrater                        &                        \\ \hline
-                      & number 2                                        &                        \\ \hline
-                      & exit method                                     &                        \\ \hline
-                      & create inner class LLL interrater               &                        \\ \hline
-                      & create a constructor                            &                        \\ \hline
-                      & assign head to field next node                  &                        \\ \hline
-                      & assign false to field remove ok                 &                        \\ \hline
-                      & assign minus 12 field post to remove            &                        \\ \hline
-                      & number 2                                        &                        \\ \hline
-                      & finish constructor                              &                        \\ \hline
-                      & create method hasnext                           &                        \\ \hline
-                      & return next node is not equal to null           &                        \\ \hline
-                      & we are done with class LLL interrater           &                        \\ \hline
-                      & create method get that accepts pose of type int &                        \\ \hline
-                      & assert pose is between 0 and size               &                        \\ \hline
-                      & ethos equals size -1                            &                        \\ \hline
-                      & then assign tail. Data to result                &                        \\ \hline
-                      & otherwise                                       &                        \\ \hline
-                      & temp is a signed head                           &                        \\ \hline
-                      & create a loop from one to pose                  &                        \\ \hline
-                      & sign them. Next to temp                         &                        \\ \hline
-                      & set result to temp. Data                        &                        \\ \hline
-                      & return result                                   &                        \\ \hline
-                      &                                                 &                        \\ \hline
+{\bf Expected Result} & {\bf Actual Result} & {\bf Match Score (\%)} \\ \hline
+ create class linked list & create class linked list & 100 \\ \hline
+ create inner class node & create inner class node & 100 \\ \hline
+ create field data of type object & create field data of type object & 100 \\ \hline
+ make it public & make it public & 100 \\ \hline
+ create public field next of type object & create public field next of type object & 100 \\ \hline
+ we are done with class node & we are done with class node & 100 \\ \hline
+ create field tail of type node & create field tail of type node & 100 \\ \hline
+ create an int field size & create an int field size & 100 \\ \hline
+ create method iterator & create method iterator & 100 \\ \hline
+ return new llinterrater & return new ll interrater & 100 \\ \hline
+ number 2 & number 2 & 100 \\ \hline
+ exit method & exit method & 100 \\ \hline
+ create inner class LLinterrater & create inner class LLL interrater & 90 \\ \hline
+ create a constructor & create a constructor & 100\\ \hline
+ assign head to field next node & assign head to field next node & 100 \\ \hline
+ assign false to field removeok & assign false to field remove ok & 100 \\ \hline
+ assign minus 1 to field postoremove & assign minus 12 field post to remove & 60 \\ \hline
+ number 2 & number 2 & 100 \\ \hline
+ finish constructor & finish constructor & 100 \\ \hline
+ create method hasnext & create method hasnext & 100 \\ \hline
+ return nextnode is not equal to null & return next node is not equal to null & 100 \\ \hline
+ we are done with class LLinterrater & we are done with class LLL interrater & 90 \\ \hline
 \end{tabular}
 \caption{My caption}
-\label{table7}
+\label{tab16}
 \end{table}
-\begin{itemize}
-	\item create class linked list
-	\item create inner class node
-	\item create field data type object
-	\item make it public
-	\item create public field next of type of object
-	\item we are done with class node
-	\item create field tail of type node
-	\item create an int field size
-	\item create method iterator
-	\item return new ll interrater
-	\item number 2
-	\item exit method
-	\item create inner class LLL interrater
-	\item create a constructor
-	\item assign head to field next node
-	\item assign false to field remove ok
-	\item assign minus 12 field post to remove
-	\item number 2
-	\item finish constructor
-	\item create method hasnext (I was shocked here!)
-	\item return next node is not equal to null
-	\item we are done with class LLL interrater
-	\item create method get that accepts pose of type int
-	\item assert pose is between 0 and size
-	\item ethos equals size -1 (if pose equals size -1)
-	\item then assign tail. Data to result
-	\item otherwise
-	\item temp is a signed head
-	\item create a loop from one to pose
-	\item sign them. Next to temp (assign temp. Next to temp)
-	\item set result to temp. Data
-	\item return result
-\end{itemize}
- 
+\begin{table}[H]
+	\centering
+	\begin{tabular}{|p{6cm}|p{6cm}|p{2cm}|}
+		\hline
+		{\bf Expected Result} & {\bf Actual Result} & {\bf Match Score (\%)} \\ \hline
+		create method get that accepts pos of type int & create method get that accepts pose of type int & 100 \\ \hline
+		assert pos is between 0 and size & assert pose is between 0 and size & 100 \\ \hline
+		if pos equals size -1 & ethos equals size -1 & 80 \\ \hline
+		then assign tail. Data to result & then assign tail. Data to result & 100 \\ \hline
+		otherwise & otherwise & 100 \\ \hline
+		temp is asigned head & temp is a signed head & 100 \\ \hline
+		create a loop from one to pos & create a loop from one to pose & 100 \\ \hline
+		assign them. next to temp & sign them. Next to temp & 100 \\ \hline
+		set the result to temp. data & set result to temp. Data & 100 \\ \hline
+		return result & return result & 100 \\ \hline
+	\end{tabular}
+	\caption{My caption}
+	\label{tab17}
+\end{table} 
 \section{BNF Parser} \label{section:BNF Parser}
 \subsubsection{Antlr 4}
 Antlr stands for Another Tool for Language Recognition. The tool is able to generate compiler or interpreter for any computer language. Besides obvious use, e.g. need to parse a real 'big' programming language such as Java, PHP or SQL, it can help with smaller, more common tasks.
