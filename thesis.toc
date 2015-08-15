@@ -185,7 +185,7 @@
 \contentsline {subsubsection}{Request}{120}{section*.53}
 \contentsline {subsubsection}{Response}{120}{section*.54}
 \contentsline {subsection}{\numberline {7.2.2}Speech to Text Library}{122}{subsection.7.2.2}
-\contentsline {subsection}{\numberline {7.2.3}Testing the module}{122}{subsection.7.2.3}
+\contentsline {subsection}{\numberline {7.2.3}Testing the Module}{122}{subsection.7.2.3}
 \contentsline {section}{\numberline {7.3}BNF Parser}{125}{section.7.3}
 \contentsline {subsubsection}{Antlr 4}{125}{section*.55}
 \contentsline {chapter}{\numberline {8}Conclusions and Future Work}{127}{chapter.8}
