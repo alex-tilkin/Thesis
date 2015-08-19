@@ -1,28 +1,28 @@
 \chapter{Configuration of Representation} \label{chapter:Configuration of Representation}
 \section{Introduction}
-One of the goals of this project is to allow the programmer to configure the representation of the code on different devices. PCs are much more convenient environment for programming than laptops and specially more convenient than tablets and mobile devices. We would like to allow this ability because every programmer prefers to see the code in different representation. As discussed in \autoref{chapter: Compact Representation} we suggest different styles of compact representation to programming idioms. We assuming that it would be very convenient for the programmer if s/he could configure different representations for different environments.
+One of the goals of this project is to allow the programmer to configure the representation of the code on different devices. PCs are a much more convenient environment for programming than laptops and specifically more convenient than tablets and mobile devices. We would like to allow this ability because every programmer prefers to see the code in different representations. As discussed in \autoref{chapter: Compact Representation} we suggest different styles of compact representation to programming idioms. We assume that it would be very convenient for the programmer if s/he could configure different representations for different environments.
 
-This chapter discusses how the representation of programming idioms may be configured. This is a basic concept that might guide those who will proceed this research and will deiced to focus on the configuration of the representation of the code. We believe that different language features have different configuration features in common. For example, Access Levels may be presented as an icon, text, stylized text, e.g., \textit{private}, and may be omitted. Operators may be presented as an icon, text, or stylized text, e.g., \textbf{\textit{+}}. It is clear that both operators and accessibilities may be presented by text, stylized text, and as an icon. This conclusion may help those who will design the configuration of the compact representation of the operators and the accessibilities. 
+This chapter discusses how the representation of programming idioms may be configured. This is a basic concept that might guide those who will proceed with this research and will decide to focus on the configuration of the representation of the code. We believe that different language features have different configuration features in common. For example, Access Levels may be presented as an icon, text, stylized text, e.g., \textit{private}, and may be omitted. Operators may be presented as an icon, text, or stylized text, e.g., \textbf{\textit{+}}. It is clear that both operators and accessibilities may be presented by text, stylized text, and as an icon. This conclusion may help those who will design the configuration of the compact representation of operators and the accessibilities (for example: private, public).
 
-The motivation is that the developers who will develop configuration system for a programming feature will be aware of all the other programming features that have configuration features in common. It will optimize the configuration system and will create more intuitive experience for the user.
+The motivation is that the developers who will develop a configuration system for a programming feature will be aware of all the other programming features that have configuration features in common. It will optimize the configuration system and will create a more intuitive experience for the user.
 
-It is important to note that this is a generic idea that might be expanded by others. Everyone who may add language features, configuration feature or add configuration features to language features.
+It is important to note that this is a generic idea that might be expanded by others. Everyone may add language features, a configuration feature or add configuration features to language features.
 \section{Terminology}
 This section provides explanations about terms that appear in this section.
 \begin{itemize}
 	\item Configuration Feature - A feature that helps the user to set a configuration for a programming feature.
-	\item Language Feature - A feature in a programming language. For example, loops.
+	\item Language Feature - A feature in a programming language,. for example, loops.
 \end{itemize}
 \section{Configuration scope}
 \subsection{Configuration Main Settings}
-We assume that there are three main modes of configuration of representation: Desktop(PCs and laptops) - This configuration provides the most detailed environment that the user needs, since it has a big screen; Tablet - This environment is smaller than the previous one but the screen is big enough to show details. Therefore, it will show details but much less; and Mobile Phones - This is the smallest environment for developing. Therefore, it will be the most compact representation. 
+We assume that there are three main modes of configuration of representation: Desktop (PCs and laptops) - This configuration provides the most detailed environment that the user needs, since it has a big screen; Tablet - This environment is smaller than the previous one, but the screen is big enough to show details. Therefore, it will show details but many fewer; and Mobile Phones - This is the smallest environment for developing, therefore, it will provide the most compact representation. 
 
-All three configurations that described above come with default settings that meet the requirements of the environment. The user may customize the representations so they will fit his or her needs.
+All three configurations that are described above come with default settings that meet the requirements of the environment. The user may customize the representations so they will fit his or her needs.
 \subsection{Features and Configurations}
-In order to understand how each programming feature may be represented we reviewed \autoref{chapter: Supported Features} and \autoref{chapter: Compact Representation}. Those chapters helped us to group programming features into groups, e.g., operators. After we managed to group the programming features we created groups of configuration features. Each configuration feature represents a technique of how a programming feature may be represented.
-\autoref{tab14} presents all configuration feature that we grouped and \autoref{tab15} presents all language features and the configuration feature that may be used to present them.
+In order to understand how each programming feature may be represented, we reviewed \autoref{chapter: Supported Features} and \autoref{chapter: Compact Representation}. Those chapters helped us to divide programming features into groups, e.g., operators. After we managed to group the programming features, we created groups of configuration features. Each configuration feature represents a technique of how a programming feature may be represented.
+\autoref{tab14} presents all configuration features that we grouped and \autoref{tab15} presents all language features and the configuration features that may be used to present them.
 
-In order to understand how every programming feature may be represented you need to use both \autoref{tab14} and \autoref{tab15}. Fo example, let's take the first row in \autoref{tab15}. The language feature is Operators, it represents all the operators in Java. The referenced configuration features IDs are: STYLE, ICON and TEXT. Which means it may be represented in three ways.
+In order to understand how every programming feature may be represented you need to use both \autoref{tab14} and \autoref{tab15}. For example, let us take the first row in \autoref{tab15}. The language feature is Operators, it represents all the operators in Java. The referenced configuration features IDs are: STYLE, ICON and TEXT, which means it may be represented in three ways.
 \begin{table}[H]
 \centering
 \begin{tabular}{|l|p{14cm}|}
@@ -35,17 +35,17 @@ ICON         & Icon - an icon that represents programming feature               
 TEXT         & Text - a text that represents programming feature                                                                                  \\ \hline
 OMIT         & Omit - Remove syntax features in-order to preserve space                                                                           \\ \hline
 ORDER        & Order - Modify the order of elements, e.g., put the "if" before or after the condition                                             \\ \hline
-INDENTATION  & Indentation Depth - Selecting how many spaces, tabs, pixels or percentage (\%) of the line length will the indentation take        \\ \hline
+INDENTATION  & Indentation Depth - Selecting how many spaces, tabs, pixels or percentage (\%) of the line length the indentation will take        \\ \hline
 FRAME        & Frame - Use frame as the boundaries of the scope. Also modify frame style. Also use symbols like "\{" that encapsulates the code   \\ \hline
 NATIVE       & Native Form - Convert mathematical expressions into native representation style                                                    \\ \hline
 LAYOUT       & New Line Break - Select where text is located; non-textual spatial arrangement of blocks; breadcrumbs                              \\ \hline
 RANGE        & Range Representation - Select how range will be presented, e.g., i $ \in $ {[}1, pos) will be used for loops                       \\ \hline
 WATERMARK    & Watermark - Set background image                                                                                                   \\ \hline
-COMPLEXITY   & Complexity - Show complexity If can be computed using Static Analysis                                                              \\ \hline
+COMPLEXITY   & Complexity - Show complexity If it can be computed using Static Analysis                                                              \\ \hline
 IO           & I/O - Replace code with just input and output                                                                                      \\ \hline
 CONTRIBUTORS & Contributors - Replace code with contributor's name                                                                                \\ \hline
 \end{tabular}
-\caption{This table has two columns: ID and Configuration Feature. Configuration feature (right column) is a technique how a programming feature may be configured. Every configuration feature has a short explanation. The left column is the given ID for every configuration  feature. For example, the ID TEMPORAL represents the Temporal Abstraction configuration feature.}
+\caption{This table has two columns: ID and Configuration Feature. Configuration Feature (right column) is a technique how a programming feature may be configured. Every configuration feature has a short explanation. The left column is the given ID for every configuration feature. For example, the ID TEMPORAL represents the Temporal Abstraction configuration feature.}
 \label{tab14}
 \end{table}
 \begin{table}[H]
@@ -71,6 +71,6 @@ Expressions                       & RANGE, CONTRIBUTORS, NATIVE                 
 Loops                             & STYLE, ICON, TEXT, OMIT, TEMPORAL, COMPLEXITY, IO, CONTRIBUTORS, PLAN, LAYOUT \\ \hline
 Comments                          & OMIT                                                                          \\ \hline
 \end{tabular}
-\caption{This table has two columns: Language Feature and Configuration Features IDs. Language feature column presents all language feature that we managed to grouped until today. Configuration Features IDs are a set of configuration features that may represent a language feature. For example, Operators may be represented with STYLE, ICON, and TEXT.}
+\caption{This table has two columns: Language Feature and Configuration Features IDs. Language feature column presents all language features that we managed to group until today. Configuration Features IDs are a set of configuration features that may represent a language feature. For example, Operators may be represented with STYLE, ICON, and TEXT.}
 \label{tab15}
 \end{table}
