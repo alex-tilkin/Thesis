@@ -87,7 +87,7 @@ command: creationCommand | navigationCommand | selectionCommand | modificationCo
 \end{table}
 
 \subsubsection{Creation Layer}
-\autoref{tab12} represents the command of the Creation Layer. This layer Handles all creation commands that the user dictates.
+\autoref{tab12} and \autoref{tab13} represents the command of the Creation Layer. This layer Handles all creation commands that the user dictates.
 \begin{table}[H]
 \centering
 \begin{tabular}{|p{8cm}|p{7cm}|}
@@ -100,18 +100,27 @@ createMethod: modifier? (METHOD | FUNCTION) namedElement ((THAT\_ACCEPTS | WITH)
 createConstructor: modifier? CONSTRUCTOR ((THAT\_ACCEPTS | WITH) parametersList)?;                                                                      & Creates a constructor                  \\ \hline
 createDataType: modifier? (INNER)? dataType namedElement ((implementsVars | extendsVars) Element)?;                                                     & Creates a data type                    \\ \hline
 createBlock: BLOCK | createBlockStatement;                                                                                                              & Creates a block                        \\ \hline
-createBlockStatement: localVariableDeclaration | statement;                                                                                             & Creates a block of stattements         \\ \hline
-createLoop: createForEachLoop | createWhileLoop | createDoWhileLoop | createForLoop;                                                                    & Creates a loop                         \\ \hline
-createForEachLoop: FOR\_EACH Element IN Element command?;                                                                                               & Creates a foreach loop                 \\ \hline
-createWhileLoop: WHILE expression DO? command?;                                                                                                         & Creates a while loop                   \\ \hline
-createDoWhileLoop: DO command WHILE expression;                                                                                                         & Creates a do while loop                \\ \hline
-createForLoop: FOR Element (FROM (number | elementsElement))? (TO (number | elementsElement))? command?;                                                & Creates a for loop                     \\ \hline
 \end{tabular}
 \caption{This table represents the commands of the Creation layer.}
 \label{tab12}
 \end{table}
+\begin{table}[H]
+	\centering
+	\begin{tabular}{|p{8cm}|p{7cm}|}
+		\hline
+		\multicolumn{1}{|c|}{{\bf Rule}} & \multicolumn{1}{c|}{{\bf Description}} \\ \hline
+		createBlockStatement: localVariableDeclaration | statement;                                                                                             & Creates a block of stattements         \\ \hline
+		createLoop: createForEachLoop | createWhileLoop | createDoWhileLoop | createForLoop;                                                                    & Creates a loop                         \\ \hline
+		createForEachLoop: FOR\_EACH Element IN Element command?;                                                                                               & Creates a foreach loop                 \\ \hline
+		createWhileLoop: WHILE expression DO? command?;                                                                                                         & Creates a while loop                   \\ \hline
+		createDoWhileLoop: DO command WHILE expression;                                                                                                         & Creates a do while loop                \\ \hline
+		createForLoop: FOR Element (FROM (number | elementsElement))? (TO (number | elementsElement))? command?;                                                & Creates a for loop                     \\ \hline
+	\end{tabular}
+	\caption{This table represents the commands of the Creation layer.}
+	\label{tab13}
+\end{table}
 \subsubsection{Navigation Layer}
-\autoref{tab13} represents the command of the Navigation Layer.  This layer Handles all navigation commands that the user dictates.
+\autoref{tab14} represents the command of the Navigation Layer.  This layer Handles all navigation commands that the user dictates.
 
 \begin{table}[H]
 	\centering
@@ -124,11 +133,11 @@ createForLoop: FOR Element (FROM (number | elementsElement))? (TO (number | elem
 		exit: WE\_ARE\_DONE\_WITH | EXIT; & Variations of exit                     \\ \hline
 	\end{tabular}
 		\caption{This table represents the commands of the Navigation layer.}
-		\label{tab13}
+		\label{tab14}
 \end{table}
 
 \subsubsection{Modification Layer}
-\autoref{tab14} represents the command of the Modification Layer.  This layer Handles all modification commands that the user dictates.
+\autoref{tab15} represents the command of the Modification Layer.  This layer Handles all modification commands that the user dictates.
 
 \begin{table}[H]
 	\centering
@@ -140,11 +149,11 @@ createForLoop: FOR Element (FROM (number | elementsElement))? (TO (number | elem
 		modificationVerb: MAKE\_IT | CHANGE\_IT;         & Modification verb                                                      \\ \hline
 	\end{tabular}
 		\caption{This table represents the commands of the Modification layer.}
-		\label{tab14}
+		\label{tab15}
 \end{table}
 
 \subsubsection{Selection Layer}
-\autoref{tab15} represents the command of the Selection Layer.  This layer Handles all selection commands that the user dictates.
+\autoref{tab16} represents the command of the Selection Layer.  This layer Handles all selection commands that the user dictates.
 
 \begin{table}[H]
 	\centering
@@ -154,11 +163,11 @@ createForLoop: FOR Element (FROM (number | elementsElement))? (TO (number | elem
 		selectionCommand: (NUMBER | OPTION)? number; & Creates selection command              \\ \hline
 	\end{tabular}
 		\caption{This table represents the commands of the Selection layer.}
-		\label{tab15}
+		\label{tab16}
 \end{table}
 
 \subsubsection{Deletion Layer}
-\autoref{tab16} represents the command of the Deletion Layer.  This layer Handles all deletion commands that the user dictates.
+\autoref{tab17} represents the command of the Deletion Layer.  This layer Handles all deletion commands that the user dictates.
 
 \begin{table}[H]
 	\centering
@@ -168,11 +177,11 @@ createForLoop: FOR Element (FROM (number | elementsElement))? (TO (number | elem
 		deletionCommand: (DELETE | REMOVE) (line | elementsElement); & Creates deletion command               \\ \hline
 	\end{tabular}
 		\caption{This table represents the commands of the Deletion layer.}
-		\label{tab16}
+		\label{tab17}
 \end{table}
 
 \subsubsection{Invocation Layer}
-\autoref{tab17} represents the command of the Invocation Layer.  This layer Handles all invocation commands that the user dictates.
+\autoref{tab18} represents the command of the Invocation Layer.  This layer Handles all invocation commands that the user dictates.
 
 \begin{table}[H]
 	\centering
@@ -182,7 +191,7 @@ createForLoop: FOR Element (FROM (number | elementsElement))? (TO (number | elem
 		invocationCommand: CALL? elementsElement; & Creates invoke command                 \\ \hline
 	\end{tabular}
 		\caption{This table represents the commands of the Invocation layer.}
-		\label{tab17}
+		\label{tab18}
 \end{table}
 
 \begin{figure}[H]
