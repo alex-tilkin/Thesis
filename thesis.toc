@@ -173,23 +173,27 @@
 \contentsline {subsubsection}{Extended Backus Naur Form}{98}{section*.48}
 \contentsline {subsection}{\numberline {6.3.3}Dictation Parser}{98}{subsection.6.3.3}
 \contentsline {subsubsection}{Grammar Construction}{99}{section*.49}
-\contentsline {subsection}{\numberline {6.3.4}Grammar Testing}{101}{subsection.6.3.4}
-\contentsline {subsubsection}{LinkedList Example}{102}{section*.50}
-\contentsline {subsubsection}{Car Builder Example}{115}{section*.51}
-\contentsline {section}{\numberline {6.4}Implementation}{118}{section.6.4}
-\contentsline {chapter}{\numberline {7}Prototype}{119}{chapter.7}
-\contentsline {section}{\numberline {7.1}Introduction}{119}{section.7.1}
-\contentsline {section}{\numberline {7.2}Speech to Text}{119}{section.7.2}
-\contentsline {subsection}{\numberline {7.2.1}Google Speech V2 Server}{119}{subsection.7.2.1}
-\contentsline {subsubsection}{Host}{120}{section*.52}
-\contentsline {subsubsection}{Request}{120}{section*.53}
-\contentsline {subsubsection}{Response}{120}{section*.54}
-\contentsline {subsection}{\numberline {7.2.2}Speech to Text Library}{122}{subsection.7.2.2}
-\contentsline {subsection}{\numberline {7.2.3}Testing the Module}{122}{subsection.7.2.3}
-\contentsline {section}{\numberline {7.3}BNF Parser}{125}{section.7.3}
-\contentsline {subsubsection}{Antlr 4}{125}{section*.55}
-\contentsline {chapter}{\numberline {8}Conclusions and Future Work}{127}{chapter.8}
-\contentsline {chapter}{\numberline {A}Publications}{128}{appendix.A}
-\contentsline {section}{\numberline {A.1}MobileSoft 2015 Conference}{128}{section.A.1}
-\contentsline {chapter}{\numberline {B}Acronyms}{133}{appendix.B}
-\contentsline {chapter}{Bibliography}{134}{appendix.B}
+\contentsline {subsection}{\numberline {6.3.4}Parser}{101}{subsection.6.3.4}
+\contentsline {subsubsection}{Top Layer}{101}{section*.50}
+\contentsline {subsubsection}{Creation Layer}{101}{section*.51}
+\contentsline {subsubsection}{Navigation Layer}{103}{section*.52}
+\contentsline {subsection}{\numberline {6.3.5}Grammar Testing}{103}{subsection.6.3.5}
+\contentsline {subsubsection}{LinkedList Example}{103}{section*.53}
+\contentsline {subsubsection}{Car Builder Example}{116}{section*.54}
+\contentsline {section}{\numberline {6.4}Implementation}{119}{section.6.4}
+\contentsline {chapter}{\numberline {7}Prototype}{120}{chapter.7}
+\contentsline {section}{\numberline {7.1}Introduction}{120}{section.7.1}
+\contentsline {section}{\numberline {7.2}Speech to Text}{120}{section.7.2}
+\contentsline {subsection}{\numberline {7.2.1}Google Speech V2 Server}{120}{subsection.7.2.1}
+\contentsline {subsubsection}{Host}{121}{section*.55}
+\contentsline {subsubsection}{Request}{121}{section*.56}
+\contentsline {subsubsection}{Response}{121}{section*.57}
+\contentsline {subsection}{\numberline {7.2.2}Speech to Text Library}{123}{subsection.7.2.2}
+\contentsline {subsection}{\numberline {7.2.3}Testing the Module}{123}{subsection.7.2.3}
+\contentsline {section}{\numberline {7.3}BNF Parser}{126}{section.7.3}
+\contentsline {subsubsection}{Antlr 4}{126}{section*.58}
+\contentsline {chapter}{\numberline {8}Conclusions and Future Work}{128}{chapter.8}
+\contentsline {chapter}{\numberline {A}Publications}{129}{appendix.A}
+\contentsline {section}{\numberline {A.1}MobileSoft 2015 Conference}{129}{section.A.1}
+\contentsline {chapter}{\numberline {B}Acronyms}{134}{appendix.B}
+\contentsline {chapter}{Bibliography}{135}{appendix.B}

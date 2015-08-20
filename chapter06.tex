@@ -69,22 +69,51 @@ Another way to say it is \textit{"create an inner class wheel"}. In this case th
 \caption{This is the architecture of the Dictation Parser rules}
 \label{fig19}
 \end{figure}
-\autoref{tab11}
+
+\subsection{Parser}
+This section describes the parser of the Dictation Parser module. All layers are divided into tables, every table groups the commands of the layer.
+
+\subsubsection{Top Layer}
+\autoref{tab11} represents the commands of the Top layer.
 \begin{table}[H]
-	\centering
-	\label{my-label}
-	\begin{tabular}{|p{10cm}|p{6cm}|}
-		\hline
-		\rowcolor[HTML]{9B9B9B} 
-		{\color[HTML]{000000} Rule} & {\color[HTML]{000000} Description} \\ \hline
-		<Command> ::= <Creation-Command> | <Navigation-Command> | <Modification-Command> | <Selection-Command>& bla \\ \hline
-		<Creation-Command> ::= <Creation-Verb> [(an | a)] (<Create-Statement> | <Create-Data-Type> | <Create-Field> | <Create-Method> | <Create-Block>) [<Element-Location>]&     \\ \hline
-		&     \\ \hline
-		&     \\ \hline
-	\end{tabular}
-	\caption{}
-	\label{tab11}
+\centering
+\begin{tabular}{|p{10cm}|l|}
+\hline
+\multicolumn{1}{|c|}{{\bf Rule}}                                                                                             & \multicolumn{1}{c|}{{\bf Explanation}} \\ \hline
+command: creationCommand | navigationCommand | selectionCommand | modificationCommand | deletionCommand | invocationCommand; & This is the main command               \\ \hline
+\end{tabular}
+\caption{This table represents the commands of the Top layer.}
+\label{tab11}
 \end{table}
+
+\subsubsection{Creation Layer}
+\autoref{tab12} represents the command of the Creation Layer. This layer Handles all creation commands that the user dictates.
+\begin{table}[H]
+\centering
+\begin{tabular}{|p{10cm}|l|}
+\hline
+\multicolumn{1}{|c|}{{\bf Rule}}                                                                                                                        & \multicolumn{1}{c|}{{\bf Explanation}} \\ \hline
+creationCommand: creationVerb? (AN | A)? (createField | createMethod | createConstructor | createDataType | createBlock | createLoop) elementLocation?; & The main command of the Creation Layer \\ \hline
+creationVerb: CREATE | NEW | OPEN;                                                                                                                      & Creation verb                          \\ \hline
+createField: fieldModifier? fieldRef;                                                                                                                   & Creates a field                        \\ \hline
+createMethod: modifier? (METHOD | FUNCTION) namedElement ((THAT\_ACCEPTS | WITH) parametersList)? (returnsVars Element)?;                               & Creates a method                       \\ \hline
+createConstructor: modifier? CONSTRUCTOR ((THAT\_ACCEPTS | WITH) parametersList)?;                                                                      & Creates a constructor                  \\ \hline
+createDataType: modifier? (INNER)? dataType namedElement ((implementsVars | extendsVars) Element)?;                                                     & Creates a data type                    \\ \hline
+createBlock: BLOCK | createBlockStatement;                                                                                                              & Creates a block                        \\ \hline
+createBlockStatement: localVariableDeclaration | statement;                                                                                             & Creates a block of stattements         \\ \hline
+createLoop: createForEachLoop | createWhileLoop | createDoWhileLoop | createForLoop;                                                                    & Creates a loop                         \\ \hline
+createForEachLoop: FOR\_EACH Element IN Element command?;                                                                                               & Creates a foreach loop                 \\ \hline
+createWhileLoop: WHILE expression DO? command?;                                                                                                         & Creates a while loop                   \\ \hline
+createDoWhileLoop: DO command WHILE expression;                                                                                                         & Creates a do while loop                \\ \hline
+createForLoop: FOR Element (FROM (number | elementsElement))? (TO (number | elementsElement))? command?;                                                & Creates a for loop                     \\ \hline
+\end{tabular}
+\caption{This table represents the commands of the Creation layer.}
+\label{tab12}
+\end{table}
+\subsubsection{Navigation Layer}
+\autoref{tab13} represents the command of the Navigation Layer.  This layer Handles all navigation commands that the user dictates.
+
+
 
 \begin{figure}[H]
 	\begin{lstlisting}

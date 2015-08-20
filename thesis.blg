@@ -1,17 +1,17 @@
-This is BibTeX, Version 0.99d (TeX Live 2014)
-Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
-The top-level auxiliary file: thesis.aux
+This is BibTeX, Version 0.99dThe top-level auxiliary file: thesis.aux
 A level-1 auxiliary file: Definitions.aux
 A level-1 auxiliary file: front.aux
 A level-1 auxiliary file: preface.aux
 A level-1 auxiliary file: acknowledgment.aux
-A level-1 auxiliary file: summary.aux
+A level-1 auxiliary file: abstract.aux
 A level-1 auxiliary file: chapter01.aux
 A level-1 auxiliary file: chapter02.aux
 A level-1 auxiliary file: chapter03.aux
 A level-1 auxiliary file: chapter04.aux
 A level-1 auxiliary file: chapter05.aux
 A level-1 auxiliary file: chapter06.aux
+A level-1 auxiliary file: chapter07.aux
+A level-1 auxiliary file: futurework.aux
 A level-1 auxiliary file: Publications.aux
 A level-1 auxiliary file: acronyms.aux
 The style file: apa.bst
@@ -29,45 +29,4 @@ Warning--entry type for "IEEEBNF1996" isn't style-file defined
 Warning--to sort, need author or key in IEEEBNF1996
 Warning--empty year in IEEEBNF1996
 Warning--empty journal in deverywhere15
-You've used 12 entries,
-            1940 wiz_defined-function locations,
-            544 strings with 5631 characters,
-and the built_in function-call counts, 3929 in all, are:
-= -- 381
-> -- 177
-< -- 9
-+ -- 64
-- -- 60
-* -- 315
-:= -- 731
-add.period$ -- 35
-call.type$ -- 12
-change.case$ -- 90
-chr.to.int$ -- 12
-cite$ -- 16
-duplicate$ -- 150
-empty$ -- 233
-format.name$ -- 75
-if$ -- 733
-int.to.chr$ -- 1
-int.to.str$ -- 0
-missing$ -- 3
-newline$ -- 61
-num.names$ -- 33
-pop$ -- 77
-preamble$ -- 1
-purify$ -- 90
-quote$ -- 0
-skip$ -- 121
-stack$ -- 0
-substring$ -- 177
-swap$ -- 25
-text.length$ -- 1
-text.prefix$ -- 0
-top$ -- 0
-type$ -- 72
-warning$ -- 3
-while$ -- 24
-width$ -- 0
-write$ -- 147
 (There were 8 warnings)
