@@ -87,7 +87,7 @@ command: creationCommand | navigationCommand | selectionCommand | modificationCo
 \end{table}
 
 \subsubsection{Creation Layer}
-\autoref{tab12} and \autoref{tab13} represents the command of the Creation Layer. This layer Handles all creation commands that the user dictates.
+\autoref{tab12} and \autoref{tab13} represents the commands of the Creation Layer. This layer Handles all creation commands that the user dictates.
 \begin{table}[H]
 \centering
 \begin{tabular}{|p{8cm}|p{7cm}|}
@@ -120,7 +120,7 @@ createBlock: BLOCK | createBlockStatement;                                      
 	\label{tab13}
 \end{table}
 \subsubsection{Navigation Layer}
-\autoref{tab14} represents the command of the Navigation Layer.  This layer Handles all navigation commands that the user dictates.
+\autoref{tab14} represents the commands of the Navigation Layer.  This layer Handles all navigation commands that the user dictates.
 
 \begin{table}[H]
 	\centering
@@ -137,7 +137,7 @@ createBlock: BLOCK | createBlockStatement;                                      
 \end{table}
 
 \subsubsection{Modification Layer}
-\autoref{tab15} represents the command of the Modification Layer.  This layer Handles all modification commands that the user dictates.
+\autoref{tab15} represents the commands of the Modification Layer.  This layer Handles all modification commands that the user dictates.
 
 \begin{table}[H]
 	\centering
@@ -153,7 +153,7 @@ createBlock: BLOCK | createBlockStatement;                                      
 \end{table}
 
 \subsubsection{Selection Layer}
-\autoref{tab16} represents the command of the Selection Layer.  This layer Handles all selection commands that the user dictates.
+\autoref{tab16} represents the commands of the Selection Layer.  This layer Handles all selection commands that the user dictates.
 
 \begin{table}[H]
 	\centering
@@ -167,7 +167,7 @@ createBlock: BLOCK | createBlockStatement;                                      
 \end{table}
 
 \subsubsection{Deletion Layer}
-\autoref{tab17} represents the command of the Deletion Layer.  This layer Handles all deletion commands that the user dictates.
+\autoref{tab17} represents the commands of the Deletion Layer.  This layer Handles all deletion commands that the user dictates.
 
 \begin{table}[H]
 	\centering
@@ -181,7 +181,7 @@ createBlock: BLOCK | createBlockStatement;                                      
 \end{table}
 
 \subsubsection{Invocation Layer}
-\autoref{tab18} represents the command of the Invocation Layer.  This layer Handles all invocation commands that the user dictates.
+\autoref{tab18} represents the commands of the Invocation Layer.  This layer Handles all invocation commands that the user dictates.
 
 \begin{table}[H]
 	\centering
@@ -192,6 +192,90 @@ createBlock: BLOCK | createBlockStatement;                                      
 	\end{tabular}
 		\caption{This table represents the commands of the Invocation layer.}
 		\label{tab18}
+\end{table}
+
+\subsubsection{Common Layer}
+\autoref{tab19} and \autoref{tab20} represent the commands of the Invocation Layer.  This layer Handles all invocation commands that the user dictates.
+
+\begin{table}[H]
+	\centering
+	\begin{tabular}{|p{8cm}|p{7cm}|}
+		\hline
+		\multicolumn{1}{|c|}{{\bf Rule}}                                                                                                                                                                                                                                                                                                                                                                                                      & \multicolumn{1}{c|}{{\bf Description}} \\ \hline
+		fieldModifier: (FINAL | CONST)? modifier TRANSIENT? VOLATILE?; & Adds different modifications to a field. For example, final static public. \\ \hline
+		variableModifier: (FINAL | CONST) | STATIC; & Adds final or static to a field. \\ \hline
+		modifier: ABSTRACT? STATIC? accessLevel; & Adds abstract, static and access level. \\ \hline
+		accessLevel: PRIVATE | PUBLIC | PROTECTED; & Adds access level. \\ \hline
+		localVariableDeclaration: variableModifier* elementsName OF\_TYPE Element; & Declares a local variable. \\ \hline
+		statement: expression | RETURN expression? | TRY CATCH? FINALLY? | THROW expression | IF expression (equalsVars | isDifferentVars | lessThanEqualsVars | greaterThanEqualVars | greaterThanVars | lessThanVars | IS\_NOT | IS) expression THEN command (ELSE command)? | SWITCH expression? | BREAK | CONTINUE | caseVars elementsElement; & Defines a statement. \\ \hline
+		expression: primary | expression (plusVars plusVars | minusVars minusVars) | expression AND expression | expression OR expression | (plusVars | minusVars | plusVars plusVars | minusVars minusVars) expression | expression (equalsVars | isDifferentVars | lessThanEqualsVars | greaterThanEqualVars | greaterThanVars | lessThanVars | IS\_NOT | IS) expression | NEW (expression | elementRef) | ASSIGN expression TO expression; & Defines an expression. \\ \hline
+	\end{tabular}
+		\caption{This table represents the commands of the Common layer.}
+		\label{tab19}
+\end{table}
+
+\begin{table}[H]
+	\centering
+	\begin{tabular}{|p{8cm}|p{7cm}|}
+		\hline
+		\multicolumn{1}{|c|}{{\bf Rule}} & \multicolumn{1}{c|}{{\bf Description}} \\ \hline
+		primary: OPEN\_PARENTHESES expression? | elementsElement | number; & Defines the most primitive expression. \\ \hline
+		elementsElement: (elementRef OF)? elementRef; & Reference to an element of an element. For example, method of a class. \\ \hline
+		elementLocation: locationRef (elementRef | line); & Reference to element location. \\ \hline
+		fieldRef:,FIELD (elementsName? OF\_TYPE Element | OF\_TYPE Element namedElement | elementsName); & Reference to a field. \\ \hline
+		elementRef: classRef | fieldRef | enumRef | interfaceRef | unspecifiedRef; & Reference to an element. \\ \hline
+		classRef: CLASS Element; & Reference to a class. \\ \hline
+		namedElement: reference? elementsName; & Reference to an element. \\ \hline
+		elementsName: (Element AND)* Element; & Defines a set of elements. \\ \hline
+		enumRef: ENUM Element; & Reference to an enum. \\ \hline
+		interfaceRef: INTERFACE Element; & Reference to an interface. \\ \hline
+		unspecifiedRef: Element; & Reference to an unspecified element. \\ \hline
+		reference: NAMED | CALLED; & Different variations of references. \\ \hline
+		locationRef: INSIDE | IN | AFTER | BEFORE | ABOVE | BELOW; & Defines variations of locations. \\ \hline
+		parametersList: (parameter AND)* parameter; & Defines a list of parameters. \\ \hline
+		parameter: elementsElement (OF\_TYPE Element)?; & Defines a parameter, \\ \hline
+		dataType: CLASS | ENUM | INTERFACE; & Defines data types. \\ \hline
+		line: LINE NUMBER? number; & Defines a line. For example, line number 6. \\ \hline
+		number: Number | ZERO | ONE | TWO | THREE | FOUR | FIVE | SIX | SEVEN | EIGHT | NINE; & Defins numbers. \\ \hline
+	\end{tabular}
+	\caption{This table is the continuation of \autoref{tab19}.}
+	\label{tab20}
+\end{table}
+
+\subsubsection{Forms of Expressions}
+\autoref{tab21} represents the commands of the forms of expressions.
+
+\begin{table}[H]
+	\centering
+	\begin{tabular}{|p{8cm}|p{7cm}|}
+		\hline
+		\multicolumn{1}{|c|}{{\bf Rule}} & \multicolumn{1}{c|}{{\bf Description}} \\ \hline
+		returnsVars: THAT\_RETURNS | RETURNS | RETURN; & Defines different variations to pronounce "returns". \\ \hline
+		implementsVars: IMPLEMENTS | IMPLEMENT | THAT\_IMPLEMENTS; & Defines different variations to pronounce "implements". \\ \hline
+		extendsVars: EXTENDS | EXTEND | THAT\_EXTENDS; & Defines different variations to pronounce "extends". \\ \hline
+		plusVars: PLUS | MATH\_PLUS; & Defines different variations to pronounce "plus". \\ \hline
+		minusVars: MINUS | MATH\_MINUS; & Defines different variations to pronounce "minus". \\ \hline
+		equalsVars: IS\_EQUAL\_TO | EQUAL\_TO | EQUALS\_TO | EQUALS | IS\_EQUALS; & Defines different variations to pronounce "equals". \\ \hline
+		isDifferentVars: IS\_DIFFERENT\_FROM | DIFFERENT\_FROM; & Defines different variations to pronounce "is different". \\ \hline
+		lessThanVars: LESS\_THAN | LESS\_THAN\_MATH | IS\_LESS\_THAN; & Defines different variations to pronounce "less than". \\ \hline
+		lessThanEqualsVars: LESS\_THAN\_EQUAL | LESS\_THAN\_EQUAL\_MATH | LESS\_THAN\_EQUAL\_MATH\_SPACE; & Defines different variations to pronounce "less than equals". \\ \hline
+	\end{tabular}
+		\caption{This table represents the commands of the forms of expressions of different commands.}
+		\label{tab21}
+\end{table}
+
+\begin{table}[H]
+	\centering
+	\begin{tabular}{|p{8cm}|p{7cm}|}
+		\hline
+		\multicolumn{1}{|c|}{{\bf Rule}} & \multicolumn{1}{c|}{{\bf Description}} \\ \hline
+		greaterThanVars: GREATER\_THAN | GREATER\_THAN\_MATH | IS\_GREATER\_THAN; & Defines different variations to pronounce "greater than". \\ \hline
+		greaterThanEqualVars: GREATER\_THAN\_EQUAL | GREATER\_THAN\_EQUAL\_MATH | GREATER\_THAN\_EQUAL\_MATH\_SPACE; & Defines different variations to pronounce "greater than equal". \\ \hline
+		forEachVars: FOR\_EACH | FOR\_EACH\_SPACE; & Defines different variations to pronounce "for each". \\ \hline
+		caseVars : CASE | IN\_CASE; & Defines different variations to pronounce "case". \\ \hline
+	\end{tabular}
+	\caption{This table is the continuation of \autoref{tab21}.}
+	\label{tab22}
 \end{table}
 
 \begin{figure}[H]

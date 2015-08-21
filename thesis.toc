@@ -181,23 +181,25 @@
 \contentsline {subsubsection}{Selection Layer}{104}{section*.54}
 \contentsline {subsubsection}{Deletion Layer}{105}{section*.55}
 \contentsline {subsubsection}{Invocation Layer}{105}{section*.56}
-\contentsline {subsection}{\numberline {6.3.5}Grammar Testing}{105}{subsection.6.3.5}
-\contentsline {subsubsection}{LinkedList Example}{106}{section*.57}
-\contentsline {subsubsection}{Car Builder Example}{119}{section*.58}
-\contentsline {section}{\numberline {6.4}Implementation}{122}{section.6.4}
-\contentsline {chapter}{\numberline {7}Prototype}{123}{chapter.7}
-\contentsline {section}{\numberline {7.1}Introduction}{123}{section.7.1}
-\contentsline {section}{\numberline {7.2}Speech to Text}{123}{section.7.2}
-\contentsline {subsection}{\numberline {7.2.1}Google Speech V2 Server}{123}{subsection.7.2.1}
-\contentsline {subsubsection}{Host}{124}{section*.59}
-\contentsline {subsubsection}{Request}{124}{section*.60}
-\contentsline {subsubsection}{Response}{124}{section*.61}
-\contentsline {subsection}{\numberline {7.2.2}Speech to Text Library}{126}{subsection.7.2.2}
-\contentsline {subsection}{\numberline {7.2.3}Testing the Module}{126}{subsection.7.2.3}
-\contentsline {section}{\numberline {7.3}BNF Parser}{129}{section.7.3}
-\contentsline {subsubsection}{Antlr 4}{129}{section*.62}
-\contentsline {chapter}{\numberline {8}Conclusions and Future Work}{131}{chapter.8}
-\contentsline {chapter}{\numberline {A}Publications}{132}{appendix.A}
-\contentsline {section}{\numberline {A.1}MobileSoft 2015 Conference}{132}{section.A.1}
-\contentsline {chapter}{\numberline {B}Acronyms}{137}{appendix.B}
-\contentsline {chapter}{Bibliography}{138}{appendix.B}
+\contentsline {subsubsection}{Common Layer}{105}{section*.57}
+\contentsline {subsubsection}{Forms of Expressions}{108}{section*.58}
+\contentsline {subsection}{\numberline {6.3.5}Grammar Testing}{109}{subsection.6.3.5}
+\contentsline {subsubsection}{LinkedList Example}{109}{section*.59}
+\contentsline {subsubsection}{Car Builder Example}{122}{section*.60}
+\contentsline {section}{\numberline {6.4}Implementation}{125}{section.6.4}
+\contentsline {chapter}{\numberline {7}Prototype}{126}{chapter.7}
+\contentsline {section}{\numberline {7.1}Introduction}{126}{section.7.1}
+\contentsline {section}{\numberline {7.2}Speech to Text}{126}{section.7.2}
+\contentsline {subsection}{\numberline {7.2.1}Google Speech V2 Server}{126}{subsection.7.2.1}
+\contentsline {subsubsection}{Host}{127}{section*.61}
+\contentsline {subsubsection}{Request}{127}{section*.62}
+\contentsline {subsubsection}{Response}{127}{section*.63}
+\contentsline {subsection}{\numberline {7.2.2}Speech to Text Library}{129}{subsection.7.2.2}
+\contentsline {subsection}{\numberline {7.2.3}Testing the Module}{129}{subsection.7.2.3}
+\contentsline {section}{\numberline {7.3}BNF Parser}{132}{section.7.3}
+\contentsline {subsubsection}{Antlr 4}{132}{section*.64}
+\contentsline {chapter}{\numberline {8}Conclusions and Future Work}{134}{chapter.8}
+\contentsline {chapter}{\numberline {A}Publications}{135}{appendix.A}
+\contentsline {section}{\numberline {A.1}MobileSoft 2015 Conference}{135}{section.A.1}
+\contentsline {chapter}{\numberline {B}Acronyms}{140}{appendix.B}
+\contentsline {chapter}{Bibliography}{141}{appendix.B}
