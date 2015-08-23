@@ -1,14 +1,12 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.8.20)  21 AUG 2015 20:39
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2015.3.26)  23 AUG 2015 18:04
 entering extended mode
- restricted \write18 enabled.
- %&-line parsing enabled.
 **thesis.tex
-(./thesis.tex
-LaTeX2e <2015/01/01>
-Babel <3.9l> and hyphenation patterns for 79 languages loaded.
-(/usr/local/texlive/2015/texmf-dist/tex/latex/base/report.cls
+(thesis.tex
+LaTeX2e <2014/05/01>
+Babel <3.9l> and hyphenation patterns for 68 languages loaded.
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\report.cls"
 Document Class: report 2014/09/29 v1.4h Standard LaTeX document class
-(/usr/local/texlive/2015/texmf-dist/tex/latex/base/size12.clo
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\size12.clo"
 File: size12.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
 )
 \c@part=\count79
@@ -25,22 +23,20 @@ File: size12.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
 \bibindent=\dimen102
 )
 \@input{Packages.aux}
-\openout2 = `Packages.aux'.
-
-(./Packages.tex (./ramsstyle.sty
-(/usr/local/texlive/2015/texmf-dist/tex/latex/base/inputenc.sty
-Package: inputenc 2015/03/17 v1.2c Input encoding file
+(Packages.tex (ramsstyle.sty
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\inputenc.sty"
+Package: inputenc 2014/04/30 v1.2b Input encoding file
 \inpenc@prehook=\toks14
 \inpenc@posthook=\toks15
 
-(/usr/local/texlive/2015/texmf-dist/tex/latex/base/utf8.def
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\utf8.def"
 File: utf8.def 2014/09/29 v1.1m UTF-8 support for inputenc
 Now handling font encoding OML ...
 ... no UTF-8 mapping file for font encoding OML
 Now handling font encoding T1 ...
 ... processing UTF-8 mapping file for font encoding T1
 
-(/usr/local/texlive/2015/texmf-dist/tex/latex/base/t1enc.dfu
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\t1enc.dfu"
 File: t1enc.dfu 2014/09/29 v1.1m UTF-8 support for inputenc
    defining Unicode char U+00A1 (decimal 161)
    defining Unicode char U+00A3 (decimal 163)
@@ -190,7 +186,7 @@ File: t1enc.dfu 2014/09/29 v1.1m UTF-8 support for inputenc
 Now handling font encoding OT1 ...
 ... processing UTF-8 mapping file for font encoding OT1
 
-(/usr/local/texlive/2015/texmf-dist/tex/latex/base/ot1enc.dfu
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\ot1enc.dfu"
 File: ot1enc.dfu 2014/09/29 v1.1m UTF-8 support for inputenc
    defining Unicode char U+00A1 (decimal 161)
    defining Unicode char U+00A3 (decimal 163)
@@ -221,7 +217,7 @@ File: ot1enc.dfu 2014/09/29 v1.1m UTF-8 support for inputenc
 Now handling font encoding OMS ...
 ... processing UTF-8 mapping file for font encoding OMS
 
-(/usr/local/texlive/2015/texmf-dist/tex/latex/base/omsenc.dfu
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\omsenc.dfu"
 File: omsenc.dfu 2014/09/29 v1.1m UTF-8 support for inputenc
    defining Unicode char U+00A7 (decimal 167)
    defining Unicode char U+00B6 (decimal 182)
@@ -245,7 +241,7 @@ Now handling font encoding U ...
    defining Unicode char U+2122 (decimal 8482)
    defining Unicode char U+2423 (decimal 9251)
 ))
-(/usr/local/texlive/2015/texmf-dist/tex/latex/fourier/fourier.sty
+("C:\Program Files\MiKTeX 2.9\tex\latex\fourier\fourier.sty"
 Package: fourier 2005/01/01 1.4 fourier-GUTenberg package
 Now handling font encoding FML ...
 ... no UTF-8 mapping file for font encoding FML
@@ -254,14 +250,14 @@ Now handling font encoding FMS ...
 Now handling font encoding FMX ...
 ... no UTF-8 mapping file for font encoding FMX
 
-(/usr/local/texlive/2015/texmf-dist/tex/latex/base/fontenc.sty
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\fontenc.sty"
 Package: fontenc 2005/09/27 v1.99g Standard LaTeX package
 
-(/usr/local/texlive/2015/texmf-dist/tex/latex/base/t1enc.def
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\t1enc.def"
 File: t1enc.def 2005/09/27 v1.99g Standard LaTeX file
-LaTeX Font Info:    Redeclaring font encoding T1 on input line 48.
+LaTeX Font Info:    Redeclaring font encoding T1 on input line 43.
 ))
-(/usr/local/texlive/2015/texmf-dist/tex/latex/base/textcomp.sty
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\textcomp.sty"
 Package: textcomp 2005/09/27 v1.99g Standard LaTeX package
 Package textcomp Info: Sub-encoding information:
 (textcomp)               5 = only ISO-Adobe without \textcurrency
@@ -274,14 +270,14 @@ Package textcomp Info: Sub-encoding information:
 (textcomp)             only a restricted character set as indicated.
 (textcomp)             Family '?' is the default used for unknown fonts.
 (textcomp)             See the documentation for details.
-Package textcomp Info: Setting ? sub-encoding to TS1/1 on input line 79.
+Package textcomp Info: Setting ? sub-encoding to TS1/1 on input line 71.
 
-(/usr/local/texlive/2015/texmf-dist/tex/latex/base/ts1enc.def
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\ts1enc.def"
 File: ts1enc.def 2001/06/05 v3.0e (jk/car/fm) Standard LaTeX file
 Now handling font encoding TS1 ...
 ... processing UTF-8 mapping file for font encoding TS1
 
-(/usr/local/texlive/2015/texmf-dist/tex/latex/base/ts1enc.dfu
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\ts1enc.dfu"
 File: ts1enc.dfu 2014/09/29 v1.1m UTF-8 support for inputenc
    defining Unicode char U+00A2 (decimal 162)
    defining Unicode char U+00A3 (decimal 163)
@@ -353,71 +349,70 @@ File: ts1enc.dfu 2014/09/29 v1.1m UTF-8 support for inputenc
    defining Unicode char U+25EF (decimal 9711)
    defining Unicode char U+266A (decimal 9834)
 ))
-LaTeX Info: Redefining \oldstylenums on input line 334.
-Package textcomp Info: Setting cmr sub-encoding to TS1/0 on input line 349.
-Package textcomp Info: Setting cmss sub-encoding to TS1/0 on input line 350.
-Package textcomp Info: Setting cmtt sub-encoding to TS1/0 on input line 351.
-Package textcomp Info: Setting cmvtt sub-encoding to TS1/0 on input line 352.
-Package textcomp Info: Setting cmbr sub-encoding to TS1/0 on input line 353.
-Package textcomp Info: Setting cmtl sub-encoding to TS1/0 on input line 354.
-Package textcomp Info: Setting ccr sub-encoding to TS1/0 on input line 355.
-Package textcomp Info: Setting ptm sub-encoding to TS1/4 on input line 356.
-Package textcomp Info: Setting pcr sub-encoding to TS1/4 on input line 357.
-Package textcomp Info: Setting phv sub-encoding to TS1/4 on input line 358.
-Package textcomp Info: Setting ppl sub-encoding to TS1/3 on input line 359.
-Package textcomp Info: Setting pag sub-encoding to TS1/4 on input line 360.
-Package textcomp Info: Setting pbk sub-encoding to TS1/4 on input line 361.
-Package textcomp Info: Setting pnc sub-encoding to TS1/4 on input line 362.
-Package textcomp Info: Setting pzc sub-encoding to TS1/4 on input line 363.
-Package textcomp Info: Setting bch sub-encoding to TS1/4 on input line 364.
-Package textcomp Info: Setting put sub-encoding to TS1/5 on input line 365.
-Package textcomp Info: Setting uag sub-encoding to TS1/5 on input line 366.
-Package textcomp Info: Setting ugq sub-encoding to TS1/5 on input line 367.
-Package textcomp Info: Setting ul8 sub-encoding to TS1/4 on input line 368.
-Package textcomp Info: Setting ul9 sub-encoding to TS1/4 on input line 369.
-Package textcomp Info: Setting augie sub-encoding to TS1/5 on input line 370.
-Package textcomp Info: Setting dayrom sub-encoding to TS1/3 on input line 371.
-Package textcomp Info: Setting dayroms sub-encoding to TS1/3 on input line 372.
+LaTeX Info: Redefining \oldstylenums on input line 266.
+Package textcomp Info: Setting cmr sub-encoding to TS1/0 on input line 281.
+Package textcomp Info: Setting cmss sub-encoding to TS1/0 on input line 282.
+Package textcomp Info: Setting cmtt sub-encoding to TS1/0 on input line 283.
+Package textcomp Info: Setting cmvtt sub-encoding to TS1/0 on input line 284.
+Package textcomp Info: Setting cmbr sub-encoding to TS1/0 on input line 285.
+Package textcomp Info: Setting cmtl sub-encoding to TS1/0 on input line 286.
+Package textcomp Info: Setting ccr sub-encoding to TS1/0 on input line 287.
+Package textcomp Info: Setting ptm sub-encoding to TS1/4 on input line 288.
+Package textcomp Info: Setting pcr sub-encoding to TS1/4 on input line 289.
+Package textcomp Info: Setting phv sub-encoding to TS1/4 on input line 290.
+Package textcomp Info: Setting ppl sub-encoding to TS1/3 on input line 291.
+Package textcomp Info: Setting pag sub-encoding to TS1/4 on input line 292.
+Package textcomp Info: Setting pbk sub-encoding to TS1/4 on input line 293.
+Package textcomp Info: Setting pnc sub-encoding to TS1/4 on input line 294.
+Package textcomp Info: Setting pzc sub-encoding to TS1/4 on input line 295.
+Package textcomp Info: Setting bch sub-encoding to TS1/4 on input line 296.
+Package textcomp Info: Setting put sub-encoding to TS1/5 on input line 297.
+Package textcomp Info: Setting uag sub-encoding to TS1/5 on input line 298.
+Package textcomp Info: Setting ugq sub-encoding to TS1/5 on input line 299.
+Package textcomp Info: Setting ul8 sub-encoding to TS1/4 on input line 300.
+Package textcomp Info: Setting ul9 sub-encoding to TS1/4 on input line 301.
+Package textcomp Info: Setting augie sub-encoding to TS1/5 on input line 302.
+Package textcomp Info: Setting dayrom sub-encoding to TS1/3 on input line 303.
+Package textcomp Info: Setting dayroms sub-encoding to TS1/3 on input line 304.
 
-Package textcomp Info: Setting pxr sub-encoding to TS1/0 on input line 373.
-Package textcomp Info: Setting pxss sub-encoding to TS1/0 on input line 374.
-Package textcomp Info: Setting pxtt sub-encoding to TS1/0 on input line 375.
-Package textcomp Info: Setting txr sub-encoding to TS1/0 on input line 376.
-Package textcomp Info: Setting txss sub-encoding to TS1/0 on input line 377.
-Package textcomp Info: Setting txtt sub-encoding to TS1/0 on input line 378.
-Package textcomp Info: Setting lmr sub-encoding to TS1/0 on input line 379.
-Package textcomp Info: Setting lmdh sub-encoding to TS1/0 on input line 380.
-Package textcomp Info: Setting lmss sub-encoding to TS1/0 on input line 381.
-Package textcomp Info: Setting lmssq sub-encoding to TS1/0 on input line 382.
-Package textcomp Info: Setting lmvtt sub-encoding to TS1/0 on input line 383.
-Package textcomp Info: Setting lmtt sub-encoding to TS1/0 on input line 384.
-Package textcomp Info: Setting qhv sub-encoding to TS1/0 on input line 385.
-Package textcomp Info: Setting qag sub-encoding to TS1/0 on input line 386.
-Package textcomp Info: Setting qbk sub-encoding to TS1/0 on input line 387.
-Package textcomp Info: Setting qcr sub-encoding to TS1/0 on input line 388.
-Package textcomp Info: Setting qcs sub-encoding to TS1/0 on input line 389.
-Package textcomp Info: Setting qpl sub-encoding to TS1/0 on input line 390.
-Package textcomp Info: Setting qtm sub-encoding to TS1/0 on input line 391.
-Package textcomp Info: Setting qzc sub-encoding to TS1/0 on input line 392.
-Package textcomp Info: Setting qhvc sub-encoding to TS1/0 on input line 393.
-Package textcomp Info: Setting futs sub-encoding to TS1/4 on input line 394.
-Package textcomp Info: Setting futx sub-encoding to TS1/4 on input line 395.
-Package textcomp Info: Setting futj sub-encoding to TS1/4 on input line 396.
-Package textcomp Info: Setting hlh sub-encoding to TS1/3 on input line 397.
-Package textcomp Info: Setting hls sub-encoding to TS1/3 on input line 398.
-Package textcomp Info: Setting hlst sub-encoding to TS1/3 on input line 399.
-Package textcomp Info: Setting hlct sub-encoding to TS1/5 on input line 400.
-Package textcomp Info: Setting hlx sub-encoding to TS1/5 on input line 401.
-Package textcomp Info: Setting hlce sub-encoding to TS1/5 on input line 402.
-Package textcomp Info: Setting hlcn sub-encoding to TS1/5 on input line 403.
-Package textcomp Info: Setting hlcw sub-encoding to TS1/5 on input line 404.
-Package textcomp Info: Setting hlcf sub-encoding to TS1/5 on input line 405.
-Package textcomp Info: Setting pplx sub-encoding to TS1/3 on input line 406.
-Package textcomp Info: Setting pplj sub-encoding to TS1/3 on input line 407.
-Package textcomp Info: Setting ptmx sub-encoding to TS1/4 on input line 408.
-Package textcomp Info: Setting ptmj sub-encoding to TS1/4 on input line 409.
+Package textcomp Info: Setting pxr sub-encoding to TS1/0 on input line 305.
+Package textcomp Info: Setting pxss sub-encoding to TS1/0 on input line 306.
+Package textcomp Info: Setting pxtt sub-encoding to TS1/0 on input line 307.
+Package textcomp Info: Setting txr sub-encoding to TS1/0 on input line 308.
+Package textcomp Info: Setting txss sub-encoding to TS1/0 on input line 309.
+Package textcomp Info: Setting txtt sub-encoding to TS1/0 on input line 310.
+Package textcomp Info: Setting lmr sub-encoding to TS1/0 on input line 311.
+Package textcomp Info: Setting lmdh sub-encoding to TS1/0 on input line 312.
+Package textcomp Info: Setting lmss sub-encoding to TS1/0 on input line 313.
+Package textcomp Info: Setting lmssq sub-encoding to TS1/0 on input line 314.
+Package textcomp Info: Setting lmvtt sub-encoding to TS1/0 on input line 315.
+Package textcomp Info: Setting qhv sub-encoding to TS1/0 on input line 316.
+Package textcomp Info: Setting qag sub-encoding to TS1/0 on input line 317.
+Package textcomp Info: Setting qbk sub-encoding to TS1/0 on input line 318.
+Package textcomp Info: Setting qcr sub-encoding to TS1/0 on input line 319.
+Package textcomp Info: Setting qcs sub-encoding to TS1/0 on input line 320.
+Package textcomp Info: Setting qpl sub-encoding to TS1/0 on input line 321.
+Package textcomp Info: Setting qtm sub-encoding to TS1/0 on input line 322.
+Package textcomp Info: Setting qzc sub-encoding to TS1/0 on input line 323.
+Package textcomp Info: Setting qhvc sub-encoding to TS1/0 on input line 324.
+Package textcomp Info: Setting futs sub-encoding to TS1/4 on input line 325.
+Package textcomp Info: Setting futx sub-encoding to TS1/4 on input line 326.
+Package textcomp Info: Setting futj sub-encoding to TS1/4 on input line 327.
+Package textcomp Info: Setting hlh sub-encoding to TS1/3 on input line 328.
+Package textcomp Info: Setting hls sub-encoding to TS1/3 on input line 329.
+Package textcomp Info: Setting hlst sub-encoding to TS1/3 on input line 330.
+Package textcomp Info: Setting hlct sub-encoding to TS1/5 on input line 331.
+Package textcomp Info: Setting hlx sub-encoding to TS1/5 on input line 332.
+Package textcomp Info: Setting hlce sub-encoding to TS1/5 on input line 333.
+Package textcomp Info: Setting hlcn sub-encoding to TS1/5 on input line 334.
+Package textcomp Info: Setting hlcw sub-encoding to TS1/5 on input line 335.
+Package textcomp Info: Setting hlcf sub-encoding to TS1/5 on input line 336.
+Package textcomp Info: Setting pplx sub-encoding to TS1/3 on input line 337.
+Package textcomp Info: Setting pplj sub-encoding to TS1/3 on input line 338.
+Package textcomp Info: Setting ptmx sub-encoding to TS1/4 on input line 339.
+Package textcomp Info: Setting ptmj sub-encoding to TS1/4 on input line 340.
 )
-(/usr/local/texlive/2015/texmf-dist/tex/latex/fourier/fourier-orns.sty
+("C:\Program Files\MiKTeX 2.9\tex\latex\fourier\fourier-orns.sty"
 Package: fourier-orns 2004/01/30 1.1 fourier-ornaments package
 )
 LaTeX Font Info:    Redeclaring symbol font `operators' on input line 50.
@@ -516,34 +511,34 @@ LaTeX Font Info:    Redeclaring math accent \dot on input line 255.
 LaTeX Font Info:    Redeclaring math accent \mathring on input line 256.
 \symUfutm=\mathgroup5
 )
-(/usr/local/texlive/2015/texmf-dist/tex/latex/marvosym/marvosym.sty
+("C:\Program Files\MiKTeX 2.9\tex\latex\marvosym\marvosym.sty"
 Package: marvosym 2011/07/20 v2.2 Martin Vogel's Symbols font definitions
 )
-(/usr/local/texlive/2015/texmf-dist/tex/latex/graphics/graphicx.sty
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\graphicx.sty"
 Package: graphicx 2014/10/28 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
 
-(/usr/local/texlive/2015/texmf-dist/tex/latex/graphics/keyval.sty
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\keyval.sty"
 Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
 \KV@toks@=\toks16
 )
-(/usr/local/texlive/2015/texmf-dist/tex/latex/graphics/graphics.sty
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\graphics.sty"
 Package: graphics 2014/10/28 v1.0p Standard LaTeX Graphics (DPC,SPQR)
 
-(/usr/local/texlive/2015/texmf-dist/tex/latex/graphics/trig.sty
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\trig.sty"
 Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
 )
-(/usr/local/texlive/2015/texmf-dist/tex/latex/latexconfig/graphics.cfg
-File: graphics.cfg 2010/04/23 v1.9 graphics configuration of TeX Live
+("C:\Program Files\MiKTeX 2.9\tex\latex\00miktex\graphics.cfg"
+File: graphics.cfg 2007/01/18 v1.5 graphics configuration of teTeX/TeXLive
 )
-Package graphics Info: Driver file: pdftex.def on input line 94.
+Package graphics Info: Driver file: pdftex.def on input line 91.
 
-(/usr/local/texlive/2015/texmf-dist/tex/latex/pdftex-def/pdftex.def
+("C:\Program Files\MiKTeX 2.9\tex\latex\pdftex-def\pdftex.def"
 File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
 
-(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/infwarerr.sty
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\infwarerr.sty"
 Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
 )
-(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ltxcmds.sty"
 Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
 )
 \Gread@gobject=\count88
@@ -551,18 +546,18 @@ Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
 \Gin@req@height=\dimen103
 \Gin@req@width=\dimen104
 )
-(/usr/local/texlive/2015/texmf-dist/tex/latex/geometry/geometry.sty
+("C:\Program Files\MiKTeX 2.9\tex\latex\geometry\geometry.sty"
 Package: geometry 2010/09/12 v5.6 Page Geometry
 
-(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ifpdf.sty"
 Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
 Package ifpdf Info: pdfTeX in PDF mode is detected.
 )
-(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/ifvtex.sty
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ifvtex.sty"
 Package: ifvtex 2010/03/01 v1.5 Detect VTeX and its facilities (HO)
 Package ifvtex Info: VTeX not detected.
 )
-(/usr/local/texlive/2015/texmf-dist/tex/generic/ifxetex/ifxetex.sty
+("C:\Program Files\MiKTeX 2.9\tex\generic\ifxetex\ifxetex.sty"
 Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 )
 \Gm@cnth=\count89
@@ -577,11 +572,12 @@ Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 \Gm@layouthoffset=\dimen111
 \Gm@layoutvoffset=\dimen112
 \Gm@dimlist=\toks17
-)
-(/usr/local/texlive/2015/texmf-dist/tex/latex/rotating/rotating.sty
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\geometry\geometry.cfg"))
+("C:\Program Files\MiKTeX 2.9\tex\latex\rotating\rotating.sty"
 Package: rotating 2009/03/28 v2.16a rotated objects in LaTeX
 
-(/usr/local/texlive/2015/texmf-dist/tex/latex/base/ifthen.sty
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\ifthen.sty"
 Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
 )
 \c@r@tfl@t=\count92
@@ -590,24 +586,24 @@ Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
 \rot@float@box=\box26
 \rot@mess@toks=\toks18
 )
-(/usr/local/texlive/2015/texmf-dist/tex/latex/amsmath/amsmath.sty
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsmath.sty"
 Package: amsmath 2013/01/14 v2.14 AMS math features
 \@mathmargin=\skip45
 
 For additional information on amsmath, use the `?' option.
-(/usr/local/texlive/2015/texmf-dist/tex/latex/amsmath/amstext.sty
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amstext.sty"
 Package: amstext 2000/06/29 v2.01
 
-(/usr/local/texlive/2015/texmf-dist/tex/latex/amsmath/amsgen.sty
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsgen.sty"
 File: amsgen.sty 1999/11/30 v2.0
 \@emptytoks=\toks19
 \ex@=\dimen113
 ))
-(/usr/local/texlive/2015/texmf-dist/tex/latex/amsmath/amsbsy.sty
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsbsy.sty"
 Package: amsbsy 1999/11/29 v1.2d
 \pmbraise@=\dimen114
 )
-(/usr/local/texlive/2015/texmf-dist/tex/latex/amsmath/amsopn.sty
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsopn.sty"
 Package: amsopn 1999/12/14 v2.01 operator names
 )
 \inf@bad=\count93
@@ -648,7 +644,7 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 567.
 LaTeX Info: Redefining \[ on input line 2665.
 LaTeX Info: Redefining \] on input line 2666.
 )
-(/usr/local/texlive/2015/texmf-dist/tex/latex/booktabs/booktabs.sty
+("C:\Program Files\MiKTeX 2.9\tex\latex\booktabs\booktabs.sty"
 Package: booktabs 2005/04/14 v1.61803 publication quality tables
 \heavyrulewidth=\dimen122
 \lightrulewidth=\dimen123
@@ -668,30 +664,30 @@ Package: booktabs 2005/04/14 v1.61803 publication quality tables
 \@lastruleclass=\count108
 \@thisrulewidth=\dimen134
 )
-(/usr/local/texlive/2015/texmf-dist/tex/latex/url/url.sty
+("C:\Program Files\MiKTeX 2.9\tex\latex\url\url.sty"
 \Urlmuskip=\muskip11
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
-(/usr/local/texlive/2015/texmf-dist/tex/latex/natbib/natbib.sty
+("C:\Program Files\MiKTeX 2.9\tex\latex\natbib\natbib.sty"
 Package: natbib 2010/09/13 8.31b (PWD, AO)
 \bibhang=\skip48
 \bibsep=\skip49
 LaTeX Info: Redefining \cite on input line 694.
 \c@NAT@ctr=\count109
 )
-(/usr/local/texlive/2015/texmf-dist/tex/latex/setspace/setspace.sty
+("C:\Program Files\MiKTeX 2.9\tex\latex\setspace\setspace.sty"
 Package: setspace 2011/12/19 v6.7a set line spacing
 )
-(/usr/local/texlive/2015/texmf-dist/tex/latex/hyperref/hyperref.sty
+("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\hyperref.sty"
 Package: hyperref 2012/11/06 v6.83m Hypertext links for LaTeX
 
-(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.sty
-Package: hobsub-hyperref 2012/05/28 v1.13 Bundle oberdiek, subset hyperref (HO)
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\hobsub-hyperref.sty"
+Package: hobsub-hyperref 2012/04/25 v1.12 Bundle oberdiek, subset hyperref (HO)
 
 
-(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/hobsub-generic.sty
-Package: hobsub-generic 2012/05/28 v1.13 Bundle oberdiek, subset generic (HO)
-Package: hobsub 2012/05/28 v1.13 Construct package bundles (HO)
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\hobsub-generic.sty"
+Package: hobsub-generic 2012/04/25 v1.12 Bundle oberdiek, subset generic (HO)
+Package: hobsub 2012/04/25 v1.12 Construct package bundles (HO)
 Package hobsub Info: Skipping package `infwarerr' (already loaded).
 Package hobsub Info: Skipping package `ltxcmds' (already loaded).
 Package: ifluatex 2010/03/01 v1.3 Provides the ifluatex switch (HO)
@@ -720,7 +716,7 @@ Package: uniquecounter 2011/01/30 v1.2 Provide unlimited unique counter (HO)
 )
 Package hobsub Info: Skipping package `hobsub' (already loaded).
 Package: letltxmacro 2010/09/02 v1.4 Let assignment for LaTeX macros (HO)
-Package: hopatch 2012/05/28 v1.2 Wrapper for package hooks (HO)
+Package: hopatch 2011/06/24 v1.1 Wrapper for package hooks (HO)
 Package: xcolor-patch 2011/01/30 xcolor patch
 Package: atveryend 2011/06/30 v1.8 Hooks at the very end of document (HO)
 Package atveryend Info: \enddocument detected (standard20110627).
@@ -728,24 +724,24 @@ Package: atbegshi 2011/10/05 v1.16 At begin shipout hook (HO)
 Package: refcount 2011/10/16 v3.4 Data extraction from label references (HO)
 Package: hycolor 2011/01/30 v1.7 Color options for hyperref/bookmark (HO)
 )
-(/usr/local/texlive/2015/texmf-dist/tex/latex/oberdiek/auxhook.sty
+("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\auxhook.sty"
 Package: auxhook 2011/03/04 v1.3 Hooks for auxiliary files (HO)
 )
-(/usr/local/texlive/2015/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\kvoptions.sty"
 Package: kvoptions 2011/06/30 v3.11 Key value format for package options (HO)
 )
 \@linkdim=\dimen135
 \Hy@linkcounter=\count110
 \Hy@pagecounter=\count111
 
-(/usr/local/texlive/2015/texmf-dist/tex/latex/hyperref/pd1enc.def
+("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\pd1enc.def"
 File: pd1enc.def 2012/11/06 v6.83m Hyperref: PDFDocEncoding definition (HO)
 Now handling font encoding PD1 ...
 ... no UTF-8 mapping file for font encoding PD1
 )
 \Hy@SavedSpaceFactor=\count112
 
-(/usr/local/texlive/2015/texmf-dist/tex/latex/latexconfig/hyperref.cfg
+("C:\Program Files\MiKTeX 2.9\tex\latex\00miktex\hyperref.cfg"
 File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
 )
 Package hyperref Info: Option `colorlinks' set `true' on input line 4319.
@@ -782,19 +778,19 @@ LaTeX Info: Redefining \pageref on input line 6369.
 
 Package hyperref Message: Driver (autodetected): hpdftex.
 
-(/usr/local/texlive/2015/texmf-dist/tex/latex/hyperref/hpdftex.def
+("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\hpdftex.def"
 File: hpdftex.def 2012/11/06 v6.83m Hyperref driver for pdfTeX
 \Fld@listcount=\count118
 \c@bookmark@seq@number=\count119
 
-(/usr/local/texlive/2015/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty
+("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\rerunfilecheck.sty"
 Package: rerunfilecheck 2011/04/15 v1.7 Rerun checks for auxiliary files (HO)
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 82.
 )
 \Hy@SectionHShift=\skip50
 ))
-(/usr/local/texlive/2015/texmf-dist/tex/latex/listings/listings.sty
+("C:\Program Files\MiKTeX 2.9\tex\latex\listings\listings.sty"
 \lst@mode=\count120
 \lst@gtempboxa=\box29
 \lst@token=\toks24
@@ -808,50 +804,44 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 \lst@lineno=\count125
 \lst@maxwidth=\dimen142
 
-(/usr/local/texlive/2015/texmf-dist/tex/latex/listings/lstmisc.sty
+("C:\Program Files\MiKTeX 2.9\tex\latex\listings\lstmisc.sty"
 File: lstmisc.sty 2014/09/06 1.5e (Carsten Heinz)
 \c@lstnumber=\count126
 \lst@skipnumbers=\count127
 \lst@framebox=\box30
 )
-(/usr/local/texlive/2015/texmf-dist/tex/latex/listings/listings.cfg
+("C:\Program Files\MiKTeX 2.9\tex\latex\listings\listings.cfg"
 File: listings.cfg 2014/09/06 1.5e listings configuration
 ))
 Package: listings 2014/09/06 1.5e (Carsten Heinz)
 
-(/usr/local/texlive/2015/texmf-dist/tex/latex/graphics/color.sty
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\color.sty"
 Package: color 2014/10/28 v1.1a Standard LaTeX Color (DPC)
 
-(/usr/local/texlive/2015/texmf-dist/tex/latex/latexconfig/color.cfg
+("C:\Program Files\MiKTeX 2.9\tex\latex\00miktex\color.cfg"
 File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
 )
-Package color Info: Driver file: pdftex.def on input line 142.
+Package color Info: Driver file: pdftex.def on input line 137.
 )
-(/usr/local/texlive/2015/texmf-dist/tex/latex/datetime/datetime.sty
-Package: datetime 2015/03/20 v2.60 Date Time Package
+("C:\Program Files\MiKTeX 2.9\tex\latex\datetime\datetime.sty"
+Package: datetime 2013/09/10 v2.59 Date Time Package
 
-(/usr/local/texlive/2015/texmf-dist/tex/latex/etoolbox/etoolbox.sty
-Package: etoolbox 2015/05/04 v2.2 e-TeX tools for LaTeX (JAW)
-\etb@tempcnta=\count128
+("C:\Program Files\MiKTeX 2.9\tex\latex\etoolbox\etoolbox.sty"
+Package: etoolbox 2015/03/19 v2.1d e-TeX tools for LaTeX (JAW)
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\misc\etex.sty"
+Package: etex 2015/03/02 v2.1 eTeX basic definition package (PEB,DPC)
+\et@xins=\count128
 )
-(/usr/local/texlive/2015/texmf-dist/tex/latex/fmtcount/fmtcount.sty
-Package: fmtcount 2015/05/05 v3.01
-
-(/usr/local/texlive/2015/texmf-dist/tex/latex/xkeyval/xkeyval.sty
-Package: xkeyval 2014/12/03 v2.7a package option processing (HA)
-
-(/usr/local/texlive/2015/texmf-dist/tex/generic/xkeyval/xkeyval.tex
-(/usr/local/texlive/2015/texmf-dist/tex/generic/xkeyval/xkvutils.tex
-\XKV@toks=\toks25
-\XKV@tempa@toks=\toks26
+\etb@tempcnta=\count129
 )
-\XKV@depth=\count129
-File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
-))
-(/usr/local/texlive/2015/texmf-dist/tex/latex/fmtcount/fcprefix.sty
+("C:\Program Files\MiKTeX 2.9\tex\latex\fmtcount\fmtcount.sty"
+Package: fmtcount 2014/07/18 v3.00
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\fmtcount\fcprefix.sty"
 Package: fcprefix 2012/09/28
 
-(/usr/local/texlive/2015/texmf-dist/tex/latex/fmtcount/fcnumparser.sty
+("C:\Program Files\MiKTeX 2.9\tex\latex\fmtcount\fcnumparser.sty"
 Package: fcnumparser 2012/09/28
 \fc@digit@counter=\count130
 ))
@@ -865,10 +855,10 @@ Package: fcnumparser 2012/09/28
 \@DT@loopN=\count138
 \@DT@X=\count139
 
-(/usr/local/texlive/2015/texmf-dist/tex/latex/fmtcount/fc-english.def
+("C:\Program Files\MiKTeX 2.9\tex\latex\fmtcount\fc-english.def"
 File: fc-english.def 2013/08/17
 ))
-(/usr/local/texlive/2015/texmf-dist/tex/latex/datetime/datetime-defaults.sty
+("C:\Program Files\MiKTeX 2.9\tex\latex\datetime\datetime-defaults.sty"
 Package: datetime-defaults 2013/09/10
 )
 \@day=\count140
@@ -889,37 +879,37 @@ put line 308.
 \dayofyear=\count153
 \dayofweek=\count154
 LaTeX Info: Redefining \today on input line 736.
-\dt@a=\toks27
-\dt@b=\toks28
+\dt@a=\toks25
+\dt@b=\toks26
 )
-(/usr/local/texlive/2015/texmf-dist/tex/latex/float/float.sty
+("C:\Program Files\MiKTeX 2.9\tex\latex\float\float.sty"
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \c@float@type=\count155
-\float@exts=\toks29
+\float@exts=\toks27
 \float@box=\box31
-\@float@everytoks=\toks30
+\@float@everytoks=\toks28
 \@floatcapt=\box32
 )
-(/usr/local/texlive/2015/texmf-dist/tex/latex/xcolor/xcolor.sty
+("C:\Program Files\MiKTeX 2.9\tex\latex\xcolor\xcolor.sty"
 Package: xcolor 2007/01/21 v2.11 LaTeX color extensions (UK)
 
-(/usr/local/texlive/2015/texmf-dist/tex/latex/latexconfig/color.cfg
+("C:\Program Files\MiKTeX 2.9\tex\latex\00miktex\color.cfg"
 File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
 )
 Package xcolor Info: Driver file: pdftex.def on input line 225.
 
-(/usr/local/texlive/2015/texmf-dist/tex/latex/colortbl/colortbl.sty
+("C:\Program Files\MiKTeX 2.9\tex\latex\colortbl\colortbl.sty"
 Package: colortbl 2012/02/13 v1.0a Color table columns (DPC)
 
-(/usr/local/texlive/2015/texmf-dist/tex/latex/tools/array.sty
+("C:\Program Files\MiKTeX 2.9\tex\latex\tools\array.sty"
 Package: array 2014/10/28 v2.4c Tabular extension package (FMi)
 \col@sep=\dimen143
 \extrarowheight=\dimen144
-\NC@list=\toks31
+\NC@list=\toks29
 \extratabsurround=\skip51
 \backup@length=\skip52
 )
-\everycr=\toks32
+\everycr=\toks30
 \minrowclearance=\skip53
 )
 LaTeX Info: Redefining \color on input line 702.
@@ -934,10 +924,10 @@ Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1358.
 Package xcolor Info: Model `Gray' substituted by `gray' on input line 1359.
 Package xcolor Info: Model `wave' substituted by `hsb' on input line 1360.
 )
-(/usr/local/texlive/2015/texmf-dist/tex/latex/pdfpages/pdfpages.sty
-Package: pdfpages 2015/05/11 v0.4x Insert pages of external PDF documents (AM)
+("C:\Program Files\MiKTeX 2.9\tex\latex\pdfpages\pdfpages.sty"
+Package: pdfpages 2013/08/25 v0.4v Insert pages of external PDF documents (AM)
 
-(/usr/local/texlive/2015/texmf-dist/tex/latex/tools/calc.sty
+("C:\Program Files\MiKTeX 2.9\tex\latex\tools\calc.sty"
 Package: calc 2014/10/28 v4.3 Infix arithmetic (KKT,FJ)
 \calc@Acount=\count157
 \calc@Bcount=\count158
@@ -945,49 +935,44 @@ Package: calc 2014/10/28 v4.3 Infix arithmetic (KKT,FJ)
 \calc@Bdimen=\dimen146
 \calc@Askip=\skip54
 \calc@Bskip=\skip55
-LaTeX Info: Redefining \setlength on input line 80.
-LaTeX Info: Redefining \addtolength on input line 81.
+LaTeX Info: Redefining \setlength on input line 75.
+LaTeX Info: Redefining \addtolength on input line 76.
 \calc@Ccount=\count159
 \calc@Cskip=\skip56
 )
-(/usr/local/texlive/2015/texmf-dist/tex/latex/eso-pic/eso-pic.sty
-Package: eso-pic 2015/04/20 v2.0e eso-pic (RN)
+("C:\Program Files\MiKTeX 2.9\tex\latex\eso-pic\eso-pic.sty"
+Package: eso-pic 2013/10/06 v2.0d eso-pic (RN)
 )
-\AM@pagewidth=\dimen147
-\AM@pageheight=\dimen148
-
-(/usr/local/texlive/2015/texmf-dist/tex/latex/pdfpages/pppdftex.def
-File: pppdftex.def 2015/05/11 v0.4x Pdfpages driver for pdfTeX (AM)
+("C:\Program Files\MiKTeX 2.9\tex\latex\pdfpages\pppdftex.def"
+File: pppdftex.def 2013/08/25 v0.4v Pdfpages driver for pdfTeX (AM)
 )
 \AM@pagebox=\box33
-\AM@toc@title=\toks33
+\AM@toc@title=\toks31
 \c@AM@survey=\count160
 \AM@templatesizebox=\box34
 )
-(/usr/local/texlive/2015/texmf-dist/tex/latex/mathtools/mathtools.sty
-Package: mathtools 2015/05/11 v1.16 mathematical typesetting tools
+("C:\Program Files\MiKTeX 2.9\tex\latex\mathtools\mathtools.sty"
+Package: mathtools 2014/07/16 v1.15 mathematical typesetting tools
 
-(/usr/local/texlive/2015/texmf-dist/tex/latex/mathtools/mhsetup.sty
+("C:\Program Files\MiKTeX 2.9\tex\latex\mathtools\mhsetup.sty"
 Package: mhsetup 2010/01/21 v1.2a programming setup (MH)
 )
-LaTeX Info: Thecontrolsequence`\('isalreadyrobust on input line 129.
-LaTeX Info: Thecontrolsequence`\)'isalreadyrobust on input line 129.
 LaTeX Info: Thecontrolsequence`\['isalreadyrobust on input line 129.
 LaTeX Info: Thecontrolsequence`\]'isalreadyrobust on input line 129.
 \g_MT_multlinerow_int=\count161
-\l_MT_multwidth_dim=\dimen149
+\l_MT_multwidth_dim=\dimen147
 \origjot=\skip57
-\l_MT_shortvdotswithinadjustabove_dim=\dimen150
-\l_MT_shortvdotswithinadjustbelow_dim=\dimen151
-\l_MT_above_intertext_sep=\dimen152
-\l_MT_below_intertext_sep=\dimen153
-\l_MT_above_shortintertext_sep=\dimen154
-\l_MT_below_shortintertext_sep=\dimen155
+\l_MT_shortvdotswithinadjustabove_dim=\dimen148
+\l_MT_shortvdotswithinadjustbelow_dim=\dimen149
+\l_MT_above_intertext_sep=\dimen150
+\l_MT_below_intertext_sep=\dimen151
+\l_MT_above_shortintertext_sep=\dimen152
+\l_MT_below_shortintertext_sep=\dimen153
 )
-(/usr/local/texlive/2015/texmf-dist/tex/latex/amsfonts/amssymb.sty
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\amssymb.sty"
 Package: amssymb 2013/01/14 v3.01 AMS font symbols
 
-(/usr/local/texlive/2015/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\amsfonts.sty"
 Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
 \symAMSa=\mathgroup6
 \symAMSb=\mathgroup7
@@ -1021,35 +1006,17 @@ LaTeX Font Info:    Redeclaring math symbol \curvearrowright on input line 258.
 
 LaTeX Font Info:    Redeclaring math symbol \varkappa on input line 260.
 LaTeX Font Info:    Redeclaring math symbol \hslash on input line 262.
-))
-(./thesis.aux (./Definitions.aux) (./front.aux) (./preface.aux)
-(./acknowledgment.aux) (./abstract.aux) (./chapter01.aux) (./chapter02.aux
+)) (thesis.aux
+(Definitions.aux) (front.aux) (preface.aux) (acknowledgment.aux) (abstract.aux)
+(chapter01.aux) (chapter02.aux
 
 LaTeX Warning: Label `fig4' multiply defined.
 
-) (./chapter03.aux) (./chapter04.aux) (./chapter05.aux) (./chapter06.aux
+) (chapter03.aux) (chapter04.aux) (chapter05.aux) (chapter06.aux
 
-LaTeX Warning: Label `tab12' multiply defined.
+LaTeX Warning: Label `fig23' multiply defined.
 
-
-LaTeX Warning: Label `tab13' multiply defined.
-
-
-LaTeX Warning: Label `tab14' multiply defined.
-
-
-LaTeX Warning: Label `tab15' multiply defined.
-
-) (./chapter07.aux
-
-LaTeX Warning: Label `tab16' multiply defined.
-
-
-LaTeX Warning: Label `tab17' multiply defined.
-
-) (./futurework.aux) (./Publications.aux) (./acronyms.aux))
-\openout1 = `thesis.aux'.
-
+) (chapter07.aux) (futurework.aux) (Publications.aux) (acronyms.aux))
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 3.
 LaTeX Font Info:    ... okay on input line 3.
 LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 3.
@@ -1065,28 +1032,28 @@ LaTeX Font Info:    ... okay on input line 3.
 LaTeX Font Info:    Checking defaults for FML/futm/m/it on input line 3.
 LaTeX Font Info:    Try loading font information for FML+futm on input line 3.
 
-(/usr/local/texlive/2015/texmf-dist/tex/latex/fourier/fmlfutm.fd
+("C:\Program Files\MiKTeX 2.9\tex\latex\fourier\fmlfutm.fd"
 File: fmlfutm.fd 2004/10/30 Fontinst v1.926 font definitions for FML/futm.
 )
 LaTeX Font Info:    ... okay on input line 3.
 LaTeX Font Info:    Checking defaults for FMS/futm/m/n on input line 3.
 LaTeX Font Info:    Try loading font information for FMS+futm on input line 3.
 
-(/usr/local/texlive/2015/texmf-dist/tex/latex/fourier/fmsfutm.fd
+("C:\Program Files\MiKTeX 2.9\tex\latex\fourier\fmsfutm.fd"
 File: fmsfutm.fd 2004/10/30 Fontinst v1.926 font definitions for FMS/futm.
 )
 LaTeX Font Info:    ... okay on input line 3.
 LaTeX Font Info:    Checking defaults for FMX/futm/m/n on input line 3.
 LaTeX Font Info:    Try loading font information for FMX+futm on input line 3.
 
-(/usr/local/texlive/2015/texmf-dist/tex/latex/fourier/fmxfutm.fd
+("C:\Program Files\MiKTeX 2.9\tex\latex\fourier\fmxfutm.fd"
 File: fmxfutm.fd futm-extension
 )
 LaTeX Font Info:    ... okay on input line 3.
 LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 3.
 LaTeX Font Info:    Try loading font information for TS1+cmr on input line 3.
 
-(/usr/local/texlive/2015/texmf-dist/tex/latex/base/ts1cmr.fd
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\ts1cmr.fd"
 File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    ... okay on input line 3.
@@ -1094,37 +1061,23 @@ LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 3.
 LaTeX Font Info:    ... okay on input line 3.
 LaTeX Font Info:    Try loading font information for T1+futs on input line 3.
 
-(/usr/local/texlive/2015/texmf-dist/tex/latex/fourier/t1futs.fd
+("C:\Program Files\MiKTeX 2.9\tex\latex\fourier\t1futs.fd"
 File: t1futs.fd 2004/03/02 Fontinst v1.926 font definitions for T1/futs.
 )
-(/usr/local/texlive/2015/texmf-dist/tex/context/base/supp-pdf.mkii
+("C:\Program Files\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count162
-\scratchdimen=\dimen156
+\scratchdimen=\dimen154
 \scratchbox=\box35
 \nofMPsegments=\count163
 \nofMParguments=\count164
-\everyMPshowfont=\toks34
+\everyMPshowfont=\toks32
 \MPscratchCnt=\count165
-\MPscratchDim=\dimen157
+\MPscratchDim=\dimen155
 \MPnumerator=\count166
 \makeMPintoPDFobject=\count167
-\everyMPtoPDFconversion=\toks35
-) (/usr/local/texlive/2015/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
-Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
-
-(/usr/local/texlive/2015/texmf-dist/tex/latex/oberdiek/grfext.sty
-Package: grfext 2010/08/19 v1.1 Manage graphics extensions (HO)
+\everyMPtoPDFconversion=\toks33
 )
-Package grfext Info: Graphics extension search list:
-(grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
-G,.JBIG2,.JB2,.eps]
-(grfext)             \AppendGraphicsExtensions on input line 452.
-
-(/usr/local/texlive/2015/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
-File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
-e
-))
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
 *geometry* verbose mode - [ preamble ] result:
@@ -1161,10 +1114,10 @@ e
 
 \AtBeginShipoutBox=\box36
 Package hyperref Info: Link coloring ON on input line 3.
-(/usr/local/texlive/2015/texmf-dist/tex/latex/hyperref/nameref.sty
+("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\nameref.sty"
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
 
-(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\gettitlestring.sty"
 Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
 \c@section@level=\count168
@@ -1173,24 +1126,16 @@ LaTeX Info: Redefining \ref on input line 3.
 LaTeX Info: Redefining \pageref on input line 3.
 LaTeX Info: Redefining \nameref on input line 3.
 
-(./thesis.out) (./thesis.out)
+(thesis.out) (thesis.out)
 \@outlinefile=\write3
-\openout3 = `thesis.out'.
-
 \c@lstlisting=\count169
-\openout2 = `Definitions.aux'.
-
- (./Definitions.tex
-(/usr/local/texlive/2015/texmf-dist/tex/latex/listings/lstlang1.sty
+ (Definitions.tex
+("C:\Program Files\MiKTeX 2.9\tex\latex\listings\lstlang1.sty"
 File: lstlang1.sty 2014/09/06 1.5e listings language file
-))
-\openout2 = `front.aux'.
-
-
-(./front.tex <./fig/MTALogo.jpg, id=585, 487.8225pt x 200.75pt>
+)) (front.tex
+<./fig/MTALogo.jpg, id=586, 487.8225pt x 200.75pt>
 File: ./fig/MTALogo.jpg Graphic file (type jpg)
-
-<use ./fig/MTALogo.jpg>
+ <use ./fig/MTALogo.jpg>
 Package pdftex.def Info: ./fig/MTALogo.jpg used on input line 11.
 (pdftex.def)             Requested size: 195.12553pt x 80.29857pt.
 
@@ -1205,11 +1150,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 16--17
 
 
 
-{/usr/local/texlive/2015/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./fig/M
-TALogo.jpg>]
-\openout2 = `preface.aux'.
-
- (./preface.tex
+{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map} <./fig/MTALogo.jpg>]
+(preface.tex
 LaTeX Font Info:    Font shape `T1/futs/bx/n' in size <17.28> not available
 (Font)              Font shape `T1/futs/b/n' tried instead on input line 6.
 
@@ -1220,26 +1162,20 @@ Underfull \hbox (badness 10000) in paragraph at lines 7--8
 ) [1
 
 
-]
-\openout2 = `acknowledgment.aux'.
-
- (./acknowledgment.tex) [2
+] (acknowledgment.tex) [2
 
 
-]
-\openout2 = `abstract.aux'.
-
- (./abstract.tex) [3
+] (abstract.tex) [3
 
 
 ]
 LaTeX Font Info:    Font shape `T1/futs/bx/n' in size <24.88> not available
 (Font)              Font shape `T1/futs/b/n' tried instead on input line 11.
- (./thesis.toc
+ (thesis.toc
 LaTeX Font Info:    Try loading font information for FML+futmi on input line 1.
 
 
-(/usr/local/texlive/2015/texmf-dist/tex/latex/fourier/fmlfutmi.fd
+("C:\Program Files\MiKTeX 2.9\tex\latex\fourier\fmlfutmi.fd"
 File: fmlfutmi.fd 2004/10/30 Fontinst v1.926 font definitions for FML/futmi.
 )
 LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
@@ -1256,12 +1192,12 @@ LaTeX Font Info:    Font shape `U/futm/m/n' will be
 (Font)              scaled to size 6.43999pt on input line 1.
 LaTeX Font Info:    Try loading font information for U+msa on input line 1.
 
-(/usr/local/texlive/2015/texmf-dist/tex/latex/amsfonts/umsa.fd
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
 LaTeX Font Info:    Try loading font information for U+msb on input line 1.
 
-(/usr/local/texlive/2015/texmf-dist/tex/latex/amsfonts/umsb.fd
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 LaTeX Font Info:    Font shape `T1/futs/bx/n' in size <12> not available
@@ -1269,8 +1205,7 @@ LaTeX Font Info:    Font shape `T1/futs/bx/n' in size <12> not available
  [4
 
 
-] [5]
-[6] [7]
+] [5] [6] [7]
 Overfull \hbox (1.19994pt too wide) detected at line 176
  []\T1/futs/m/n/12 101
  []
@@ -1281,58 +1216,58 @@ Overfull \hbox (1.19994pt too wide) detected at line 186
  []
 
 
-Overfull \hbox (1.19994pt too wide) detected at line 189
- []\T1/futs/m/n/12 125
+Overfull \hbox (1.19994pt too wide) detected at line 187
+ []\T1/futs/m/n/12 116
  []
 
 
-Overfull \hbox (1.19994pt too wide) detected at line 191
- []\T1/futs/m/n/12 126
+Overfull \hbox (1.19994pt too wide) detected at line 190
+ []\T1/futs/m/n/12 132
  []
 
 
 Overfull \hbox (1.19994pt too wide) detected at line 192
- []\T1/futs/m/n/12 126
+ []\T1/futs/m/n/12 133
  []
 
 
 Overfull \hbox (1.19994pt too wide) detected at line 193
- []\T1/futs/m/n/12 126
+ []\T1/futs/m/n/12 133
  []
 
 
-Overfull \hbox (1.19994pt too wide) detected at line 197
- []\T1/futs/m/n/12 129
+Overfull \hbox (1.19994pt too wide) detected at line 194
+ []\T1/futs/m/n/12 133
  []
 
 
 Overfull \hbox (1.19994pt too wide) detected at line 198
- []\T1/futs/m/n/12 129
+ []\T1/futs/m/n/12 136
  []
 
 
 Overfull \hbox (1.19994pt too wide) detected at line 199
- []\T1/futs/m/n/12 132
+ []\T1/futs/m/n/12 136
  []
 
 [8]
-Overfull \hbox (1.19994pt too wide) detected at line 203
- []\T1/futs/m/n/12 135
+Overfull \hbox (1.19994pt too wide) detected at line 200
+ []\T1/futs/m/n/12 139
+ []
+
+
+Overfull \hbox (1.19994pt too wide) detected at line 204
+ []\T1/futs/m/n/12 142
  []
 
 )
 \tf@toc=\write4
-\openout4 = `thesis.toc'.
-
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.15 \include{chapter01}
-                         [1]
-\openout2 = `chapter01.aux'.
-
- (./chapter01.tex
+                         [1] (chapter01.tex
 Chapter 1.
 [2
 
@@ -1340,16 +1275,13 @@ Chapter 1.
 ] [3]
 LaTeX Font Info:    Try loading font information for TS1+futs on input line 23.
 
- (/usr/local/texlive/2015/texmf-dist/tex/latex/fourier/ts1futs.fd
+ ("C:\Program Files\MiKTeX 2.9\tex\latex\fourier\ts1futs.fd"
 File: ts1futs.fd 2004/03/26 Fontinst v1.926 font definitions for TS1/futs.
-)
-[4] [5] [6]
+) [4]
+[5] [6]
 LaTeX Font Info:    Font shape `T1/futs/bx/it' in size <12> not available
 (Font)              Font shape `T1/futs/b/it' tried instead on input line 59.
-) [7]
-\openout2 = `chapter02.aux'.
-
- (./chapter02.tex
+) [7] (chapter02.tex
 Chapter 2.
 [8
 
@@ -1357,7 +1289,7 @@ Chapter 2.
 
 ]
 LaTeX Font Info:    Try loading font information for T1+cmtt on input line 15.
- (/usr/local/texlive/2015/texmf-dist/tex/latex/base/t1cmtt.fd
+ ("C:\Program Files\MiKTeX 2.9\tex\latex\base\t1cmtt.fd"
 File: t1cmtt.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `T1/futs/bx/n' in size <14.4> not available
@@ -1651,10 +1583,7 @@ Overfull \hbox (3.45491pt too wide) in paragraph at lines 832--833
 ht mi-nus up-per-Left close paren-
  []
 
-[40] [41] [42] [43] [44] [45] [46] [47]) [48]
-\openout2 = `chapter03.aux'.
-
- (./chapter03.tex
+[40] [41] [42] [43] [44] [45] [46] [47]) [48] (chapter03.tex
 Chapter 3.
 [49
 
@@ -1672,10 +1601,7 @@ Overfull \hbox (21.24417pt too wide) in paragraph at lines 220--221
 e-over, in-stead of writ-ing per-son.name(name)
  []
 
-[59] [60] [61]) [62]
-\openout2 = `chapter04.aux'.
-
- (./chapter04.tex
+[59] [60] [61]) [62] (chapter04.tex
 Chapter 4.
 [63
 
@@ -1697,7 +1623,7 @@ Overfull \hbox (13.3966pt too wide) in paragraph at lines 13--35
                                                   \fi \fi 
 l.40 \section
              {Mathematical Expressions}] [66]
-<"./fig/Condition With Frame".png, id=1543, 132.495pt x 60.225pt>
+<"./fig/Condition With Frame".png, id=1534, 132.495pt x 60.225pt>
 File: "./fig/Condition With Frame".png Graphic file (type png)
 
 <use "./fig/Condition With Frame".png>
@@ -1705,7 +1631,7 @@ Package pdftex.def Info: "./fig/Condition With Frame".png used on input line 62
 .
 (pdftex.def)             Requested size: 132.49466pt x 60.22484pt.
 
-<"./fig/Condition With Frame and short Indentation".png, id=1547, 109.1578pt x 
+<"./fig/Condition With Frame and short Indentation".png, id=1538, 109.1578pt x 
 57.96657pt>
 File: "./fig/Condition With Frame and short Indentation".png Graphic file (type
  png)
@@ -1772,7 +1698,7 @@ LaTeX Warning: Reference `39' on page 71 undefined on input line 153.
 
 LaTeX Warning: Reference `40' on page 71 undefined on input line 163.
 
-<"./fig/foo with omitted parentheses".png, id=1604, 147.55125pt x 30.86531pt>
+<"./fig/foo with omitted parentheses".png, id=1594, 147.55125pt x 30.86531pt>
 File: "./fig/foo with omitted parentheses".png Graphic file (type png)
 
 <use "./fig/foo with omitted parentheses".png>
@@ -1798,7 +1724,7 @@ l.171
                                                   \fi \fi 
 l.171 
        <./fig/foo with omitted parentheses.png>]
-<"./fig/Crane Constructor".png, id=1621, 127.97812pt x 57.21375pt>
+<"./fig/Crane Constructor".png, id=1611, 127.97812pt x 57.21375pt>
 File: "./fig/Crane Constructor".png Graphic file (type png)
 
 <use "./fig/Crane Constructor".png>
@@ -1929,7 +1855,7 @@ gnored
                                                   \fi \fi 
 l.359 \subsection
                  {Imperative Representation}]
-<"./fig/Loop Watermark".png, id=1756, 246.9225pt x 151.3153pt>
+<"./fig/Loop Watermark".png, id=1744, 246.9225pt x 151.3153pt>
 File: "./fig/Loop Watermark".png Graphic file (type png)
 
 <use "./fig/Loop Watermark".png>
@@ -1948,7 +1874,7 @@ name{figure.4.23}) has been already used, duplicate ignored
                                                   \fi \fi 
 l.378 \end{figure}
                   ]
-<"./fig/Loop Variable".png, id=1771, 77.53969pt x 65.49469pt>
+<"./fig/Loop Variable".png, id=1759, 77.53969pt x 65.49469pt>
 File: "./fig/Loop Variable".png Graphic file (type png)
 
 <use "./fig/Loop Variable".png>
@@ -1961,7 +1887,7 @@ Package pdftex.def Info: "./fig/Loop Variable".png used on input line 386.
                                                   \fi \fi 
 l.390 \subsubsection
                     {Loop Complexity} <./fig/Loop Watermark.png>]
-<"./fig/Code Complexity Representation".png, id=1788, 50.43843pt x 40.65187pt>
+<"./fig/Code Complexity Representation".png, id=1776, 50.43843pt x 40.65187pt>
 File: "./fig/Code Complexity Representation".png Graphic file (type png)
 
 <use "./fig/Code Complexity Representation".png>
@@ -1983,7 +1909,7 @@ cate ignored
 l.409 \subsubsection
                     {Print to Screen (System.out)} <./fig/Loop Variable.png> <.
 /fig/Code Complexity Representation.png>]
-<"./fig/System Out Hello World".png, id=1805, 87.32625pt x 14.30344pt>
+<"./fig/System Out Hello World".png, id=1793, 87.32625pt x 14.30344pt>
 File: "./fig/System Out Hello World".png Graphic file (type png)
 
 <use "./fig/System Out Hello World".png>
@@ -1997,7 +1923,7 @@ o, World!"), one may show only println
  []
 
 [84 <./fig/System Out Hello World.png>]
-<"./fig/Tiles".png, id=1816, 471.26062pt x 237.88875pt>
+<"./fig/Tiles".png, id=1804, 471.26062pt x 237.88875pt>
 File: "./fig/Tiles".png Graphic file (type png)
 
 <use "./fig/Tiles".png>
@@ -2034,14 +1960,14 @@ ame identifier (name{figure.4.29}) has been already used, duplicate ignored
                                                   \fi \fi 
 l.448 \subsubsection
                     {Code Bubbles}]
-<"./fig/Code Bubbles".png, id=1836, 374.90062pt x 149.05687pt>
+<"./fig/Code Bubbles".png, id=1824, 374.90062pt x 149.05687pt>
 File: "./fig/Code Bubbles".png Graphic file (type png)
 
 <use "./fig/Code Bubbles".png>
 Package pdftex.def Info: "./fig/Code Bubbles".png used on input line 455.
 (pdftex.def)             Requested size: 374.8997pt x 149.0565pt.
  [87]
-<./files/Linked-List-Compact-Representation.pdf, id=1843, 845.19763pt x 1565.12
+<./files/Linked-List-Compact-Representation.pdf, id=1831, 845.19763pt x 1565.12
 733pt>
 File: ./files/Linked-List-Compact-Representation.pdf Graphic file (type pdf)
  <use ./files/Linked-List-Compact-Representation.pdf>
@@ -2054,8 +1980,15 @@ File: ./files/Linked-List-Compact-Representation.pdf Graphic file (type pdf)
 Package pdftex.def Info: ./files/Linked-List-Compact-Representation.pdf used on
  input line 467.
 (pdftex.def)             Requested size: 845.19557pt x 1565.12352pt.
+ [88pdfTeX warning (ext4): destination with the same identifier (name{figure.4.
+30}) has been already used, duplicate ignored
 
-<./files/Linked-List-Compact-Representation.pdf, id=1846, page=1, 845.19763pt x
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.467 ...s/Linked-List-Compact-Representation.pdf}
+                                                   <./fig/Code Bubbles.png>]
+[89]
+<./files/Linked-List-Compact-Representation.pdf, id=1844, page=1, 845.19763pt x
  1565.12733pt>
 File: ./files/Linked-List-Compact-Representation.pdf Graphic file (type pdf)
  <use ./files/Linked-List-Compact-Representation.pdf, page 1>
@@ -2080,23 +2013,13 @@ File: ./files/Linked-List-Compact-Representation.pdf Graphic file (type pdf)
 Package pdftex.def Info: ./files/Linked-List-Compact-Representation.pdf, page1 
 used on input line 467.
 (pdftex.def)             Requested size: 429.32983pt x 795.02809pt.
- [88pdfTeX warning (ext4): destination with the same identifier (name{figure.4.
-30}) has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.467 ...s/Linked-List-Compact-Representation.pdf}
-                                                   <./fig/Code Bubbles.png>]
-[89]
 File: ./files/Linked-List-Compact-Representation.pdf Graphic file (type pdf)
- <use ./files/Linked-List-Compact-Representation.pdf, page 1>
+
+<use ./files/Linked-List-Compact-Representation.pdf, page 1>
 Package pdftex.def Info: ./files/Linked-List-Compact-Representation.pdf, page1 
 used on input line 467.
 (pdftex.def)             Requested size: 429.32983pt x 795.02809pt.
- [90 <./files/Linked-List-Compact-Representation.pdf>])
-\openout2 = `chapter05.aux'.
-
- (./chapter05.tex
+ [90 <./files/Linked-List-Compact-Representation.pdf>]) (chapter05.tex
 Chapter 5.
 [91
 
@@ -2134,24 +2057,30 @@ dentifier (name{table.5.2}) has been already used, duplicate ignored
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.19 \include{chapter05}
-                        ]
-\openout2 = `chapter06.aux'.
-
- (./chapter06.tex
+                        ] (chapter06.tex
 Chapter 6.
 [96
 
 
 
-] [97pdfTeX warning (ext4): destination with the same identifier (name{figure.6
-.1}) has been already used, duplicate ignored
+]
+
+Package natbib Warning: Citation `Pove_ASRU2011' on page 97 undefined on input 
+line 23.
+
+[97pdfTeX warning (ext4): destination with the same identifier (name{figure.6.1
+}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.24 \subsection
-                {Context Free Grammar}] [98] [99]
+                {Context Free Grammar}] [98]
+
+LaTeX Warning: Reference `fig19' on page 99 undefined on input line 44.
+
+[99]
 <"./fig/Parse Tree create a static public class named wheel inside class car".p
-ng, id=1998, 960.58875pt x 413.545pt>
+ng, id=1978, 960.58875pt x 413.545pt>
 File: "./fig/Parse Tree create a static public class named wheel inside class c
 ar".png Graphic file (type png)
 
@@ -2161,7 +2090,7 @@ Package pdftex.def Info: "./fig/Parse Tree create a static public class named w
 heel inside class car".png used on input line 52.
 (pdftex.def)             Requested size: 384.22868pt x 165.41505pt.
 
-<"./fig/Parse Tree create an inner class wheel".png, id=2000, 649.42625pt x 343
+<"./fig/Parse Tree create an inner class wheel".png, id=1980, 649.42625pt x 343
 .2825pt>
 File: "./fig/Parse Tree create an inner class wheel".png Graphic file (type png
 )
@@ -2170,7 +2099,7 @@ Package pdftex.def Info: "./fig/Parse Tree create an inner class wheel".png use
 d on input line 61.
 (pdftex.def)             Requested size: 259.7659pt x 137.31056pt.
 
-<./fig/BNFDiagram.jpg, id=2001, 1025.8325pt x 283.0575pt>
+<./fig/BNFDiagram.jpg, id=1981, 1025.8325pt x 283.0575pt>
 File: ./fig/BNFDiagram.jpg Graphic file (type jpg)
 
 <use ./fig/BNFDiagram.jpg>
@@ -2214,47 +2143,46 @@ Underfull \hbox (badness 10000) in paragraph at lines 101--101
 []|\T1/futs/m/n/12 createDataType: mod-i-fier? (IN-NER)?
  []
 
-
-Underfull \hbox (badness 7963) in paragraph at lines 113--113
-[]|\T1/futs/m/n/12 createLoop: cre-ate-ForE-achLoop | cre-ate-
- []
-
-
-Underfull \hbox (badness 4096) in paragraph at lines 115--115
-[]|\T1/futs/m/n/12 createWhileLoop: WHILE ex-pres-sion DO?
- []
-
 [101pdfTeX warning (ext4): destination with the same identifier (name{figure.6.
 4}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.121 \end{table}
-                 pdfTeX warning (ext4): destination with the same identifier (n
-ame{table.6.1}) has been already used, duplicate ignored
+l.107 
+      pdfTeX warning (ext4): destination with the same identifier (name{table.6
+.1}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.121 \end{table}
-                  <./fig/BNFDiagram.jpg>] [102pdfTeX warning (ext4): destinatio
-n with the same identifier (name{table.6.2}) has been already used, duplicate i
-gnored
+l.107 
+       <./fig/BNFDiagram.jpg>]
+Underfull \hbox (badness 7963) in paragraph at lines 114--114
+[]|\T1/futs/m/n/12 createLoop: cre-ate-ForE-achLoop | cre-ate-
+ []
+
+
+Underfull \hbox (badness 4096) in paragraph at lines 116--116
+[]|\T1/futs/m/n/12 createWhileLoop: WHILE ex-pres-sion DO?
+ []
+
+[102pdfTeX warning (ext4): destination with the same identifier (name{table.6.2
+}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.122 \subsubsection
-                    {Navigation Layer}]
-Underfull \hbox (badness 10000) in paragraph at lines 130--130
+l.123 
+      ]
+Underfull \hbox (badness 10000) in paragraph at lines 132--132
 []|\T1/futs/m/n/12 navigationCommand: nav-i-ga-tion-Verb
  []
 
 
-Underfull \hbox (badness 1859) in paragraph at lines 130--130
+Underfull \hbox (badness 1859) in paragraph at lines 132--132
 \T1/futs/m/n/12 (dataType | FIELD | METHOD)? El-e-ment |
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 131--131
+Underfull \hbox (badness 10000) in paragraph at lines 133--133
 []|\T1/futs/m/n/12 navigationVerb: GO_TO |
  []
 
@@ -2263,9 +2191,9 @@ Underfull \hbox (badness 10000) in paragraph at lines 131--131
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.138 
+l.140 
       ]
-Underfull \hbox (badness 10000) in paragraph at lines 148--148
+Underfull \hbox (badness 10000) in paragraph at lines 150--150
 []|\T1/futs/m/n/12 modifyAccessLevel: mod-i-fi-ca-tion-Verb ac-
  []
 
@@ -2274,55 +2202,75 @@ Underfull \hbox (badness 10000) in paragraph at lines 148--148
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.168 
+l.170 
       pdfTeX warning (ext4): destination with the same identifier (name{table.6
 .5}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.168 
+l.170 
       ]
-Underfull \hbox (badness 4096) in paragraph at lines 191--191
+Underfull \hbox (badness 4096) in paragraph at lines 193--193
 []|\T1/futs/m/n/12 invocationCommand: CALL? el-e-mentsE-le-
  []
 
 
-Underfull \hbox (badness 2334) in paragraph at lines 205--205
+Underfull \hbox (badness 2334) in paragraph at lines 207--207
 []|\T1/futs/m/n/12 fieldModifier: (FI-NAL | CONST)? mod-i-fier
  []
 
 
-Underfull \hbox (badness 7907) in paragraph at lines 208--208
+Underfull \hbox (badness 7907) in paragraph at lines 210--210
 []|\T1/futs/m/n/12 accessLevel: PRI-VATE | PUB-LIC | PRO-
  []
 
 
-Underfull \hbox (badness 4726) in paragraph at lines 209--209
+Underfull \hbox (badness 4726) in paragraph at lines 211--211
 []|\T1/futs/m/n/12 localVariableDeclaration: vari-able-Mod-i-fier*
  []
 
 
-Underfull \hbox (badness 1371) in paragraph at lines 211--211
-[]|\T1/futs/m/n/12 expression: pri-mary | ex-pres-sion (plus-Vars
+Underfull \hbox (badness 10000) in paragraph at lines 213--213
+[]|\T1/futs/m/n/12 expression: pri-mary | ex-pres-sion (plus-
  []
 
 
-Underfull \hbox (badness 2318) in paragraph at lines 211--211
-\T1/futs/m/n/12 plus-Vars | mi-nus-Vars mi-nus-Vars) | ex-pres-
+Underfull \hbox (badness 10000) in paragraph at lines 213--213
+\T1/futs/m/n/12 Vars plus-Vars | mi-nus-Vars mi-nus-Vars) |
  []
 
 
-Underfull \hbox (badness 2689) in paragraph at lines 211--211
-\T1/futs/m/n/12 sion AND ex-pres-sion | ex-pres-sion OR ex-
+Underfull \hbox (badness 10000) in paragraph at lines 213--213
+\T1/futs/m/n/12 ex-pres-sion (equalsVars | is-D-if-fer-ent-Vars |
  []
 
 
-Underfull \hbox (badness 1264) in paragraph at lines 211--211
-\T1/futs/m/n/12 pres-sion | (plus-Vars | mi-nus-Vars | plus-Vars
+Underfull \hbox (badness 3536) in paragraph at lines 213--213
+\T1/futs/m/n/12 lessThanEqualsVars | greaterThanEqual-Vars
  []
 
 
-Underfull \hbox (badness 2717) in paragraph at lines 211--211
+Underfull \hbox (badness 2119) in paragraph at lines 213--213
+\T1/futs/m/n/12 | greaterThanVars | lessThanVars | IS_NOT
+ []
+
+
+Underfull \hbox (badness 3343) in paragraph at lines 213--213
+\T1/futs/m/n/12 | IS) ex-pres-sion | (plus-Vars | mi-nus-Vars |
+ []
+
+
+Underfull \hbox (badness 3989) in paragraph at lines 213--213
+\T1/futs/m/n/12 plus-Vars plus-Vars | mi-nus-Vars mi-nus-Vars)
+ []
+
+
+Underfull \hbox (badness 2158) in paragraph at lines 213--213
+\T1/futs/m/n/12 sion)* THEN com-mand (ELSE com-mand)?
+ []
+
+
+Underfull \hbox (badness 2717) in paragraph at lines 213--213
 \T1/futs/m/n/12 | ex-pres-sion (equalsVars | is-D-if-fer-ent-Vars |
  []
 
@@ -2331,25 +2279,25 @@ Underfull \hbox (badness 2717) in paragraph at lines 211--211
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.216 
+l.218 
       pdfTeX warning (ext4): destination with the same identifier (name{table.6
 .7}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.216 
+l.218 
       pdfTeX warning (ext4): destination with the same identifier (name{table.6
 .8}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.216 
+l.218 
       ] [106pdfTeX warning (ext4): destination with the same identifier (name{t
 able.6.9}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.244 
+l.246 
       ]
 Overfull \vbox (27.08534pt too high) has occurred while \output is active []
 
@@ -2359,30 +2307,15 @@ Overfull \vbox (27.08534pt too high) has occurred while \output is active []
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.244 
+l.246 
       ]
-Underfull \hbox (badness 10000) in paragraph at lines 253--253
+Underfull \hbox (badness 10000) in paragraph at lines 255--255
 []|\T1/futs/m/n/12 Defines dif-fer-ent vari-a-tions to pro-
  []
 
 
-Underfull \hbox (badness 5217) in paragraph at lines 254--254
+Underfull \hbox (badness 5217) in paragraph at lines 256--256
 []|\T1/futs/m/n/12 implementsVars: IM-PLE-MENTS | IM-PLE-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 254--254
-[]|\T1/futs/m/n/12 Defines dif-fer-ent vari-a-tions to pro-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 255--255
-[]|\T1/futs/m/n/12 extendsVars: EX-TENDS | EX-TEND |
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 255--255
-[]|\T1/futs/m/n/12 Defines dif-fer-ent vari-a-tions to pro-
  []
 
 
@@ -2392,12 +2325,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 256--256
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 257--257
-[]|\T1/futs/m/n/12 Defines dif-fer-ent vari-a-tions to pro-
+[]|\T1/futs/m/n/12 extendsVars: EX-TENDS | EX-TEND |
  []
 
 
-Underfull \hbox (badness 4328) in paragraph at lines 258--258
-[]|\T1/futs/m/n/12 equalsVars: IS_EQUAL_TO | EQUAL_TO |
+Underfull \hbox (badness 10000) in paragraph at lines 257--257
+[]|\T1/futs/m/n/12 Defines dif-fer-ent vari-a-tions to pro-
  []
 
 
@@ -2411,68 +2344,53 @@ Underfull \hbox (badness 10000) in paragraph at lines 259--259
  []
 
 
+Underfull \hbox (badness 4328) in paragraph at lines 260--260
+[]|\T1/futs/m/n/12 equalsVars: IS_EQUAL_TO | EQUAL_TO |
+ []
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 260--260
+[]|\T1/futs/m/n/12 Defines dif-fer-ent vari-a-tions to pro-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 261--261
+[]|\T1/futs/m/n/12 Defines dif-fer-ent vari-a-tions to pro-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 262--262
 []|\T1/futs/m/n/12 lessThanVars: LESS_THAN |
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 260--260
+Underfull \hbox (badness 10000) in paragraph at lines 262--262
 []|\T1/futs/m/n/12 Defines dif-fer-ent vari-a-tions to pro-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 261--261
+Underfull \hbox (badness 10000) in paragraph at lines 263--263
 []|\T1/futs/m/n/12 lessThanEqualsVars: LESS_THAN_EQUAL
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 261--261
+Underfull \hbox (badness 10000) in paragraph at lines 263--263
 \T1/futs/m/n/12 | LESS_THAN_EQUAL_MATH |
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 261--261
-[]|\T1/futs/m/n/12 Defines dif-fer-ent vari-a-tions to pro-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 272--272
-[]|\T1/futs/m/n/12 greaterThanVars: GREATER_THAN
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 272--272
-\T1/futs/m/n/12 | GREATER_THAN_MATH |
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 272--272
-[]|\T1/futs/m/n/12 Defines dif-fer-ent vari-a-tions to pro-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 273--273
-[]|\T1/futs/m/n/12 greaterThanEqualVars:
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 273--273
-\T1/futs/m/n/12 GREATER_THAN_EQUAL |
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 273--273
-\T1/futs/m/n/12 GREATER_THAN_EQUAL_MATH |
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 273--273
+Underfull \hbox (badness 10000) in paragraph at lines 263--263
 []|\T1/futs/m/n/12 Defines dif-fer-ent vari-a-tions to pro-
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 274--274
-[]|\T1/futs/m/n/12 forEachVars: FOR_EACH |
+[]|\T1/futs/m/n/12 greaterThanVars: GREATER_THAN
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 274--274
+\T1/futs/m/n/12 | GREATER_THAN_MATH |
  []
 
 
@@ -2482,6 +2400,36 @@ Underfull \hbox (badness 10000) in paragraph at lines 274--274
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 275--275
+[]|\T1/futs/m/n/12 greaterThanEqualVars:
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 275--275
+\T1/futs/m/n/12 GREATER_THAN_EQUAL |
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 275--275
+\T1/futs/m/n/12 GREATER_THAN_EQUAL_MATH |
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 275--275
+[]|\T1/futs/m/n/12 Defines dif-fer-ent vari-a-tions to pro-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 276--276
+[]|\T1/futs/m/n/12 forEachVars: FOR_EACH |
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 276--276
+[]|\T1/futs/m/n/12 Defines dif-fer-ent vari-a-tions to pro-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 277--277
 []|\T1/futs/m/n/12 Defines dif-fer-ent vari-a-tions to pro-
  []
 
@@ -2490,97 +2438,95 @@ Underfull \hbox (badness 10000) in paragraph at lines 275--275
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.280 
+l.282 
       ] [109pdfTeX warning (ext4): destination with the same identifier (name{t
 able.6.12}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.360 \end{figure}
-                  pdfTeX warning (ext4): destination with the same identifier (
-name{figure.6.5}) has been already used, duplicate ignored
+l.296 	\item B
+              ELOW: 'below';] [110] [111] [112] [113] [114] [115] [116pdfTeX wa
+rning (ext4): destination with the same identifier (name{figure.6.5}) has been 
+already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.360 \end{figure}
+l.500 \end{figure}
                   ]
 Overfull \vbox (4.7136pt too high) has occurred while \output is active []
 
 
-[110pdfTeX warning (ext4): destination with the same identifier (name{figure.6.
+[117pdfTeX warning (ext4): destination with the same identifier (name{figure.6.
 6}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.360 \end{figure}
-                  ] [111pdfTeX warning (ext4): destination with the same identi
+l.500 \end{figure}
+                  ] [118pdfTeX warning (ext4): destination with the same identi
 fier (name{figure.6.7}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.481 \end{figure}
+l.621 \end{figure}
                   ]
 Overfull \vbox (1371.5142pt too high) has occurred while \output is active []
 
 
-[112pdfTeX warning (ext4): destination with the same identifier (name{figure.6.
+[119pdfTeX warning (ext4): destination with the same identifier (name{figure.6.
 8}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.481 \end{figure}
-                  ] [113pdfTeX warning (ext4): destination with the same identi
+l.621 \end{figure}
+                  ] [120pdfTeX warning (ext4): destination with the same identi
 fier (name{figure.6.9}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.545 \end{figure}
-                  ] [114pdfTeX warning (ext4): destination with the same identi
+l.685 \end{figure}
+                  ] [121pdfTeX warning (ext4): destination with the same identi
 fier (name{figure.6.10}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.581 \end{figure}
+l.721 \end{figure}
                   ]
 Overfull \vbox (25.1136pt too high) has occurred while \output is active []
 
 
-[115pdfTeX warning (ext4): destination with the same identifier (name{figure.6.
+[122pdfTeX warning (ext4): destination with the same identifier (name{figure.6.
 11}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.581 \end{figure}
+l.721 \end{figure}
                   ]
 Overfull \vbox (4.7136pt too high) has occurred while \output is active []
 
 
-[116pdfTeX warning (ext4): destination with the same identifier (name{figure.6.
+[123pdfTeX warning (ext4): destination with the same identifier (name{figure.6.
 12}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.582 T
-       his is the list of the dictations that generates the program.] [117]
-[118] [119] [120] [121] [122] [123pdfTeX warning (ext4): destination with the s
+l.722 T
+       his is the list of the dictations that generates the program.] [124]
+[125] [126] [127] [128] [129] [130pdfTeX warning (ext4): destination with the s
 ame identifier (name{figure.6.13}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.755 T
-       his is the list of the dictations that generates the program.] [124pdfTe
+l.895 T
+       his is the list of the dictations that generates the program.] [131pdfTe
 X warning (ext4): destination with the same identifier (name{figure.6.14}) has 
 been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.769 	\item C
-              reate public field engine of type string]) [125]
-\openout2 = `chapter07.aux'.
-
- (./chapter07.tex
+l.909 	\item C
+              reate public field engine of type string]) [132] (chapter07.tex
 Chapter 7.
-[126
+[133
 
 
 
@@ -2591,7 +2537,7 @@ Overfull \hbox (178.68143pt too wide) in paragraph at lines 20--21
 [][][][][][][][][][][][][][][][][]  
  []
 
-[127] [128] [129]
+[134] [135] [136]
 Underfull \hbox (badness 10000) in paragraph at lines 90--90
 []|\T1/futs/b/n/12 Match
  []
@@ -2616,17 +2562,17 @@ Underfull \hbox (badness 2772) in paragraph at lines 122--122
 []|\T1/futs/m/n/12 create method get that ac-cepts
  []
 
-[130]
+[137]
 Overfull \vbox (9.59326pt too high) has occurred while \output is active []
 
 
-[131pdfTeX warning (ext4): destination with the same identifier (name{table.7.1
+[138pdfTeX warning (ext4): destination with the same identifier (name{table.7.1
 }) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.135 \end{table}
-                 ] [132pdfTeX warning (ext4): destination with the same identif
+                 ] [139pdfTeX warning (ext4): destination with the same identif
 ier (name{table.7.2}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
@@ -2638,21 +2584,15 @@ Overfull \hbox (3.90042pt too wide) in paragraph at lines 148--149
  cor-rect lexer and parser. Whether
  []
 
-) [133]
-\openout2 = `futurework.aux'.
-
- (./futurework.tex
+) [140] (futurework.tex
 Chapter 8.
-) [134
+) [141
 
 
 
-]
-\openout2 = `Publications.aux'.
-
- (./Publications.tex
+] (Publications.tex
 Appendix A.
-<./files/deverywhere-mobilesoft15.pdf, id=2562, 614.295pt x 794.97pt>
+<./files/deverywhere-mobilesoft15.pdf, id=2572, 614.295pt x 794.97pt>
 File: ./files/deverywhere-mobilesoft15.pdf Graphic file (type pdf)
 
 <use ./files/deverywhere-mobilesoft15.pdf>
@@ -2665,48 +2605,22 @@ File: ./files/deverywhere-mobilesoft15.pdf Graphic file (type pdf)
 Package pdftex.def Info: ./files/deverywhere-mobilesoft15.pdf used on input lin
 e 16.
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
-
-<./files/deverywhere-mobilesoft15.pdf, id=2565, page=1, 614.295pt x 794.97pt>
-File: ./files/deverywhere-mobilesoft15.pdf Graphic file (type pdf)
-
-<use ./files/deverywhere-mobilesoft15.pdf, page 1>
-Package pdftex.def Info: ./files/deverywhere-mobilesoft15.pdf, page1 used on in
-put line 16.
-(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
-File: ./files/deverywhere-mobilesoft15.pdf Graphic file (type pdf)
-
-<use ./files/deverywhere-mobilesoft15.pdf, page 1>
-Package pdftex.def Info: ./files/deverywhere-mobilesoft15.pdf, page1 used on in
-put line 16.
-(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
-File: ./files/deverywhere-mobilesoft15.pdf Graphic file (type pdf)
-
-<use ./files/deverywhere-mobilesoft15.pdf, page 1>
-Package pdftex.def Info: ./files/deverywhere-mobilesoft15.pdf, page1 used on in
-put line 16.
-(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
-File: ./files/deverywhere-mobilesoft15.pdf Graphic file (type pdf)
-
-<use ./files/deverywhere-mobilesoft15.pdf, page 1>
-Package pdftex.def Info: ./files/deverywhere-mobilesoft15.pdf, page1 used on in
-put line 16.
-(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
- [135
+ [142
 
 
 
 ]
-<./files/deverywhere-mobilesoft15.pdf, id=2570, page=2, 614.295pt x 794.97pt>
+<./files/deverywhere-mobilesoft15.pdf, id=2580, page=1, 614.295pt x 794.97pt>
 File: ./files/deverywhere-mobilesoft15.pdf Graphic file (type pdf)
 
-<use ./files/deverywhere-mobilesoft15.pdf, page 2>
-Package pdftex.def Info: ./files/deverywhere-mobilesoft15.pdf, page2 used on in
+<use ./files/deverywhere-mobilesoft15.pdf, page 1>
+Package pdftex.def Info: ./files/deverywhere-mobilesoft15.pdf, page1 used on in
 put line 16.
-(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
 File: ./files/deverywhere-mobilesoft15.pdf Graphic file (type pdf)
 
-<use ./files/deverywhere-mobilesoft15.pdf, page 2>
-Package pdftex.def Info: ./files/deverywhere-mobilesoft15.pdf, page2 used on in
+<use ./files/deverywhere-mobilesoft15.pdf, page 1>
+Package pdftex.def Info: ./files/deverywhere-mobilesoft15.pdf, page1 used on in
 put line 16.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
 File: ./files/deverywhere-mobilesoft15.pdf Graphic file (type pdf)
@@ -2715,18 +2629,24 @@ File: ./files/deverywhere-mobilesoft15.pdf Graphic file (type pdf)
 Package pdftex.def Info: ./files/deverywhere-mobilesoft15.pdf, page1 used on in
 put line 16.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
- [136 <./files/deverywhere-mobilesoft15.pdf>]
-<./files/deverywhere-mobilesoft15.pdf, id=2612, page=3, 614.295pt x 794.97pt>
 File: ./files/deverywhere-mobilesoft15.pdf Graphic file (type pdf)
 
-<use ./files/deverywhere-mobilesoft15.pdf, page 3>
-Package pdftex.def Info: ./files/deverywhere-mobilesoft15.pdf, page3 used on in
+<use ./files/deverywhere-mobilesoft15.pdf, page 1>
+Package pdftex.def Info: ./files/deverywhere-mobilesoft15.pdf, page1 used on in
 put line 16.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
 File: ./files/deverywhere-mobilesoft15.pdf Graphic file (type pdf)
 
-<use ./files/deverywhere-mobilesoft15.pdf, page 3>
-Package pdftex.def Info: ./files/deverywhere-mobilesoft15.pdf, page3 used on in
+<use ./files/deverywhere-mobilesoft15.pdf, page 1>
+Package pdftex.def Info: ./files/deverywhere-mobilesoft15.pdf, page1 used on in
+put line 16.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+ [143 <./files/deverywhere-mobilesoft15.pdf>]
+<./files/deverywhere-mobilesoft15.pdf, id=2621, page=2, 614.295pt x 794.97pt>
+File: ./files/deverywhere-mobilesoft15.pdf Graphic file (type pdf)
+
+<use ./files/deverywhere-mobilesoft15.pdf, page 2>
+Package pdftex.def Info: ./files/deverywhere-mobilesoft15.pdf, page2 used on in
 put line 16.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
 File: ./files/deverywhere-mobilesoft15.pdf Graphic file (type pdf)
@@ -2735,18 +2655,18 @@ File: ./files/deverywhere-mobilesoft15.pdf Graphic file (type pdf)
 Package pdftex.def Info: ./files/deverywhere-mobilesoft15.pdf, page2 used on in
 put line 16.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
- [137 <./files/deverywhere-mobilesoft15.pdf>]
-<./files/deverywhere-mobilesoft15.pdf, id=2617, page=4, 614.295pt x 794.97pt>
 File: ./files/deverywhere-mobilesoft15.pdf Graphic file (type pdf)
 
-<use ./files/deverywhere-mobilesoft15.pdf, page 4>
-Package pdftex.def Info: ./files/deverywhere-mobilesoft15.pdf, page4 used on in
+<use ./files/deverywhere-mobilesoft15.pdf, page 2>
+Package pdftex.def Info: ./files/deverywhere-mobilesoft15.pdf, page2 used on in
 put line 16.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+ [144 <./files/deverywhere-mobilesoft15.pdf>]
+<./files/deverywhere-mobilesoft15.pdf, id=2626, page=3, 614.295pt x 794.97pt>
 File: ./files/deverywhere-mobilesoft15.pdf Graphic file (type pdf)
 
-<use ./files/deverywhere-mobilesoft15.pdf, page 4>
-Package pdftex.def Info: ./files/deverywhere-mobilesoft15.pdf, page4 used on in
+<use ./files/deverywhere-mobilesoft15.pdf, page 3>
+Package pdftex.def Info: ./files/deverywhere-mobilesoft15.pdf, page3 used on in
 put line 16.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
 File: ./files/deverywhere-mobilesoft15.pdf Graphic file (type pdf)
@@ -2755,42 +2675,62 @@ File: ./files/deverywhere-mobilesoft15.pdf Graphic file (type pdf)
 Package pdftex.def Info: ./files/deverywhere-mobilesoft15.pdf, page3 used on in
 put line 16.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
- [138 <./files/deverywhere-mobilesoft15.pdf>]
 File: ./files/deverywhere-mobilesoft15.pdf Graphic file (type pdf)
- <use ./files/deverywhere-mobilesoft15.pdf, page 4>
+
+<use ./files/deverywhere-mobilesoft15.pdf, page 3>
+Package pdftex.def Info: ./files/deverywhere-mobilesoft15.pdf, page3 used on in
+put line 16.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+ [145 <./files/deverywhere-mobilesoft15.pdf>]
+<./files/deverywhere-mobilesoft15.pdf, id=2701, page=4, 614.295pt x 794.97pt>
+File: ./files/deverywhere-mobilesoft15.pdf Graphic file (type pdf)
+
+<use ./files/deverywhere-mobilesoft15.pdf, page 4>
 Package pdftex.def Info: ./files/deverywhere-mobilesoft15.pdf, page4 used on in
 put line 16.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
- [139 <./files/deverywhere-mobilesoft15.pdf>])
-\openout2 = `acronyms.aux'.
+File: ./files/deverywhere-mobilesoft15.pdf Graphic file (type pdf)
 
- (./acronyms.tex
+<use ./files/deverywhere-mobilesoft15.pdf, page 4>
+Package pdftex.def Info: ./files/deverywhere-mobilesoft15.pdf, page4 used on in
+put line 16.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: ./files/deverywhere-mobilesoft15.pdf Graphic file (type pdf)
+
+<use ./files/deverywhere-mobilesoft15.pdf, page 4>
+Package pdftex.def Info: ./files/deverywhere-mobilesoft15.pdf, page4 used on in
+put line 16.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+ [146 <./files/deverywhere-mobilesoft15.pdf>]) (acronyms.tex
 Appendix B.
-) [140
+) [147
 
 
 
-] (./thesis.bbl
+] (thesis.bbl
 Underfull \hbox (badness 2970) in paragraph at lines 33--37
 []\T1/futs/m/n/12 Mey, G. D. (2015).  Google speech api v2.  [][]$\T1/cmtt/m/n/
-12 https : / / github . com / gillesdemey /
+12 https : / / github . com / gillesdemey /$
  []
 
-[141
+[148
 
 
 ])
+
+Package natbib Warning: There were undefined citations.
+
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 30.
- [142]
+[149]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 30.
- (./thesis.aux (./Definitions.aux) (./front.aux) (./preface.aux)
-(./acknowledgment.aux) (./abstract.aux) (./chapter01.aux) (./chapter02.aux)
-(./chapter03.aux) (./chapter04.aux) (./chapter05.aux) (./chapter06.aux)
-(./chapter07.aux) (./futurework.aux) (./Publications.aux) (./acronyms.aux))
+ (thesis.aux (Definitions.aux) (front.aux) (preface.aux)
+(acknowledgment.aux) (abstract.aux) (chapter01.aux) (chapter02.aux)
+(chapter03.aux) (chapter04.aux) (chapter05.aux) (chapter06.aux) (chapter07.aux)
+(futurework.aux) (Publications.aux) (acronyms.aux))
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 30.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 30.
 Package rerunfilecheck Info: File `thesis.out' has not changed.
-(rerunfilecheck)             Checksum: EBF08125ED1A1C3DE6EDCF76B7A034CC;9756.
+(rerunfilecheck)             Checksum: 8F6C1980004E7EEF7223A5D9F80113CD;9962.
 
 
 LaTeX Warning: There were undefined references.
@@ -2801,39 +2741,36 @@ LaTeX Warning: There were multiply-defined labels.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 30.
  ) 
 Here is how much of TeX's memory you used:
- 14882 strings out of 493089
- 209805 string characters out of 6134842
- 427337 words of memory out of 5000000
- 16710 multiletter control sequences out of 15000+600000
- 102298 words of font info for 116 fonts, out of 8000000 for 9000
- 1141 hyphenation exceptions out of 8191
- 45i,19n,74p,1488b,1831s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/local/texlive/2015/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}
-{/usr/local/texlive/2015/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/tex
-live/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texl
-ive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texliv
-e/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive
-/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2
-015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/201
-5/texmf-dist/fonts/type1/public/fourier/fourier-mex.pfb></usr/local/texlive/201
-5/texmf-dist/fonts/type1/public/fourier/fourier-ml.pfb></usr/local/texlive/2015
-/texmf-dist/fonts/type1/public/fourier/fourier-ms.pfb></usr/local/texlive/2015/
-texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/local/texlive/2
-015/texmf-dist/fonts/type1/adobe/utopia/putb8a.pfb></usr/local/texlive/2015/tex
-mf-dist/fonts/type1/adobe/utopia/putbi8a.pfb></usr/local/texlive/2015/texmf-dis
-t/fonts/type1/adobe/utopia/putr8a.pfb></usr/local/texlive/2015/texmf-dist/fonts
-/type1/adobe/utopia/putr8a.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/
-adobe/utopia/putri8a.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public
-/cm-super/sftt1095.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/c
-m-super/sftt1200.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/urw/courie
-r/ucrr8a.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/urw/times/utmb8a.p
-fb></usr/local/texlive/2015/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb></usr/
-local/texlive/2015/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texl
-ive/2015/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on thesis.pdf (151 pages, 1465921 bytes).
+ 14572 strings out of 493698
+ 202759 string characters out of 3144406
+ 415970 words of memory out of 3000000
+ 16247 multiletter control sequences out of 15000+200000
+ 102298 words of font info for 116 fonts, out of 3000000 for 9000
+ 1025 hyphenation exceptions out of 8191
+ 45i,19n,45p,1488b,1830s stack positions out of 5000i,500n,10000p,200000b,50000s
+ <C:\Users\ATilkin\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi60
+0\ectt1200.pk> <C:\Users\ATilkin\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknap
+pen\ec\dpi600\ectt1095.pk>{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/fontname
+/8r.enc}<C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb>
+<C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Progr
+am Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files
+/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Program Files/MiKTeX 2
+.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Program Files/MiKTeX 2.9/fonts/
+type1/public/fourier/fourier-mex.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/p
+ublic/fourier/fourier-ml.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/fo
+urier/fourier-ms.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/s
+ymbols/msam10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/adobe/utopia/putb8a.
+pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/adobe/utopia/putbi8a.pfb><C:/Progr
+am Files/MiKTeX 2.9/fonts/type1/adobe/utopia/putr8a.pfb><C:/Program Files/MiKTe
+X 2.9/fonts/type1/adobe/utopia/putr8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/ty
+pe1/adobe/utopia/putri8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/couri
+er/ucrr8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmb8a.pfb><C:
+/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmbi8a.pfb><C:/Program Files/M
+iKTeX 2.9/fonts/type1/urw/times/utmr8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/t
+ype1/urw/times/utmri8a.pfb>
+Output written on thesis.pdf (158 pages, 1725148 bytes).
 PDF statistics:
- 3030 PDF objects out of 3580 (max. 8388607)
- 2731 compressed objects within 28 object streams
- 1242 named destinations out of 1440 (max. 500000)
- 1286 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 3156 PDF objects out of 3580 (max. 8388607)
+ 1250 named destinations out of 1440 (max. 500000)
+ 1294 words of extra memory for PDF output out of 10000 (max. 10000000)
 

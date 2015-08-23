@@ -20,7 +20,7 @@ for(int i = 0; i < n; i++)
 \section{Natural Language Processing}
 In-order to process dictation we suggest two phase process: converting speech to text, and understanding the context of the text. We use speech to text engine for the speech conversion and context free grammar to understand the  context.
 \subsection{Speech To Text Engines}
-We found several speech to text engines that we can use for our solution: Nuance Dragon \cite{Nuance14} is a software developer kit (SDK) is used by developers and integrators to add speech recognition capabilities into in-house and commercial applications or workflow applications. This toolkit, which enables everything from free-text dictation to command and control functionality, can be deployed as part of a server- or client-based solution; Kaldi \cite{Povey_ASRU2011} is a toolkit for speech recognition written in C++ and licensed under the Apache License v2.0. Kaldi is intended for use by speech recognition researchers. Google Speech Server V2 \cite{google15} is a an online free speech to text engine which runs on a server. Mostly used by researchers. We decided to use Google Speech Server V2 because it is free and easy to use. There are much more speech to text engines but we decided to concentrate on the most known and the one that we choose to use.
+We found several speech to text engines that we can use for our solution: Nuance Dragon \citet{Nuance14} is a software developer kit (SDK) is used by developers and integrators to add speech recognition capabilities into in-house and commercial applications or workflow applications. This toolkit, which enables everything from free-text dictation to command and control functionality, can be deployed as part of a server- or client-based solution; Kaldi \citet{Pove_ASRU2011} is a toolkit for speech recognition written in C++ and licensed under the Apache License v2.0. Kaldi is intended for use by speech recognition researchers. Google Speech Server V2 \citet{google15} is a an online free speech to text engine which runs on a server. Mostly used by researchers. We decided to use Google Speech Server V2 because it is free and easy to use. There are much more speech to text engines but we decided to concentrate on the most known and the one that we choose to use.
 \subsection{Context Free Grammar}
 A context-free grammar (CFG) is a tuple $ G=(T,N,S,R) $, where $ T $ is the finite set of  terminals of the language, $ N $ is the set of non-terminals that represent phrases in a sentence, $ S \in N $ is the start variable used to represent a full sentence in the language. $ R $ is the set of production rules of the form $ N \rightarrow (N \bigcup T)* $.
 \subsubsection{Extended Backus Naur Form}
@@ -67,14 +67,14 @@ Another way to say it is \textit{"create an inner class wheel"}. In this case th
 \centering
 \includegraphics[scale=0.4]{./fig/BNFDiagram}
 \caption{This is the architecture of the Dictation Parser rules}
-\label{fig19}
+\label{fig23}
 \end{figure}
 
 \subsection{Parser}
 This section describes the parser of the Dictation Parser module. All layers are divided into tables, every table groups the commands of the layer.
 
 \subsubsection{Top Layer}
-\autoref{tab11} represents the commands of the Top layer.
+\autoref{tab24} represents the commands of the Top layer.
 \begin{table}[H]
 \centering
 \begin{tabular}{|p{8cm}|p{7cm}|}
@@ -83,11 +83,11 @@ This section describes the parser of the Dictation Parser module. All layers are
 command: creationCommand | navigationCommand | selectionCommand | modificationCommand | deletionCommand | invocationCommand; & This is the main command               \\ \hline
 \end{tabular}
 \caption{This table represents the commands of the Top layer.}
-\label{tab11}
+\label{tab24}
 \end{table}
 
 \subsubsection{Creation Layer}
-\autoref{tab12} and \autoref{tab13} represents the commands of the Creation Layer. This layer Handles all creation commands that the user dictates.
+\autoref{tab25} and \autoref{tab26} represents the commands of the Creation Layer. This layer Handles all creation commands that the user dictates.
 \begin{table}[H]
 \centering
 \begin{tabular}{|p{8cm}|p{7cm}|}
@@ -102,8 +102,9 @@ createDataType: modifier? (INNER)? dataType namedElement ((implementsVars | exte
 createBlock: BLOCK | createBlockStatement;                                                                                                              & Creates a block                        \\ \hline
 \end{tabular}
 \caption{This table represents the commands of the Creation layer.}
-\label{tab12}
+\label{tab25}
 \end{table}
+
 \begin{table}[H]
 	\centering
 	\begin{tabular}{|p{8cm}|p{7cm}|}
@@ -117,10 +118,11 @@ createBlock: BLOCK | createBlockStatement;                                      
 		createForLoop: FOR Element (FROM (number | elementsElement))? (TO (number | elementsElement))? command?;                                                & Creates a for loop                     \\ \hline
 	\end{tabular}
 	\caption{This table represents the commands of the Creation layer.}
-	\label{tab13}
+	\label{tab26}
 \end{table}
+
 \subsubsection{Navigation Layer}
-\autoref{tab14} represents the commands of the Navigation Layer.  This layer Handles all navigation commands that the user dictates.
+\autoref{tab27} represents the commands of the Navigation Layer.  This layer Handles all navigation commands that the user dictates.
 
 \begin{table}[H]
 	\centering
@@ -133,11 +135,11 @@ createBlock: BLOCK | createBlockStatement;                                      
 		exit: WE\_ARE\_DONE\_WITH | EXIT; & Variations of exit                     \\ \hline
 	\end{tabular}
 		\caption{This table represents the commands of the Navigation layer.}
-		\label{tab14}
+		\label{tab27}
 \end{table}
 
 \subsubsection{Modification Layer}
-\autoref{tab15} represents the commands of the Modification Layer.  This layer Handles all modification commands that the user dictates.
+\autoref{tab28} represents the commands of the Modification Layer. This layer Handles all modification commands that the user dictates.
 
 \begin{table}[H]
 	\centering
@@ -149,11 +151,11 @@ createBlock: BLOCK | createBlockStatement;                                      
 		modificationVerb: MAKE\_IT | CHANGE\_IT;         & Modification verb                                                      \\ \hline
 	\end{tabular}
 		\caption{This table represents the commands of the Modification layer.}
-		\label{tab15}
+		\label{tab28}
 \end{table}
 
 \subsubsection{Selection Layer}
-\autoref{tab16} represents the commands of the Selection Layer.  This layer Handles all selection commands that the user dictates.
+\autoref{tab29} represents the commands of the Selection Layer.  This layer Handles all selection commands that the user dictates.
 
 \begin{table}[H]
 	\centering
@@ -163,11 +165,11 @@ createBlock: BLOCK | createBlockStatement;                                      
 		selectionCommand: (NUMBER | OPTION)? number; & Creates selection command              \\ \hline
 	\end{tabular}
 		\caption{This table represents the commands of the Selection layer.}
-		\label{tab16}
+		\label{tab29}
 \end{table}
 
 \subsubsection{Deletion Layer}
-\autoref{tab17} represents the commands of the Deletion Layer.  This layer Handles all deletion commands that the user dictates.
+\autoref{tab30} represents the commands of the Deletion Layer.  This layer Handles all deletion commands that the user dictates.
 
 \begin{table}[H]
 	\centering
@@ -177,11 +179,11 @@ createBlock: BLOCK | createBlockStatement;                                      
 		deletionCommand: (DELETE | REMOVE) (line | elementsElement); & Creates deletion command               \\ \hline
 	\end{tabular}
 		\caption{This table represents the commands of the Deletion layer.}
-		\label{tab17}
+		\label{tab30}
 \end{table}
 
 \subsubsection{Invocation Layer}
-\autoref{tab18} represents the commands of the Invocation Layer.  This layer Handles all invocation commands that the user dictates.
+\autoref{tab31} represents the commands of the Invocation Layer.  This layer Handles all invocation commands that the user dictates.
 
 \begin{table}[H]
 	\centering
@@ -191,11 +193,11 @@ createBlock: BLOCK | createBlockStatement;                                      
 		invocationCommand: CALL? elementsElement; & Creates invoke command                 \\ \hline
 	\end{tabular}
 		\caption{This table represents the commands of the Invocation layer.}
-		\label{tab18}
+		\label{tab31}
 \end{table}
 
 \subsubsection{Common Layer}
-\autoref{tab19} and \autoref{tab20} represent the commands of the Invocation Layer.  This layer Handles all invocation commands that the user dictates.
+\autoref{tab32} and \autoref{tab33} represent the commands of the Invocation Layer.  This layer Handles all invocation commands that the user dictates.
 
 \begin{table}[H]
 	\centering
@@ -207,11 +209,11 @@ createBlock: BLOCK | createBlockStatement;                                      
 		modifier: ABSTRACT? STATIC? accessLevel; & Adds abstract, static and access level. \\ \hline
 		accessLevel: PRIVATE | PUBLIC | PROTECTED; & Adds access level. \\ \hline
 		localVariableDeclaration: variableModifier* elementsName OF\_TYPE Element; & Declares a local variable. \\ \hline
-		statement: expression | RETURN expression? | TRY CATCH? FINALLY? | THROW expression | IF expression (equalsVars | isDifferentVars | lessThanEqualsVars | greaterThanEqualVars | greaterThanVars | lessThanVars | IS\_NOT | IS) expression THEN command (ELSE command)? | SWITCH expression? | BREAK | CONTINUE | caseVars elementsElement; & Defines a statement. \\ \hline
-		expression: primary | expression (plusVars plusVars | minusVars minusVars) | expression AND expression | expression OR expression | (plusVars | minusVars | plusVars plusVars | minusVars minusVars) expression | expression (equalsVars | isDifferentVars | lessThanEqualsVars | greaterThanEqualVars | greaterThanVars | lessThanVars | IS\_NOT | IS) expression | NEW (expression | elementRef) | ASSIGN expression TO expression; & Defines an expression. \\ \hline
+		statement: expression | RETURN expression? | TRY CATCH? FINALLY? | THROW expression | SWITCH expression? | BREAK | CONTINUE | caseVars elementsElement; & Defines a statement. \\ \hline
+		expression: primary | expression (plusVars plusVars | minusVars minusVars) | expression (equalsVars | isDifferentVars | lessThanEqualsVars | greaterThanEqualVars | greaterThanVars | lessThanVars | IS\_NOT | IS) expression | (plusVars | minusVars | plusVars plusVars | minusVars minusVars) expression | IF expression ((AND | OR) expression)* THEN command (ELSE command)? | expression (equalsVars | isDifferentVars | lessThanEqualsVars | greaterThanEqualVars | greaterThanVars | lessThanVars | IS\_NOT | IS) expression | NEW (expression | elementRef) | ASSIGN expression TO expression; & Defines an expression. \\ \hline
 	\end{tabular}
 		\caption{This table represents the commands of the Common layer.}
-		\label{tab19}
+		\label{tab32}
 \end{table}
 
 \begin{table}[H]
@@ -238,12 +240,12 @@ createBlock: BLOCK | createBlockStatement;                                      
 		line: LINE NUMBER? number; & Defines a line. For example, line number 6. \\ \hline
 		number: Number | ZERO | ONE | TWO | THREE | FOUR | FIVE | SIX | SEVEN | EIGHT | NINE; & Defins numbers. \\ \hline
 	\end{tabular}
-	\caption{This table is the continuation of \autoref{tab19}.}
-	\label{tab20}
+	\caption{This table is the continuation of \autoref{tab32}.}
+	\label{tab33}
 \end{table}
 
 \subsubsection{Forms of Expressions}
-\autoref{tab21} represents the commands of the forms of expressions.
+\autoref{tab34} and \autoref{tab35} represents the commands of the forms of expressions.
 
 \begin{table}[H]
 	\centering
@@ -261,7 +263,7 @@ createBlock: BLOCK | createBlockStatement;                                      
 		lessThanEqualsVars: LESS\_THAN\_EQUAL | LESS\_THAN\_EQUAL\_MATH | LESS\_THAN\_EQUAL\_MATH\_SPACE; & Defines different variations to pronounce "less than equals". \\ \hline
 	\end{tabular}
 		\caption{This table represents the commands of the forms of expressions of different commands.}
-		\label{tab21}
+		\label{tab34}
 \end{table}
 
 \begin{table}[H]
@@ -274,9 +276,147 @@ createBlock: BLOCK | createBlockStatement;                                      
 		forEachVars: FOR\_EACH | FOR\_EACH\_SPACE; & Defines different variations to pronounce "for each". \\ \hline
 		caseVars : CASE | IN\_CASE; & Defines different variations to pronounce "case". \\ \hline
 	\end{tabular}
-	\caption{This table is the continuation of \autoref{tab21}.}
-	\label{tab22}
+	\caption{This table is the continuation of \autoref{tab34}.}
+	\label{tab35}
 \end{table}
+
+\subsection{Lexer}
+This section describes the lexer of the Dictation Parser module. The lexer is build so it only has simple regular expressions and definitions.
+\begin{itemize}
+	\item METHOD: 'method';
+	\item FUNCTION: 'function';
+	\item CONSTRUCTOR: 'constructor';
+	\item FIELD: 'field';
+	\item BLOCK: 'block';
+	\item INSIDE: 'inside';
+	\item IN: 'in';
+	\item AFTER: 'after';
+	\item BEFORE: 'before';
+	\item ABOVE: 'above';
+	\item BELOW: 'below';
+	\item INNER: 'inner';
+	\item OF\_TYPE: 'of type';
+	\item NEW: 'new';
+	\item NAMED: 'named';
+	\item CALLED: 'called';
+	\item LINE: 'line';
+	\item NUMBER: 'number';
+	\item OPTION: 'option';
+	\item AN: 'an';
+	\item A: 'a';
+	\item THAT\_ACCEPTS: 'that accepts';
+	\item WITH: 'with';
+	\item AND: 'and';
+	\item OR: 'or';
+	\item TO: 'to';
+	\item FROM: 'from';
+	\item GO\_TO: 'go to';
+	\item EXIT: 'exit';
+	\item QUIT: 'quit';
+	\item WE\_ARE\_DONE\_WITH: 'we are done with';
+	\item MAKE\_IT: 'make it';
+	\item CHANGE\_IT: 'change it to';
+	\item CREATE: 'create';
+	\item OPEN: 'open';
+	\item OPEN\_PARENTHESES: 'open parentheses';
+	\item CALL: 'call';
+	\item OF: 'of';
+	\item PERIOD: 'period';
+	\item PERIOD\_CHAR: '.';
+	\item DELETE: 'delete';
+	\item REMOVE: 'remove';
+	\item ASSIGN: 'assign';
+	\item PLUS: 'plus';
+	\item MATH\_PLUS: '+';
+	\item MINUS: 'minus';
+	\item MATH\_MINUS: '-';
+	\item IS: 'is';
+	\item IS\_NOT: 'is not';
+	\item IS\_EQUAL\_TO: 'is equal to';
+	\item EQUAL\_TO: 'equal to';
+	\item EQUALS\_TO: 'equals to';
+	\item EQUALS: 'equals';
+	\item IS\_EQUALS: 'is equals';
+	\item IS\_DIFFERENT\_FROM: 'is different from';
+	\item DIFFERENT\_FROM: 'different from';
+	\item LESS\_THAN: 'less than';
+	\item LESS\_THAN\_MATH: '<';
+	\item IS\_LESS\_THAN: 'is less than';
+	\item IS\_LESS\_THAN\_EQUAL: 'is less than equal';
+	\item IS\_LESS\_THAN\_EQUALS: 'is less than equals';
+	\item LESS\_THAN\_EQUAL: 'less than equal';
+	\item LESS\_THAN\_EQUALS: 'less than equals';
+	\item LESS\_THAN\_EQUAL\_MATH: '<=';
+	\item LESS\_THAN\_EQUAL\_MATH\_SPACE: '< =';
+	\item GREATER\_THAN: 'greater than';
+	\item GREATER\_THAN\_MATH: '>';
+	\item IS\_GREATER\_THAN: 'is greater than';
+	\item GREATER\_THAN\_EQUAL: 'greater than equal';
+	\item GREATER\_THAN\_EQUAL\_MATH: '>=';
+	\item GREATER\_THAN\_EQUAL\_MATH\_SPACE: '> =';
+	\item IF: 'if';
+	\item THEN: 'then';
+	\item ABSTRACT: 'abstract';
+	\item ASSERT: 'assert';
+	\item CATCH: 'catch';
+	\item CLASS: 'class';
+	\item CONST: 'const';
+	\item DO: 'do';
+	\item ELSE: 'else';
+	\item ENUM: 'enum';
+	\item EXTENDS: 'extends';
+	\item EXTEND: 'extend';
+	\item THAT\_EXTENDS: 'that extends';
+	\item FINAL: 'final';
+	\item FOR: 'for';
+	\item IMPLEMENTS: 'implements';
+	\item THAT\_IMPLEMENTS: 'that implements';
+	\item IMPLEMENT: 'implement';
+	\item INTERFACE: 'interface';
+	\item PRIVATE: 'private';
+	\item PROTECTED: 'protected';
+	\item PUBLIC: 'public';
+	\item STATIC: 'static';
+	\item SUPER: 'super';
+	\item THROW: 'throw';
+	\item THROWS: 'throws';
+	\item TRANSIENT: 'transient';
+	\item TRY: 'try';
+	\item VOID: 'void';
+	\item VOLATILE: 'volatile';
+	\item WHILE: 'while';
+	\item FOR\_EACH: 'foreach';
+	\item FOR\_EACH\_SPACE: 'for each';
+	\item THAT\_RETURNS: 'that returns';
+	\item RETURNS: 'returns';
+	\item RETURN: 'return';
+	\item SWITCH: 'switch';
+	\item SYNCHRONIZED: 'synchronized';
+	\item STRICTFP: 'strictfp';
+	\item NATIVE: 'native';
+	\item PACKAGE: 'package';
+	\item IMPORT: 'import';
+	\item INSTANCEOF: 'instanceof';
+	\item FINALLY: 'finally';
+	\item CONTINUE: 'continue';
+	\item DEFAULT: 'default';
+	\item BREAK: 'break';
+	\item CASE: 'case';
+	\item IN\_CASE: 'in case';
+	\item ZERO: 'zero';
+	\item ONE: 'one';
+	\item TWO: 'two';
+	\item THREE: 'three';
+	\item FOUR: 'four';
+	\item FIVE: 'five';
+	\item SIX: 'six';
+	\item SEVEN: 'seven';
+	\item EIGHT: 'eight';
+	\item NINE: 'nine';
+	\item WS: [ \textbackslash t \textbackslash r \textbackslash n \textbackslash u000C]+ -> skip;
+	\item Number: [0-9]+;
+	\item Element: [a-zA-Z0-9\-]+;
+\end{itemize}
 
 \begin{figure}[H]
 	\begin{lstlisting}

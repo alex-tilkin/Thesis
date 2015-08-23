@@ -129,17 +129,18 @@
 \BOOKMARK [2][-]{subsection.6.3.2}{Context Free Grammar}{section.6.3}% 129
 \BOOKMARK [2][-]{subsection.6.3.3}{Dictation Parser}{section.6.3}% 130
 \BOOKMARK [2][-]{subsection.6.3.4}{Parser}{section.6.3}% 131
-\BOOKMARK [2][-]{subsection.6.3.5}{Grammar Testing}{section.6.3}% 132
-\BOOKMARK [1][-]{section.6.4}{Implementation}{chapter.6}% 133
-\BOOKMARK [0][-]{chapter.7}{Prototype}{}% 134
-\BOOKMARK [1][-]{section.7.1}{Introduction}{chapter.7}% 135
-\BOOKMARK [1][-]{section.7.2}{Speech to Text}{chapter.7}% 136
-\BOOKMARK [2][-]{subsection.7.2.1}{Google Speech V2 Server}{section.7.2}% 137
-\BOOKMARK [2][-]{subsection.7.2.2}{Speech to Text Library}{section.7.2}% 138
-\BOOKMARK [2][-]{subsection.7.2.3}{Testing the Module}{section.7.2}% 139
-\BOOKMARK [1][-]{section.7.3}{BNF Parser}{chapter.7}% 140
-\BOOKMARK [0][-]{chapter.8}{Conclusions and Future Work}{}% 141
-\BOOKMARK [0][-]{appendix.A}{Publications}{}% 142
-\BOOKMARK [1][-]{section.A.1}{MobileSoft 2015 Conference}{appendix.A}% 143
-\BOOKMARK [0][-]{appendix.B}{Acronyms}{}% 144
-\BOOKMARK [0][-]{appendix.B}{Bibliography}{}% 145
+\BOOKMARK [2][-]{subsection.6.3.5}{Lexer}{section.6.3}% 132
+\BOOKMARK [2][-]{subsection.6.3.6}{Grammar Testing}{section.6.3}% 133
+\BOOKMARK [1][-]{section.6.4}{Implementation}{chapter.6}% 134
+\BOOKMARK [0][-]{chapter.7}{Prototype}{}% 135
+\BOOKMARK [1][-]{section.7.1}{Introduction}{chapter.7}% 136
+\BOOKMARK [1][-]{section.7.2}{Speech to Text}{chapter.7}% 137
+\BOOKMARK [2][-]{subsection.7.2.1}{Google Speech V2 Server}{section.7.2}% 138
+\BOOKMARK [2][-]{subsection.7.2.2}{Speech to Text Library}{section.7.2}% 139
+\BOOKMARK [2][-]{subsection.7.2.3}{Testing the Module}{section.7.2}% 140
+\BOOKMARK [1][-]{section.7.3}{BNF Parser}{chapter.7}% 141
+\BOOKMARK [0][-]{chapter.8}{Conclusions and Future Work}{}% 142
+\BOOKMARK [0][-]{appendix.A}{Publications}{}% 143
+\BOOKMARK [1][-]{section.A.1}{MobileSoft 2015 Conference}{appendix.A}% 144
+\BOOKMARK [0][-]{appendix.B}{Acronyms}{}% 145
+\BOOKMARK [0][-]{appendix.B}{Bibliography}{}% 146
