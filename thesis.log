@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2015.3.26)  27 AUG 2015 18:17
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2015.8.13)  29 AUG 2015 11:27
 entering extended mode
 **thesis.tex
 (thesis.tex
@@ -827,7 +827,7 @@ Package color Info: Driver file: pdftex.def on input line 137.
 Package: datetime 2013/09/10 v2.59 Date Time Package
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\etoolbox\etoolbox.sty"
-Package: etoolbox 2015/03/19 v2.1d e-TeX tools for LaTeX (JAW)
+Package: etoolbox 2015/03/10 v2.1b e-TeX tools for LaTeX (JAW)
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\misc\etex.sty"
 Package: etex 2015/03/02 v2.1 eTeX basic definition package (PEB,DPC)
@@ -2066,17 +2066,17 @@ Chapter 6.
 ]
 
 Package natbib Warning: Citation `Pove_ASRU2011' on page 97 undefined on input 
-line 23.
+line 22.
 
 [97pdfTeX warning (ext4): destination with the same identifier (name{figure.6.1
 }) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.24 \subsection
+l.23 \subsection
                 {Context Free Grammar}] [98]
 
-LaTeX Warning: Reference `fig19' on page 99 undefined on input line 44.
+LaTeX Warning: Reference `fig19' on page 99 undefined on input line 43.
 
 [99]
 <"./fig/Parse Tree create a static public class named wheel inside class car".p
@@ -2087,7 +2087,7 @@ ar".png Graphic file (type png)
 <use "./fig/Parse Tree create a static public class named wheel inside class ca
 r".png>
 Package pdftex.def Info: "./fig/Parse Tree create a static public class named w
-heel inside class car".png used on input line 52.
+heel inside class car".png used on input line 51.
 (pdftex.def)             Requested size: 384.22868pt x 165.41505pt.
 
 <"./fig/Parse Tree create an inner class wheel".png, id=1980, 649.42625pt x 343
@@ -2096,50 +2096,50 @@ File: "./fig/Parse Tree create an inner class wheel".png Graphic file (type png
 )
  <use "./fig/Parse Tree create an inner class wheel".png>
 Package pdftex.def Info: "./fig/Parse Tree create an inner class wheel".png use
-d on input line 61.
+d on input line 60.
 (pdftex.def)             Requested size: 259.7659pt x 137.31056pt.
 
 <./fig/BNFDiagram.jpg, id=1981, 1025.8325pt x 283.0575pt>
 File: ./fig/BNFDiagram.jpg Graphic file (type jpg)
 
 <use ./fig/BNFDiagram.jpg>
-Package pdftex.def Info: ./fig/BNFDiagram.jpg used on input line 68.
+Package pdftex.def Info: ./fig/BNFDiagram.jpg used on input line 67.
 (pdftex.def)             Requested size: 410.32574pt x 113.22098pt.
  [100pdfTeX warning (ext4): destination with the same identifier (name{figure.6
 .2}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.72 
+l.71 
      pdfTeX warning (ext4): destination with the same identifier (name{figure.6
 .3}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.72 
+l.71 
       <./fig/Parse Tree create a static public class named wheel inside class c
 ar.png> <./fig/Parse Tree create an inner class wheel.png>]
-Underfull \hbox (badness 4242) in paragraph at lines 96--96
+Underfull \hbox (badness 4242) in paragraph at lines 95--95
 []|\T1/futs/m/n/12 creationCommand: cre-ation-Verb? (AN |
  []
 
 
-Underfull \hbox (badness 2189) in paragraph at lines 96--96
+Underfull \hbox (badness 2189) in paragraph at lines 95--95
 []|\T1/futs/m/n/12 The main com-mand of the Cre-ation
  []
 
 
-Underfull \hbox (badness 7116) in paragraph at lines 99--99
+Underfull \hbox (badness 7116) in paragraph at lines 98--98
 \T1/futs/m/n/12 TION) namedEle-ment ((THAT_ACCEPTS |
  []
 
 
-Underfull \hbox (badness 2401) in paragraph at lines 99--99
+Underfull \hbox (badness 2401) in paragraph at lines 98--98
 \T1/futs/m/n/12 WITH) pa-ram-e-ter-sList)? (re-turnsVars El-e-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 101--101
+Underfull \hbox (badness 10000) in paragraph at lines 100--100
 []|\T1/futs/m/n/12 createDataType: mod-i-fier? (IN-NER)?
  []
 
@@ -2148,20 +2148,20 @@ Underfull \hbox (badness 10000) in paragraph at lines 101--101
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.107 
+l.106 
       pdfTeX warning (ext4): destination with the same identifier (name{table.6
 .1}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.107 
+l.106 
        <./fig/BNFDiagram.jpg>]
-Underfull \hbox (badness 7963) in paragraph at lines 114--114
+Underfull \hbox (badness 7963) in paragraph at lines 113--113
 []|\T1/futs/m/n/12 createLoop: cre-ate-ForE-achLoop | cre-ate-
  []
 
 
-Underfull \hbox (badness 4096) in paragraph at lines 116--116
+Underfull \hbox (badness 4096) in paragraph at lines 115--115
 []|\T1/futs/m/n/12 createWhileLoop: WHILE ex-pres-sion DO?
  []
 
@@ -2170,19 +2170,19 @@ Underfull \hbox (badness 4096) in paragraph at lines 116--116
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.123 
+l.122 
       ]
-Underfull \hbox (badness 10000) in paragraph at lines 132--132
+Underfull \hbox (badness 10000) in paragraph at lines 131--131
 []|\T1/futs/m/n/12 navigationCommand: nav-i-ga-tion-Verb
  []
 
 
-Underfull \hbox (badness 1859) in paragraph at lines 132--132
+Underfull \hbox (badness 1859) in paragraph at lines 131--131
 \T1/futs/m/n/12 (dataType | FIELD | METHOD)? El-e-ment |
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 133--133
+Underfull \hbox (badness 10000) in paragraph at lines 132--132
 []|\T1/futs/m/n/12 navigationVerb: GO_TO |
  []
 
@@ -2191,9 +2191,9 @@ Underfull \hbox (badness 10000) in paragraph at lines 133--133
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.140 
+l.139 
       ]
-Underfull \hbox (badness 10000) in paragraph at lines 150--150
+Underfull \hbox (badness 10000) in paragraph at lines 149--149
 []|\T1/futs/m/n/12 modifyAccessLevel: mod-i-fi-ca-tion-Verb ac-
  []
 
@@ -2202,75 +2202,75 @@ Underfull \hbox (badness 10000) in paragraph at lines 150--150
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.170 
+l.169 
       pdfTeX warning (ext4): destination with the same identifier (name{table.6
 .5}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.170 
+l.169 
       ]
-Underfull \hbox (badness 4096) in paragraph at lines 193--193
+Underfull \hbox (badness 4096) in paragraph at lines 192--192
 []|\T1/futs/m/n/12 invocationCommand: CALL? el-e-mentsE-le-
  []
 
 
-Underfull \hbox (badness 2334) in paragraph at lines 207--207
+Underfull \hbox (badness 2334) in paragraph at lines 206--206
 []|\T1/futs/m/n/12 fieldModifier: (FI-NAL | CONST)? mod-i-fier
  []
 
 
-Underfull \hbox (badness 7907) in paragraph at lines 210--210
+Underfull \hbox (badness 7907) in paragraph at lines 209--209
 []|\T1/futs/m/n/12 accessLevel: PRI-VATE | PUB-LIC | PRO-
  []
 
 
-Underfull \hbox (badness 4726) in paragraph at lines 211--211
+Underfull \hbox (badness 4726) in paragraph at lines 210--210
 []|\T1/futs/m/n/12 localVariableDeclaration: vari-able-Mod-i-fier*
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 213--213
+Underfull \hbox (badness 10000) in paragraph at lines 212--212
 []|\T1/futs/m/n/12 expression: pri-mary | ex-pres-sion (plus-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 213--213
+Underfull \hbox (badness 10000) in paragraph at lines 212--212
 \T1/futs/m/n/12 Vars plus-Vars | mi-nus-Vars mi-nus-Vars) |
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 213--213
+Underfull \hbox (badness 10000) in paragraph at lines 212--212
 \T1/futs/m/n/12 ex-pres-sion (equalsVars | is-D-if-fer-ent-Vars |
  []
 
 
-Underfull \hbox (badness 3536) in paragraph at lines 213--213
+Underfull \hbox (badness 3536) in paragraph at lines 212--212
 \T1/futs/m/n/12 lessThanEqualsVars | greaterThanEqual-Vars
  []
 
 
-Underfull \hbox (badness 2119) in paragraph at lines 213--213
+Underfull \hbox (badness 2119) in paragraph at lines 212--212
 \T1/futs/m/n/12 | greaterThanVars | lessThanVars | IS_NOT
  []
 
 
-Underfull \hbox (badness 3343) in paragraph at lines 213--213
+Underfull \hbox (badness 3343) in paragraph at lines 212--212
 \T1/futs/m/n/12 | IS) ex-pres-sion | (plus-Vars | mi-nus-Vars |
  []
 
 
-Underfull \hbox (badness 3989) in paragraph at lines 213--213
+Underfull \hbox (badness 3989) in paragraph at lines 212--212
 \T1/futs/m/n/12 plus-Vars plus-Vars | mi-nus-Vars mi-nus-Vars)
  []
 
 
-Underfull \hbox (badness 2158) in paragraph at lines 213--213
+Underfull \hbox (badness 2158) in paragraph at lines 212--212
 \T1/futs/m/n/12 sion)* THEN com-mand (ELSE com-mand)?
  []
 
 
-Underfull \hbox (badness 2717) in paragraph at lines 213--213
+Underfull \hbox (badness 2717) in paragraph at lines 212--212
 \T1/futs/m/n/12 | ex-pres-sion (equalsVars | is-D-if-fer-ent-Vars |
  []
 
@@ -2279,25 +2279,25 @@ Underfull \hbox (badness 2717) in paragraph at lines 213--213
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.218 
+l.217 
       pdfTeX warning (ext4): destination with the same identifier (name{table.6
 .7}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.218 
+l.217 
       pdfTeX warning (ext4): destination with the same identifier (name{table.6
 .8}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.218 
+l.217 
       ] [106pdfTeX warning (ext4): destination with the same identifier (name{t
 able.6.9}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.246 
+l.245 
       ]
 Overfull \vbox (27.08534pt too high) has occurred while \output is active []
 
@@ -2307,25 +2307,30 @@ Overfull \vbox (27.08534pt too high) has occurred while \output is active []
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.246 
+l.245 
       ]
+Underfull \hbox (badness 10000) in paragraph at lines 254--254
+[]|\T1/futs/m/n/12 Defines dif-fer-ent vari-a-tions to pro-
+ []
+
+
+Underfull \hbox (badness 5217) in paragraph at lines 255--255
+[]|\T1/futs/m/n/12 implementsVars: IM-PLE-MENTS | IM-PLE-
+ []
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 255--255
 []|\T1/futs/m/n/12 Defines dif-fer-ent vari-a-tions to pro-
  []
 
 
-Underfull \hbox (badness 5217) in paragraph at lines 256--256
-[]|\T1/futs/m/n/12 implementsVars: IM-PLE-MENTS | IM-PLE-
+Underfull \hbox (badness 10000) in paragraph at lines 256--256
+[]|\T1/futs/m/n/12 extendsVars: EX-TENDS | EX-TEND |
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 256--256
 []|\T1/futs/m/n/12 Defines dif-fer-ent vari-a-tions to pro-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 257--257
-[]|\T1/futs/m/n/12 extendsVars: EX-TENDS | EX-TEND |
  []
 
 
@@ -2339,13 +2344,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 258--258
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 259--259
-[]|\T1/futs/m/n/12 Defines dif-fer-ent vari-a-tions to pro-
+Underfull \hbox (badness 4328) in paragraph at lines 259--259
+[]|\T1/futs/m/n/12 equalsVars: IS_EQUAL_TO | EQUAL_TO |
  []
 
 
-Underfull \hbox (badness 4328) in paragraph at lines 260--260
-[]|\T1/futs/m/n/12 equalsVars: IS_EQUAL_TO | EQUAL_TO |
+Underfull \hbox (badness 10000) in paragraph at lines 259--259
+[]|\T1/futs/m/n/12 Defines dif-fer-ent vari-a-tions to pro-
  []
 
 
@@ -2355,81 +2360,76 @@ Underfull \hbox (badness 10000) in paragraph at lines 260--260
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 261--261
-[]|\T1/futs/m/n/12 Defines dif-fer-ent vari-a-tions to pro-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 262--262
 []|\T1/futs/m/n/12 lessThanVars: LESS_THAN |
  []
 
 
+Underfull \hbox (badness 10000) in paragraph at lines 261--261
+[]|\T1/futs/m/n/12 Defines dif-fer-ent vari-a-tions to pro-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 262--262
+[]|\T1/futs/m/n/12 lessThanEqualsVars: LESS_THAN_EQUAL
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 262--262
+\T1/futs/m/n/12 | LESS_THAN_EQUAL_MATH |
+ []
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 262--262
 []|\T1/futs/m/n/12 Defines dif-fer-ent vari-a-tions to pro-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 263--263
-[]|\T1/futs/m/n/12 lessThanEqualsVars: LESS_THAN_EQUAL
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 263--263
-\T1/futs/m/n/12 | LESS_THAN_EQUAL_MATH |
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 263--263
-[]|\T1/futs/m/n/12 Defines dif-fer-ent vari-a-tions to pro-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 274--274
+Underfull \hbox (badness 10000) in paragraph at lines 273--273
 []|\T1/futs/m/n/12 greaterThanVars: GREATER_THAN
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 274--274
+Underfull \hbox (badness 10000) in paragraph at lines 273--273
 \T1/futs/m/n/12 | GREATER_THAN_MATH |
  []
 
 
+Underfull \hbox (badness 10000) in paragraph at lines 273--273
+[]|\T1/futs/m/n/12 Defines dif-fer-ent vari-a-tions to pro-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 274--274
+[]|\T1/futs/m/n/12 greaterThanEqualVars:
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 274--274
+\T1/futs/m/n/12 GREATER_THAN_EQUAL |
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 274--274
+\T1/futs/m/n/12 GREATER_THAN_EQUAL_MATH |
+ []
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 274--274
 []|\T1/futs/m/n/12 Defines dif-fer-ent vari-a-tions to pro-
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 275--275
-[]|\T1/futs/m/n/12 greaterThanEqualVars:
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 275--275
-\T1/futs/m/n/12 GREATER_THAN_EQUAL |
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 275--275
-\T1/futs/m/n/12 GREATER_THAN_EQUAL_MATH |
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 275--275
-[]|\T1/futs/m/n/12 Defines dif-fer-ent vari-a-tions to pro-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 276--276
 []|\T1/futs/m/n/12 forEachVars: FOR_EACH |
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 276--276
+Underfull \hbox (badness 10000) in paragraph at lines 275--275
 []|\T1/futs/m/n/12 Defines dif-fer-ent vari-a-tions to pro-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 277--277
+Underfull \hbox (badness 10000) in paragraph at lines 276--276
 []|\T1/futs/m/n/12 Defines dif-fer-ent vari-a-tions to pro-
  []
 
@@ -2438,20 +2438,20 @@ Underfull \hbox (badness 10000) in paragraph at lines 277--277
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.282 
+l.281 
       ] [109pdfTeX warning (ext4): destination with the same identifier (name{t
 able.6.12}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.296 	\item B
+l.295 	\item B
               ELOW: 'below';] [110] [111] [112] [113] [114] [115] [116pdfTeX wa
 rning (ext4): destination with the same identifier (name{figure.6.5}) has been 
 already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.500 \end{figure}
+l.499 \end{figure}
                   ]
 Overfull \vbox (4.7136pt too high) has occurred while \output is active []
 
@@ -2461,13 +2461,13 @@ Overfull \vbox (4.7136pt too high) has occurred while \output is active []
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.500 \end{figure}
+l.499 \end{figure}
                   ] [118pdfTeX warning (ext4): destination with the same identi
 fier (name{figure.6.7}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.621 \end{figure}
+l.620 \end{figure}
                   ]
 Overfull \vbox (1371.5142pt too high) has occurred while \output is active []
 
@@ -2477,19 +2477,19 @@ Overfull \vbox (1371.5142pt too high) has occurred while \output is active []
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.621 \end{figure}
+l.620 \end{figure}
                   ] [120pdfTeX warning (ext4): destination with the same identi
 fier (name{figure.6.9}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.685 \end{figure}
+l.684 \end{figure}
                   ] [121pdfTeX warning (ext4): destination with the same identi
 fier (name{figure.6.10}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.721 \end{figure}
+l.720 \end{figure}
                   ]
 Overfull \vbox (25.1136pt too high) has occurred while \output is active []
 
@@ -2499,7 +2499,7 @@ Overfull \vbox (25.1136pt too high) has occurred while \output is active []
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.721 \end{figure}
+l.720 \end{figure}
                   ]
 Overfull \vbox (4.7136pt too high) has occurred while \output is active []
 
@@ -2509,21 +2509,21 @@ Overfull \vbox (4.7136pt too high) has occurred while \output is active []
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.722 T
+l.721 T
        his is the list of the dictations that generates the program.] [124]
 [125] [126] [127] [128] [129] [130pdfTeX warning (ext4): destination with the s
 ame identifier (name{figure.6.13}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.895 T
-       his is the list of the dictations that generates the program.] [131pdfTe
-X warning (ext4): destination with the same identifier (name{figure.6.14}) has 
-been already used, duplicate ignored
+l.894 T
+       his is the list of the dictations that generate the program.] [131pdfTeX
+ warning (ext4): destination with the same identifier (name{figure.6.14}) has b
+een already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.909 	\item C
+l.908 	\item C
               reate public field engine of type string]) [132] (chapter07.tex
 Chapter 7.
 [133
@@ -2743,34 +2743,34 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 30.
 Here is how much of TeX's memory you used:
  14572 strings out of 493698
  202759 string characters out of 3144406
- 415970 words of memory out of 3000000
+ 415965 words of memory out of 3000000
  16247 multiletter control sequences out of 15000+200000
  102298 words of font info for 116 fonts, out of 3000000 for 9000
  1025 hyphenation exceptions out of 8191
  45i,19n,45p,1488b,1830s stack positions out of 5000i,500n,10000p,200000b,50000s
- <C:\Users\ATilkin\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi60
-0\ectt1200.pk> <C:\Users\ATilkin\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknap
-pen\ec\dpi600\ectt1095.pk>{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/fontname
-/8r.enc}<C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb>
-<C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Progr
-am Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files
-/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Program Files/MiKTeX 2
-.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Program Files/MiKTeX 2.9/fonts/
-type1/public/fourier/fourier-mex.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/p
-ublic/fourier/fourier-ml.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/fo
-urier/fourier-ms.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/s
-ymbols/msam10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/adobe/utopia/putb8a.
-pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/adobe/utopia/putbi8a.pfb><C:/Progr
-am Files/MiKTeX 2.9/fonts/type1/adobe/utopia/putr8a.pfb><C:/Program Files/MiKTe
-X 2.9/fonts/type1/adobe/utopia/putr8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/ty
-pe1/adobe/utopia/putri8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/couri
-er/ucrr8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmb8a.pfb><C:
-/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmbi8a.pfb><C:/Program Files/M
-iKTeX 2.9/fonts/type1/urw/times/utmr8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/t
-ype1/urw/times/utmri8a.pfb>
-Output written on thesis.pdf (158 pages, 1726063 bytes).
+{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/cm-super/cm-super-t1.enc}{C:/Pro
+gram Files/MiKTeX 2.9/fonts/enc/dvips/fontname/8r.enc}<C:/Program Files/MiKTeX 
+2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files/MiKTeX 2.9/font
+s/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/p
+ublic/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/am
+sfonts/cm/cmsy7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm
+/cmsy8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/fourier/fourier-mex.
+pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/fourier/fourier-ml.pfb><C:/
+Program Files/MiKTeX 2.9/fonts/type1/public/fourier/fourier-ms.pfb><C:/Program 
+Files/MiKTeX 2.9/fonts/type1/public/amsfonts/symbols/msam10.pfb><C:/Program Fil
+es/MiKTeX 2.9/fonts/type1/adobe/utopia/putb8a.pfb><C:/Program Files/MiKTeX 2.9/
+fonts/type1/adobe/utopia/putbi8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/a
+dobe/utopia/putr8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/adobe/utopia/pu
+tr8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/adobe/utopia/putri8a.pfb><C:/
+Program Files/MiKTeX 2.9/fonts/type1/public/cm-super/sftt1095.pfb><C:/Program F
+iles/MiKTeX 2.9/fonts/type1/public/cm-super/sftt1200.pfb><C:/Program Files/MiKT
+eX 2.9/fonts/type1/urw/courier/ucrr8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/ty
+pe1/urw/times/utmb8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utm
+bi8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmr8a.pfb><C:/Prog
+ram Files/MiKTeX 2.9/fonts/type1/urw/times/utmri8a.pfb>
+Output written on thesis.pdf (158 pages, 1753147 bytes).
 PDF statistics:
- 3156 PDF objects out of 3580 (max. 8388607)
+ 3036 PDF objects out of 3580 (max. 8388607)
  1250 named destinations out of 1440 (max. 500000)
  1294 words of extra memory for PDF output out of 10000 (max. 10000000)
 
