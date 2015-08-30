@@ -26,7 +26,9 @@ Warning--entry type for "Nuance14" isn't style-file defined
 --line 91 of file refs.bib
 Warning--entry type for "IEEEBNF1996" isn't style-file defined
 --line 112 of file refs.bib
+Warning--I didn't find a database entry for "PoveASRU2011"
 Warning--to sort, need author or key in IEEEBNF1996
 Warning--empty year in IEEEBNF1996
 Warning--empty journal in deverywhere15
-(There were 8 warnings)
+Warning--can't use both author and editor fields in Terence2012
+(There were 10 warnings)

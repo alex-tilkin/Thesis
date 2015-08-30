@@ -1,6 +1,6 @@
 \contentsline {section}{Preface}{i}{Doc-Start}
 \contentsline {section}{Acknowledgment}{ii}{section*.1}
-\contentsline {section}{Summary and Conclusions}{iii}{section*.2}
+\contentsline {section}{Abstract}{iii}{section*.2}
 \contentsline {chapter}{\numberline {1}Introduction}{2}{chapter.1}
 \contentsline {section}{\numberline {1.1}Background}{3}{section.1.1}
 \contentsline {section}{\numberline {1.2}Problem Formulation}{4}{section.1.2}

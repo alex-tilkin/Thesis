@@ -46,13 +46,17 @@ Nuance, D. (2015).
 \newblock Nuance dragon.
 \newblock \url{http://www.nuance.com/for-developers/dragon/index.htm}.
 
-\bibitem[\protect\astroncite{Povey et~al.}{2011}]{Povey_ASRU2011}
+\bibitem[\protect\astroncite{Parr}{2012}]{Terence2012}
+Parr, T. (2012).
+\newblock {\em The Definitive ANTLR 4 Reference}.
+\newblock The Pragmatic Programmers, LLC.
+
+\bibitem[\protect\astroncite{Povey et~al.}{2011}]{PoveyASRU2011}
 Povey, D., Ghoshal, A., Boulianne, G., Burget, L., Glembek, O., Goel, N.,
   Hannemann, M., Motlicek, P., Qian, Y., Schwarz, P., Silovsky, J., Stemmer,
   G., and Vesely, K. (2011).
-\newblock The kaldi speech recognition toolkit.
-\newblock In {\em IEEE 2011 Workshop on Automatic Speech Recognition and
-  Understanding}. IEEE Signal Processing Society.
+\newblock {\em The Kaldi Speech Recognition Toolkit}.
+\newblock IEEE Signal Processing Society.
 \newblock IEEE Catalog No.: CFP11SRW-USB.
 
 \bibitem[\protect\astroncite{Schulz}{2015}]{getflourish14}
