@@ -1,7 +1,7 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2015.3.26)  31 AUG 2015 14:54
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2015.3.26)  31 AUG 2015 15:07
 entering extended mode
-**thesis.tex
-(thesis.tex
+**"Alex Tilkin - Thesis.tex"
+("Alex Tilkin - Thesis.tex"
 LaTeX2e <2014/05/01>
 Babel <3.9l> and hyphenation patterns for 68 languages loaded.
 ("C:\Program Files\MiKTeX 2.9\tex\latex\base\report.cls"
@@ -1006,9 +1006,9 @@ LaTeX Font Info:    Redeclaring math symbol \curvearrowright on input line 258.
 
 LaTeX Font Info:    Redeclaring math symbol \varkappa on input line 260.
 LaTeX Font Info:    Redeclaring math symbol \hslash on input line 262.
-)) (thesis.aux
-(Definitions.aux) (front.aux) (preface.aux) (acknowledgment.aux) (abstract.aux)
-(chapter01.aux) (chapter02.aux
+))
+("Alex Tilkin - Thesis.aux" (Definitions.aux) (front.aux) (preface.aux)
+(acknowledgment.aux) (abstract.aux) (chapter01.aux) (chapter02.aux
 
 LaTeX Warning: Label `fig4' multiply defined.
 
@@ -1123,7 +1123,7 @@ LaTeX Info: Redefining \ref on input line 3.
 LaTeX Info: Redefining \pageref on input line 3.
 LaTeX Info: Redefining \nameref on input line 3.
 
-(thesis.out) (thesis.out)
+("Alex Tilkin - Thesis.out") ("Alex Tilkin - Thesis.out")
 \@outlinefile=\write3
 \c@lstlisting=\count169
  (Definitions.tex
@@ -1173,10 +1173,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 3--6
 ]) [4]
 LaTeX Font Info:    Font shape `T1/futs/bx/n' in size <24.88> not available
 (Font)              Font shape `T1/futs/b/n' tried instead on input line 11.
- (thesis.toc
+ ("Alex Tilkin - Thesis.toc"
 LaTeX Font Info:    Try loading font information for FML+futmi on input line 1.
 
- ("C:\Program Files\MiKTeX 2.9\tex\latex\fourier\fmlfutmi.fd"
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\fourier\fmlfutmi.fd"
 File: fmlfutmi.fd 2004/10/30 Fontinst v1.926 font definitions for FML/futmi.
 )
 LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
@@ -1192,7 +1193,8 @@ LaTeX Font Info:    Font shape `U/futm/m/n' will be
 LaTeX Font Info:    Font shape `U/futm/m/n' will be
 (Font)              scaled to size 6.43999pt on input line 1.
 LaTeX Font Info:    Try loading font information for U+msa on input line 1.
- ("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
 LaTeX Font Info:    Try loading font information for U+msb on input line 1.
@@ -2691,7 +2693,7 @@ Appendix B.
 
 
 
-] (thesis.bbl
+] ("Alex Tilkin - Thesis.bbl"
 Underfull \hbox (badness 2970) in paragraph at lines 33--37
 []\T1/futs/m/n/12 Mey, G. D. (2015).  Google speech api v2.  [][]$\T1/cmtt/m/n/
 12 https : / / github . com / gillesdemey /$
@@ -2704,13 +2706,14 @@ Underfull \hbox (badness 2970) in paragraph at lines 33--37
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 29.
  [150]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 29.
- (thesis.aux (Definitions.aux) (front.aux) (preface.aux)
-(acknowledgment.aux) (abstract.aux) (chapter01.aux) (chapter02.aux)
-(chapter03.aux) (chapter04.aux) (chapter05.aux) (chapter06.aux) (chapter07.aux)
-(futurework.aux) (Publications.aux) (acronyms.aux))
+ ("Alex Tilkin - Thesis.aux" (Definitions.aux) (front.aux)
+(preface.aux) (acknowledgment.aux) (abstract.aux) (chapter01.aux)
+(chapter02.aux) (chapter03.aux) (chapter04.aux) (chapter05.aux) (chapter06.aux)
+(chapter07.aux) (futurework.aux) (Publications.aux) (acronyms.aux))
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 29.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 29.
-Package rerunfilecheck Info: File `thesis.out' has not changed.
+Package rerunfilecheck Info: File `"Alex Tilkin - Thesis".out' has not changed.
+
 (rerunfilecheck)             Checksum: 59DF42AFE10CC796EEF8510F32C37829;9957.
 
 
@@ -2723,12 +2726,12 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 29.
  ) 
 Here is how much of TeX's memory you used:
  14587 strings out of 493698
- 202992 string characters out of 3144406
+ 203248 string characters out of 3144406
  418076 words of memory out of 3000000
  16249 multiletter control sequences out of 15000+200000
  102298 words of font info for 116 fonts, out of 3000000 for 9000
  1025 hyphenation exceptions out of 8191
- 45i,19n,45p,1488b,1830s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 45i,19n,45p,1504b,1830s stack positions out of 5000i,500n,10000p,200000b,50000s
  <C:\Users\ATilkin\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi60
 0\ectt1200.pk> <C:\Users\ATilkin\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknap
 pen\ec\dpi600\ectt1095.pk>{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/fontname
@@ -2749,7 +2752,7 @@ er/ucrr8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmb8a.pfb><C:
 /Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmbi8a.pfb><C:/Program Files/M
 iKTeX 2.9/fonts/type1/urw/times/utmr8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/t
 ype1/urw/times/utmri8a.pfb>
-Output written on thesis.pdf (160 pages, 1745569 bytes).
+Output written on "Alex Tilkin - Thesis.pdf" (160 pages, 1746095 bytes).
 PDF statistics:
  3181 PDF objects out of 3580 (max. 8388607)
  1263 named destinations out of 1440 (max. 500000)
