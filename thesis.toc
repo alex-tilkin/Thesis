@@ -199,8 +199,8 @@
 \contentsline {subsection}{\numberline {7.2.3}Testing the Module}{136}{subsection.7.2.3}
 \contentsline {section}{\numberline {7.3}BNF Parser}{139}{section.7.3}
 \contentsline {subsubsection}{Antlr 4}{139}{section*.64}
-\contentsline {chapter}{\numberline {8}Conclusions and Future Work}{141}{chapter.8}
-\contentsline {chapter}{\numberline {A}Publications}{142}{appendix.A}
-\contentsline {section}{\numberline {A.1}MobileSoft 2015 Conference}{142}{section.A.1}
-\contentsline {chapter}{\numberline {B}Acronyms}{147}{appendix.B}
-\contentsline {chapter}{Bibliography}{148}{appendix.B}
+\contentsline {chapter}{\numberline {8}Summary, Conclusions, and Future Work}{141}{chapter.8}
+\contentsline {chapter}{\numberline {A}Publications}{143}{appendix.A}
+\contentsline {section}{\numberline {A.1}MobileSoft 2015 Conference}{143}{section.A.1}
+\contentsline {chapter}{\numberline {B}Acronyms}{148}{appendix.B}
+\contentsline {chapter}{Bibliography}{149}{appendix.B}
