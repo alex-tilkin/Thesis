@@ -1,18 +1,18 @@
 \chapter{Prototype}
 \section{Introduction}
-This chapter discusses the prototype that provides a proof of concept for this research. Every module of the prototype discussed and described in this chapter. All architecture designs and specifications described in details. Note that not all modules and ideas that discussed here are implemented, this detail will be mentioned for every module.
+This chapter discusses the prototype that provides a proof of concept for this research. It includes every module of the prototype discussed and described in this chapter. All architecture designs and specifications are described in detail. Note that not all modules and ideas that are discussed here are implemented, this detail will be mentioned for every module.
 
-This prototype presents an ability of programing using speech and represent code in a compact way. It is written in the Java language and uses different third party services and applications. Every service and application that used is discussed and described.
+This prototype presents an ability of programming using speech and represents code in a compact way. It is written in the Java language and uses different third party services and applications. Every service and application that is used is discussed and described.
 
 \section{Speech to Text}
-This is a module which responsible for the translation from speech to text. The engine that is used for the STT process is Google Speech V2 server. It is shown in \citet{google15} how to interact with this server.
+This is a module which is responsible for the translation from speech to text. The engine that is used for the STT process is the Google Speech V2 server. How to interact with this server is shown in \citet{google15}  .
 \subsection{Google Speech V2 Server}
 Google Speech V2 server provides STT service with no charge for everyone who willing to use their service.
 \remark{In order to use this service you have to be a chromium user (\url{https://www.chromium.org/}) because Google's server requires developer's key}.
 \subsubsection{Host}
-In order to access this service the host that need to be used is \url{https://www.google.com/speech-api/v2/recognize}.
+In order to access this service the host that must be used is \url{https://www.google.com/speech-api/v2/recognize}.
 \subsubsection{Request}
-The request that is need to be sent to Google's server is:
+The request that must be sent to Google's server is:
 \begin{lstlisting}
 curl -X POST \
 --data-binary @'test.flac' \
@@ -24,10 +24,10 @@ Explanation about the curl:
 \begin{description}
 	\item [data-binary] is a path on your local machine to audio file that you want to translate.
 	\item [header] is the information about encoding of the audio. In this example is flac with a bit rate of 44,100.
-	\item [uri] is the host of the server with concatenation of the output format, language, and developer key. in this example we use json (output=json), english (lang=en-us), and our developer key is AIzaSyDT41KV3j\_c2OseWNNt4xv79MD9sj9p2j4.
+	\item [uri] is the host of the server with concatenation of the output format, language, and developer key. In this example we use json (output=json), English (lang=en-us), and our developer key is AIzaSyDT41KV3j\_c2OseWNNt4xv79MD9sj9p2j4.
 \end{description}
 \subsubsection{Response}
-The response format is JSON. When Google is 100\% confident in it's translation, it will return the following object:
+The response format is JSON. When Google is 100\% confident in its translation, it will return the following object:
 \begin{lstlisting}
 	{
 	   "result":
@@ -68,7 +68,7 @@ When it's doubtful, it adds a confidence parameter for you. It also seems to add
 	}
 \end{lstlisting}
 \subsection{Speech to Text Library}
-This library used to bring speech recognition to Processing applications (processing is a programming language, development environment, and online community. Since 2001, Processing has promoted software literacy within the visual arts and visual literacy within technology). Using WebSocket, Google Chrome and Processing, you can get unlimited speech recognition results in your Sketch. As of May 2014, you need a developer API key to use this library. The new API has a limit of 50 requests/day.
+This library is used to bring speech recognition to Processing applications (processing is a programming language, development environment, and online community. Since 2001, Processing has promoted software literacy within the visual arts and visual literacy within technology). Using WebSocket, Google Chrome and Processing, you can get unlimited speech recognition results in your Sketch. As of May 2014, you need a developer API key to use this library. The new API has a limit of 50 requests per day.
 
 This library is an open source with dependency in Processing, hence we had to make modifications so it will fit our needs. Several modifications have been made to this open source:
 \begin{itemize}
@@ -77,11 +77,11 @@ This library is an open source with dependency in Processing, hence we had to ma
 	\item Auto Speech Recording had memory issues.
 	\item Various redesign modifications.
 \end{itemize}
-It is shown in \citet{getflourish14} where to get the source code from and how to use it's API.
+It is shown in \citet{getflourish14} where to get the source code from and how to use its API.
 \subsection{Testing the Module}
-In order to be sure that we can use this module in our system we performed several tests with several testers. We used the Linked List program that is presented in \autoref{section: Example} to perform the main test. \autoref{tab16} and \autoref{tab17} are the result of the dictation of the Linked List program. Every command was dictated separately, each row contains three columns: Expected Result, is the context that was dictated, Actual Result, is the context that was returned, and Match Score, represents how both contexts are matched. Since programming is not a natural language then we expect mismatches. For example, the user may dictate "create field has next of type boolean". He means that he wants to create a field named hasNext which is of type boolean. The module will return "create field has next of type boolean". We do not expect the speech to text engine to return hasNext, therefore, this conclusion should be considered in the Dictation Parser. Similar issue is shorten words. For example, if the user will dictate "create field pos" then the system may return "create field pose". pos is different from pose, since pos is not a legal word in the language we expect this mismatch and assume that this will be handled by the user.
+In order to be sure that we can use this module in our system we performed several tests with several testers. We used the Linked List program that is presented in \autoref{section: Example} to perform the main test. \autoref{tab16} and \autoref{tab17} are the result of the dictation of the Linked List program. Every command was dictated separately, each row contains three columns: Expected Result, is the context that was dictated, Actual Result, is the context that was returned, and Match Score, represents how both contexts are matched. Since programming is not a natural language then we expect mismatches. For example, the user may dictate "create field has next of type boolean". He means that he wants to create a field named hasNext which is of type boolean. The module will return "create field has next of type boolean". We do not expect the speech to text engine to return hasNext, therefore, this conclusion should be considered in the Dictation Parser. A similar issue is shortened words. For example, if the user dictates "create field pos" then the system may return "create field pose". pos is different from pose, since pos is not a legal word in the language.  We expect this mismatch and assume that this will be handled by the user.
 
-We calculated the average matching and the result was 97.5\%. This result is good enough for our system. The response time is depended on the length of the context and how busy is the server. The response time is [0.5, 5] seconds. The response time is good enough for us. If we would like to upgrade the performance of our system we may consider to upgrade this module. For example, we may exchange it with IBM Watson.
+We calculated the average matching and the result was 97.5\%. This result is within the accectable limitations for our system. The response time is dependent on the length of the context and how busy the server is. The response time is [0.5, 5] seconds. The response time is within our acceptable range. If we want to upgrade the performance of our system we may consider to upgrading this module. For example, we may exchange it with IBM Watson.
 
 
 \begin{table}[H]
@@ -136,22 +136,22 @@ We calculated the average matching and the result was 97.5\%. This result is goo
 \end{table} 
 \section{BNF Parser} \label{section:BNF Parser}
 \subsubsection{Antlr 4}
-Antlr stands for Another Tool for Language Recognition. The tool is able to generate compiler or interpreter for any computer language. Besides obvious use, e.g. need to parse a real 'big' programming language such as Java, PHP or SQL, it can help with smaller, more common tasks.
+Antlr stands for Another Tool for Language Recognition. The tool is able to generate compiler or interpreter for any computer language. In addition to obvious use, e.g. the need to parse a real 'big' programming language such as Java, PHP or SQL, it can help with smaller, more common tasks.
 
-It is useful any time you need to evaluate expressions unknown at compile-time or to parse non-trivial user input or files in a weird format. Of course, it is possible to create custom hand made parser for any of these tasks. However, it usually takes much more time and effort. A little knowledge of a good parser generator may turn these time-consuming tasks into easy and fast exercises.
+It is useful any time you need to evaluate expressions unknown at compile-time or to parse non-trivial user input or files in a weird format. Of course, it is possible to create a custom handmade parser for any of these tasks. However, it usually takes much more time and effort. A little knowledge of a good parser generator may turn these time-consuming tasks into easy and fast exercises.
 
 ANTLR seems to be popular in open source word. Among others, it is used by Apache Camel, Apache Lucene, Apache Hadoop, Groovy and Hibernate. They all needed parser for a custom language. For example, Hibernate uses ANTLR to parse its query language HQL.
 
 ANTLR is code generator. It takes so called grammar file as input and generates two classes: lexer and parser.
 
-Lexer runs first and splits input into pieces called tokens. Each token represents more or less meaningful piece of input. The stream of tokes is passed to parser which do all necessary work. It is the parser who builds abstract syntax tree, interprets the code or translate it into some other form.
+Lexer runs first and splits input into pieces called tokens. Each token represents a more or less meaningful piece of input. The stream of tokes is passed to parser which does all necessary work. It is the parser which builds an abstract syntax tree, interprets the code or translates it into some other form.
 
-Grammar file contains everything ANTLR needs to generate correct lexer and parser. Whether it should generate java or python classes, whether parser generates abstract syntax tree, assembler code or directly interprets code and so on. As this tutorial shows how to build abstract syntax tree, we will ignore other options in following explanations.
+Grammar file contains everything ANTLR needs to generate correct lexer and parser Whether it should generate java or python classes, whether parser generates abstract syntax tree, assembler code or directly interprets code and so on.
 
 Most importantly, grammar file describes how to split input into tokens and how to build tree from tokens. In other words, grammar file contains lexer rules and parser rules.
 
 Each lexer rule describes one token: TokenName: regular expression; Parser rules are more complicated. The most basic version is similar as in lexer rule: ParserRuleName: regular expression;  
 
-They may contain modifiers that specify special transformations on input, root and childs in result abstract syntax tree or actions to be performed whenever rule is used. Almost all work is usually done inside parser rules.
+They may contain modifiers that specify special transformations on input, root and childs in result abstract syntax tree or actions to be performed whenever the rule is used. Almost all work is usually done inside parser rules.
 
-In order to learn how to use Antlr 4 I used The Definitive ANTLR 4 \cite{Terence2012} book. This book is written by Terence Parr who is the man behind Antlr.
+In order to learn how to use Antlr 4,  I used The Definitive ANTLR 4 \cite{Terence2012} book, written by Terence Parr who is the man behind Antlr.

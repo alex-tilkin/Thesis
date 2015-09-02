@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2015.3.26)  31 AUG 2015 15:07
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2015.3.26)  2 SEP 2015 19:08
 entering extended mode
 **"Alex Tilkin - Thesis.tex"
 ("Alex Tilkin - Thesis.tex"
@@ -2523,7 +2523,13 @@ Chapter 7.
 
 
 
-] [134] [135] [136]
+]
+Overfull \hbox (23.43915pt too wide) in paragraph at lines 13--14
+\T1/futs/m/n/12 In or-der to ac-cess this ser-vice the host that must be used i
+s [][]$\T1/cmtt/m/n/12 https : / / www . google . com / speech-[]api /$
+ []
+
+[134] [135] [136]
 Underfull \hbox (badness 10000) in paragraph at lines 91--91
 []|\T1/futs/b/n/12 Match
  []
@@ -2563,11 +2569,12 @@ ier (name{table.7.2}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.146 
-      ]
-Overfull \hbox (3.90042pt too wide) in paragraph at lines 149--150
+l.145 A
+       NTLR is code generator. It takes so called grammar file as input and ...
+]
+Overfull \hbox (0.63245pt too wide) in paragraph at lines 149--150
 []\T1/futs/m/n/12 Grammar file con-tains ev-ery-thing ANTLR needs to gen-er-ate
- cor-rect lexer and parser. Whether
+ cor-rect lexer and parser Whether
  []
 
 ) [140] (futurework.tex
@@ -2752,7 +2759,7 @@ er/ucrr8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmb8a.pfb><C:
 /Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmbi8a.pfb><C:/Program Files/M
 iKTeX 2.9/fonts/type1/urw/times/utmr8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/t
 ype1/urw/times/utmri8a.pfb>
-Output written on "Alex Tilkin - Thesis.pdf" (160 pages, 1746095 bytes).
+Output written on "Alex Tilkin - Thesis.pdf" (160 pages, 1751166 bytes).
 PDF statistics:
  3181 PDF objects out of 3580 (max. 8388607)
  1263 named destinations out of 1440 (max. 500000)
