@@ -8,7 +8,8 @@
 \contentsline {section}{\numberline {1.4}Objectives}{5}{section.1.4}
 \contentsline {section}{\numberline {1.5}Limitations}{5}{section.1.5}
 \contentsline {section}{\numberline {1.6}Approach}{6}{section.1.6}
-\contentsline {section}{\numberline {1.7}Structure of the Report}{7}{section.1.7}
+\contentsline {section}{\numberline {1.7}Contribution}{7}{section.1.7}
+\contentsline {section}{\numberline {1.8}Structure of the Report}{7}{section.1.8}
 \contentsline {chapter}{\numberline {2}Experiments}{8}{chapter.2}
 \contentsline {section}{\numberline {2.1}Introduction}{8}{section.2.1}
 \contentsline {section}{\numberline {2.2}Experiments}{9}{section.2.2}
@@ -199,7 +200,7 @@
 \contentsline {subsection}{\numberline {7.2.3}Testing the Module}{136}{subsection.7.2.3}
 \contentsline {section}{\numberline {7.3}BNF Parser}{139}{section.7.3}
 \contentsline {subsubsection}{Antlr 4}{139}{section*.64}
-\contentsline {chapter}{\numberline {8}Summary, Conclusions, and Future Work}{141}{chapter.8}
+\contentsline {chapter}{\numberline {8}Summary}{141}{chapter.8}
 \contentsline {chapter}{\numberline {A}Publications}{143}{appendix.A}
 \contentsline {section}{\numberline {A.1}MobileSoft 2015 Conference}{143}{section.A.1}
 \contentsline {chapter}{\numberline {B}Acronyms}{148}{appendix.B}
