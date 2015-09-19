@@ -32,7 +32,7 @@ This section discusses how atomic operators will be represented. Every symbol ma
 		Ternary & ?; : \\ \hline
 		Assignment & $ \longleftarrow $; +$ \longleftarrow $; -$ \longleftarrow $; *$ \longleftarrow $; /$ \longleftarrow $; \%$ \longleftarrow $; \&$ \longleftarrow $; $ \wedge $$ \longleftarrow $; $ \vee $$ \longleftarrow $; $ \ll $$ \longleftarrow $; $ \gg $$ \longleftarrow $; $ \ggg $$ \longleftarrow $\\ \hline
 	\end{tabular}
-	\caption{This table presents operators and symbols that represent them in compact representation. The symbols are examples for how symbols may be presented. The user may modify to any representation that s/he wants. This idea is discussed in \autoref{chapter:Configuration of Representation}. Note: ; is used as a separator between operator symbols.}
+	\caption{This table presents operators and symbols that represent them in compact representation. The symbols are examples for how symbols may be presented. The user may modify to any representation that s/he wants. This idea is discussed in \chapref{chapter:Configuration of Representation}. Note: ; is used as a separator between operator symbols.}
 	\label{tab12}
 \end{table}
 \section{Statement Terminators}
@@ -197,7 +197,7 @@ Condition statements are very common in programming. It is important to allow pr
 	:
 	[Code]
 	\end{lstlisting}
-	\caption{}
+	\caption{Example of If statement}
 	\label{fig43}
 \end{figure}
 \subsection{Switch}
@@ -268,7 +268,7 @@ The following list contains methods that will be supported by this system. The s
 	\item isNullOrEmpty(java.lang.Iterable<?> iterable) - Determines if the given iterable is null or contains no elements.
 	\item join(java.lang.Iterable<?> iterable) - Returns the concatenated string representation of the elements in the given iterable.
 	\item join(java.lang.Iterable<?> iterable, java.lang.CharSequence separator) - Returns the concatenated string representation of the elements in the given iterable.
-	\item join(java.lang.Iterable<T> iterable, java.lang.CharSequence before, java.lang.CharSequence separator, java.lang.CharSequence after,Functions.Function1<? super T,? extends java.lang.CharSequence> function) - Returns the concatenated string representation of the elements in the given iterable.
+	\item join(java.lang.Iterable<T> iterable, java.lang.CharSequence before, java.lang.CharSequence separator, java.lang.CharSequence after,Functions.Function1<? super T,? \\extends java.lang.CharSequence> function) - Returns the concatenated string representation of the elements in the given iterable.
 	\item join(java.lang.Iterable<T> iterable, java.lang.CharSequence separator, Functions.Function1<? super T,? extends java.lang.CharSequence> function) - Returns the concatenated string representation of the elements in the given iterable.
 	\item last(java.lang.Iterable<T> iterable) - Returns the last element in the given iterable or null if empty.
 	\item map(java.lang.Iterable<T> original, Functions.Function1<? super T,? extends R> transformation) - Returns an iterable that performs the given transformation for each element of original when requested.

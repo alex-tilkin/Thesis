@@ -1,28 +1,26 @@
 \chapter{Configuration of Representation} \label{chapter:Configuration of Representation}
 \section{Introduction}
-One of the goals of this project is to allow the programmer to configure the representation of the code on different devices. PCs are a much more convenient environment for programming than laptops and specifically more convenient than tablets and mobile devices. We would like to allow this ability because every programmer prefers to see the code in different representations. As discussed in \autoref{chapter: Compact Representation} we suggest different styles of compact representation to programming idioms. We assume that it would be very convenient for the programmer if s/he could configure different representations for different environments.
+One goal of this project is to allow the programmer to configure the representation of the code on various devices. PCs are a much more convenient environment for programming than laptops and particularly more convenient than tablets and mobile devices. We would like to allow this ability because every programmer prefers to see the code in different representation. As discussed in \chapref{chapter: Compact Representation} we suggest different styles of compact representation to program idioms. We assume that it would be very convenient for the programmer if s/he could configure different representations for different environments.
 
-This chapter discusses how the representation of programming idioms may be configured. This is a basic concept that might guide those who will proceed with this research and will decide to focus on the configuration of the representation of the code. We believe that different language features have different configuration features in common. For example, Access Levels may be presented as an icon, text, stylized text, e.g., \textit{private}, and may be omitted. Operators may be presented as an icon, text, or stylized text, e.g., \textbf{\textit{+}}. It is clear that both operators and accessibilities may be presented by text, stylized text, and as an icon. This conclusion may help those who will design the configuration of the compact representation of operators and the accessibilities (for example: private, public).
+This chapter discusses how programming-idioms representation may be configured. This is a basic concept that can guide those who will proceed with this research and will decide to focus on the configuration of the representation of the code. We believe the same configuration techniques may be used for different language features. For example, \textit{Access Levels} may be presented as an icon, text, stylized text e.g., \textit{private}, and may be omitted. Operators may be presented as an icon, text, or stylized text e.g., \textbf{\textit{+}}. It is clear that both operators and accessibilities may be presented by text, stylized text, or as an icon. This conclusion may help those who will design the configuration of the compact representation of operators and the accessibilities (for example: private, public).
 
-The motivation is that the developers who will develop a configuration system for a programming feature will be aware of all the other programming features that have configuration features in common. It will optimize the configuration system and will create a more intuitive experience for the user.
+The motivation is that developers of a configuration system for a programming feature will be aware of the same configuration techniques may be used for different language features. It will optimize the configuration system and will create a more intuitive experience for the user.
 
-It is important to note that this is a generic idea that might be expanded by others. Everyone may add language features, a configuration feature or add configuration features to language features.
-\section{Terminology}
-This section provides explanations about terms that appear in this section.
+It is important to note that this is a generic idea that can be expanded. Everyone may add language features, a configuration feature or add configuration features to language features.
+
+In what follows, we use the following terms:
 \begin{itemize}
-	\item Configuration Feature - A feature that helps the user to set a configuration for a programming feature.
-	\item Language Feature - A feature in a programming language,. for example, loops.
+	\item Configuration Feature - a feature that helps the user to set a configuration for a programming feature, for example, represent a \textit{Access Level} with an icon.
+	\item Language Feature - a feature in a programming language, for example, loops.
 \end{itemize}
 \section{Configuration scope}
 \subsection{Configuration Main Settings}
-We assume that there are three main modes of configuration of representation: Desktop (PCs and laptops) - This configuration provides the most detailed environment that the user needs, since it has a big screen; Tablet - This environment is smaller than the previous one, but the screen is big enough to show details. Therefore, it will show details but many fewer; and Mobile Phones - This is the smallest environment for developing, therefore, it will provide the most compact representation. 
+We assume that there are three main modes of configuration of representation: desktop (PCs and laptops) which provides the most detailed environment that the user needs, since it has a big screen; tablet - a smaller environment than the previous one, but the screen is big enough to show details yet fewer; and mobile phones, which is the smallest environment for developing, thus it provides the most compact representation. 
 
-All three configurations that are described above come with default settings that meet the requirements of the environment. The user may customize the representations so they will fit his or her needs.
+All those configurations come with default settings that meet the requirements of the environment. The user may customize the representations so they will fit his or her needs.
 \subsection{Features and Configurations}
-In order to understand how each programming feature may be represented, we reviewed \autoref{chapter: Supported Features} and \autoref{chapter: Compact Representation}. Those chapters helped us to divide programming features into groups, e.g., operators. After we managed to group the programming features, we created groups of configuration features. Each configuration feature represents a technique of how a programming feature may be represented.
-\autoref{tab14} presents all configuration features that we grouped and \autoref{tab15} presents all language features and the configuration features that may be used to present them.
-
-In order to understand how every programming feature may be represented you need to use both \autoref{tab14} and \autoref{tab15}. For example, let us take the first row in \autoref{tab15}. The language feature is Operators, it represents all the operators in Java. The referenced configuration features IDs are: STYLE, ICON and TEXT, which means it may be represented in three ways.
+In order to understand how each programming feature may be represented, \autoref{chapter: Supported Features} and \autoref{chapter: Compact Representation} describe the information that was reviewed. This information helped us to divide programming features into groups, e.g., operators. After we have grouped the programming features, we created groups of configuration features. Each configuration feature represents a technique of how a programming feature may be represented.
+\autoref{tab14} presents the configuration features that we have grouped and \autoref{tab15} presents all language features and the configuration features that may be used to present them. In order to understand how every programming feature may be represented one needs to use tables \ref{tab14} and \ref{tab15}. For example, let us take the first row in \autoref{tab15}. The language feature is Operators, it represents Java operators. The referenced configuration features IDs are: STYLE, ICON, and TEXT, which means it may be represented in three ways.
 \begin{table}[H]
 \centering
 \begin{tabular}{|l|p{14cm}|}
@@ -45,7 +43,7 @@ COMPLEXITY   & Complexity - Show complexity If it can be computed using Static A
 IO           & I/O - Replace code with just input and output                                                                                      \\ \hline
 CONTRIBUTORS & Contributors - Replace code with contributor's name                                                                                \\ \hline
 \end{tabular}
-\caption{This table has two columns: ID and Configuration Feature. Configuration Feature (right column) is a technique how a programming feature may be configured. Every configuration feature has a short explanation. The left column is the given ID for every configuration feature. For example, the ID TEMPORAL represents the Temporal Abstraction configuration feature.}
+\caption{Configuration Feature (right column) is a technique to configure a programming feature. Every configuration feature has a short explanation. The left column is the given ID for every configuration feature. For example, the ID TEMPORAL represents the Temporal Abstraction configuration feature.}
 \label{tab14}
 \end{table}
 \begin{table}[H]
@@ -59,7 +57,6 @@ Accessibilities                   & STYLE, ICON, TEXT, OMIT                     
 Implementation and Inheritance    & STYLE, ICON, TEXT                                                             \\ \hline
 Methods, Constructors             & STYLE, ICON, TEXT, FRAME, CONTRIBUTORS, PLAN, OMIT, LAYOUT                    \\ \hline
 Classes                           & LAYOUT, STYLE, TEXT, OMIT                                                     \\ \hline
-OMIT                              & Omit - Remove syntax features in-order to preserve space                      \\ \hline
 Fields                            & TEXT, STYLE                                                                   \\ \hline
 Control Blocks                    & STYLE, ICON, TEXT, ORDER, INDENTATION , FRAME, LAYOUT                         \\ \hline
 Statement Terminators             & STYLE, ICON, TEXT, OMIT                                                       \\ \hline
@@ -71,6 +68,6 @@ Expressions                       & RANGE, CONTRIBUTORS, NATIVE                 
 Loops                             & STYLE, ICON, TEXT, OMIT, TEMPORAL, COMPLEXITY, IO, CONTRIBUTORS, PLAN, LAYOUT \\ \hline
 Comments                          & OMIT                                                                          \\ \hline
 \end{tabular}
-\caption{This table has two columns: Language Feature and Configuration Features IDs. Language feature column presents all language features that we managed to group until today. Configuration Features IDs are a set of configuration features that may represent a language feature. For example, Operators may be represented with STYLE, ICON, and TEXT.}
+\caption{The language feature column presents the language features. Configuration Features IDs are a set of configuration features that may represent a language feature. For example, Operators may be represented with STYLE, ICON, and TEXT.}
 \label{tab15}
 \end{table}
