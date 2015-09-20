@@ -70,4 +70,9 @@ Sihan, L., Tao, X., and Tillmann, N. (2013).
   devices.
 \newblock Technical report, North Carolina State University.
 
+\bibitem[\protect\astroncite{Wirth}{1977}]{Wirth77}
+Wirth, N. (1977).
+\newblock {\em Modula: A language for modular multiprogramming}, volume~7.
+\newblock Software-Practice and Experience.
+
 \end{thebibliography}
