@@ -13,7 +13,7 @@ A level-1 auxiliary file: chapter04.aux
 A level-1 auxiliary file: chapter05.aux
 A level-1 auxiliary file: chapter06.aux
 A level-1 auxiliary file: chapter07.aux
-A level-1 auxiliary file: futurework.aux
+A level-1 auxiliary file: summary.aux
 A level-1 auxiliary file: Publications.aux
 A level-1 auxiliary file: acronyms.aux
 The style file: apa.bst
@@ -25,52 +25,51 @@ Warning--entry type for "google15" isn't style-file defined
 Warning--entry type for "getflourish14" isn't style-file defined
 --line 67 of file refs.bib
 Warning--entry type for "Nuance14" isn't style-file defined
---line 100 of file refs.bib
+--line 101 of file refs.bib
 Warning--entry type for "IEEEBNF1996" isn't style-file defined
---line 121 of file refs.bib
+--line 122 of file refs.bib
 Warning--to sort, need author or key in IEEEBNF1996
 Warning--empty year in IEEEBNF1996
-Warning--empty journal in deverywhere15
 Warning--can't use both author and editor fields in Terence2012
 You've used 14 entries,
             1940 wiz_defined-function locations,
-            560 strings with 5914 characters,
-and the built_in function-call counts, 4468 in all, are:
-= -- 426
-> -- 191
+            561 strings with 5973 characters,
+and the built_in function-call counts, 4433 in all, are:
+= -- 424
+> -- 185
 < -- 12
-+ -- 70
-- -- 64
-* -- 357
-:= -- 830
-add.period$ -- 40
++ -- 68
+- -- 62
+* -- 350
+:= -- 826
+add.period$ -- 41
 call.type$ -- 14
-change.case$ -- 99
+change.case$ -- 98
 chr.to.int$ -- 14
-cite$ -- 19
+cite$ -- 18
 duplicate$ -- 174
 empty$ -- 273
-format.name$ -- 81
-if$ -- 832
+format.name$ -- 77
+if$ -- 826
 int.to.chr$ -- 1
 int.to.str$ -- 0
 missing$ -- 8
-newline$ -- 71
+newline$ -- 72
 num.names$ -- 39
-pop$ -- 90
+pop$ -- 87
 preamble$ -- 1
-purify$ -- 102
+purify$ -- 101
 quote$ -- 0
 skip$ -- 143
 stack$ -- 0
 substring$ -- 203
-swap$ -- 31
+swap$ -- 32
 text.length$ -- 2
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 78
-warning$ -- 4
+warning$ -- 3
 while$ -- 28
 width$ -- 0
-write$ -- 171
-(There were 9 warnings)
+write$ -- 173
+(There were 8 warnings)

@@ -4,8 +4,8 @@
 Iso/iec 14977 : 1996(e), extended backus naur form (ebnf) a standard syntactic
   metalanguage.
 
-\bibitem[\protect\astroncite{Andrew and Susan}{2011}]{andrew11}
-Andrew, B. and Susan, L.~G. (2011).
+\bibitem[\protect\astroncite{Andrew}{2011}]{andrew11}
+Andrew, B. (2011).
 \newblock {\em Spoken Programs}.
 \newblock PhD thesis, Computer Science Division, EECS University of California,
   Berkeley.
@@ -23,6 +23,8 @@ Feldman, Y.~A. (2013).
 \bibitem[\protect\astroncite{Feldman et~al.}{2015}]{deverywhere15}
 Feldman, Y.~A., Tilkin, A., Gam, A., and Tyszberowicz, S. (2015).
 \newblock Deverywhere: Develop software everywhere.
+\newblock {\em 2nd ACM International Conference on Mobile Software Engineering
+  and Systems Sponsored by ACM SIGSOFT}.
 
 \bibitem[\protect\astroncite{Graham}{2015}]{harmonia}
 Graham, S.~L. (2015).
@@ -31,7 +33,7 @@ Graham, S.~L. (2015).
 
 \bibitem[\protect\astroncite{Mey}{2015}]{google15}
 Mey, G.~D. (2015).
-\newblock Google speech api v2.
+\newblock Google speech v2.
 \newblock
   \url{https://github.com/gillesdemey/google-speech-v2/blob/master/README.md}.
 
@@ -39,7 +41,7 @@ Mey, G.~D. (2015).
 Michal, G. and David, H. (2009).
 \newblock Programming in natural language.
 \newblock {\em 10th Int. Conf. on Computational Linguistics and Intelligent
-  Text Processing (CICLing'09)}, pages 456--467.
+  Text Processing}, pages 456--467.
 
 \bibitem[\protect\astroncite{Nuance}{2015}]{Nuance14}
 Nuance, D. (2015).
