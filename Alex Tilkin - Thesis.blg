@@ -25,51 +25,50 @@ Warning--entry type for "google15" isn't style-file defined
 Warning--entry type for "getflourish14" isn't style-file defined
 --line 67 of file refs.bib
 Warning--entry type for "Nuance14" isn't style-file defined
---line 101 of file refs.bib
+--line 116 of file refs.bib
 Warning--entry type for "IEEEBNF1996" isn't style-file defined
---line 122 of file refs.bib
-Warning--to sort, need author or key in IEEEBNF1996
-Warning--empty year in IEEEBNF1996
+--line 137 of file refs.bib
+Warning--empty journal in yishai13
 Warning--can't use both author and editor fields in Terence2012
 You've used 14 entries,
             1940 wiz_defined-function locations,
-            561 strings with 5973 characters,
-and the built_in function-call counts, 4433 in all, are:
-= -- 424
-> -- 185
-< -- 12
-+ -- 68
-- -- 62
-* -- 350
-:= -- 826
+            564 strings with 6042 characters,
+and the built_in function-call counts, 4493 in all, are:
+= -- 426
+> -- 192
+< -- 14
++ -- 70
+- -- 64
+* -- 357
+:= -- 843
 add.period$ -- 41
 call.type$ -- 14
-change.case$ -- 98
+change.case$ -- 97
 chr.to.int$ -- 14
-cite$ -- 18
-duplicate$ -- 174
-empty$ -- 273
-format.name$ -- 77
-if$ -- 826
+cite$ -- 16
+duplicate$ -- 177
+empty$ -- 272
+format.name$ -- 80
+if$ -- 833
 int.to.chr$ -- 1
 int.to.str$ -- 0
-missing$ -- 8
+missing$ -- 9
 newline$ -- 72
-num.names$ -- 39
-pop$ -- 87
+num.names$ -- 42
+pop$ -- 86
 preamble$ -- 1
-purify$ -- 101
+purify$ -- 102
 quote$ -- 0
-skip$ -- 143
+skip$ -- 148
 stack$ -- 0
-substring$ -- 203
-swap$ -- 32
-text.length$ -- 2
+substring$ -- 202
+swap$ -- 33
+text.length$ -- 3
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 78
-warning$ -- 3
-while$ -- 28
+warning$ -- 2
+while$ -- 30
 width$ -- 0
-write$ -- 173
-(There were 8 warnings)
+write$ -- 174
+(There were 7 warnings)

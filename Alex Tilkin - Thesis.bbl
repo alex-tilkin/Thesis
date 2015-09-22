@@ -1,9 +1,5 @@
 \begin{thebibliography}{}
 
-\bibitem[\protect\astroncite{IEE}{}]{IEEEBNF1996}
-Iso/iec 14977 : 1996(e), extended backus naur form (ebnf) a standard syntactic
-  metalanguage.
-
 \bibitem[\protect\astroncite{Andrew}{2011}]{andrew11}
 Andrew, B. (2011).
 \newblock {\em Spoken Programs}.
@@ -18,7 +14,6 @@ Eisenberg, A.~D. (2008).
 \bibitem[\protect\astroncite{Feldman}{2013}]{yishai13}
 Feldman, Y.~A. (2013).
 \newblock Template-based development on mobile platforms.
-\newblock Technical report, IBM Research.
 
 \bibitem[\protect\astroncite{Feldman et~al.}{2015}]{deverywhere15}
 Feldman, Y.~A., Tilkin, A., Gam, A., and Tyszberowicz, S. (2015).
@@ -31,9 +26,21 @@ Graham, S.~L. (2015).
 \newblock Harmonia research project.
 \newblock \url{http://harmonia.cs.berkeley.edu/harmonia/index.html}.
 
+\bibitem[\protect\astroncite{ISO/IEC}{1996}]{IEEEBNF1996}
+ISO/IEC (1996).
+\newblock Iso/iec 14977 : 1996(e), extended {B}ackus {N}aur form ({EBNF}) a
+  standard syntactic metalanguage.
+
+\bibitem[\protect\astroncite{Li et~al.}{2013}]{sihan13}
+Li, S., Xie, T., and Tillmann, N. (2013).
+\newblock A comprehensive field study of end-user programming on mobile
+  devices.
+\newblock Technical Report TR-2013-3, North Carolina State University
+  Department of Computer Science, Raleigh, NC.
+
 \bibitem[\protect\astroncite{Mey}{2015}]{google15}
 Mey, G.~D. (2015).
-\newblock Google speech v2.
+\newblock Google {S}peech {API} v2.
 \newblock
   \url{https://github.com/gillesdemey/google-speech-v2/blob/master/README.md}.
 
@@ -63,14 +70,8 @@ Povey, D., Ghoshal, A., Boulianne, G., Burget, L., Glembek, O., Goel, N.,
 
 \bibitem[\protect\astroncite{Schulz}{2015}]{getflourish14}
 Schulz, F. (2015).
-\newblock Speech to text library for java/processing.
+\newblock Speech to text library for {J}ava/processing.
 \newblock \url{http://stt.getflourish.com/archive/}.
-
-\bibitem[\protect\astroncite{Sihan et~al.}{2013}]{sihan13}
-Sihan, L., Tao, X., and Tillmann, N. (2013).
-\newblock A comprehensive field study of end-user programming on mobile
-  devices.
-\newblock Technical report, North Carolina State University.
 
 \bibitem[\protect\astroncite{Wirth}{1977}]{Wirth77}
 Wirth, N. (1977).
