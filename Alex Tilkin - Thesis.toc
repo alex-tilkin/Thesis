@@ -4,9 +4,9 @@
 \contentsline {chapter}{\numberline {1}Introduction}{2}{chapter.1}
 \contentsline {section}{\numberline {1.1}Background}{3}{section.1.1}
 \contentsline {section}{\numberline {1.2}Problem Formulation}{4}{section.1.2}
-\contentsline {section}{\numberline {1.3}Literature Survey}{4}{section.1.3}
+\contentsline {section}{\numberline {1.3}Literature that we Used}{4}{section.1.3}
 \contentsline {section}{\numberline {1.4}Objectives}{5}{section.1.4}
-\contentsline {section}{\numberline {1.5}Limitations}{5}{section.1.5}
+\contentsline {section}{\numberline {1.5}Limitations of the Approach}{6}{section.1.5}
 \contentsline {section}{\numberline {1.6}Approach}{6}{section.1.6}
 \contentsline {section}{\numberline {1.7}Contribution}{7}{section.1.7}
 \contentsline {section}{\numberline {1.8}Structure of the Report}{7}{section.1.8}
@@ -188,7 +188,7 @@
 \contentsline {subsubsection}{LinkedList Example}{116}{section*.59}
 \contentsline {subsubsection}{Car Builder Example}{129}{section*.60}
 \contentsline {section}{\numberline {6.4}Implementation}{132}{section.6.4}
-\contentsline {chapter}{\numberline {7}Prototype}{133}{chapter.7}
+\contentsline {chapter}{\numberline {7}A Prototype Tool}{133}{chapter.7}
 \contentsline {section}{\numberline {7.1}Introduction}{133}{section.7.1}
 \contentsline {section}{\numberline {7.2}Speech to Text}{133}{section.7.2}
 \contentsline {subsection}{\numberline {7.2.1}Google Speech V2 Server}{133}{subsection.7.2.1}

@@ -6,6 +6,11 @@ Andrew, B. (2011).
 \newblock PhD thesis, Computer Science Division, EECS University of California,
   Berkeley.
 
+\bibitem[\protect\astroncite{Dennis and Kratz}{2012}]{appFour12}
+Dennis, S. and Kratz, H. (2012).
+\newblock \url{http://www.android-ide.com/tutorials.html}.
+\newblock Last accessed on {S}ep 22, 2015.
+
 \bibitem[\protect\astroncite{Eisenberg}{2008}]{andrew08}
 Eisenberg, A.~D. (2008).
 \newblock {\em Presentation Techniques for more Expressive Programs}.
@@ -18,13 +23,14 @@ Feldman, Y.~A. (2013).
 \bibitem[\protect\astroncite{Feldman et~al.}{2015}]{deverywhere15}
 Feldman, Y.~A., Tilkin, A., Gam, A., and Tyszberowicz, S. (2015).
 \newblock Deverywhere: Develop software everywhere.
-\newblock {\em 2nd ACM International Conference on Mobile Software Engineering
-  and Systems Sponsored by ACM SIGSOFT}.
+\newblock {\em ACM International Conference on Mobile Software Engineering and
+  Systems Sponsored by ACM SIGSOFT}.
 
 \bibitem[\protect\astroncite{Graham}{2015}]{harmonia}
 Graham, S.~L. (2015).
 \newblock Harmonia research project.
 \newblock \url{http://harmonia.cs.berkeley.edu/harmonia/index.html}.
+\newblock Last accessed on {S}ep 22, 2015.
 
 \bibitem[\protect\astroncite{ISO/IEC}{1996}]{IEEEBNF1996}
 ISO/IEC (1996).
@@ -43,17 +49,19 @@ Mey, G.~D. (2015).
 \newblock Google {S}peech {API} v2.
 \newblock
   \url{https://github.com/gillesdemey/google-speech-v2/blob/master/README.md}.
+\newblock Last accessed on {S}ep 22, 2015.
 
 \bibitem[\protect\astroncite{Michal and David}{2009}]{Michal2009}
 Michal, G. and David, H. (2009).
 \newblock Programming in natural language.
-\newblock {\em 10th Int. Conf. on Computational Linguistics and Intelligent
-  Text Processing}, pages 456--467.
+\newblock {\em Int. Conf. on Computational Linguistics and Intelligent Text
+  Processing}, pages 456--467.
 
 \bibitem[\protect\astroncite{Nuance}{2015}]{Nuance14}
 Nuance, D. (2015).
 \newblock Nuance dragon.
 \newblock \url{http://www.nuance.com/for-developers/dragon/index.htm}.
+\newblock Last accessed on {S}ep 22, 2015.
 
 \bibitem[\protect\astroncite{Parr}{2012}]{Terence2012}
 Parr, T. (2012).
@@ -64,14 +72,21 @@ Parr, T. (2012).
 Povey, D., Ghoshal, A., Boulianne, G., Burget, L., Glembek, O., Goel, N.,
   Hannemann, M., Motlicek, P., Qian, Y., Schwarz, P., Silovsky, J., Stemmer,
   G., and Vesely, K. (2011).
-\newblock {\em The Kaldi Speech Recognition Toolkit}.
+\newblock {\em The {K}aldi {S}peech {R}ecognition {T}oolkit}.
 \newblock IEEE Signal Processing Society.
 \newblock IEEE Catalog No.: CFP11SRW-USB.
+
+\bibitem[\protect\astroncite{Rudd}{}]{tavis13}
+Rudd, T.
+\newblock A voice recognition system with {P}ython embedded in it.
+\newblock \url{http://pyvideo.org/video/1735/using-python-to-code-by-voice}.
+\newblock Last accessed on {S}ep 22, 2015.
 
 \bibitem[\protect\astroncite{Schulz}{2015}]{getflourish14}
 Schulz, F. (2015).
 \newblock Speech to text library for {J}ava/processing.
 \newblock \url{http://stt.getflourish.com/archive/}.
+\newblock Last accessed on {S}ep 22, 2015.
 
 \bibitem[\protect\astroncite{Wirth}{1977}]{Wirth77}
 Wirth, N. (1977).
