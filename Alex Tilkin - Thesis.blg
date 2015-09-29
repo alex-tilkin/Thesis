@@ -37,7 +37,7 @@ Warning--can't use both author and editor fields in Terence2012
 Warning--empty year in tavis13
 You've used 16 entries,
             1940 wiz_defined-function locations,
-            573 strings with 6306 characters,
+            573 strings with 6308 characters,
 and the built_in function-call counts, 5076 in all, are:
 = -- 492
 > -- 212
