@@ -1,4 +1,4 @@
-\chapter{A Prototype Tool}
+\chapter{A Prototype Tool} \label{chapter: A Prototype Tool}
 \section{Introduction}
 This chapter discusses the prototype that provides a proof of concept for this research. It includes every module of the prototype discussed and described in this chapter. All architecture designs and specifications are described in detail. Note that not all modules and ideas that are discussed here are implemented, this detail will be mentioned for every module.
 
@@ -68,16 +68,18 @@ When it's doubtful, it adds a confidence parameter for you. It also seems to add
 	}
 \end{lstlisting}
 \subsection{Speech to Text Library}
-This library is used to bring speech recognition to Processing applications (processing is a programming language, development environment, and online community. Since 2001, Processing has promoted software literacy within the visual arts and visual literacy within technology). Using WebSocket, Google Chrome and Processing, you can get unlimited speech recognition results in your Sketch. As of May 2014, you need a developer API key to use this library. The new API has a limit of 50 requests per day.
+This library is made by Florian Schulz \cite{getflourish14}, it is used to bring speech recognition to Java applications using WebSocket and Google Speech V2 Server. The new API of Google's server has a limit of 50 requests per day.
 
-This library is an open source with dependency in Processing, hence we had to make modifications so it will fit our needs. Several modifications have been made to this open source:
+This library is an open source with dependency in the Processing library but we removed the dependency in Processing because we would like to allow any Java application to use this library, hence we had to make modifications so it will fit our needs. 
+\textit{"Processing is a flexible software sketchbook and a language for learning how to code within the context of the visual arts"} \citet{processing15}. Processing is not part of this project but you can read about it in this \href{https://processing.org}{link}.
+The modifications that were made to this library:
 \begin{itemize}
-	\item The dependency in Processing has been removed so the application could run as a simple Java project. 
+	\item The dependency in Processing was removed so the application could run as a simple Java project. 
 	\item A new response parser has been developed because the one that was in use didn't know how to parse the new format of Google Speech V2.
 	\item Auto Speech Recording had memory issues.
 	\item Various redesign modifications.
 \end{itemize}
-It is shown in \citet{getflourish14} where to get the source code from and how to use its API.
+We use this library in the Speech To Text layer. It is shown in \citet{getflourish14} where to get the source code from and how to use its API.
 \subsection{Testing the Module}
 In order to be sure that we can use this module in our system we performed several tests with several testers. We used the Linked List program that is presented in \autoref{section: Example} to perform the main test. \autoref{tab16} and \autoref{tab17} are the result of the dictation of the Linked List program. Every command was dictated separately, each row contains three columns: Expected Result, is the context that was dictated, Actual Result, is the context that was returned, and Match Score, represents how both contexts are matched. Since programming is not a natural language then we expect mismatches. For example, the user may dictate "create field has next of type boolean". He means that he wants to create a field named hasNext which is of type boolean. The module will return "create field has next of type boolean". We do not expect the speech to text engine to return hasNext, therefore, this conclusion should be considered in the Dictation Parser. A similar issue is shortened words. For example, if the user dictates "create field pos" then the system may return "create field pose". pos is different from pose, since pos is not a legal word in the language.  We expect this mismatch and assume that this will be handled by the user.
 

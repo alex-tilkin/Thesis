@@ -50,8 +50,8 @@ The programmer may omit the brackets, then the indentation of the code will deno
 \begin{figure}[H]
 	\begin{lstlisting}
 	age = 10 ?
-	adult $ \longleftarrow $ false
-	isChild $ \longleftarrow $ true
+		adult $ \longleftarrow $ false
+		isChild $ \longleftarrow $ true
 	\end{lstlisting}
 	\caption{This is an example of a control block that checks if the age is smaller than 10 then the false is assigned to the identifier \textit{adult} and true is assigned to the identifier \textit{isChild}.}
 	\label{fig32}
@@ -144,23 +144,23 @@ Returned types is important for compilation but also it provides information to 
 \begin{figure}[H]
 	\begin{lstlisting}
 	foo(int a)
-	return a
+		return a
 	\end{lstlisting}
 	\caption{The returned type (in this case it is int) is omitted.}
 	\label{fig38}
 \end{figure}
 \subsection{Omit Types of Formal Parameters}
-In addition the programmer may omit types of formal parameters of methods. \autoref{39} shows the same method that is presented in \autoref{fig38} but without the type of its formal parameter.
+In addition the programmer may omit types of formal parameters of methods. \autoref{fig39} shows the same method that is presented in \autoref{fig38} but without the type of its formal parameter.
 \begin{figure}[H]
 	\begin{lstlisting}
 	foo(a)
-	return a
+		return a
 	\end{lstlisting}
 	\caption{The type of the formal parameter is omitted.}
 	\label{fig39}
 \end{figure}
 \subsection{Omit Parentheses}
-If a method doesn't have formal parameters it is possible to omit its parentheses. \autoref{40} shows a method that doesn't have formal parameters hence its parentheses are omitted.
+If a method doesn't have formal parameters it is possible to omit its parentheses. \autoref{fig40} shows a method that doesn't have formal parameters hence its parentheses are omitted.
 \begin{figure}[H]
 	\includegraphics{"./fig/foo with omitted parentheses"}
 	\caption{This is method whose parentheses are omitted. The icon of the mobile phone denotes that the text "Hello, world!" will be printed to the console.}
@@ -174,7 +174,7 @@ Constructors are used in every class that is created. There is no need to name t
 \begin{figure}[H]
 	\begin{lstlisting}
 	constructor
-	name $ \leftarrow $ "name"
+		name $ \leftarrow $ "name"
 	\end{lstlisting}
 	\caption{This is an example of a constructor that uses the word "constructor" as its symbol.}
 	\label{fig41}
@@ -193,9 +193,9 @@ Condition statements are very common in programming. It is important to allow pr
 \begin{figure}[H]
 	\begin{lstlisting}
 	[Condition] ?
-	[Code]
+		[Code]
 	:
-	[Code]
+		[Code]
 	\end{lstlisting}
 	\caption{Example of If statement}
 	\label{fig43}
@@ -206,25 +206,27 @@ Similar to "if" statements, the programmer may change the representation of the 
 	\begin{lstlisting}
 	name ?
 	"Danny": 
-	[code]
+		[code]
 	"Ben": 
-	[code]
+		[code]
 	"Alex": 
-	[code]
+		[code]
 	default: 
-	[code]
+		[code]
 	\end{lstlisting}
 	\caption{This is an example of a switch statement that uses the "?" character instead of "switch". In addition, breaks are omitted.}
 	\label{fig44}
 \end{figure}
 \section{Temporal Abstraction} \label{sec:Temporal Abstraction}
 Temporal abstraction is a technique where the programmer instead of writing loops in imperative programming concept, writes the code in functional programming concept. For example, \autoref{fig45} shows an example of code that checks if a collection contains a certain element.
+\remark{\textit{"Temporal abstraction is a concise way to express computations that operate on sequences of data. Compared to regular loops, it allows for greater code reability and modularity, and assists in execution optimization and parallelization"} \citet[Abstract]{eldan11}, for more details you can read the thesis in the following \href{http://portal.idc.ac.il/en/schools/cs/research/documents/eldan11.pdf}{link}.}
 \begin{figure}[H]
 	\begin{lstlisting}
 	for(int index = 0; index < collection.length; index++){
-	if(collection[index] == element)
-	return true;
+		if(collection[index] == element)
+			return true;
 	}
+	
 	return false;
 	\end{lstlisting}
 	\caption{This is an example of a for loop that iterates over a collection and looks for an element by comparing instances.}
@@ -242,13 +244,13 @@ The method "exists" in \autoref{fig46} accepts an element and returns \textit{Tr
 \begin{figure}[H]
 	\begin{lstlisting}
 	shapes.stream()
-	.filter(s -> s.getColor() == BLUE)
-	.forEach(s -> s.setColor(RED));
+		.filter(s -> s.getColor() == BLUE)
+			.forEach(s -> s.setColor(RED));
 	\end{lstlisting}
 	\caption{This is an example of code that is written in temporal abstraction technique. The elements whose color is blue are selected and their color is changed to red.}
 	\label{fig47}
 \end{figure}
-The following list contains methods that will be supported by this system. The signature of those methods is such that accepts two arguments, but we should not be confused since those are "extension methods":
+The following list contains methods that will be supported by this system. The signature of those methods is such that accepts two arguments, but we should not be confused since those are "extension methods". The source where we took the list of methods from is http://\\download.eclipse.org/modeling/tmf/xtext/javadoc/2.3/org/eclipse/xtext/xbase/lib\\/IterableExtensions.html. By clicking on the \href{http://download.eclipse.org/modeling/tmf/xtext/javadoc/2.3/org/eclipse/xtext/xbase/lib/IterableExtensions.html}{link} you will be navigated to the webpage.
 \begin{itemize}
 	\item drop(java.lang.Iterable<T> iterable, int count) - Returns a view on this iterable that provides all elements except the first count entries.
 	\item elementsEqual(java.lang.Iterable<?> iterable, java.lang.Iterable<?> other) - Determines whether two iterables contain equal elements in the same order.
@@ -294,8 +296,8 @@ Temporal Abstraction is a very useful technique when it comes to loops represent
 	\begin{lstlisting}
 	int sum = 0;
 	for (int i : input) {
-	if (i > 0)
-	sum += sqrt(i)
+		if (i > 0)
+			sum += sqrt(i)
 	}
 	\end{lstlisting}
 	\caption{This is an example of how the program looks like if Temporal Abstraction is disabled.}
@@ -305,9 +307,9 @@ Temporal Abstraction is a very useful technique when it comes to loops represent
 \begin{figure}[H]
 	\begin{lstlisting}
 	input.stream()
-	.filter(i $ \rightarrow $ i > 0)
-	.mapToInt(i $ \rightarrow $ sqrt(i))
-	.sum()
+		.filter(i $ \rightarrow $ i > 0)
+			.mapToInt(i $ \rightarrow $ sqrt(i))
+				.sum()
 	\end{lstlisting}
 	\caption{This is an example of how Temporal Abstraction may be used. In this code all the elements that their value is greater than 0 are selected. Each element is inserted into a map where it's value is the key and the value is it's square. Finally all value are summed. The result of this code is sum of squares of all elements that their values are greater then 0.}
 	\label{fig49}
@@ -364,7 +366,7 @@ The first representation that we suggest is called \textbf{Loop Icon}. The idea 
 \begin{figure}[H]
 	\begin{lstlisting}
 	$ \circlearrowright $(int i = 0; i < n; i++)
-	system.out.println(i)
+		system.out.println(i)
 	\end{lstlisting}
 	\caption{This is an example where the \textit{for} keyword was replaced with $ \circlearrowright $.}
 	\label{fig55}
@@ -398,7 +400,7 @@ Sometimes when a programmer is programming and uses others code he might be inte
 This technique allows the programmer to see only the signature of the loop without the code inside it. For example, the loop 
 \begin{lstlisting}
 for (int i = begin; i < n; i++)
-system.out.println(i)
+	system.out.println(i)
 \end{lstlisting}
 Will be presented as follows:
 \begin{lstlisting}
@@ -428,7 +430,7 @@ If the user would like to review several methods at the same time he may choose 
 		\begin{tabular}[c]{@{}l@{}}method 4\\ {[}compact body{]}\end{tabular} & \begin{tabular}[c]{@{}l@{}}method 5\\ {[}compact body{]}\end{tabular} & \begin{tabular}[c]{@{}l@{}}method 6\\ {[}compact body{]}\end{tabular} \\
 		\begin{tabular}[c]{@{}l@{}}method 7\\ {[}compact body{]}\end{tabular} & \begin{tabular}[c]{@{}l@{}}method 8\\ {[}compact body{]}\end{tabular} & \begin{tabular}[c]{@{}l@{}}method 9\\ {[}compact body{]}\end{tabular}
 	\end{tabular}
-	\caption{This is a more clear view of the methods in \autoref{59}. The methods are organized in a transparent table.}
+	\caption{This is a more clear view of the methods in \autoref{fig59}. The methods are organized in a transparent table.}
 	\label{fig60}
 \end{figure}
 \subsection{Breadcrumbs}

@@ -18,62 +18,66 @@ A level-1 auxiliary file: PublicationsAndTalks.aux
 A level-1 auxiliary file: acronyms.aux
 The style file: apa.bst
 Database file #1: refs.bib
-Warning--entry type for "tavis13" isn't style-file defined
---line 11 of file refs.bib
 Warning--entry type for "appFour12" isn't style-file defined
---line 22 of file refs.bib
+--line 11 of file refs.bib
+Warning--entry type for "tavis13" isn't style-file defined
+--line 29 of file refs.bib
+Warning--entry type for "processing15" isn't style-file defined
+--line 40 of file refs.bib
 Warning--entry type for "harmonia" isn't style-file defined
---line 67 of file refs.bib
+--line 85 of file refs.bib
 Warning--entry type for "google15" isn't style-file defined
---line 78 of file refs.bib
+--line 96 of file refs.bib
 Warning--entry type for "getflourish14" isn't style-file defined
---line 89 of file refs.bib
+--line 107 of file refs.bib
 Warning--entry type for "Nuance14" isn't style-file defined
---line 141 of file refs.bib
+--line 168 of file refs.bib
 Warning--entry type for "IEEEBNF1996" isn't style-file defined
---line 164 of file refs.bib
+--line 191 of file refs.bib
+A bad cross reference---entry "deverywhere15"
+refers to entry "DBLP:conf/icse/2015mobilesoft", which doesn't exist
 Warning--empty journal in yishai13
 Warning--can't use both author and editor fields in Terence2012
 Warning--empty year in tavis13
-You've used 16 entries,
+You've used 18 entries,
             1940 wiz_defined-function locations,
-            573 strings with 6308 characters,
-and the built_in function-call counts, 5076 in all, are:
-= -- 492
-> -- 212
-< -- 16
-+ -- 78
-- -- 70
-* -- 395
-:= -- 956
-add.period$ -- 52
-call.type$ -- 16
-change.case$ -- 109
-chr.to.int$ -- 16
-cite$ -- 19
-duplicate$ -- 197
-empty$ -- 302
-format.name$ -- 90
-if$ -- 941
+            583 strings with 6601 characters,
+and the built_in function-call counts, 5838 in all, are:
+= -- 575
+> -- 232
+< -- 19
++ -- 84
+- -- 76
+* -- 448
+:= -- 1081
+add.period$ -- 58
+call.type$ -- 18
+change.case$ -- 121
+chr.to.int$ -- 18
+cite$ -- 21
+duplicate$ -- 232
+empty$ -- 356
+format.name$ -- 100
+if$ -- 1100
 int.to.chr$ -- 1
 int.to.str$ -- 0
 missing$ -- 9
-newline$ -- 87
-num.names$ -- 48
-pop$ -- 92
+newline$ -- 97
+num.names$ -- 54
+pop$ -- 106
 preamble$ -- 1
-purify$ -- 115
+purify$ -- 128
 quote$ -- 0
-skip$ -- 162
+skip$ -- 190
 stack$ -- 0
-substring$ -- 228
-swap$ -- 35
-text.length$ -- 3
+substring$ -- 284
+swap$ -- 46
+text.length$ -- 4
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 90
+type$ -- 102
 warning$ -- 3
-while$ -- 34
+while$ -- 41
 width$ -- 0
-write$ -- 207
-(There were 10 warnings)
+write$ -- 233
+(There was 1 error message)

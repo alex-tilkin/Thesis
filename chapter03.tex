@@ -4,8 +4,10 @@ This chapter discusses the research that has been done to collect information ab
 
 Every feature that is discussed in this chapter is followed by a numerical value which represents the priority of the feature. The range of the numbers is 1-4 where 1 is the highest priority and 4 is the lowest priority. The definition of priority for our purposes is how important that feature is to this research.
 
+The feature that was implemented is Programming by Voice \autoref{subsec: Programming by Voice (writing)} which is explained in \autoref{chapter: A Prototype Tool}.
+
 \section{List of Features}
-\subsection{Programming by Voice (writing)}
+\subsection{Programming by Voice (writing)} \label{subsec: Programming by Voice (writing)}
 \begin{itemize}
 	\item Priority: 1
 \end{itemize}
@@ -56,6 +58,7 @@ This is a core feature that has to be implemented in-order to allow other featur
 	\item Priority: 4
 \end{itemize}
 This feature allows the user to speak in high level commands and generate code automatically. Due to the complexity of implementing the whole feature, we chose to concentrate on the section “Sequences as Conventional Interfaces”: Allows the user to speak in loops terminology and presents the code in mathematical sequences representation.
+\remark{\textit{"Temporal abstraction is a concise way to express computations that operate on sequences of data. Compared to regular loops, it allows for greater code reability and modularity, and assists in execution optimization and parallelization"} \citet[Abstract]{eldan11}, for more details you can read the thesis in the following \href{http://portal.idc.ac.il/en/schools/cs/research/documents/eldan11.pdf}{link}.}
 \begin{itemize}
 	\item The user will speak in loops terminology and create Java loops.
 	\item Transform Java loops to mathematical sequences.
@@ -174,7 +177,7 @@ Once we generate an identifier that already exists the application will handle t
 	\item Priority: 2
 \end{itemize}
 String manipulation (e.g. concatenate strings), dictation of characters (e.g. white spaces in hard-coded strings). Simplest that can work.
-\subsection{Real Estate}
+\subsection{Integration with Future Technologies}
 \begin{itemize}
 	\item Priority: 4
 \end{itemize}
